@@ -1,5 +1,5 @@
 "use client";
 
 export default function Content() {
-  return null;
+  return <main className="flex-1 overflow-y-auto p-4" />;
 }
