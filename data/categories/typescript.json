@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Fundamentals",
+    "description": "TypeScript basics, benefits, compiler, language overview, and comparison with JavaScript."
+  },
+  {
+    "id": 2,
+    "name": "Basic Types",
+    "description": "Primitive types, arrays, tuples, enums, any, unknown, never, void, literal types, and basic typing."
+  },
+  {
+    "id": 3,
+    "name": "Advanced Types",
+    "description": "Union types, intersection types, mapped types, conditional types, indexed access types, template literal types, and advanced type manipulation."
+  },
+  {
+    "id": 4,
+    "name": "Interfaces & Type Aliases",
+    "description": "Interfaces, type aliases, declaration merging, extending types, structural typing, and choosing between interfaces and types."
+  },
+  {
+    "id": 5,
+    "name": "Functions",
+    "description": "Typing functions, overloads, optional parameters, generics in functions, this typing, and function signatures."
+  },
+  {
+    "id": 6,
+    "name": "Generics",
+    "description": "Generic functions, generic interfaces, generic constraints, utility patterns, and reusable typed abstractions."
+  },
+  {
+    "id": 7,
+    "name": "Utility Types",
+    "description": "Partial, Required, Pick, Omit, Record, Exclude, Extract, ReturnType, Parameters, and other built-in utility types."
+  },
+  {
+    "id": 8,
+    "name": "Classes",
+    "description": "TypeScript classes, access modifiers, abstract classes, implements, inheritance, decorators (if applicable), and OOP features."
+  },
+  {
+    "id": 9,
+    "name": "Modules",
+    "description": "Modules, namespaces, declaration files, imports, exports, ambient declarations, and module resolution."
+  },
+  {
+    "id": 10,
+    "name": "Configuration",
+    "description": "tsconfig.json, compiler options, strict mode, path aliases, project references, build configuration, and tooling."
+  },
+  {
+    "id": 11,
+    "name": "TypeScript with JavaScript",
+    "description": "JavaScript interoperability, migration strategies, JSDoc typing, third-party libraries, and integration with existing JavaScript projects."
+  },
+  {
+    "id": 12,
+    "name": "Other",
+    "description": "Questions that do not clearly belong to any category above."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "e639f68e-a8d8-4ad6-9ba4-c838d9e0e21a",
+  "difficulty": "medium",
+  "question": {
+    "en": "1. What is JavaScript?",
+
+    "uk": "українский текст питання"
+  },
+
+  "answer": {
+    "en": "#### JavaScript description:\n\nJavaScript is a dynamic, prototype-based programming language used to create interactive content on web pages. It supports event-driven programming, asynchrony, and runs both in the browser and on the server via Node.js.",
+
+    "uk": "українский текст відповіді"
+  },
+
+  "tags": [],
+
+  "category": null
+}

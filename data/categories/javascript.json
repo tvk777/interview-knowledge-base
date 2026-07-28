@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Fundamentals",
+    "description": "Core JavaScript concepts, language features, execution model, variables, operators, and general language behavior."
+  },
+  {
+    "id": 2,
+    "name": "Data Types",
+    "description": "Primitive types, reference types, type coercion, equality, conversions, null, undefined, symbols, and BigInt."
+  },
+  {
+    "id": 3,
+    "name": "Variables & Scope",
+    "description": "var, let, const, lexical scope, block scope, hoisting, temporal dead zone, execution context, stack, heap, and memory."
+  },
+  {
+    "id": 4,
+    "name": "Strings",
+    "description": "String manipulation, template literals, Unicode, methods, immutability, and string-related algorithms."
+  },
+  {
+    "id": 5,
+    "name": "Arrays",
+    "description": "Array methods, iteration, transformations, sorting, searching, destructuring, spread operator, and performance considerations."
+  },
+  {
+    "id": 6,
+    "name": "Objects",
+    "description": "Object creation, properties, descriptors, prototypes, this, object methods, destructuring, and object manipulation."
+  },
+  {
+    "id": 7,
+    "name": "Functions",
+    "description": "Function declarations, expressions, arrow functions, parameters, higher-order functions, currying, and functional programming concepts."
+  },
+  {
+    "id": 8,
+    "name": "Closures & Execution Context",
+    "description": "Closures, lexical environment, execution context, call stack, scope chain, memory behavior, and related concepts."
+  },
+  {
+    "id": 9,
+    "name": "Classes & OOP",
+    "description": "Classes, constructors, inheritance, encapsulation, polymorphism, prototype chain, and object-oriented programming."
+  },
+  {
+    "id": 10,
+    "name": "Async JavaScript",
+    "description": "Callbacks, Promises, async/await, Event Loop, microtasks, macrotasks, timers, asynchronous programming, and concurrency."
+  },
+  {
+    "id": 11,
+    "name": "DOM & Browser APIs",
+    "description": "DOM manipulation, nodes, elements, BOM, browser APIs, storage, fetch, Web APIs, and document interaction."
+  },
+  {
+    "id": 12,
+    "name": "Events",
+    "description": "Event propagation, bubbling, capturing, delegation, event listeners, custom events, and browser event handling."
+  },
+  {
+    "id": 13,
+    "name": "Regular Expressions",
+    "description": "Pattern matching, RegExp syntax, flags, groups, lookaheads, lookbehinds, and string searching."
+  },
+  {
+    "id": 14,
+    "name": "Modules",
+    "description": "ES Modules, CommonJS, imports, exports, module resolution, bundling, and code organization."
+  },
+  {
+    "id": 15,
+    "name": "Other",
+    "description": "Questions that do not clearly belong to any category above."
+  }
+]

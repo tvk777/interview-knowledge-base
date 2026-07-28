@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Fundamentals",
+    "description": "Core React concepts, virtual DOM, rendering model, React philosophy, advantages, limitations, and comparisons with other frameworks."
+  },
+  {
+    "id": 2,
+    "name": "JSX",
+    "description": "JSX syntax, expressions, rendering rules, fragments, conditional rendering, lists, keys, and JSX-specific behavior."
+  },
+  {
+    "id": 3,
+    "name": "Components",
+    "description": "Functional components, composition, props, component lifecycle concepts, rendering behavior, reusable component design, and communication between components."
+  },
+  {
+    "id": 4,
+    "name": "Hooks",
+    "description": "Built-in hooks, custom hooks, hook rules, dependencies, lifecycle behavior, hook composition, and best practices."
+  },
+  {
+    "id": 5,
+    "name": "Forms",
+    "description": "Controlled and uncontrolled components, form handling, validation, React Hook Form, Formik, and form-related patterns."
+  },
+  {
+    "id": 6,
+    "name": "Context API",
+    "description": "Context creation, providers, consumers, useContext, global state sharing, and Context performance considerations."
+  },
+  {
+    "id": 7,
+    "name": "State Management",
+    "description": "Local state, useState, useReducer, lifting state up, state organization, derived state, and general state management patterns excluding Redux."
+  },
+  {
+    "id": 8,
+    "name": "Performance",
+    "description": "Memoization, React.memo, useMemo, useCallback, lazy loading, Suspense, rendering optimization, reconciliation, hydration, and profiling."
+  },
+  {
+    "id": 9,
+    "name": "Routing & SSR",
+    "description": "React Router, navigation, route protection, code splitting, server-side rendering concepts, and routing-related topics."
+  },
+  {
+    "id": 10,
+    "name": "Architecture & Patterns",
+    "description": "Application architecture, folder structure, reusable patterns, composition patterns, design principles, testing strategy, scalability, and maintainability."
+  },
+  {
+    "id": 11,
+    "name": "Redux",
+    "description": "Redux, Redux Toolkit, reducers, actions, middleware, async logic, selectors, RTK Query, and Redux architecture."
+  },
+  {
+    "id": 12,
+    "name": "Other",
+    "description": "Questions that do not clearly belong to any category above."
+  }
+]

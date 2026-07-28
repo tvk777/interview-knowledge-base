@@ -1,0 +1,251 @@
+{
+  "technology": "nextjs",
+  "version": 1,
+  "generatedAt": "2026-07-27T15:34:38.437Z",
+  "source": "data/generated/nextjs.json",
+  "tags": [
+    {
+      "name": "App Router",
+      "aliases": []
+    },
+    {
+      "name": "Authentication",
+      "aliases": []
+    },
+    {
+      "name": "Authorization",
+      "aliases": []
+    },
+    {
+      "name": "Catch-All Route",
+      "aliases": [
+        "Catch-all Routes"
+      ]
+    },
+    {
+      "name": "Client Components",
+      "aliases": [
+        "Client Component"
+      ]
+    },
+    {
+      "name": "Client-Side Rendering",
+      "aliases": [
+        "CSR"
+      ]
+    },
+    {
+      "name": "Code Splitting",
+      "aliases": []
+    },
+    {
+      "name": "Cookies",
+      "aliases": []
+    },
+    {
+      "name": "Core Web Vitals",
+      "aliases": []
+    },
+    {
+      "name": "CSS Modules",
+      "aliases": []
+    },
+    {
+      "name": "Data Cache",
+      "aliases": []
+    },
+    {
+      "name": "Dynamic Route",
+      "aliases": [
+        "Dynamic Routes"
+      ]
+    },
+    {
+      "name": "Edge Runtime",
+      "aliases": []
+    },
+    {
+      "name": "Environment Variable",
+      "aliases": [
+        "Environment Variables"
+      ]
+    },
+    {
+      "name": "Error UI",
+      "aliases": [
+        "error.tsx"
+      ]
+    },
+    {
+      "name": "ESLint",
+      "aliases": []
+    },
+    {
+      "name": "Font Optimization",
+      "aliases": [
+        "next/font"
+      ]
+    },
+    {
+      "name": "generateMetadata",
+      "aliases": []
+    },
+    {
+      "name": "generateStaticParams",
+      "aliases": []
+    },
+    {
+      "name": "getServerSideProps",
+      "aliases": []
+    },
+    {
+      "name": "getStaticProps",
+      "aliases": []
+    },
+    {
+      "name": "Headers",
+      "aliases": []
+    },
+    {
+      "name": "Hydration",
+      "aliases": []
+    },
+    {
+      "name": "Image Optimization",
+      "aliases": [
+        "next/image"
+      ]
+    },
+    {
+      "name": "Incremental Static Regeneration",
+      "aliases": [
+        "ISR"
+      ]
+    },
+    {
+      "name": "Intercepting Route",
+      "aliases": [
+        "Intercepting Routes"
+      ]
+    },
+    {
+      "name": "Layout",
+      "aliases": [
+        "layout.tsx"
+      ]
+    },
+    {
+      "name": "Loading UI",
+      "aliases": [
+        "loading.tsx"
+      ]
+    },
+    {
+      "name": "Metadata API",
+      "aliases": []
+    },
+    {
+      "name": "Middleware",
+      "aliases": []
+    },
+    {
+      "name": "next/headers",
+      "aliases": []
+    },
+    {
+      "name": "next/navigation",
+      "aliases": []
+    },
+    {
+      "name": "Not Found UI",
+      "aliases": [
+        "not-found.tsx"
+      ]
+    },
+    {
+      "name": "Pages Router",
+      "aliases": []
+    },
+    {
+      "name": "Parallel Route",
+      "aliases": [
+        "Parallel Routes"
+      ]
+    },
+    {
+      "name": "revalidatePath",
+      "aliases": []
+    },
+    {
+      "name": "revalidateTag",
+      "aliases": []
+    },
+    {
+      "name": "Route Group",
+      "aliases": [
+        "Route Groups"
+      ]
+    },
+    {
+      "name": "Route Handlers",
+      "aliases": [
+        "Route Handler"
+      ]
+    },
+    {
+      "name": "Server Actions",
+      "aliases": [
+        "Server Action"
+      ]
+    },
+    {
+      "name": "Server Components",
+      "aliases": [
+        "React Server Components",
+        "Server Component"
+      ]
+    },
+    {
+      "name": "Server-Side Rendering",
+      "aliases": [
+        "SSR"
+      ]
+    },
+    {
+      "name": "Static Site Generation",
+      "aliases": [
+        "SSG"
+      ]
+    },
+    {
+      "name": "Streaming",
+      "aliases": []
+    },
+    {
+      "name": "Suspense",
+      "aliases": [
+        "React.Suspense"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "aliases": []
+    },
+    {
+      "name": "useParams",
+      "aliases": []
+    },
+    {
+      "name": "useRouter",
+      "aliases": []
+    },
+    {
+      "name": "useSearchParams",
+      "aliases": []
+    },
+    {
+      "name": "Vercel",
+      "aliases": []
+    }
+  ]
+}

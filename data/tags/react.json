@@ -1,0 +1,302 @@
+[
+  {
+    "name": "One-Way Data Flow",
+    "categoryId": 1
+  },
+  {
+    "name": "React Fiber",
+    "categoryId": 1
+  },
+  {
+    "name": "Reconciliation",
+    "categoryId": 1
+  },
+  {
+    "name": "Virtual DOM",
+    "categoryId": 1
+  },
+  {
+    "name": "className",
+    "categoryId": 2
+  },
+  {
+    "name": "Conditional Rendering",
+    "categoryId": 2
+  },
+  {
+    "name": "Fragment",
+    "categoryId": 2
+  },
+  {
+    "name": "JSX",
+    "categoryId": 2
+  },
+  {
+    "name": "key",
+    "categoryId": 2
+  },
+  {
+    "name": "onClick",
+    "categoryId": 2
+  },
+  {
+    "name": "Class Component",
+    "categoryId": 3
+  },
+  {
+    "name": "componentDidMount",
+    "categoryId": 3
+  },
+  {
+    "name": "componentWillUnmount",
+    "categoryId": 3
+  },
+  {
+    "name": "Functional Component",
+    "categoryId": 3
+  },
+  {
+    "name": "Lifecycle Method",
+    "categoryId": 3
+  },
+  {
+    "name": "Props",
+    "categoryId": 3
+  },
+  {
+    "name": "shouldComponentUpdate",
+    "categoryId": 3
+  },
+  {
+    "name": "Custom Hook",
+    "categoryId": 4
+  },
+  {
+    "name": "Dependency Array",
+    "categoryId": 4
+  },
+  {
+    "name": "Rules of Hooks",
+    "categoryId": 4
+  },
+  {
+    "name": "useCallback",
+    "categoryId": 4
+  },
+  {
+    "name": "useContext",
+    "categoryId": 4
+  },
+  {
+    "name": "useDeferredValue",
+    "categoryId": 4
+  },
+  {
+    "name": "useEffect",
+    "categoryId": 4
+  },
+  {
+    "name": "useImperativeHandle",
+    "categoryId": 4
+  },
+  {
+    "name": "useLayoutEffect",
+    "categoryId": 4
+  },
+  {
+    "name": "useMemo",
+    "categoryId": 4
+  },
+  {
+    "name": "useReducer",
+    "categoryId": 4
+  },
+  {
+    "name": "useRef",
+    "categoryId": 4
+  },
+  {
+    "name": "useState",
+    "categoryId": 4
+  },
+  {
+    "name": "Controlled Component",
+    "categoryId": 5
+  },
+  {
+    "name": "Uncontrolled Component",
+    "categoryId": 5
+  },
+  {
+    "name": "Context API",
+    "categoryId": 6
+  },
+  {
+    "name": "Prop Drilling",
+    "categoryId": 6
+  },
+  {
+    "name": "Lifting State Up",
+    "categoryId": 7
+  },
+  {
+    "name": "MobX",
+    "categoryId": 7
+  },
+  {
+    "name": "Recoil",
+    "categoryId": 7
+  },
+  {
+    "name": "State",
+    "categoryId": 7
+  },
+  {
+    "name": "Zustand",
+    "categoryId": 7
+  },
+  {
+    "name": "Code Splitting",
+    "categoryId": 8
+  },
+  {
+    "name": "List Virtualization",
+    "categoryId": 8
+  },
+  {
+    "name": "Memoization",
+    "categoryId": 8
+  },
+  {
+    "name": "PureComponent",
+    "categoryId": 8
+  },
+  {
+    "name": "React.lazy",
+    "categoryId": 8
+  },
+  {
+    "name": "React.memo",
+    "categoryId": 8
+  },
+  {
+    "name": "Suspense",
+    "categoryId": 8
+  },
+  {
+    "name": "Hydration",
+    "categoryId": 9
+  },
+  {
+    "name": "React Router",
+    "categoryId": 9
+  },
+  {
+    "name": "Server Components",
+    "categoryId": 9
+  },
+  {
+    "name": "Server-Side Rendering",
+    "categoryId": 9
+  },
+  {
+    "name": "Container-Presentational Pattern",
+    "categoryId": 10
+  },
+  {
+    "name": "Error Boundary",
+    "categoryId": 10
+  },
+  {
+    "name": "Higher-Order Component",
+    "categoryId": 10
+  },
+  {
+    "name": "Micro Frontends",
+    "categoryId": 10
+  },
+  {
+    "name": "Portal",
+    "categoryId": 10
+  },
+  {
+    "name": "PropTypes",
+    "categoryId": 10
+  },
+  {
+    "name": "Render Props",
+    "categoryId": 10
+  },
+  {
+    "name": "Strict Mode",
+    "categoryId": 10
+  },
+  {
+    "name": "Action",
+    "categoryId": 11
+  },
+  {
+    "name": "Dispatch",
+    "categoryId": 11
+  },
+  {
+    "name": "Reducer",
+    "categoryId": 11
+  },
+  {
+    "name": "Redux",
+    "categoryId": 11
+  },
+  {
+    "name": "Redux Saga",
+    "categoryId": 11
+  },
+  {
+    "name": "Redux Thunk",
+    "categoryId": 11
+  },
+  {
+    "name": "Redux Toolkit",
+    "categoryId": 11
+  },
+  {
+    "name": "Reselect",
+    "categoryId": 11
+  },
+  {
+    "name": "RTK Query",
+    "categoryId": 11
+  },
+  {
+    "name": "Selector",
+    "categoryId": 11
+  },
+  {
+    "name": "Store",
+    "categoryId": 11
+  },
+  {
+    "name": "dangerouslySetInnerHTML",
+    "categoryId": 12
+  },
+  {
+    "name": "Framer Motion",
+    "categoryId": 12
+  },
+  {
+    "name": "React DevTools",
+    "categoryId": 12
+  },
+  {
+    "name": "React Helmet",
+    "categoryId": 12
+  },
+  {
+    "name": "React Native",
+    "categoryId": 12
+  },
+  {
+    "name": "Synthetic Event",
+    "categoryId": 12
+  }
+]

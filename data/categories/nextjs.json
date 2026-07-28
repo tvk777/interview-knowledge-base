@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Fundamentals",
+    "description": "Core Next.js concepts, framework overview, architecture, benefits, comparisons with React, and use cases."
+  },
+  {
+    "id": 2,
+    "name": "Routing",
+    "description": "File-system routing, dynamic routes, nested routes, route groups, parallel routes, intercepting routes, and routing concepts."
+  },
+  {
+    "id": 3,
+    "name": "Navigation",
+    "description": "Link component, useRouter, redirects, navigation APIs, client navigation, and route transitions."
+  },
+  {
+    "id": 4,
+    "name": "App Router vs Pages Router",
+    "description": "Differences, migration strategies, feature comparison, compatibility, and architectural changes between routing systems."
+  },
+  {
+    "id": 5,
+    "name": "Server & Client Components",
+    "description": "Server Components, Client Components, rendering boundaries, directives, composition, and communication between component types."
+  },
+  {
+    "id": 6,
+    "name": "Rendering & Data Fetching",
+    "description": "SSR, SSG, ISR, CSR, static and dynamic rendering, fetch(), data loading strategies, and rendering lifecycle."
+  },
+  {
+    "id": 7,
+    "name": "Loading, Error Handling & Streaming",
+    "description": "loading.tsx, error.tsx, not-found.tsx, Suspense, streaming, error boundaries, and fallback UI."
+  },
+  {
+    "id": 8,
+    "name": "API Routes, Route Handlers & Server Actions",
+    "description": "API Routes, Route Handlers, Server Actions, backend functionality, mutations, forms, and server-side logic."
+  },
+  {
+    "id": 9,
+    "name": "Caching",
+    "description": "Data Cache, Full Route Cache, Router Cache, cache invalidation, revalidation, cache tags, and caching strategies."
+  },
+  {
+    "id": 10,
+    "name": "Performance & SEO",
+    "description": "Performance optimization, hydration, metadata, image optimization, fonts, scripts, SEO, Core Web Vitals, and optimization techniques."
+  },
+  {
+    "id": 11,
+    "name": "Styling & Configuration",
+    "description": "CSS Modules, Tailwind CSS, Sass, global styles, configuration files, environment variables, TypeScript setup, and project configuration."
+  },
+  {
+    "id": 12,
+    "name": "State Management, Security & Cookies",
+    "description": "State management approaches, authentication, authorization, cookies, headers, middleware security, sessions, and request handling."
+  },
+  {
+    "id": 13,
+    "name": "Architecture, Testing, i18n & Deployment",
+    "description": "Project structure, architectural patterns, testing, internationalization, deployment, Vercel, Docker, and production best practices."
+  },
+  {
+    "id": 14,
+    "name": "Other",
+    "description": "Questions that do not clearly belong to any category above."
+  }
+]

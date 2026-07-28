@@ -1,0 +1,323 @@
+Предлагаемая структура проекта
+data/
+    javascript.json
+    react.json
+    nextjs.json
+    typescript.json
+    html.json
+    css.json
+
+Мне больше нравится несколько файлов, чем один огромный questions.json.
+
+Почему:
+
+проще обновлять;
+проще искать ошибки;
+можно лениво загружать;
+через год файл React не будет содержать JavaScript.
+Структура одного вопроса
+interface Question {
+
+    id: string;
+
+    difficulty: "easy" | "medium" | "hard";
+
+    category: Category;
+
+    subcategory: Subcategory;
+
+    tags: string[];
+
+    question: LocalizedText;
+
+    answer: LocalizedText;
+}
+
+Теперь подробно.
+
+1. id
+id: string
+
+Например
+
+id: "react-hooks-useeffect-001"
+
+или оставить оригинальный UUID.
+
+Я бы оставил UUID.
+
+Почему?
+
+Он никогда не изменится.
+
+2. difficulty
+difficulty:
+    "easy"
+    "medium"
+    "hard"
+
+Берем из исходного JSON.
+
+Обязательное поле.
+
+3. category
+
+Я бы сделал именно так.
+
+category: {
+
+    id: "react",
+
+    title: {
+
+        en: "React",
+
+        uk: "React"
+
+    }
+
+}
+
+Почему объект?
+
+Потом можно добавить
+
+icon
+
+color
+
+description
+
+не ломая модель.
+
+4. subcategory
+
+Тоже объект.
+
+subcategory: {
+
+    id: "hooks",
+
+    title: {
+
+        en: "Hooks",
+
+        uk: "Хуки"
+
+    }
+
+}
+
+Это поле появится после обработки AI.
+
+5. tags
+tags: [
+
+    "useEffect",
+
+    "cleanup",
+
+    "dependency array",
+
+    "render"
+
+]
+
+Очень важное поле.
+
+Используется
+
+глоссарием;
+облаком тегов;
+похожими вопросами.
+6. question
+question: {
+
+    en: "...",
+
+    uk: "..."
+
+}
+
+Никаких отдельных файлов.
+
+7. answer
+
+Самое важное поле.
+
+Я бы хранил Markdown.
+
+answer: {
+
+    en: "...",
+
+    uk: "..."
+
+}
+
+Например
+
+#### JavaScript description
+
+JavaScript is...
+
+```javascript
+const x = 10;
+```
+
+- item
+- item
+
+React Markdown отлично это покажет.
+
+И всё.
+
+Да.
+
+Всего семь полей.
+
+Что я НЕ стал бы хранить
+sortOrder
+
+Не нужен.
+
+Потому что можно отсортировать
+
+по вопросу
+
+или
+
+по номеру
+
+или
+
+по id.
+
+locale
+
+Не нужен.
+
+У нас уже
+
+question.en
+
+question.uk
+answerBlocks
+
+Не нужен.
+
+После конвертации в Markdown больше не используется.
+
+categoryId
+
+Не нужен.
+
+После определения категории превращается в
+
+category
+keywords
+
+Мы уже обсуждали.
+
+Fuse.js ищет по
+
+question
+
+answer
+
+этого достаточно.
+
+sourceCategoryId
+
+Тоже не нужен.
+
+После конвертации он нигде не используется.
+
+Что можно вычислить
+
+Вот это очень важно.
+
+Из массива вопросов можно автоматически получить:
+
+Все категории
+const categories =
+    unique(
+        questions.map(q=>q.category)
+    );
+Все подкатегории
+unique(...)
+Все теги
+unique(...)
+Глоссарий
+
+Это вообще
+
+unique(tags)
+Количество вопросов
+questions.length
+Количество вопросов по React
+filter(...)
+Количество по Hooks
+filter(...)
+
+Итоговая модель
+
+Вот такой JSON мне кажется практически идеальным:
+
+{
+    id: "e639f68e-a8d8-4ad6-9ba4-c838d9e0e21a",
+
+    difficulty: "medium",
+
+    categoryId: "javascript",
+    subcategoryId: "variables",
+
+    tags: [
+        "let",
+        "const",
+        "var",
+        "scope",
+        "hoisting"
+    ],
+
+    question: {
+        en: "Which keywords are used to declare variables in JavaScript?",
+        uk: "Які ключові слова використовуються для оголошення змінних у JavaScript?"
+    },
+
+    answer: {
+        en: "### In JavaScript...\n\n- **var** ...",
+        uk: "### У JavaScript...\n\n- **var** ..."
+    }
+}
+
+А рядом хранить два небольших справочника:
+
+categories.json
+subcategories.json
+
+Например:
+
+categories = [
+  {
+    id: "javascript",
+    title: {
+      en: "JavaScript",
+      uk: "JavaScript"
+    }
+  }
+]
+
+и
+
+subcategories = [
+  {
+    id: "variables",
+    categoryId: "javascript",
+    title: {
+      en: "Variables",
+      uk: "Змінні"
+    }
+  }
+]
+

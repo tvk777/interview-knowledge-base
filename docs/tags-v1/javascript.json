@@ -1,0 +1,567 @@
+{
+  "technology": "javascript",
+  "version": 1,
+  "generatedAt": "2026-07-27T15:34:38.437Z",
+  "source": "data/generated/javascript.json",
+  "tags": [
+    {
+      "name": "Abstraction",
+      "aliases": []
+    },
+    {
+      "name": "apply",
+      "aliases": []
+    },
+    {
+      "name": "Array",
+      "aliases": []
+    },
+    {
+      "name": "Arrow Function",
+      "aliases": [
+        "Arrow Functions"
+      ]
+    },
+    {
+      "name": "async/await",
+      "aliases": []
+    },
+    {
+      "name": "Babel",
+      "aliases": []
+    },
+    {
+      "name": "BigInt",
+      "aliases": []
+    },
+    {
+      "name": "bind",
+      "aliases": []
+    },
+    {
+      "name": "Boolean",
+      "aliases": []
+    },
+    {
+      "name": "call",
+      "aliases": []
+    },
+    {
+      "name": "Call Stack",
+      "aliases": []
+    },
+    {
+      "name": "Callback",
+      "aliases": [
+        "Callback Function",
+        "Callbacks"
+      ]
+    },
+    {
+      "name": "Class",
+      "aliases": [
+        "Classes",
+        "Classes (ES6+)"
+      ]
+    },
+    {
+      "name": "Closure",
+      "aliases": [
+        "Closures"
+      ]
+    },
+    {
+      "name": "CommonJS",
+      "aliases": []
+    },
+    {
+      "name": "const",
+      "aliases": []
+    },
+    {
+      "name": "Constructor",
+      "aliases": []
+    },
+    {
+      "name": "Cookies",
+      "aliases": []
+    },
+    {
+      "name": "Currying",
+      "aliases": []
+    },
+    {
+      "name": "Debounce",
+      "aliases": []
+    },
+    {
+      "name": "Declarative Programming",
+      "aliases": [
+        "Declarative"
+      ]
+    },
+    {
+      "name": "Decorators",
+      "aliases": []
+    },
+    {
+      "name": "Deep Copy",
+      "aliases": []
+    },
+    {
+      "name": "Destructuring",
+      "aliases": []
+    },
+    {
+      "name": "DOM (Document Object Model)",
+      "aliases": [
+        "Document Object Model",
+        "DOM"
+      ]
+    },
+    {
+      "name": "DRY",
+      "aliases": []
+    },
+    {
+      "name": "Encapsulation",
+      "aliases": []
+    },
+    {
+      "name": "ES Modules",
+      "aliases": [
+        "ESM"
+      ]
+    },
+    {
+      "name": "ESLint",
+      "aliases": []
+    },
+    {
+      "name": "Event Bubbling",
+      "aliases": [
+        "Bubbling"
+      ]
+    },
+    {
+      "name": "Event Capturing",
+      "aliases": [
+        "Capturing"
+      ]
+    },
+    {
+      "name": "Event Delegation",
+      "aliases": []
+    },
+    {
+      "name": "Event Loop",
+      "aliases": []
+    },
+    {
+      "name": "Event Propagation",
+      "aliases": []
+    },
+    {
+      "name": "Event-Driven Programming",
+      "aliases": []
+    },
+    {
+      "name": "Execution Context",
+      "aliases": []
+    },
+    {
+      "name": "fetch",
+      "aliases": [
+        "Fetch API"
+      ]
+    },
+    {
+      "name": "First-Class Functions",
+      "aliases": []
+    },
+    {
+      "name": "Function Declaration",
+      "aliases": []
+    },
+    {
+      "name": "Function Expression",
+      "aliases": []
+    },
+    {
+      "name": "Functional Programming",
+      "aliases": []
+    },
+    {
+      "name": "Garbage Collection",
+      "aliases": [
+        "Garbage Collector",
+        "GC"
+      ]
+    },
+    {
+      "name": "Generator",
+      "aliases": [
+        "Generators"
+      ]
+    },
+    {
+      "name": "Getters and Setters",
+      "aliases": []
+    },
+    {
+      "name": "Higher-Order Function",
+      "aliases": [
+        "Higher Order Functions",
+        "Higher-Order Functions"
+      ]
+    },
+    {
+      "name": "Hoisting",
+      "aliases": []
+    },
+    {
+      "name": "IIFE",
+      "aliases": [
+        "Immediately Invoked Function Expression"
+      ]
+    },
+    {
+      "name": "Imperative Programming",
+      "aliases": [
+        "Imperative"
+      ]
+    },
+    {
+      "name": "Inheritance",
+      "aliases": []
+    },
+    {
+      "name": "instanceof",
+      "aliases": []
+    },
+    {
+      "name": "Intersection Observer API",
+      "aliases": [
+        "Intersection Observer"
+      ]
+    },
+    {
+      "name": "JSON (JavaScript Object Notation)",
+      "aliases": [
+        "JSON"
+      ]
+    },
+    {
+      "name": "KISS",
+      "aliases": []
+    },
+    {
+      "name": "let",
+      "aliases": []
+    },
+    {
+      "name": "Lexical Scope",
+      "aliases": []
+    },
+    {
+      "name": "localStorage",
+      "aliases": []
+    },
+    {
+      "name": "Logical AND Operator",
+      "aliases": [
+        "Logical AND"
+      ]
+    },
+    {
+      "name": "Logical NOT Operator",
+      "aliases": [
+        "Logical NOT"
+      ]
+    },
+    {
+      "name": "Logical OR Operator",
+      "aliases": [
+        "Logical OR"
+      ]
+    },
+    {
+      "name": "Map",
+      "aliases": []
+    },
+    {
+      "name": "Memoization",
+      "aliases": []
+    },
+    {
+      "name": "Microtask Queue",
+      "aliases": []
+    },
+    {
+      "name": "Minification",
+      "aliases": []
+    },
+    {
+      "name": "Mocha",
+      "aliases": []
+    },
+    {
+      "name": "Module",
+      "aliases": []
+    },
+    {
+      "name": "MutationObserver",
+      "aliases": []
+    },
+    {
+      "name": "null",
+      "aliases": []
+    },
+    {
+      "name": "Number",
+      "aliases": []
+    },
+    {
+      "name": "Object",
+      "aliases": []
+    },
+    {
+      "name": "Object-Oriented Programming",
+      "aliases": [
+        "OOP"
+      ]
+    },
+    {
+      "name": "Object.freeze",
+      "aliases": []
+    },
+    {
+      "name": "Object.seal",
+      "aliases": [
+        "Object.isSealed"
+      ]
+    },
+    {
+      "name": "Optional Chaining",
+      "aliases": []
+    },
+    {
+      "name": "Polyfill",
+      "aliases": []
+    },
+    {
+      "name": "Polymorphism",
+      "aliases": []
+    },
+    {
+      "name": "Prettier",
+      "aliases": []
+    },
+    {
+      "name": "Private Fields",
+      "aliases": []
+    },
+    {
+      "name": "Promise",
+      "aliases": []
+    },
+    {
+      "name": "Prototypal Inheritance",
+      "aliases": [
+        "Prototype Chain",
+        "Prototype-based Inheritance"
+      ]
+    },
+    {
+      "name": "Prototype",
+      "aliases": [
+        "__proto__",
+        "[[Prototype]]"
+      ]
+    },
+    {
+      "name": "Proxy",
+      "aliases": []
+    },
+    {
+      "name": "Pure Function",
+      "aliases": [
+        "Pure Functions"
+      ]
+    },
+    {
+      "name": "Reactive",
+      "aliases": [
+        "Reactive Programming"
+      ]
+    },
+    {
+      "name": "Recursion",
+      "aliases": []
+    },
+    {
+      "name": "Regular Expression",
+      "aliases": [
+        "Regex",
+        "RegExp"
+      ]
+    },
+    {
+      "name": "Scope",
+      "aliases": []
+    },
+    {
+      "name": "sessionStorage",
+      "aliases": []
+    },
+    {
+      "name": "Set",
+      "aliases": []
+    },
+    {
+      "name": "setInterval",
+      "aliases": []
+    },
+    {
+      "name": "setTimeout",
+      "aliases": []
+    },
+    {
+      "name": "Shallow Copy",
+      "aliases": []
+    },
+    {
+      "name": "Short-Circuit Evaluation",
+      "aliases": [
+        "Short-circuiting"
+      ]
+    },
+    {
+      "name": "SOLID",
+      "aliases": []
+    },
+    {
+      "name": "Spread Operator",
+      "aliases": []
+    },
+    {
+      "name": "Static Methods",
+      "aliases": []
+    },
+    {
+      "name": "Strict Mode",
+      "aliases": [
+        "\"use strict\""
+      ]
+    },
+    {
+      "name": "String",
+      "aliases": []
+    },
+    {
+      "name": "Symbol",
+      "aliases": []
+    },
+    {
+      "name": "Tail Call Optimization",
+      "aliases": []
+    },
+    {
+      "name": "Tail Recursion",
+      "aliases": []
+    },
+    {
+      "name": "Task Queue",
+      "aliases": [
+        "Macrotask Queue"
+      ]
+    },
+    {
+      "name": "Template Literals",
+      "aliases": [
+        "Template Literal"
+      ]
+    },
+    {
+      "name": "Temporal Dead Zone",
+      "aliases": [
+        "TDZ"
+      ]
+    },
+    {
+      "name": "Ternary Operator",
+      "aliases": []
+    },
+    {
+      "name": "this",
+      "aliases": []
+    },
+    {
+      "name": "Throttle",
+      "aliases": []
+    },
+    {
+      "name": "Timer",
+      "aliases": [
+        "Timers"
+      ]
+    },
+    {
+      "name": "Tree Shaking",
+      "aliases": []
+    },
+    {
+      "name": "Truthy and Falsy Values",
+      "aliases": [
+        "Falsy Values",
+        "Truthy Values"
+      ]
+    },
+    {
+      "name": "Type Casting",
+      "aliases": []
+    },
+    {
+      "name": "Type Coercion",
+      "aliases": []
+    },
+    {
+      "name": "typeof",
+      "aliases": []
+    },
+    {
+      "name": "TypeScript",
+      "aliases": []
+    },
+    {
+      "name": "undefined",
+      "aliases": []
+    },
+    {
+      "name": "Unit Testing",
+      "aliases": []
+    },
+    {
+      "name": "var",
+      "aliases": []
+    },
+    {
+      "name": "WeakMap",
+      "aliases": []
+    },
+    {
+      "name": "WeakSet",
+      "aliases": []
+    },
+    {
+      "name": "Web API",
+      "aliases": [
+        "Web APIs"
+      ]
+    },
+    {
+      "name": "YAGNI",
+      "aliases": []
+    }
+  ]
+}

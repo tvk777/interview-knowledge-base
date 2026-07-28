@@ -1,0 +1,406 @@
+[
+  {
+    "name": "ECMAScript",
+    "categoryId": 1
+  },
+  {
+    "name": "Immutability",
+    "categoryId": 1
+  },
+  {
+    "name": "Optional Chaining",
+    "categoryId": 1
+  },
+  {
+    "name": "Short-Circuit Evaluation",
+    "categoryId": 1
+  },
+  {
+    "name": "Strict Mode",
+    "categoryId": 1
+  },
+  {
+    "name": "Ternary Operator",
+    "categoryId": 1
+  },
+  {
+    "name": "BigInt",
+    "categoryId": 2
+  },
+  {
+    "name": "instanceof",
+    "categoryId": 2
+  },
+  {
+    "name": "null",
+    "categoryId": 2
+  },
+  {
+    "name": "Symbol",
+    "categoryId": 2
+  },
+  {
+    "name": "Truthy and Falsy Values",
+    "categoryId": 2
+  },
+  {
+    "name": "Type Coercion",
+    "categoryId": 2
+  },
+  {
+    "name": "typeof",
+    "categoryId": 2
+  },
+  {
+    "name": "undefined",
+    "categoryId": 2
+  },
+  {
+    "name": "const",
+    "categoryId": 3
+  },
+  {
+    "name": "Hoisting",
+    "categoryId": 3
+  },
+  {
+    "name": "let",
+    "categoryId": 3
+  },
+  {
+    "name": "Scope",
+    "categoryId": 3
+  },
+  {
+    "name": "Temporal Dead Zone",
+    "categoryId": 3
+  },
+  {
+    "name": "var",
+    "categoryId": 3
+  },
+  {
+    "name": "Template Literals",
+    "categoryId": 4
+  },
+  {
+    "name": "Array-Like Objects",
+    "categoryId": 5
+  },
+  {
+    "name": "Destructuring",
+    "categoryId": 5
+  },
+  {
+    "name": "Spread Operator",
+    "categoryId": 5
+  },
+  {
+    "name": "Deep Copy",
+    "categoryId": 6
+  },
+  {
+    "name": "Getters and Setters",
+    "categoryId": 6
+  },
+  {
+    "name": "Object.freeze",
+    "categoryId": 6
+  },
+  {
+    "name": "Object.seal",
+    "categoryId": 6
+  },
+  {
+    "name": "Prototypal Inheritance",
+    "categoryId": 6
+  },
+  {
+    "name": "Prototype",
+    "categoryId": 6
+  },
+  {
+    "name": "Shallow Copy",
+    "categoryId": 6
+  },
+  {
+    "name": "apply",
+    "categoryId": 7
+  },
+  {
+    "name": "Arrow Function",
+    "categoryId": 7
+  },
+  {
+    "name": "bind",
+    "categoryId": 7
+  },
+  {
+    "name": "call",
+    "categoryId": 7
+  },
+  {
+    "name": "Callback",
+    "categoryId": 7
+  },
+  {
+    "name": "First-Class Functions",
+    "categoryId": 7
+  },
+  {
+    "name": "Function Declaration",
+    "categoryId": 7
+  },
+  {
+    "name": "Function Expression",
+    "categoryId": 7
+  },
+  {
+    "name": "Generator",
+    "categoryId": 7
+  },
+  {
+    "name": "Higher-Order Function",
+    "categoryId": 7
+  },
+  {
+    "name": "IIFE",
+    "categoryId": 7
+  },
+  {
+    "name": "Pure Function",
+    "categoryId": 7
+  },
+  {
+    "name": "Recursion",
+    "categoryId": 7
+  },
+  {
+    "name": "this",
+    "categoryId": 7
+  },
+  {
+    "name": "Call Stack",
+    "categoryId": 8
+  },
+  {
+    "name": "Closure",
+    "categoryId": 8
+  },
+  {
+    "name": "Currying",
+    "categoryId": 8
+  },
+  {
+    "name": "Execution Context",
+    "categoryId": 8
+  },
+  {
+    "name": "Lexical Scope",
+    "categoryId": 8
+  },
+  {
+    "name": "Abstraction",
+    "categoryId": 9
+  },
+  {
+    "name": "Class",
+    "categoryId": 9
+  },
+  {
+    "name": "Constructor",
+    "categoryId": 9
+  },
+  {
+    "name": "Decorators",
+    "categoryId": 9
+  },
+  {
+    "name": "Encapsulation",
+    "categoryId": 9
+  },
+  {
+    "name": "Inheritance",
+    "categoryId": 9
+  },
+  {
+    "name": "Object-Oriented Programming",
+    "categoryId": 9
+  },
+  {
+    "name": "Polymorphism",
+    "categoryId": 9
+  },
+  {
+    "name": "Private Fields",
+    "categoryId": 9
+  },
+  {
+    "name": "Static Methods",
+    "categoryId": 9
+  },
+  {
+    "name": "async/await",
+    "categoryId": 10
+  },
+  {
+    "name": "Event Loop",
+    "categoryId": 10
+  },
+  {
+    "name": "Microtask Queue",
+    "categoryId": 10
+  },
+  {
+    "name": "Promise",
+    "categoryId": 10
+  },
+  {
+    "name": "Promise.all",
+    "categoryId": 10
+  },
+  {
+    "name": "Promise.race",
+    "categoryId": 10
+  },
+  {
+    "name": "setInterval",
+    "categoryId": 10
+  },
+  {
+    "name": "setTimeout",
+    "categoryId": 10
+  },
+  {
+    "name": "Task Queue",
+    "categoryId": 10
+  },
+  {
+    "name": "Cookies",
+    "categoryId": 11
+  },
+  {
+    "name": "DOM",
+    "categoryId": 11
+  },
+  {
+    "name": "fetch",
+    "categoryId": 11
+  },
+  {
+    "name": "Intersection Observer API",
+    "categoryId": 11
+  },
+  {
+    "name": "localStorage",
+    "categoryId": 11
+  },
+  {
+    "name": "MutationObserver",
+    "categoryId": 11
+  },
+  {
+    "name": "sessionStorage",
+    "categoryId": 11
+  },
+  {
+    "name": "addEventListener",
+    "categoryId": 12
+  },
+  {
+    "name": "Event Bubbling",
+    "categoryId": 12
+  },
+  {
+    "name": "Event Capturing",
+    "categoryId": 12
+  },
+  {
+    "name": "Event Delegation",
+    "categoryId": 12
+  },
+  {
+    "name": "Event Propagation",
+    "categoryId": 12
+  },
+  {
+    "name": "Regular Expression",
+    "categoryId": 13
+  },
+  {
+    "name": "CommonJS",
+    "categoryId": 14
+  },
+  {
+    "name": "ES Modules",
+    "categoryId": 14
+  },
+  {
+    "name": "Minification",
+    "categoryId": 14
+  },
+  {
+    "name": "Module",
+    "categoryId": 14
+  },
+  {
+    "name": "Tree Shaking",
+    "categoryId": 14
+  },
+  {
+    "name": "Babel",
+    "categoryId": 15
+  },
+  {
+    "name": "Debounce",
+    "categoryId": 15
+  },
+  {
+    "name": "Declarative Programming",
+    "categoryId": 15
+  },
+  {
+    "name": "DRY",
+    "categoryId": 15
+  },
+  {
+    "name": "ESLint",
+    "categoryId": 15
+  },
+  {
+    "name": "Functional Programming",
+    "categoryId": 15
+  },
+  {
+    "name": "Garbage Collection",
+    "categoryId": 15
+  },
+  {
+    "name": "KISS",
+    "categoryId": 15
+  },
+  {
+    "name": "Polyfill",
+    "categoryId": 15
+  },
+  {
+    "name": "Prettier",
+    "categoryId": 15
+  },
+  {
+    "name": "SOLID",
+    "categoryId": 15
+  },
+  {
+    "name": "Throttle",
+    "categoryId": 15
+  },
+  {
+    "name": "Unit Testing",
+    "categoryId": 15
+  },
+  {
+    "name": "YAGNI",
+    "categoryId": 15
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Turbopack",
+    "categoryId": 1
+  },
+  {
+    "name": "Catch-All Route",
+    "categoryId": 2
+  },
+  {
+    "name": "Dynamic Route",
+    "categoryId": 2
+  },
+  {
+    "name": "File-System Routing",
+    "categoryId": 2
+  },
+  {
+    "name": "generateStaticParams",
+    "categoryId": 2
+  },
+  {
+    "name": "Intercepting Route",
+    "categoryId": 2
+  },
+  {
+    "name": "Layout",
+    "categoryId": 2
+  },
+  {
+    "name": "Parallel Route",
+    "categoryId": 2
+  },
+  {
+    "name": "Route Group",
+    "categoryId": 2
+  },
+  {
+    "name": "Link Component",
+    "categoryId": 3
+  },
+  {
+    "name": "Prefetching",
+    "categoryId": 3
+  },
+  {
+    "name": "useParams",
+    "categoryId": 3
+  },
+  {
+    "name": "useRouter",
+    "categoryId": 3
+  },
+  {
+    "name": "useSearchParams",
+    "categoryId": 3
+  },
+  {
+    "name": "App Router",
+    "categoryId": 4
+  },
+  {
+    "name": "Pages Router",
+    "categoryId": 4
+  },
+  {
+    "name": "Client Components",
+    "categoryId": 5
+  },
+  {
+    "name": "Server Components",
+    "categoryId": 5
+  },
+  {
+    "name": "Client-Side Rendering",
+    "categoryId": 6
+  },
+  {
+    "name": "fetch",
+    "categoryId": 6
+  },
+  {
+    "name": "getServerSideProps",
+    "categoryId": 6
+  },
+  {
+    "name": "getStaticProps",
+    "categoryId": 6
+  },
+  {
+    "name": "Incremental Static Regeneration",
+    "categoryId": 6
+  },
+  {
+    "name": "revalidatePath",
+    "categoryId": 6
+  },
+  {
+    "name": "revalidateTag",
+    "categoryId": 6
+  },
+  {
+    "name": "Server-Side Rendering",
+    "categoryId": 6
+  },
+  {
+    "name": "Static Site Generation",
+    "categoryId": 6
+  },
+  {
+    "name": "Error UI",
+    "categoryId": 7
+  },
+  {
+    "name": "Loading UI",
+    "categoryId": 7
+  },
+  {
+    "name": "Not Found UI",
+    "categoryId": 7
+  },
+  {
+    "name": "Streaming",
+    "categoryId": 7
+  },
+  {
+    "name": "Suspense",
+    "categoryId": 7
+  },
+  {
+    "name": "Middleware",
+    "categoryId": 8
+  },
+  {
+    "name": "Route Handlers",
+    "categoryId": 8
+  },
+  {
+    "name": "Server Actions",
+    "categoryId": 8
+  },
+  {
+    "name": "Data Cache",
+    "categoryId": 9
+  },
+  {
+    "name": "Code Splitting",
+    "categoryId": 10
+  },
+  {
+    "name": "Core Web Vitals",
+    "categoryId": 10
+  },
+  {
+    "name": "Font Optimization",
+    "categoryId": 10
+  },
+  {
+    "name": "generateMetadata",
+    "categoryId": 10
+  },
+  {
+    "name": "Image Optimization",
+    "categoryId": 10
+  },
+  {
+    "name": "Metadata API",
+    "categoryId": 10
+  },
+  {
+    "name": "CSS Modules",
+    "categoryId": 11
+  },
+  {
+    "name": "Edge Runtime",
+    "categoryId": 11
+  },
+  {
+    "name": "Environment Variable",
+    "categoryId": 11
+  },
+  {
+    "name": "TypeScript Configuration",
+    "categoryId": 11
+  },
+  {
+    "name": "Authentication",
+    "categoryId": 12
+  },
+  {
+    "name": "Authorization",
+    "categoryId": 12
+  },
+  {
+    "name": "Cookies",
+    "categoryId": 12
+  },
+  {
+    "name": "Headers",
+    "categoryId": 12
+  },
+  {
+    "name": "Internationalization",
+    "categoryId": 13
+  },
+  {
+    "name": "Vercel",
+    "categoryId": 13
+  },
+  {
+    "name": "Hydration",
+    "categoryId": 14
+  }
+]

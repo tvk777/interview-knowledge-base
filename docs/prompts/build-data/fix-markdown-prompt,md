@@ -1,0 +1,52 @@
+We found the root cause of the remaining Markdown issue.
+
+The source dataset contains entries like:
+
+```json
+{
+  "bold": true,
+  "text": "_Typing:_"
+}
+```
+
+The formatting is represented twice:
+
+- structurally (`bold: true`)
+- and inside the text itself (`_Typing:_`)
+
+The renderer currently produces:
+
+```md
+**\_Typing:\_**
+```
+
+which is technically escaped correctly but is not the intended output.
+
+Please update the inline renderer to normalize this specific source artifact.
+
+If a text node is already marked as `bold: true` and its entire content is wrapped in a single pair of underscores (e.g. `_Typing:_`), treat those outer underscores as redundant formatting markers from the source dataset and remove them before generating Markdown.
+
+Example:
+
+Source:
+
+```json
+{
+  "bold": true,
+  "text": "_Typing:_"
+}
+```
+
+Output:
+
+```md
+**Typing:**
+```
+
+This normalization should only apply to this specific case.
+
+Do not globally strip underscores or change Markdown escaping rules.
+
+Other uses of underscores must continue to work correctly.
+
+After the change, rerun the Markdown validation on all datasets and verify that no literal `\_` sequences remain in the generated Markdown.

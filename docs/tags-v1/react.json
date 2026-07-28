@@ -1,0 +1,396 @@
+{
+  "technology": "react",
+  "version": 1,
+  "generatedAt": "2026-07-27T15:34:38.437Z",
+  "source": "data/generated/react.json",
+  "tags": [
+    {
+      "name": "Action",
+      "aliases": [
+        "Actions"
+      ]
+    },
+    {
+      "name": "Class Component",
+      "aliases": [
+        "Class Components"
+      ]
+    },
+    {
+      "name": "className",
+      "aliases": []
+    },
+    {
+      "name": "Code Splitting",
+      "aliases": []
+    },
+    {
+      "name": "componentDidMount",
+      "aliases": []
+    },
+    {
+      "name": "componentDidUpdate",
+      "aliases": []
+    },
+    {
+      "name": "componentWillUnmount",
+      "aliases": []
+    },
+    {
+      "name": "Container-Presentational Pattern",
+      "aliases": []
+    },
+    {
+      "name": "Context API",
+      "aliases": [
+        "React Context",
+        "React Context API"
+      ]
+    },
+    {
+      "name": "Controlled Component",
+      "aliases": [
+        "Controlled Components"
+      ]
+    },
+    {
+      "name": "CSS Modules",
+      "aliases": []
+    },
+    {
+      "name": "Custom Hook",
+      "aliases": [
+        "Custom Hooks"
+      ]
+    },
+    {
+      "name": "dangerouslySetInnerHTML",
+      "aliases": []
+    },
+    {
+      "name": "Dispatch",
+      "aliases": []
+    },
+    {
+      "name": "Error Boundary",
+      "aliases": [
+        "Error Boundaries"
+      ]
+    },
+    {
+      "name": "ESLint",
+      "aliases": []
+    },
+    {
+      "name": "Fragment",
+      "aliases": [
+        "Fragments",
+        "React.Fragment"
+      ]
+    },
+    {
+      "name": "Framer Motion",
+      "aliases": []
+    },
+    {
+      "name": "Functional Component",
+      "aliases": [
+        "Functional Components"
+      ]
+    },
+    {
+      "name": "Higher-Order Component",
+      "aliases": [
+        "Higher-Order Components",
+        "HOC"
+      ]
+    },
+    {
+      "name": "Hydration",
+      "aliases": []
+    },
+    {
+      "name": "Inline Styles",
+      "aliases": []
+    },
+    {
+      "name": "JSX",
+      "aliases": []
+    },
+    {
+      "name": "key",
+      "aliases": []
+    },
+    {
+      "name": "Lifecycle Method",
+      "aliases": [
+        "Lifecycle Methods"
+      ]
+    },
+    {
+      "name": "Lifting State Up",
+      "aliases": []
+    },
+    {
+      "name": "Micro Frontends",
+      "aliases": []
+    },
+    {
+      "name": "MobX",
+      "aliases": []
+    },
+    {
+      "name": "onClick",
+      "aliases": []
+    },
+    {
+      "name": "Portal",
+      "aliases": [
+        "Portals",
+        "ReactDOM.createPortal"
+      ]
+    },
+    {
+      "name": "Prettier",
+      "aliases": []
+    },
+    {
+      "name": "Prop Drilling",
+      "aliases": []
+    },
+    {
+      "name": "Props",
+      "aliases": []
+    },
+    {
+      "name": "PropTypes",
+      "aliases": []
+    },
+    {
+      "name": "PureComponent",
+      "aliases": []
+    },
+    {
+      "name": "React DevTools",
+      "aliases": []
+    },
+    {
+      "name": "React Fiber",
+      "aliases": [
+        "Fiber"
+      ]
+    },
+    {
+      "name": "React Helmet",
+      "aliases": [
+        "React Helmet Async"
+      ]
+    },
+    {
+      "name": "React Hooks",
+      "aliases": []
+    },
+    {
+      "name": "React Native",
+      "aliases": []
+    },
+    {
+      "name": "React Router",
+      "aliases": []
+    },
+    {
+      "name": "React Spring",
+      "aliases": []
+    },
+    {
+      "name": "React Transition Group",
+      "aliases": []
+    },
+    {
+      "name": "React.lazy",
+      "aliases": []
+    },
+    {
+      "name": "React.memo",
+      "aliases": [
+        "memo"
+      ]
+    },
+    {
+      "name": "ReactDOM.findDOMNode",
+      "aliases": []
+    },
+    {
+      "name": "ReactDOM.hydrate",
+      "aliases": []
+    },
+    {
+      "name": "ReactDOM.render",
+      "aliases": []
+    },
+    {
+      "name": "ReactDOM.unmountComponentAtNode",
+      "aliases": []
+    },
+    {
+      "name": "ReactDOMServer.renderToStaticMarkup",
+      "aliases": []
+    },
+    {
+      "name": "ReactDOMServer.renderToString",
+      "aliases": []
+    },
+    {
+      "name": "Recoil",
+      "aliases": []
+    },
+    {
+      "name": "Reconciliation",
+      "aliases": []
+    },
+    {
+      "name": "Reducer",
+      "aliases": [
+        "Reducers"
+      ]
+    },
+    {
+      "name": "Redux",
+      "aliases": []
+    },
+    {
+      "name": "Redux Saga",
+      "aliases": []
+    },
+    {
+      "name": "Redux Thunk",
+      "aliases": []
+    },
+    {
+      "name": "Redux Toolkit",
+      "aliases": []
+    },
+    {
+      "name": "Render Props",
+      "aliases": [
+        "Render Prop"
+      ]
+    },
+    {
+      "name": "Reselect",
+      "aliases": []
+    },
+    {
+      "name": "Sass / SCSS",
+      "aliases": []
+    },
+    {
+      "name": "Selector",
+      "aliases": [
+        "Selectors"
+      ]
+    },
+    {
+      "name": "Server Components",
+      "aliases": [
+        "React Server Components"
+      ]
+    },
+    {
+      "name": "Server-Side Rendering",
+      "aliases": [
+        "SSR"
+      ]
+    },
+    {
+      "name": "shouldComponentUpdate",
+      "aliases": []
+    },
+    {
+      "name": "State",
+      "aliases": []
+    },
+    {
+      "name": "Store",
+      "aliases": []
+    },
+    {
+      "name": "Strict Mode",
+      "aliases": [
+        "React.StrictMode",
+        "StrictMode"
+      ]
+    },
+    {
+      "name": "Suspense",
+      "aliases": [
+        "React.Suspense"
+      ]
+    },
+    {
+      "name": "Synthetic Event",
+      "aliases": [
+        "Synthetic Events",
+        "SyntheticEvent"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "aliases": []
+    },
+    {
+      "name": "Uncontrolled Component",
+      "aliases": [
+        "Uncontrolled Components"
+      ]
+    },
+    {
+      "name": "useCallback",
+      "aliases": []
+    },
+    {
+      "name": "useContext",
+      "aliases": []
+    },
+    {
+      "name": "useDeferredValue",
+      "aliases": []
+    },
+    {
+      "name": "useEffect",
+      "aliases": []
+    },
+    {
+      "name": "useImperativeHandle",
+      "aliases": []
+    },
+    {
+      "name": "useLayoutEffect",
+      "aliases": []
+    },
+    {
+      "name": "useMemo",
+      "aliases": []
+    },
+    {
+      "name": "useReducer",
+      "aliases": []
+    },
+    {
+      "name": "useRef",
+      "aliases": []
+    },
+    {
+      "name": "useState",
+      "aliases": []
+    },
+    {
+      "name": "Virtual DOM",
+      "aliases": []
+    },
+    {
+      "name": "Zustand",
+      "aliases": []
+    }
+  ]
+}

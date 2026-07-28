@@ -1,0 +1,330 @@
+{
+  "technology": "typescript",
+  "version": 1,
+  "generatedAt": "2026-07-27T15:34:38.437Z",
+  "source": "data/generated/typescript.json",
+  "tags": [
+    {
+      "name": "@types",
+      "aliases": []
+    },
+    {
+      "name": "Abstract Class",
+      "aliases": [
+        "Abstract Classes"
+      ]
+    },
+    {
+      "name": "Access Modifier",
+      "aliases": [
+        "Access Modifiers"
+      ]
+    },
+    {
+      "name": "Accessor Decorator",
+      "aliases": []
+    },
+    {
+      "name": "Adapter",
+      "aliases": []
+    },
+    {
+      "name": "Ambient Declaration",
+      "aliases": []
+    },
+    {
+      "name": "Babel",
+      "aliases": []
+    },
+    {
+      "name": "Bundler",
+      "aliases": []
+    },
+    {
+      "name": "Class Decorator",
+      "aliases": []
+    },
+    {
+      "name": "Command",
+      "aliases": []
+    },
+    {
+      "name": "Conditional Type",
+      "aliases": [
+        "Conditional Types"
+      ]
+    },
+    {
+      "name": "Declaration File",
+      "aliases": [
+        ".d.ts"
+      ]
+    },
+    {
+      "name": "Decorators",
+      "aliases": []
+    },
+    {
+      "name": "DefinitelyTyped",
+      "aliases": []
+    },
+    {
+      "name": "Design Pattern",
+      "aliases": [
+        "Design Patterns"
+      ]
+    },
+    {
+      "name": "Discriminated Union",
+      "aliases": []
+    },
+    {
+      "name": "Domain-Driven Design",
+      "aliases": [
+        "DDD"
+      ]
+    },
+    {
+      "name": "Enum",
+      "aliases": []
+    },
+    {
+      "name": "Exclude",
+      "aliases": []
+    },
+    {
+      "name": "Extract",
+      "aliases": []
+    },
+    {
+      "name": "Factory",
+      "aliases": [
+        "Abstract Factory",
+        "Factory Method"
+      ]
+    },
+    {
+      "name": "Function Overloading",
+      "aliases": [
+        "Overload",
+        "Overloads"
+      ]
+    },
+    {
+      "name": "Generic Constraint",
+      "aliases": [
+        "Generic Constraints"
+      ]
+    },
+    {
+      "name": "Generics",
+      "aliases": []
+    },
+    {
+      "name": "Index Signature",
+      "aliases": [
+        "Indexed Access Types"
+      ]
+    },
+    {
+      "name": "infer",
+      "aliases": []
+    },
+    {
+      "name": "Interface",
+      "aliases": []
+    },
+    {
+      "name": "Intersection Type",
+      "aliases": [
+        "Intersection Types"
+      ]
+    },
+    {
+      "name": "JSDoc",
+      "aliases": []
+    },
+    {
+      "name": "keyof",
+      "aliases": []
+    },
+    {
+      "name": "Mapped Type",
+      "aliases": [
+        "Mapped Types"
+      ]
+    },
+    {
+      "name": "Mediator",
+      "aliases": []
+    },
+    {
+      "name": "Method Decorator",
+      "aliases": []
+    },
+    {
+      "name": "MobX",
+      "aliases": []
+    },
+    {
+      "name": "Module",
+      "aliases": []
+    },
+    {
+      "name": "Namespace",
+      "aliases": [
+        "Namespaces"
+      ]
+    },
+    {
+      "name": "NonNullable",
+      "aliases": []
+    },
+    {
+      "name": "Observer",
+      "aliases": [
+        "Observer Pattern"
+      ]
+    },
+    {
+      "name": "Omit",
+      "aliases": []
+    },
+    {
+      "name": "Parameter Decorator",
+      "aliases": []
+    },
+    {
+      "name": "Parameters",
+      "aliases": []
+    },
+    {
+      "name": "Partial",
+      "aliases": []
+    },
+    {
+      "name": "Pick",
+      "aliases": []
+    },
+    {
+      "name": "Property Decorator",
+      "aliases": []
+    },
+    {
+      "name": "Readonly",
+      "aliases": []
+    },
+    {
+      "name": "Record",
+      "aliases": []
+    },
+    {
+      "name": "reflect-metadata",
+      "aliases": []
+    },
+    {
+      "name": "Repository",
+      "aliases": [
+        "Repositories"
+      ]
+    },
+    {
+      "name": "Required",
+      "aliases": []
+    },
+    {
+      "name": "ReturnType",
+      "aliases": []
+    },
+    {
+      "name": "Singleton",
+      "aliases": []
+    },
+    {
+      "name": "Source Map",
+      "aliases": [
+        "Source Maps"
+      ]
+    },
+    {
+      "name": "Strategy",
+      "aliases": []
+    },
+    {
+      "name": "Strict Mode",
+      "aliases": [
+        "strict"
+      ]
+    },
+    {
+      "name": "Structural Typing",
+      "aliases": []
+    },
+    {
+      "name": "Tree Shaking",
+      "aliases": []
+    },
+    {
+      "name": "tsconfig",
+      "aliases": [
+        "tsconfig.json"
+      ]
+    },
+    {
+      "name": "Tuple",
+      "aliases": [
+        "Tuples"
+      ]
+    },
+    {
+      "name": "Type Alias",
+      "aliases": []
+    },
+    {
+      "name": "Type Assertion",
+      "aliases": [
+        "Type Casting"
+      ]
+    },
+    {
+      "name": "Type Compatibility",
+      "aliases": []
+    },
+    {
+      "name": "Type Guard",
+      "aliases": []
+    },
+    {
+      "name": "Type Inference",
+      "aliases": []
+    },
+    {
+      "name": "Type Narrowing",
+      "aliases": []
+    },
+    {
+      "name": "typeof",
+      "aliases": []
+    },
+    {
+      "name": "Union Type",
+      "aliases": [
+        "Union Types"
+      ]
+    },
+    {
+      "name": "Utility Type",
+      "aliases": [
+        "Utility Types"
+      ]
+    },
+    {
+      "name": "Vite",
+      "aliases": []
+    },
+    {
+      "name": "Webpack",
+      "aliases": []
+    }
+  ]
+}

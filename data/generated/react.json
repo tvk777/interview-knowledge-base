@@ -1,0 +1,1584 @@
+[
+  {
+    "id": "46f58a8d-b89c-4435-82c6-bc09cba84d80",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is React?",
+      "uk": "Що таке React?"
+    },
+    "answer": {
+      "en": "**React** is a JavaScript library for building user interfaces. Key characteristics:\n\n1. **Component-based approach:** The UI is split into reusable, independent components.\n2. **Virtual DOM:** Improves performance by minimizing direct updates to the real DOM.\n3. **Declarative nature:** You describe how the UI should look for a given state, and React handles the updates.\n4. **One-way data flow:** Data flows from parent to child components via props.\n\nReact was created by Facebook and is widely used for building Single Page Applications.",
+      "uk": "**React** — це JavaScript-бібліотека для створення користувацьких інтерфейсів. Основні характеристики:\n\n1. **Компонентний підхід:** UI розбивається на незалежні компоненти, які можна повторно використовувати.\n2. **Virtual DOM:** Оптимізує оновлення інтерфейсу, зменшуючи кількість операцій з реальним DOM.\n3. **Декларативність:** Ви описуєте бажаний стан UI, а React самостійно приводить його у відповідність.\n4. **Однонаправлений потік даних:** Дані передаються від батьківських компонентів до дочірніх через props.\n\nReact був створений Facebook і широко застосовується для розробки SPA."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "d8e31f82-a52d-4d03-8fb6-bc2a5dcf9bf6",
+    "difficulty": "medium",
+    "question": {
+      "en": "List the key features of React?",
+      "uk": "Перерахуйте особливості React?"
+    },
+    "answer": {
+      "en": "1. **Component-based approach:** Code is split into reusable, independent components.\n2. **Virtual DOM:** Fast UI updates without direct manipulation of the real DOM.\n3. **One-way data flow:** Data flows top-down via props.\n4. **JSX:** JavaScript syntax extension for describing UI.\n5. **State and lifecycle:** Components manage their own state and lifecycle phases.\n6. **React Hooks:** Enable state and side effects in functional components.\n7. **Ecosystem:** Integration with libraries like React Router and Redux.\n8. **SEO-friendly:** Server-side rendering via Next.js.\n9. **Mobile development:** React Native for building mobile apps.\n10. **Open source:** Actively maintained by the community.",
+      "uk": "1. **Компонентний підхід:** Код розділений на багаторазові, незалежні компоненти.\n2. **Віртуальний DOM:** Швидке оновлення інтерфейсу без прямої роботи з реальним DOM.\n3. **Односпрямований потік даних:** Дані передаються зверху вниз через props.\n4. **JSX:** Синтаксичне розширення JavaScript для опису UI.\n5. **Стан і життєвий цикл:** Компоненти керують власним станом і фазами життя.\n6. **React Hooks:** Робота зі станом і side effects у функціональних компонентах.\n7. **Екосистема:** Інтеграція з бібліотеками на кшталт React Router і Redux.\n8. **SEO-френдлі:** Підтримка SSR через Next.js.\n9. **Мобільна розробка:** React Native для створення мобільних застосунків.\n10. **Відкритий код:** Активна спільнота та публічна розробка."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "aaedd24a-68e6-4395-9ef5-a1382ed4b292",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the main functions of React?",
+      "uk": "Які основні функції React?"
+    },
+    "answer": {
+      "en": "#### Core functions of React:\n\n1. **Declarative approach:** Describes how the UI should look, while React handles DOM updates.\n2. **Component architecture:** Applications are built from reusable, independent components.\n3. **Virtual DOM:** Efficient updates to the real DOM to improve performance.\n4. **One-way data flow:** Data flows from parent to child components via props.\n5. **Hooks:** Enable state and lifecycle logic in functional components.\n6. **JSX:** JavaScript extension for describing UI using HTML-like syntax.\n7. **React Native:** Building native mobile applications using React principles.\n8. **Ecosystem:** Libraries and tools such as React Router, Redux, and Context API.\n9. **SSR support:** Server-side rendering for better SEO and faster initial load.\n10. **State management:** useState, Context API, Redux, and other solutions.\n\nThese functions define React as a flexible UI library.",
+      "uk": "#### Основні функції React:\n\n1. **Декларативний підхід:** Описує, як має виглядати UI, а React сам оптимізує оновлення DOM.\n2. **Компонентна структура:** Побудова додатка з незалежних, багаторазових компонентів.\n3. **Віртуальний DOM:** Ефективне оновлення реального DOM для підвищення продуктивності.\n4. **Односпрямований потік даних:** Передача даних від батьківських компонентів до дочірніх через props.\n5. **Хуки (Hooks):** Використання стану та життєвого циклу у функціональних компонентах.\n6. **JSX:** Розширення JavaScript для опису UI у синтаксисі, схожому на HTML.\n7. **React Native:** Створення нативних мобільних додатків на базі React.\n8. **Екосистема:** Набір бібліотек і інструментів, таких як React Router, Redux, Context API.\n9. **Підтримка SSR:** Серверний рендеринг для покращення SEO та швидкого старту.\n10. **Управління станом:** useState, Context API, Redux та інші рішення.\n\nЦі можливості формують основу React як бібліотеки для сучасних інтерфейсів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "78ac50b5-4e7f-4295-87a0-49aa181ead0c",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the key advantages of using React?",
+      "uk": "Які ключові переваги використання React?"
+    },
+    "answer": {
+      "en": "#### Key advantages of using React\n\n1. **Performance**: Virtual DOM reduces direct DOM operations.\n2. **Component-based**: Reusable components simplify maintenance.\n3. **One-way data flow**: Predictable data flow eases debugging.\n4. **Large community**: Rich ecosystem of libraries and tools.\n5. **Mobile compatibility**: React Native enables cross-platform apps.\n6. **JSX**: Combines JavaScript and HTML for clarity.\n7. **Hooks support**: Simplified state and lifecycle handling.\n8. **SEO-friendly**: Server-side rendering with Next.js.\n9. **Flexibility**: Easy integration into existing projects.\n10. **React DevTools**: Efficient debugging of components and state.",
+      "uk": "#### Ключові переваги використання React\n\n1. **Швидкість**: Virtual DOM зменшує кількість операцій з реальним DOM.\n2. **Компонентний підхід**: Повторно використовувані компоненти спрощують підтримку коду.\n3. **Одностороння передача даних**: Прогнозований потік даних полегшує дебагінг.\n4. **Велика спільнота**: Широка екосистема бібліотек та інструментів.\n5. **Мобільна розробка**: React Native для кросплатформених застосунків.\n6. **JSX**: Поєднання JavaScript і HTML підвищує читабельність.\n7. **Хуки**: Просте управління станом і життєвим циклом.\n8. **SEO-дружність**: SSR через Next.js покращує індексацію.\n9. **Гнучкість**: Легка інтеграція в існуючі проєкти.\n10. **React DevTools**: Зручне налагодження компонентів і стану."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "b7fc9fd5-d587-4bc3-8080-87fa90fb1332",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is JSX?",
+      "uk": "Що таке JSX?"
+    },
+    "answer": {
+      "en": "**JSX (JavaScript XML)** is a syntax extension that allows writing UI structures using XML-like code inside JavaScript. It is used in React to describe the UI.\n\n#### Key features of JSX:\n\n1. **XML-like syntax:** Similar to HTML but embedded in JavaScript.\n2. **Embedded JavaScript:** JavaScript expressions are written inside {}.\n3. **Compilation:** JSX is compiled into plain JavaScript using Babel.\n4. **Attributes:** Uses camelCase names like className and htmlFor.\n5. **Single root element:** JSX expressions must return one root element or a Fragment.\n\n#### Advantages:\n\n- Readable syntax.\n- Tight integration with JavaScript logic.\n- Convenient UI component creation.\n\nJSX is optional but widely adopted in React projects.",
+      "uk": "**JSX (JavaScript XML)** — це синтаксис, який дозволяє описувати UI у вигляді XML-подібного коду всередині JavaScript. Використовується в React для опису інтерфейсу.\n\n#### Основні особливості JSX:\n\n1. **XML-подібний синтаксис:** Схожий на HTML, але є частиною JavaScript.\n2. **Вбудований JavaScript:** Вирази JavaScript вставляються через {}.\n3. **Трансляція:** JSX компілюється у звичайний JavaScript за допомогою Babel.\n4. **Атрибути:** Використовуються camelCase-імена, наприклад className, htmlFor.\n5. **Один кореневий елемент:** JSX-вираз повинен повертати один кореневий елемент або Fragment.\n\n#### Переваги:\n\n- Читабельний синтаксис.\n- Тісна інтеграція з логікою JavaScript.\n- Зручне створення UI-компонентів.\n\nJSX не є обовʼязковим, але практично стандартом у React-проєктах."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "098697ff-c074-4ad2-a807-d57744276918",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between state and props?",
+      "uk": "Різниця між станом (state) та пропсами (props)?"
+    },
+    "answer": {
+      "en": "#### Difference between state and props\n\n| Criteria | State | Props |\n| --- | --- | --- |\n| **Purpose** | Stores internal component data. | Passes data from parent to child component. |\n| **Mutability** | Can be changed within the component. | Immutable (read-only). |\n| **Accessibility** | Available only inside the owning component. | Accessible in child components. |\n| **Initialization** | Initialized via useState or constructor. | Defined by the parent component. |\n| **Usage scope** | For dynamic, changeable data. | For passing static or dynamic data. |\n| **Who controls it?** | The component itself. | The parent component. |",
+      "uk": "#### Різниця між станом (state) та пропсами (props)\n\n| Критерій | State | Props |\n| --- | --- | --- |\n| **Призначення** | Зберігає внутрішній стан компонента. | Передає дані від батьківського компонента до дочірнього. |\n| **Змінюваність** | Може змінюватися всередині компонента. | Незмінні (read-only). |\n| **Доступність** | Доступний лише в компоненті, де визначений. | Доступний у дочірньому компоненті. |\n| **Ініціалізація** | Встановлюється через useState або конструктор. | Передається з батьківського компонента. |\n| **Область використання** | Для динамічних даних, що змінюються. | Для передачі даних між компонентами. |\n| **Хто керує?** | Поточний компонент. | Батьківський компонент. |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "1881b346-d4f9-4a64-91e8-c9cc3bd73f4c",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between an element and a component?",
+      "uk": "Яка різниця між елементом і компонентом?"
+    },
+    "answer": {
+      "en": "#### Difference between an element and a component in React:\n\n| Criteria | Element | Component |\n| --- | --- | --- |\n| **Definition** | An object describing what the UI should look like. | A function or class that returns React elements. |\n| **Type** | Immutable. | Reusable and may have state. |\n| **Creation syntax** | JSX or React.createElement. | Function or class component. |\n| **Purpose** | Represents a single UI node. | Encapsulates UI structure and logic. |\n| **Usage** | Low-level UI description. | Building complex UI with logic. |\n| **Example** | `<h1>Hello</h1>` | `function Hello() { return <h1>Hello</h1>; }` |\n\nAn element is the result, a component is the blueprint.",
+      "uk": "#### Різниця між елементом і компонентом у React:\n\n| Критерій | Елемент | Компонент |\n| --- | --- | --- |\n| **Визначення** | Обʼєкт, що описує вигляд інтерфейсу. | Функція або клас, який повертає React-елементи. |\n| **Тип** | Нероздільний та незмінний (immutable). | Багаторазовий, може мати стан. |\n| **Синтаксис створення** | JSX або React.createElement. | Функція або клас компонента. |\n| **Призначення** | Представляє окремий вузол UI. | Інкапсулює структуру та логіку UI. |\n| **Використання** | Базовий опис інтерфейсу. | Побудова складних частин додатка. |\n| **Приклад** | `<h1>Hello</h1>` | `function Hello() { return <h1>Hello</h1>; }` |\n\nЕлемент є результатом, компонент є фабрикою для їх створення."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "79ef66d9-a203-4f15-ab13-c28151a10377",
+    "difficulty": "medium",
+    "question": {
+      "en": "How to create components in React?",
+      "uk": "Як створити компоненти в React?"
+    },
+    "answer": {
+      "en": "#### In React, components can be created in two ways:\n\n1. **Functional component:** A function that returns React elements.\n\n   ```jsx\n   function Greeting(props) {\n     return <>Hello, {props.name}!</>;\n   }\n\n   // Usage:\n   <Greeting name=\"Alice\" />;\n   ```\n\n2. **Class component:** A class extending React.Component with a render method.\n\n   ```jsx\n   class Greeting extends React.Component {\n     render() {\n       return <>Hello, {this.props.name}!</>;\n     }\n   }\n\n   // Usage:\n   <Greeting name=\"Alice\" />;\n   ```\n\n#### Differences:\n\n- Functional components are simpler and preferred.\n- Class components are mostly legacy.\n\n**Note:** Modern React favors functional components with hooks.",
+      "uk": "#### У React компоненти можна створювати двома способами:\n\n1. **Функціональний компонент:** Функція, яка повертає React-елементи.\n\n   ```jsx\n   function Greeting(props) {\n     return <>Hello, {props.name}!</>;\n   }\n\n   // Використання:\n   <Greeting name=\"Alice\" />;\n   ```\n\n2. **Класовий компонент:** Клас, що успадковується від React.Component і має метод render.\n\n   ```jsx\n   class Greeting extends React.Component {\n     render() {\n       return <>Hello, {this.props.name}!</>;\n     }\n   }\n\n   // Використання:\n   <Greeting name=\"Alice\" />;\n   ```\n\n#### Відмінності:\n\n- Функціональні компоненти простіші та рекомендовані за замовчуванням.\n- Класові компоненти використовуються рідко та вважаються застарілими.\n\n**Примітка:** Сучасний підхід використовує функціональні компоненти з хуками."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "eb274cf0-f0e7-4fb4-bca2-b965a600e98a",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is state in React?",
+      "uk": "Що таке стан (state) у React?"
+    },
+    "answer": {
+      "en": "**State** in React is an object used to store data that changes over time and affects component rendering. It enables components to be dynamic and reactive.\n\n#### State characteristics:\n\n1. **Component-local:** Available only within the owning component.\n2. **Asynchronous updates:** State updates may be batched by React.\n3. **Initialization:** Via useState or a class constructor.\n\n#### Class component example:\n\n```jsx\nclass Counter extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = { count: 0 };\n  }\n\n  increment = () => {\n    this.setState({ count: this.state.count + 1 });\n  };\n\n  render() {\n    return (\n      <>\n        <p>Count: {this.state.count}</p>\n        <button onClick={this.increment}>Increment</button>\n      </>\n    );\n  }\n}\n```\n\n#### Functional component (useState):\n\n```jsx\nimport { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n\n  return (\n    <>\n      <p>Count: {count}</p>\n      <button onClick={() => setCount(count + 1)}>Increment</button>\n    </>\n  );\n}\n```\n\n#### In short:\n\n- **State** is local and mutable.\n- **Props** are external and immutable.",
+      "uk": "**Стан (state)** у React — це обʼєкт для зберігання даних, що змінюються з часом і впливають на рендеринг компонента. Він робить компоненти динамічними та реактивними.\n\n#### Особливості стану:\n\n1. **Локальний для компонента:** Доступний лише в компоненті, де визначений.\n2. **Асинхронні оновлення:** Оновлення стану можуть бути згруповані React для оптимізації.\n3. **Ініціалізація:** Через useState у функціональних або в конструкторі класових компонентів.\n\n#### У класових компонентах:\n\n```jsx\nclass Counter extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = { count: 0 };\n  }\n\n  increment = () => {\n    this.setState({ count: this.state.count + 1 });\n  };\n\n  render() {\n    return (\n      <>\n        <p>Count: {this.state.count}</p>\n        <button onClick={this.increment}>Increment</button>\n      </>\n    );\n  }\n}\n```\n\n#### У функціональних компонентах (useState):\n\n```jsx\nimport { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n\n  return (\n    <>\n      <p>Count: {count}</p>\n      <button onClick={() => setCount(count + 1)}>Increment</button>\n    </>\n  );\n}\n```\n\n#### Коротко:\n\n- **State** — локальний і змінюваний.\n- **Props** — передаються ззовні та незмінні."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "f935f1dd-6ec0-4ba7-8506-edbd88f9927f",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are props in React?",
+      "uk": "Що таке пропси (props) в React?"
+    },
+    "answer": {
+      "en": "**Props** in React are an object containing data passed from a parent component to a child component. They are used to configure components and are immutable.\n\n#### Props characteristics:\n\n1. **Top-down flow:** Data flows from parent to child components.\n2. **Immutable:** Child components cannot modify props.\n3. **Dynamic:** Values change when parent data changes.\n\n#### Using props:\n\n1. **Functional component:**\n\n   ```jsx\n   function Welcome(props) {\n     return <>Hello, {props.name}!</>;\n   }\n\n   <Welcome name=\"Alice\" />;\n   ```\n\n2. **Class component:**\n\n   ```jsx\n   class Welcome extends React.Component {\n     render() {\n       return <>Hello, {this.props.name}!</>;\n     }\n   }\n\n   <Welcome name=\"Bob\" />;\n   ```\n\n#### Props destructuring:\n\n```jsx\nfunction Welcome({ name }) {\n  return <>Hello, {name}!</>;\n}\n```\n\n#### Default props values:\n\n```jsx\nfunction Welcome({ name = 'Guest' }) {\n  return <>Hello, {name}!</>;\n}\n```\n\nProps enable configuration and reuse of React components.",
+      "uk": "**Пропси (props)** в React — це обʼєкт із даними, які передаються від батьківського компонента до дочірнього. Вони використовуються для налаштування компонентів і є незмінними.\n\n#### Особливості пропсів:\n\n1. **Передаються зверху вниз:** Дані надходять від батьківського компонента до дочірнього.\n2. **Незмінні:** Компонент не може змінювати отримані props.\n3. **Динамічні:** Оновлюються при зміні даних у батьківському компоненті.\n\n#### Використання пропсів:\n\n1. **Функціональний компонент:**\n\n   ```jsx\n   function Welcome(props) {\n     return <>Hello, {props.name}!</>;\n   }\n\n   <Welcome name=\"Alice\" />;\n   ```\n\n2. **Класовий компонент:**\n\n   ```jsx\n   class Welcome extends React.Component {\n     render() {\n       return <>Hello, {this.props.name}!</>;\n     }\n   }\n\n   <Welcome name=\"Bob\" />;\n   ```\n\n#### Деструктуризація пропсів:\n\n```jsx\nfunction Welcome({ name }) {\n  return <>Hello, {name}!</>;\n}\n```\n\n#### Значення за замовчуванням:\n\n```jsx\nfunction Welcome({ name = 'Guest' }) {\n  return <>Hello, {name}!</>;\n}\n```\n\nProps забезпечують повторне використання та конфігурацію компонентів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "df343313-6729-43f9-ba80-ba9cdff3b85d",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why is the key attribute needed when rendering lists?",
+      "uk": "Навіщо потрібен атрибут key при рендері списків?"
+    },
+    "answer": {
+      "en": "The `key` attribute is used to uniquely identify elements in a list during rendering.\n\n#### Purpose:\n\n1. ***Update optimization:*** React uses `key` to detect which elements were changed, added, or removed.\n2. ***Avoiding unnecessary re-renders:*** `key` helps reuse unchanged elements.\n3. ***Preserving component state:*** A correct `key` allows React to preserve component state between renders.\n\n#### Best practices:\n\n- The `key` value must be unique among siblings.\n- Prefer stable identifiers such as `id`.\n- Avoid using array index as `key` when list order can change.",
+      "uk": "Атрибут `key` використовується для ідентифікації елементів у списках під час рендерингу.\n\n#### Призначення:\n\n1. ***Оптимізація оновлень:*** React використовує `key` для визначення, які елементи було змінено, додано або видалено.\n2. ***Запобігання зайвим рендерам:*** `key` дозволяє повторно використовувати незмінені елементи.\n3. ***Збереження стану компонентів:*** Правильний `key` допомагає зберігати внутрішній стан елементів списку.\n\n#### Правильне використання:\n\n- Значення `key` має бути унікальним серед сусідніх елементів.\n- Використовуйте стабільні ідентифікатори, наприклад `id`.\n- Не рекомендується використовувати індекс масиву як `key` при змінному порядку елементів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "47798a63-e363-4bee-867b-f75d2cdb3c37",
+    "difficulty": "medium",
+    "question": {
+      "en": "How is data passed between components in React?",
+      "uk": "Як передаються дані між компонентами у React?"
+    },
+    "answer": {
+      "en": "In React, data flow follows the component hierarchy.\n\n#### Passing data down (parent → child)\n\nThis is done using `props`. Parents pass data or functions to children via attributes.\n\n```jsx\nfunction Parent() {\n  const data = 'Hello from Parent';\n  return <Child message={data} />;\n}\n\nfunction Child({ message }) {\n  return <p>{message}</p>;\n}\n```\n\n#### Passing data up (child → parent)\n\nAchieved using callback functions passed via props.\n\n```jsx\nfunction Parent() {\n  const handleData = data => console.log(data);\n  return <Child sendData={handleData} />;\n}\n\nfunction Child({ sendData }) {\n  return <button onClick={() => sendData('Hello from Child')}>Send</button>;\n}\n```\n\n#### Alternatives for complex apps:\n\n1. **Context API:** for sharing global data without prop drilling.\n2. **State managers:** Redux, Zustand, MobX for large applications.\n3. **Custom Hooks:** for sharing logic between components.",
+      "uk": "У React передача даних відбувається відповідно до ієрархії компонентів.\n\n#### Передача даних вниз (parent → child)\n\nДля цього використовуються `props`. Батьківський компонент передає дані або функції дочірньому через атрибути.\n\n```jsx\nfunction Parent() {\n  const data = 'Hello from Parent';\n  return <Child message={data} />;\n}\n\nfunction Child({ message }) {\n  return <p>{message}</p>;\n}\n```\n\n#### Передача даних вгору (child → parent)\n\nВикористовуються callback-функції, які передаються через props.\n\n```jsx\nfunction Parent() {\n  const handleData.ensure = data => console.log(data);\n  return <Child sendData={handleData} />;\n}\n\nfunction Child({ sendData }) {\n  return <button onClick={() => sendData('Hello from Child')}>Send</button>;\n}\n```\n\n#### Альтернативи для складних додатків:\n\n1. **Context API:** для передачі глобальних даних без prop drilling.\n2. **Менеджери стану:** Redux, Zustand, MobX для великих застосунків.\n3. **Custom Hooks:** для повторного використання логіки."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "833075f6-9458-4fa8-afaf-910e654a56f0",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why does React use className instead of class?",
+      "uk": "Чому React використовує className замість атрибута class?"
+    },
+    "answer": {
+      "en": "React uses `className` instead of `class` because `class` is a reserved keyword in JavaScript.\n\n#### Reasons:\n\n1. **Avoiding conflicts:** class is used to define JavaScript classes.\n2. **JSX compatibility:** JSX follows JavaScript syntax rules.\n3. **DOM API alignment:** In JavaScript, the DOM property is called className.\n\n#### Example:\n\n```jsx\n// Correct\n<div className=\"container\">Hello</div>\n\n// Incorrect\n<div class=\"container\">Hello</div>\n```\n\nThis is a JSX requirement, not a stylistic choice.",
+      "uk": "У React використовується `className` замість `class`, оскільки `class` є зарезервованим ключовим словом у JavaScript.\n\n#### Причини:\n\n1. **Уникнення конфліктів:** class використовується для оголошення класів у JavaScript.\n2. **Сумісність з JSX:** JSX є розширенням JavaScript і дотримується його правил.\n3. **Відповідність DOM API:** У JavaScript властивість елемента називається className.\n\n#### Приклад:\n\n```jsx\n// Коректно\n<div className=\"container\">Hello</div>\n\n// Некоректно\n<div class=\"container\">Hello</div>\n```\n\nЦе обовʼязковий стандарт JSX, а не дизайнерське рішення."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "150a6d9a-b92f-4c7b-b84b-e33c9876bd15",
+    "difficulty": "medium",
+    "question": {
+      "en": "What naming constraints exist for React components?",
+      "uk": "Які є винятки щодо іменування компонентів React?"
+    },
+    "answer": {
+      "en": "React enforces strict naming rules for components.\n\n1. **Capitalized names:** Components must start with an uppercase letter or they are treated as HTML tags.\n2. **CamelCase:** Component names use CamelCase without separators.\n3. **No HTML tag names:** Component names must not match built-in HTML elements.\n4. **No special characters:** Hyphens, underscores, and spaces are invalid.\n5. **Class components:** Class-based components follow the same capitalization rules.\n\nThese are JSX requirements, not style preferences.",
+      "uk": "У React існують суворі правила іменування компонентів, від яких не можна відступати.\n\n1. **Велика літера на початку:** Компоненти повинні починатися з великої літери, інакше React сприйматиме їх як HTML-теги.\n2. **CamelCase:** Імена компонентів пишуться у CamelCase без розділювачів.\n3. **Не співпадати з HTML-тегами:** Назви не повинні повторювати стандартні HTML-елементи.\n4. **Без спеціальних символів:** Заборонені дефіси, підкреслення та пробіли.\n5. **Класові компоненти:** Класові компоненти також зобовʼязані починатися з великої літери.\n\nЦі правила не рекомендації, а технічна вимога JSX."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "1ccd6f48-28a4-4fda-8d81-e0033221125f",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you write comments in React?",
+      "uk": "Як писати коментарі в React?"
+    },
+    "answer": {
+      "en": "React uses standard JavaScript comments, but JSX requires a special syntax.\n\n1. **JavaScript comments (outside JSX):**\n\n   ```javascript\n   // Single-line comment\n\n   /*\n   Multi-line comment\n   */\n   ```\n\n2. **Comments inside JSX:**\n\n   ```jsx\n   function MyComponent() {\n     return (\n       <>\n         {/* JSX comment */}\n         <p>Hello, world!</p>\n       </>\n     );\n   }\n   ```\n\n3. **Comments in component logic:**\n\n   ```jsx\n   function MyComponent() {\n     // Logic comment\n     return <p>Hello</p>;\n   }\n   ```\n\n#### Summary:\n\n- Use `{/* ... */}` inside JSX.\n- Use `//` or `/* ... */` in JavaScript.",
+      "uk": "У React коментарі пишуться як у JavaScript, але в JSX діє окремий синтаксис.\n\n1. **Коментарі в JavaScript (поза JSX):**\n\n   ```javascript\n   // Однорядковий коментар\n\n   /*\n   Багаторядковий коментар\n   */\n   ```\n\n2. **Коментарі всередині JSX:**\n\n   ```jsx\n   function MyComponent() {\n     return (\n       <>\n         {/* Коментар у JSX */}\n         <p>Hello, world!</p>\n       </>\n     );\n   }\n   ```\n\n3. **Коментарі в логіці компонента:**\n\n   ```jsx\n   function MyComponent() {\n     // Коментар у тілі функції\n     return <p>Hello</p>;\n   }\n   ```\n\n#### Коротко:\n\n- У JSX використовується `{/* ... */}`\n- У JavaScript `//` та `/* ... */`"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "ca8babd1-8c40-4520-8af2-16acc7a4c497",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the Virtual DOM in React?",
+      "uk": "Що таке Virtual DOM в React?"
+    },
+    "answer": {
+      "en": "**Virtual DOM** is a virtual representation of the real DOM that React uses to efficiently update the user interface.\n\n#### How it works in React:\n\n1. **Rendering to the Virtual DOM:** When state or props change, React updates the Virtual DOM.\n2. **Diffing:** React compares the new Virtual DOM with the previous one to identify the minimal set of changes.\n3. **Updating the real DOM:** The detected changes are applied to the real DOM, minimizing direct manipulations.\n\n#### Main advantage:\n\nOptimized DOM updates that significantly improve application performance.",
+      "uk": "**Virtual DOM** - це віртуальне представлення реального DOM, яке React використовує для ефективного оновлення інтерфейсу.\n\n#### Як працює в React:\n\n1. **Рендеринг у Virtual DOM:** При зміні стану або пропсів компонентів React оновлює Virtual DOM.\n2. **Diffing:** React порівнює новий Virtual DOM зі старою версією, визначаючи мінімальний набір змін.\n3. **Оновлення реального DOM:** Виявлені зміни застосовуються до реального DOM, мінімізуючи кількість маніпуляцій.\n\n#### Основна перевага:\n\nОптимізація оновлень DOM, що суттєво покращує продуктивність React-додатків."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "ab182e53-1f06-48a0-a0ef-76faad24dd72",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the (key) prop and what is the benefit of using it in element arrays?",
+      "uk": "Що таке (key) prop і яка перевага його використання в масивах елементів?"
+    },
+    "answer": {
+      "en": "In React, the `key` prop is used to uniquely identify elements in lists or arrays so React can efficiently manage updates when the list changes.\n\n#### Key points about `key`:\n\n1. **Uniqueness:** Each element must have a unique `key` so React can track changes and preserve component state.\n2. **Rendering optimization:** Using `key` allows React to update only the changed DOM nodes instead of re-rendering the entire list.\n3. **Nature of key:** The `key` prop is not passed to the component and is used internally by React only.\n\n#### Benefits of using `key`:\n\n- Improves rendering performance.\n- Prevents bugs when items are reordered, added, or removed.\n- Ensures correct state handling for list elements.",
+      "uk": "У React prop `key` використовується для ідентифікації кожного елемента в списках або масивах, щоб React міг ефективно керувати оновленнями при зміні структури списку.\n\n#### Основні моменти щодо `key`:\n\n1. **Унікальність:** Кожен елемент повинен мати унікальний `key`, щоб React міг коректно відстежувати зміни та зберігати стан компонентів.\n2. **Оптимізація рендерингу:** `key` дозволяє React оновлювати лише змінені елементи DOM замість повторного рендерингу всього списку.\n3. **Природа key:** Prop `key` не передається в компонент і використовується виключно React для внутрішньої ідентифікації елементів.\n\n#### Переваги використання `key`:\n\n- Підвищує продуктивність рендерингу.\n- Запобігає помилкам при зміні порядку, додаванні або видаленні елементів.\n- Забезпечує коректне збереження стану компонентів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "4cd01988-a76a-4f52-9c41-e895340c92a7",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is conditional rendering in React?",
+      "uk": "Що таке умовний рендеринг у React?"
+    },
+    "answer": {
+      "en": "Conditional rendering in React is a technique where a component renders different UI output depending on conditions such as state or props.\n\n#### Main approaches to conditional rendering:\n\n1. **if statement:** Allows explicit control over what JSX is returned based on a condition.\n2. **Ternary operator:** Commonly used for concise conditional expressions inside JSX.\n3. **Logical && operator:** Renders an element only when the condition evaluates to true.\n\n#### Benefits of conditional rendering:\n\n- Enables dynamic UI updates without page reloads.\n- Provides clear control over component display logic.",
+      "uk": "Умовний рендеринг у React — це підхід, за якого компонент відображає різний UI залежно від умов, таких як стан, пропси або інші значення.\n\n#### Основні підходи до умовного рендерингу:\n\n1. **Оператор if:** Дозволяє явно визначити, який JSX повертати залежно від умови.\n2. **Тернарний оператор:** Використовується для компактного умовного рендерингу безпосередньо в JSX.\n3. **Логічний оператор &&:** Рендерить елемент лише тоді, коли умова є істинною.\n\n#### Переваги умовного рендерингу:\n\n- Динамічна зміна інтерфейсу без перезавантаження сторінки.\n- Чітке керування логікою відображення компонентів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "d24f6896-fa78-47bd-8973-d9903f9c76af",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are Fragments in React?",
+      "uk": "Що таке фрагменти (Fragments) у React?"
+    },
+    "answer": {
+      "en": "**Fragments in React** are a way to group multiple elements without adding extra elements to the DOM. They allow returning multiple elements from a component without a wrapper such as `div`, which helps avoid unnecessary elements that could break styles or document structure.\n\n#### Usage:\n\n- Returning multiple elements from a component without additional wrappers.\n- Rendering lists with multiple elements per item (with `key`).\n- Maintaining correct structure in tables or lists without unnecessary wrappers.\n- Reducing the number of elements in the DOM for improved performance.\n- Avoiding CSS style conflicts that arise from unnecessary wrappers.\n\nFragments allow safe component management, structure tracking, and efficient UI development without cluttering the DOM.",
+      "uk": "**Фрагменти в React** — це спосіб групувати кілька елементів без додавання зайвих елементів в DOM. Вони дозволяють повернути декілька елементів з компонента без обгортки, такої як `div`, що допомагає уникнути зайвих елементів, які можуть порушити стилі або структуру документа.\n\n#### Використання:\n\n- Повернення кількох елементів з компонента без додаткової обгортки.\n- Рендеринг списків з кількома елементами на кожен запис (з `key`).\n- Збереження коректної структури таблиць або списків без зайвих обгорток.\n- Скорочення кількості елементів в DOM для покращення продуктивності.\n- Уникнення конфліктів CSS-стилів, які виникають від непотрібних обгорток.\n\nФрагменти дозволяють безпечно керувати компонентами, відстежувати структуру та ефективно розвивати UI без засмічування DOM."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "aa1fd41a-6268-4572-b649-a662b09d61ae",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Reconciliation?",
+      "uk": "Що таке узгодження (Reconciliation)?"
+    },
+    "answer": {
+      "en": "**Reconciliation** is the internal React process used to determine the minimal set of changes needed to update the real DOM based on the new Virtual DOM.\n\n#### How reconciliation works:\n\n1. **Virtual DOM comparison:** React compares the previous Virtual DOM tree with the new one after state or props changes.\n2. **Diffing:** Only the changed, added, or removed nodes are identified.\n3. **Real DOM update:** React applies only the necessary updates, avoiding full re-renders.\n\n#### Key principles:\n\n- **Element type comparison:** nodes of the same type are updated rather than replaced.\n- **Use of keys:** keys help correctly match list elements between renders.",
+      "uk": "**Reconciliation** — це внутрішній процес у React, за допомогою якого він визначає мінімальний набір змін для оновлення реального DOM відповідно до нового стану віртуального DOM.\n\n#### Як працює reconciliation:\n\n1. **Порівняння віртуальних DOM:** React порівнює попереднє дерево Virtual DOM з новим після змін стану або пропсів.\n2. **Diffing:** Визначаються лише ті вузли, які були змінені, додані або видалені.\n3. **Оновлення реального DOM:** React застосовує лише необхідні зміни, уникаючи повного перерендеру.\n\n#### Ключові принципи:\n\n- **Порівняння за типами елементів:** вузли одного типу оновлюються, а не замінюються.\n- **Використання key:** ключі допомагають коректно зіставляти елементи списків між рендерами."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "cbafb29a-3493-4281-8c55-659c525a0927",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you update component state?",
+      "uk": "Як оновити стан компонента?"
+    },
+    "answer": {
+      "en": "In React, component state is updated using `setState` in class components or `useState` in functional components.\n\n#### Class components:\n\nState is updated via `this.setState()`.\n\n#### Functional components:\n\nState is updated using the setter function returned by `useState`.\n\n#### Important notes:\n\n1. **Asynchronous updates:** state updates are asynchronous, so functional updates should be used when relying on previous state.\n2. **No direct mutation:** directly modifying state does not trigger re-rendering.",
+      "uk": "У React стан компонента оновлюється за допомогою `setState` у класових компонентах або `useState` у функціональних компонентах.\n\n#### Класові компоненти:\n\nСтан оновлюється через `this.setState()`.\n\n#### Функціональні компоненти:\n\nСтан оновлюється через функцію, отриману з `useState`.\n\n#### Важливі зауваження:\n\n1. **Асинхронність:** оновлення стану відбувається асинхронно, тому для залежності від попереднього значення слід використовувати функціональний підхід.\n2. **Заборона прямої мутації:** пряме змінення стану не викликає повторного рендерингу."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "e5a8890c-184b-4b24-94bf-68cf66adaed1",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are inline conditional expressions?",
+      "uk": "Що таке вбудовані умовні вирази?"
+    },
+    "answer": {
+      "en": "**Inline conditional expressions** in React are mechanisms that allow embedding conditions directly in JSX for conditional rendering of elements or components. This makes code more compact, readable, and easier to understand.\n\n#### Main methods:\n\n- **Ternary operator** — the most common way for conditional rendering. Syntax: `condition ? expressionTrue : expressionFalse`. Displays one element if condition is true, another if false.\n- **Logical AND operator (&&)** — allows rendering an element only if the condition is `true`. If condition is `false`, nothing is displayed.\n- **IF statement before returning JSX** — for complex conditions, regular `if/else` constructs are used before returning JSX. Allows multiple conditional actions before rendering.\n- **Logical OR operator (||)** — renders alternative element if first condition fails. Useful for default values.\n- **Inline functions** — complex condition logic can be extracted to separate functions for better code readability.\n\n#### Benefits of inline conditional expressions:\n\n- Compact and readable code — conditions are embedded directly in JSX without excessive nesting.\n- Reduced auxiliary variables — no need to create additional `let` or `const` for storing conditional content.\n- Dynamic rendering — easily switch between different components based on state.\n\n#### Important limitations:\n\n- In React, you cannot use `if` statements directly inside JSX. They must be outside JSX blocks or reduced to ternary operator.\n- Do not use loop constructs like `for` in JSX — use `map()` instead.\n- Avoid complex conditional expressions in JSX — extract complex logic into separate functions for readability.",
+      "uk": "**Вбудовані умовні вирази** в React — це механізми, що дозволяють вбудовувати умови безпосередньо в JSX для умовного рендерингу елементів або компонентів. Це робить код компактнішим, читабельнішим і зручнішим для розуміння.\n\n#### Основні методи:\n\n- **Тернарний оператор** — найпоширеніший спосіб умовного рендерингу. Синтаксис: `condition ? expressionTrue : expressionFalse`. Відображає один елемент, якщо умова істинна, інший — якщо хибна.\n- **Логічний оператор AND (&&)** — дозволяє рендерити елемент лише якщо умова `true`. Якщо умова `false`, нічого не буде відображено.\n- **Оператор IF перед поверненням JSX** — для складних умов використовуються звичайні `if/else` конструкції перед поверненням JSX. Дозволяє виконати декілька умовних дій перед рендерингом.\n- **Логічний оператор OR (||)** — рендерит альтернативний елемент, якщо перша умова не виконується. Корисна для значень за замовчуванням.\n- **Inline функції** — складна логіка умов можна винести в окремі функції для кращої читаємості коду.\n\n#### Переваги вбудованих умовних виразів:\n\n- Компактний і читабельний код — умови вбудовані безпосередньо в JSX без зайвих рівнів вкладеності.\n- Зменшується кількість допоміжних змінних — не потрібно створювати додаткові `let` або `const` для зберігання умовного вмісту.\n- Динамічний рендеринг — легко переключатися між різними компонентами на основі стану.\n\n#### Важливі обмеження:\n\n- В React не можна використовувати інструкції `if` безпосередньо всередину JSX. Вони повинні перебувати поза JSX-блоком або скоротаним до тернарного оператора.\n- Не використовуйте циклові конструкції `for` у JSX — натомість використовуйте `map()`.\n- Уникайте складних умовних виразів у JSX — розділяйте складну логіку на окремі функції для читаємості."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "64b05602-0d17-49a5-9915-db69a21ba9e5",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between HTML and React event handling?",
+      "uk": "Яка різниця між обробкою подій HTML і React?"
+    },
+    "answer": {
+      "en": "#### Differences between event handling in HTML and React:\n\n| Criterion | HTML | React |\n| --- | --- | --- |\n| **Event syntax** | Lowercase attribute: `onclick` | camelCase: `onClick` |\n| **Handler passing** | String or global function | Function reference |\n| **Listener management** | Via `addEventListener` | Managed by Virtual DOM |\n| **this context** | Manual binding required | No issue in functional components |\n| **Default behavior** | Using `return false` | Using `event.preventDefault()` |\n| **Events** | Native DOM events | SyntheticEvent wrapper |",
+      "uk": "#### Різниця між обробкою подій у HTML та React:\n\n| Критерій | HTML | React |\n| --- | --- | --- |\n| **Синтаксис подій** | Атрибут у нижньому регістрі: `onclick` | camelCase: `onClick` |\n| **Передача обробника** | Рядок або глобальна функція | Посилання на функцію компонента |\n| **Керування слухачами** | Через `addEventListener` | Автоматично через Virtual DOM |\n| **Контекст this** | Потрібен ручний контроль | У функціональних компонентах проблем немає |\n| **Стандартна поведінка** | Через `return false` | Через `event.preventDefault()` |\n| **Події** | Нативні DOM-події | SyntheticEvent (нормалізація) |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "c2b6fc60-a8bf-4648-9c62-a89ee51118ed",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are synthetic events in React?",
+      "uk": "Що таке синтетичні події в React?"
+    },
+    "answer": {
+      "en": "**Synthetic Events** are wrappers around native DOM events in React that provide a consistent event interface across all browsers.\n\n#### Key characteristics:\n\n1. **Cross-browser consistency:** uniform behavior across different browsers.\n2. **Optimization:** object pooling to reduce memory allocations.\n3. **Standard interface:** supports methods like `preventDefault()` and `stopPropagation()`.",
+      "uk": "**Синтетичні події (Synthetic Events)** — це обгортки над нативними DOM-подіями в React, які забезпечують єдиний інтерфейс роботи з подіями у всіх браузерах.\n\n#### Основні характеристики:\n\n1. **Кросбраузерність:** однакова поведінка подій у різних браузерах.\n2. **Оптимізація:** використання пулу обʼєктів для зменшення витрат памʼяті.\n3. **Стандартний інтерфейс:** підтримує методи `preventDefault()` та `stopPropagation()`."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "5f476480-dbd3-45ef-8ae0-ac34462d64ed",
+    "difficulty": "medium",
+    "question": {
+      "en": "How are events handled in React?",
+      "uk": "Як обробляти події в React?"
+    },
+    "answer": {
+      "en": "In React, event handling is similar to standard JavaScript but uses synthetic events and a declarative JSX-based approach.\n\n#### Core principles:\n\n1. **Synthetic events:** all events are wrapped in **SyntheticEvent** for cross-browser consistency.\n2. **camelCase:** events use `onClick` instead of `onclick`.\n3. **Function handlers:** handlers are passed as function references.\n\n#### Notes:\n\n- No need for `addEventListener`.\n- The `this` context must be bound in class components.",
+      "uk": "В React обробка подій схожа на звичайний JavaScript, але використовує синтетичні події та декларативний підхід через JSX.\n\n#### Основні принципи:\n\n1. **Синтетичні події:** всі події обгорнуті в **SyntheticEvent** для кросбраузерної сумісності.\n2. **camelCase:** події оголошуються як `onClick`, а не `onclick`.\n3. **Передача функцій:** обробник передається як посилання на функцію.\n\n#### Особливості:\n\n- Не використовується `addEventListener`.\n- Контекст `this` у класових компонентах потребує привʼязки."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "daf23de7-0f2c-4748-a905-90ab1350f2f6",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are Pointer Events?",
+      "uk": "Що таке події вказівника (Pointer Events)?"
+    },
+    "answer": {
+      "en": "**Pointer Events** are a unified API for handling mouse, touch, and pen input events in React.\n\n#### Main events:\n\n| **Event** | **Description** |\n| --- | --- |\n| **onPointerDown** | Fires when a pointer is pressed. |\n| **onPointerUp** | Fires when a pointer is released. |\n| **onPointerMove** | Triggered when the pointer moves. |\n| **onPointerEnter** | When the pointer enters an element. |\n| **onPointerLeave** | When the pointer leaves an element. |\n| **onPointerCancel** | When the browser cancels the event. |",
+      "uk": "**Pointer Events** — це уніфікований API для обробки подій миші, сенсорного екрана та стилуса в React.\n\n#### Основні події:\n\n| **Подія** | **Опис** |\n| --- | --- |\n| **onPointerDown** | Спрацьовує при натисканні вказівника. |\n| **onPointerUp** | Спрацьовує при відпусканні вказівника. |\n| **onPointerMove** | Викликається при русі вказівника. |\n| **onPointerEnter** | Коли вказівник входить у межі елемента. |\n| **onPointerLeave** | Коли вказівник залишає елемент. |\n| **onPointerCancel** | Коли подію скасовано браузером. |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "354dc0c7-f6ba-4130-a77d-cdc8ce7d1fea",
+    "difficulty": "medium",
+    "question": {
+      "en": "When should you use a class component instead of a functional component?",
+      "uk": "Коли використовувати компонент класу замість функціонального компонента?"
+    },
+    "answer": {
+      "en": "Class components were historically used when functional components lacked certain capabilities.\n\n1. **Component state:** only class components supported state before hooks.\n2. **Lifecycle methods:** classes exposed lifecycle APIs now replaced by `useEffect`.\n3. **Legacy code:** maintaining older React codebases.\n\nFor new development, functional components with hooks are the recommended approach.",
+      "uk": "Класові компоненти історично використовувалися у випадках, коли функціональні компоненти не мали необхідних можливостей.\n\n1. **Стан компонента:** раніше лише класи підтримували локальний стан. Сьогодні це вирішується хуками.\n2. **Методи життєвого циклу:** класи надавали доступ до lifecycle-методів, які зараз замінені хуком `useEffect`.\n3. **Застарілий код:** підтримка існуючих проєктів, написаних на класах.\n\nУ нових проєктах класові компоненти не рекомендуються. Функціональні компоненти з хуками є стандартом."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "62015eed-7ffc-426f-86a8-e050f1b7203c",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are stateless components?",
+      "uk": "Що таке компоненти без стану (stateless components)?"
+    },
+    "answer": {
+      "en": "Stateless components are components that do not manage their own state and rely entirely on props to render UI.\n\n#### Key characteristics:\n\n1. **No internal state:** they do not use component state.\n2. **Props-driven:** UI output depends solely on input props.\n3. **Predictability:** same props always produce the same output.",
+      "uk": "Компоненти без стану (stateless components) — це компоненти, які не зберігають власний стан і працюють виключно з даними, отриманими через props.\n\n#### Особливості:\n\n1. **Відсутність стану:** не використовують внутрішній state.\n2. **Орієнтація на props:** рендерять UI виключно на основі вхідних даних.\n3. **Передбачуваність:** однакові props завжди дають однаковий результат."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "9e4a3420-e451-4335-a528-bb2e2c8f2895",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are stateful components?",
+      "uk": "Що таке компоненти стану (stateful components)?"
+    },
+    "answer": {
+      "en": "**Stateful components** are components that manage their own internal state, which can change over time and affect rendering.\n\n#### Key characteristics:\n\n1. **Internal state:** they store data inside component state.\n2. **State updates:** state changes trigger re-rendering.\n3. **Dynamic behavior:** UI output depends on current state.",
+      "uk": "**Компоненти стану (stateful components)** — це компоненти, які зберігають і керують власним внутрішнім станом, що може змінюватися з часом і впливати на рендеринг.\n\n#### Особливості:\n\n1. **Власний стан:** зберігають дані у state.\n2. **Оновлення стану:** зміни стану викликають повторний рендеринг компонента.\n3. **Динамічність:** UI змінюється залежно від поточного стану."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "6154985d-6182-47a8-9230-5e8b871f39ce",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are Pure Components?",
+      "uk": "Що таке чисті компоненти (Pure Components)?"
+    },
+    "answer": {
+      "en": "**Pure Components** are React class components that optimize rendering by performing a shallow comparison of props and state.\n\n#### Core idea:\n\nThe component re-renders only when props or state change based on shallow comparison.\n\n#### Key points:\n\n1. **Automatic optimization:** includes a built-in shouldComponentUpdate.\n2. **Limitation:** does not detect deep mutations in objects or arrays.",
+      "uk": "**Чисті компоненти (Pure Components)** — це класові компоненти React, які оптимізують рендеринг за допомогою поверхневого порівняння пропсів і стану.\n\n#### Ключова ідея:\n\nКомпонент перерендерюється лише тоді, коли змінюються пропси або стан за результатом shallow comparison.\n\n#### Особливості:\n\n1. **Авто-оптимізація:** реалізує shouldComponentUpdate з поверхневим порівнянням.\n2. **Обмеження:** не відстежує глибокі зміни у вкладених обʼєктах."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "25bbc466-92ad-405d-b32e-0dd8a39b5e7d",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are Higher-Order Components?",
+      "uk": "Що таке компоненти вищого порядку (Higher-Order Components)?"
+    },
+    "answer": {
+      "en": "**Higher-Order Components** are functions that take a component as input and return a new component with enhanced behavior.\n\n#### Key characteristics:\n\n1. **Component wrapper:** accepts a component as an argument.\n2. **Returns a new component:** injects additional logic or props.\n3. **Logic reuse:** enables sharing behavior across components.\n\nIn modern React applications, HOCs are often replaced by hooks.",
+      "uk": "**Компоненти вищого порядку (Higher-Order Components)** — це функції, які приймають компонент і повертають новий компонент, розширюючи або модифікуючи його поведінку.\n\n#### Основні характеристики:\n\n1. **Функція над компонентом:** приймає компонент як аргумент.\n2. **Повертає новий компонент:** додає логіку або пропси.\n3. **Повторне використання логіки:** дозволяє уникати дублювання коду.\n\nУ сучасному React HOC застосовуються рідше, оскільки більшість сценаріїв ефективніше вирішуються хуками."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "7e7e69cb-7b25-4530-bbc1-70da99727ed5",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the children prop?",
+      "uk": "Що таке children prop?"
+    },
+    "answer": {
+      "en": "`children` is a special React prop that contains the nested content passed between a component’s opening and closing tags.\n\n#### Key properties:\n\n1. **Flexibility:** can contain text, JSX, components, or functions.\n2. **Composition:** enables wrapper and layout components.\n3. **Reusability:** the same component can render different content.",
+      "uk": "`children` — це спеціальний пропс у React, який містить вкладений вміст, переданий між відкриваючим і закриваючим тегами компонента.\n\n#### Ключові властивості:\n\n1. **Гнучкість:** може містити текст, JSX, компоненти або функції.\n2. **Композиція:** дозволяє створювати компоненти-обгортки.\n3. **Повторне використання:** один компонент може відображати різний вміст."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "4be9eb2b-33bd-45b7-ac86-ef60f15efc80",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a Portal?",
+      "uk": "Що таке портал (Portal)?"
+    },
+    "answer": {
+      "en": "**A Portal** is a React feature that allows rendering children into a DOM node outside the parent component’s DOM hierarchy.\n\n#### Key points:\n\n1. **Out-of-tree rendering:** the element is mounted elsewhere in the DOM.\n2. **Preserved React hierarchy:** event bubbling follows the React component tree.",
+      "uk": "**Портал (Portal)** — це механізм у React, який дозволяє рендерити елементи в DOM-вузол поза ієрархією батьківського компонента.\n\n#### Ключові моменти:\n\n1. **Рендеринг поза деревом DOM:** елемент фізично знаходиться в іншому DOM-вузлі.\n2. **Збереження React-ієрархії:** події поширюються відповідно до дерева компонентів React."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "7709ff61-88f4-402d-8fae-f0bd43655f3c",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do Portals work in React, and what are their benefits and main UI use cases?",
+      "uk": "Як працюють портали (Portals) в React, і які їх переваги та основні застосування в UI-розробці?"
+    },
+    "answer": {
+      "en": "**Portals** allow rendering elements into a DOM node outside the parent component’s DOM hierarchy.\n\n#### How they work:\n\nReact uses `ReactDOM.createPortal` to mount JSX into a target DOM node while preserving React context and event bubbling.\n\n#### Benefits:\n\n- Proper layering of UI elements.\n- Avoids overflow and z-index issues.\n- Preserves React state and events.\n\n#### Common use cases:\n\n- Modals.\n- Tooltips and popovers.\n- Context menus.",
+      "uk": "**Портали (Portals)** дозволяють рендерити елементи в інший DOM-вузол поза стандартною ієрархією батьківського компонента.\n\n#### Як працюють:\n\nReact використовує метод `ReactDOM.createPortal`, який рендерить JSX у вказаний DOM-контейнер, зберігаючи при цьому React-ієрархію та обробку подій.\n\n#### Переваги:\n\n- Коректне накладання елементів поверх UI.\n- Відсутність проблем із overflow та z-index.\n- Збереження контексту та подій React.\n\n#### Основні застосування:\n\n- Модальні вікна.\n- Tooltips і popovers.\n- Контекстні меню."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "a915a3cc-2b45-43b2-b002-a189d5864759",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are component lifecycle methods in React?",
+      "uk": "Методи життєвого циклу компонента у React?"
+    },
+    "answer": {
+      "en": "**Lifecycle methods** are used in React class components to control different stages of a component’s life: creation, update, and removal.\n\n#### Main phases:\n\n1. **Mounting:** constructor, render, componentDidMount.\n2. **Updating:** shouldComponentUpdate, render, componentDidUpdate.\n3. **Unmounting:** componentWillUnmount.\n4. **Error handling:** getDerivedStateFromError, componentDidCatch.\n\nIn modern React, these lifecycle methods are mostly replaced by hooks.",
+      "uk": "**Методи життєвого циклу** використовуються в класових компонентах React для керування етапами існування компонента: створення, оновлення та видалення.\n\n#### Основні фази:\n\n1. **Монтування:** constructor, render, componentDidMount.\n2. **Оновлення:** shouldComponentUpdate, render, componentDidUpdate.\n3. **Розмонтування:** componentWillUnmount.\n4. **Обробка помилок:** getDerivedStateFromError, componentDidCatch.\n\nУ сучасному React ці методи переважно замінюються хуками у функціональних компонентах."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "02037a54-2dab-4feb-8765-89e68b00bb2b",
+    "difficulty": "medium",
+    "question": {
+      "en": "What does shouldComponentUpdate do?",
+      "uk": "Що робить метод shouldComponentUpdate?"
+    },
+    "answer": {
+      "en": "`shouldComponentUpdate` is a lifecycle method in React class components that decides whether the component should re-render.\n\n#### How it works:\n\n1. **Returns true:** the component re-renders.\n2. **Returns false:** rendering is skipped even if props or state change.",
+      "uk": "`shouldComponentUpdate` — це метод життєвого циклу в класових компонентах React, який визначає, чи потрібно виконувати повторний рендер компонента.\n\n#### Як працює:\n\n1. **Повертає true:** компонент буде перерендерений.\n2. **Повертає false:** рендер пропускається, навіть якщо props або state змінилися."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "95cd9d43-4dbc-4025-81a6-0d7511b16230",
+    "difficulty": "medium",
+    "question": {
+      "en": "How to run code before a component is removed from the tree?",
+      "uk": "Як виконати код перед видаленням компонента з дерева?"
+    },
+    "answer": {
+      "en": "To execute code before a component is removed from the React tree, the following approaches are used:\n\n1. **Class components:** `componentWillUnmount`Class components provide the componentWillUnmount lifecycle method, which is called right before the component is removed.\n\n   ```jsx\n   class MyComponent extends React.Component {\n     componentWillUnmount() {\n       console.log('Component will be removed');\n     }\n\n     render() {\n       return <div>My component</div>;\n     }\n   }\n   ```\n\n2. **Function components:** `useEffect` with cleanupIn function components, cleanup logic is implemented in useEffect by returning a function that runs before unmount.\n\n   ```jsx\n   import { useEffect } from 'react';\n\n   function MyComponent() {\n     useEffect(() => {\n       return () => {\n         console.log('Component will be removed');\n       };\n     }, []);\n\n     return <div>My component</div>;\n   }\n   ```\n\n3. **Handling page unload (beforeunload)**\n\nIf code must be executed before closing or reloading the page:\n\n```jsx\nuseEffect(() => {\n  const handleUnload = () => {\n    console.log('Page is closing');\n  };\n\n  window.addEventListener('beforeunload', handleUnload);\n  return () => window.removeEventListener('beforeunload', handleUnload);\n}, []);\n```\n\n#### Conclusion\n\n- `componentWillUnmount` for class components.\n- `useEffect` with `return` for function components.\n- `beforeunload` for reacting to page exit.",
+      "uk": "Щоб виконати код перед видаленням компонента з дерева в React, використовують такі підходи:\n\n1. **Класові компоненти:** `componentWillUnmount`Для класових компонентів є метод життєвого циклу componentWillUnmount, який викликається перед видаленням компонента.\n\n   ```jsx\n   class MyComponent extends React.Component {\n     componentWillUnmount() {\n       console.log('Компонент буде видалено');\n     }\n\n     render() {\n       return <div>Мій компонент</div>;\n     }\n   }\n   ```\n\n2. **Функціональні компоненти:** `useEffect` з очищеннямУ функціональних компонентах очищення можна зробити в useEffect, повернувши функцію, яка виконається перед видаленням компонента.\n\n   ```jsx\n   import { useEffect } from 'react';\n\n   function MyComponent() {\n     useEffect(() => {\n       return () => {\n         console.log('Компонент буде видалено');\n       };\n     }, []);\n\n     return <div>Мій компонент</div>;\n   }\n   ```\n\n3. **Обробка перед закриттям сторінки (beforeunload)**\n\nЯкщо потрібно виконати код перед закриттям вкладки або перезавантаженням сторінки:\n\n```jsx\nuseEffect(() => {\n  const handleUnload = () => {\n    console.log('Сторінка закривається');\n  };\n\n  window.addEventListener('beforeunload', handleUnload);\n  return () => window.removeEventListener('beforeunload', handleUnload);\n}, []);\n```\n\n#### Висновок\n\n- `componentWillUnmount` – для класових компонентів.\n- `useEffect` із `return` – для функціональних.\n- `beforeunload` – для випадків, коли потрібно реагувати на вихід із сторінки."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "eb9416bb-5cd0-4263-a5f0-2cfc9a14438e",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why are Fragments better than container divs?",
+      "uk": "Чому фрагменти (Fragment) кращі за контейнерні div?"
+    },
+    "answer": {
+      "en": "Fragments (`<React.Fragment>` or `<>...</>`) are better than container `<div>` elements in React for several reasons:\n\n1. **Less unnecessary HTML**\n   - Fragments do not add extra nodes to the DOM, keeping the markup clean.\n\n2. **No styling side effects**\n   - `<div>` wrappers can interfere with CSS layouts. Fragments avoid this.\n\n3. **Table compatibility**\n   - Fragments can be used inside tables where div elements are invalid.\n\n4. **Performance**\n   - Fewer DOM nodes result in faster rendering and lower memory usage.",
+      "uk": "Фрагменти (`<React.Fragment>` або `<>...</>`) кращі за контейнерні `<div>` у React з кількох причин:\n\n1. **Зменшення зайвого HTML**\n   - Фрагменти не додають додатковий елемент у DOM, що зменшує вкладеність і спрощує структуру.\n\n     ```jsx\n     <>\n       <h1>Title</h1>\n       <p>Text</p>\n     </>\n     ```\n\n2. **Відсутність побічних ефектів стилів**\n   - `<div>` може впливати на CSS і ламати верстку. Фрагменти цього не роблять.\n\n3. **Коректна робота з таблицями**\n   - Фрагменти можна використовувати всередині table без порушення HTML-специфікації.\n\n4. **Продуктивність**\n   - Менше DOM-вузлів означає швидший рендеринг і менше споживання памʼяті."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "1d84ad56-fc43-457b-b76e-e6647e4dd005",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are Hooks in React?",
+      "uk": "Що таке Хуки (Hooks) в React?"
+    },
+    "answer": {
+      "en": "**React Hooks** are functions that let you use state and other React features without writing classes.\n\n#### Main types of hooks:\n\n1. **useState** adds state to function components.\n\n   ```jsx\n   const [state, setState] = useState(initialState);\n   ```\n\n2. **useEffect** handles side effects.\n\n   ```jsx\n   useEffect(() => {\n     // side effect\n   }, [dependencies]);\n   ```\n\n3. **useContext** accesses context values.\n\n   ```jsx\n   const value = useContext(MyContext);\n   ```\n\n4. **useRef** stores mutable references.\n\n   ```jsx\n   const myRef = useRef(initialValue);\n   ```\n\n5. **useReducer** manages complex state.\n\n   ```jsx\n   const [state, dispatch] = useReducer(reducer, initialState);\n   ```\n\n6. **useMemo** memoizes computed values.\n\n   ```jsx\n   const memoizedValue = useMemo(() => compute(a, b), [a, b]);\n   ```\n\n7. **useCallback** memoizes functions.\n\n   ```jsx\n   const memoizedCallback = useCallback(() => {}, [dependencies]);\n   ```\n\n#### Key benefits:\n\n- **No classes:** only functions.\n- **Better readability:** logic is separated.\n- **Reusable logic:** shared via hooks.",
+      "uk": "**React Хуки (Hooks)** – це функції, які дозволяють використовувати стан та інші можливості React без написання класів.\n\n#### Основні типи хуків:\n\n1. **useState** – додає стан у функціональні компоненти.\n\n   ```jsx\n   const [state, setState] = useState(initialState);\n   ```\n\n2. **useEffect** – виконує побічні ефекти у функціональних компонентах.\n\n   ```jsx\n   useEffect(() => {\n     // side effect\n   }, [dependencies]);\n   ```\n\n3. **useContext** – доступ до значень контексту без Consumer.\n\n   ```jsx\n   const value = useContext(MyContext);\n   ```\n\n4. **useRef** – зберігає посилання або значення між рендерами без зміни стану.\n\n   ```jsx\n   const myRef = useRef(initialValue);\n   ```\n\n5. **useReducer** – керування складним станом через редуктор.\n\n   ```jsx\n   const [state, dispatch] = useReducer(reducer, initialState);\n   ```\n\n6. **useMemo** – мемоізує обчислення значень.\n\n   ```jsx\n   const memoizedValue = useMemo(() => compute(a, b), [a, b]);\n   ```\n\n7. **useCallback** – мемоізує функції.\n\n   ```jsx\n   const memoizedCallback = useCallback(() => {\n     // function\n   }, [dependencies]);\n   ```\n\n#### Основні переваги:\n\n- **Функціональні компоненти:** логіка без класів.\n- **Читабельність:** логіка розділена на хуки.\n- **Повторне використання логіки:** без складних ієрархій."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "59fa566c-94ca-4464-8fe9-e3ef201c50d0",
+    "difficulty": "medium",
+    "question": {
+      "en": "Advantages of Hooks in React?",
+      "uk": "Переваги Хуків (Hooks) в React?"
+    },
+    "answer": {
+      "en": "| **Advantage** | **Description** |\n| --- | --- |\n| **Less code** | Hooks eliminate classes and reduce boilerplate. |\n| **Better readability** | Logic is easier to understand and maintain. |\n| **Logic reuse** | Custom Hooks allow sharing logic across components. |\n| **Simpler state management** | `useState` and `useReducer` simplify state handling. |\n| **Flexible effects handling** | `useEffect` replaces class lifecycle methods. |\n| **Easier migration** | Makes moving from class components easier. |",
+      "uk": "| **Перевага** | **Опис** |\n| --- | --- |\n| **Менше коду** | Хуки дозволяють уникнути класів і зменшити обсяг коду. |\n| **Краща читабельність** | Логіка в хуках простіша для читання та підтримки. |\n| **Повторне використання логіки** | Custom Hooks дозволяють перевикористовувати логіку між компонентами. |\n| **Спрощене управління станом** | `useState` та `useReducer` спрощують роботу зі станом. |\n| **Гнучка робота з ефектами** | `useEffect` замінює методи життєвого циклу класів. |\n| **Легша міграція** | Спрощує перехід з класових компонентів на функціональні. |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "047a6a8a-2bc3-4dc2-b984-e69f1b9e7540",
+    "difficulty": "medium",
+    "question": {
+      "en": "Disadvantages of Hooks in React?",
+      "uk": "Недоліки Хуків (Hooks) в React?"
+    },
+    "answer": {
+      "en": "| **Drawback** | **Description** |\n| --- | --- |\n| **Extra re-renders** | Incorrect use of `useEffect` can cause unnecessary re-renders. |\n| **Scattered logic** | Logic may be split across multiple `useEffect` hooks, complicating debugging. |\n| **No explicit lifecycle** | Hooks do not expose clear lifecycle methods like class components. |\n| **Optimization pitfalls** | Improper use of `useCallback` and `useMemo` can hurt performance. |\n| **Complexity at scale** | In large applications, hooks can complicate state and side-effect management. |",
+      "uk": "| **Недолік** | **Опис** |\n| --- | --- |\n| **Зайві ререндери** | Неправильне використання `useEffect` може спричиняти зайві оновлення компонента. |\n| **Розпорошена логіка** | Логіка часто розділена між кількома `useEffect`, що ускладнює розуміння. |\n| **Відсутність явного життєвого циклу** | Хуки не мають чітких lifecycle-методів, як у класових компонентів. |\n| **Ризики оптимізації** | Невірне використання `useCallback` та `useMemo` може погіршити продуктивність. |\n| **Складність у великих проєктах** | У масштабних додатках хуки ускладнюють контроль стану й ефектів. |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "89338930-d254-4ddc-9195-8af51f9263d3",
+    "difficulty": "medium",
+    "question": {
+      "en": "Rules (limitations) for using Hooks in React?",
+      "uk": "Правила (обмеження) використання Хуків (Hooks) в React?"
+    },
+    "answer": {
+      "en": "| **Rule** | **Description** |\n| --- | --- |\n| **Use only in functions** | Hooks can only be called inside function components or custom hooks. |\n| **Preserve call order** | Hooks must not be called conditionally (`if`, `for`, `while`), otherwise the call order breaks. |\n| **Top-level only** | Hooks must not be called inside nested functions or event handlers. |\n| **Custom hook naming** | Custom hooks must start with `use` (for example, `useAuth`). |\n| **Correct dependencies** | In `useEffect`, `useMemo` and `useCallback` dependency arrays (`[]`) must be specified correctly. |",
+      "uk": "| **Правило** | **Опис** |\n| --- | --- |\n| **Використання тільки у функціях** | Хуки можна викликати лише у функціональних компонентах або в кастомних хуках. |\n| **Збереження порядку виклику** | Хуки не можна викликати умовно (`if`, `for`, `while`), інакше порушиться порядок виклику. |\n| **Виклик тільки на верхньому рівні** | Хуки не можна викликати всередині вкладених функцій або обробників подій. |\n| **Іменування кастомних хуків** | Кастомні хуки мають починатися з `use` (наприклад, `useAuth`). |\n| **Коректні залежності** | У `useEffect`, `useMemo` та `useCallback` масив залежностей (`[]`) має бути вказаний правильно. |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "92ea3382-ed9a-40c8-b314-66c94d71ee7b",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is useReducer()?",
+      "uk": "Що таке useReducer()?"
+    },
+    "answer": {
+      "en": "`useReducer()` is a React hook used for state management in function components. It is an alternative to `useState()` and is suited for more complex state logic.\n\n#### Syntax:\n\n```jsx\nconst [state, dispatch] = useReducer(reducer, initialState);\n```\n\n- `reducer` – a function that takes `state` and `action` and returns a new state.\n- `initialState` – the initial state.\n- `dispatch` – triggers state updates via actions.\n\n#### When to use:\n\n- Complex state logic.\n- State updates depend on previous state.\n- Need for centralized state transitions.",
+      "uk": "`useReducer()` – це хук у React для керування станом у функціональних компонентах. Він є альтернативою `useState()` і краще підходить для складної логіки оновлення стану.\n\n#### Синтаксис:\n\n```jsx\nconst [state, dispatch] = useReducer(reducer, initialState);\n```\n\n- `reducer` – функція, що приймає `state` і `action` та повертає новий стан.\n- `initialState` – початковий стан.\n- `dispatch` – викликає reducer з певною дією.\n\n#### Коли використовувати:\n\n- Складна логіка стану.\n- Оновлення залежать від попереднього стану.\n- Потреба у централізованому dispatch."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "01144b18-43e0-4568-a1f0-363b7fbf80f7",
+    "difficulty": "medium",
+    "question": {
+      "en": "Explain the hooks useCallback(), useMemo(), useImperativeHandle(), useLayoutEffect()?",
+      "uk": "Розкажіть про хуки useCallback(), useMemo(), useImperativeHandle(), useLayoutEffect()?"
+    },
+    "answer": {
+      "en": "#### useCallback()\n\nMemoizes a function so it is not recreated on every render. Useful when passing callbacks to child components.\n\n#### useMemo()\n\nMemoizes computed values and recalculates them only when dependencies change.\n\n#### useImperativeHandle()\n\nAllows explicit control over the ref API exposed by a child component. Used with forwardRef().\n\n#### useLayoutEffect()\n\nWorks like `useEffect()`, but runs synchronously after DOM mutations and before the browser paints.\n\n#### When to use each hook?\n\n- `useCallback()` – memoizing functions.\n- `useMemo()` – memoizing calculations.\n- `useImperativeHandle()` – controlling child refs.\n- `useLayoutEffect()` – DOM measurements before paint.",
+      "uk": "#### useCallback()\n\nМемоізує функцію, щоб вона не створювалася заново при кожному рендері. Корисно при передачі колбеків у дочірні компоненти.\n\n#### useMemo()\n\nМемоізує результат обчислень і повторно обчислюється лише при зміні залежностей.\n\n#### useImperativeHandle()\n\nДозволяє явно контролювати API ref у дочірньому компоненті. Використовується разом із forwardRef().\n\n#### useLayoutEffect()\n\nПрацює як `useEffect()`, але виконується синхронно після змін DOM і до відмальовування браузером.\n\n#### Коли який хук використовувати?\n\n- `useCallback()` – мемоізація функцій.\n- `useMemo()` – мемоізація обчислень.\n- `useImperativeHandle()` – контроль ref дочірнього компонента.\n- `useLayoutEffect()` – робота з DOM перед відображенням."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "c204615c-f063-417f-afeb-e1290ff8b6e3",
+    "difficulty": "medium",
+    "question": {
+      "en": "How to run an operation only once during the initial render?",
+      "uk": "Як реалізувати одноразове виконання операції під час початкового рендерингу?"
+    },
+    "answer": {
+      "en": "To execute an operation only once during the initial render in function components, use `useEffect` with an empty dependency array (`[]`).\n\n#### Example:\n\n```jsx\nimport { useEffect } from 'react';\n\nfunction MyComponent() {\n  useEffect(() => {\n    console.log('Runs once after mount');\n  }, []);\n\n  return <div>Component</div>;\n}\n```\n\n#### Explanation:\n\n- An empty dependency array ensures the effect runs only after the first render.\n\nCommonly used for initialization, API calls, and subscriptions.",
+      "uk": "Для виконання операції лише один раз під час початкового рендерингу у функціональних компонентах використовують `useEffect` з порожнім масивом залежностей (`[]`).\n\n#### Приклад:\n\n```jsx\nimport { useEffect } from 'react';\n\nfunction MyComponent() {\n  useEffect(() => {\n    console.log('Виконається один раз після монтування');\n  }, []);\n\n  return <div>Компонент</div>;\n}\n```\n\n#### Пояснення:\n\n- Порожній масив залежностей означає виконання ефекту лише після першого рендерингу.\n\nПідхід застосовується для ініціалізації, API-запитів або підписок."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "ac615b40-c7fe-4f47-8633-d3413ea68cc0",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Context?",
+      "uk": "Що таке контекст (Context)?"
+    },
+    "answer": {
+      "en": "**Context** in React is a mechanism for passing data through the component tree without prop drilling.\n\n#### How context works:\n\n1. **React.createContext()** creates a context object.\n2. **Provider** supplies the context value to child components.\n3. **Consumer** reads context values (legacy approach).\n4. **useContext** hook to access context values.\n\n#### When to use:\n\n- Global data like theme or user.\n- Avoiding prop drilling.\n\n#### Advantages:\n\n- Cleaner component interfaces.\n- Better scalability for shared state.",
+      "uk": "**Контекст (Context)** в React – це механізм для передачі даних через дерево компонентів без прокидання пропсів на кожному рівні.\n\n#### Як працює контекст:\n\n1. **React.createContext()** – створює обʼєкт контексту.\n\n   ```jsx\n   const MyContext = React.createContext(defaultValue);\n   ```\n\n2. **Provider** – компонент, який передає значення контексту всім дочірнім компонентам.\n\n   ```jsx\n   <MyContext.Provider value={value}>\n     <Child />\n   </MyContext.Provider>\n   ```\n\n3. **Consumer** – компонент для отримання значення контексту (застарілий підхід).\n4. **useContext** – хук для доступу до контексту у функціональних компонентах.\n\n   ```jsx\n   const value = useContext(MyContext);\n   ```\n\n#### Коли використовувати:\n\n- Глобальні дані: тема, мова, користувач.\n- Уникнення prop drilling.\n\n#### Переваги:\n\n- Менше пропсів у компонентах.\n- Краще масштабується для глобального стану."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "198183bf-3733-4e0e-976a-dc28dd77fec9",
+    "difficulty": "medium",
+    "question": {
+      "en": "How does the React Context mechanism work for sharing data between components?",
+      "uk": "Як в React працює механізм контексту (Context) для спільної передачі даних між компонентами?"
+    },
+    "answer": {
+      "en": "**React Context** allows sharing data across the component tree without passing props through every level.\n\n#### Main steps:\n\n1. **Create context:**\n\n   ```jsx\n   const MyContext = React.createContext();\n   ```\n\n2. **Provide value with Provider:**\n\n   ```jsx\n   <MyContext.Provider value={value}>\n     <Child />\n   </MyContext.Provider>\n   ```\n\n3. **Consume value:**\n\n   ```jsx\n   const value = useContext(MyContext);\n   ```\n\n#### Key points:\n\n- Avoids `prop drilling`.\n- All consumers re-render when context value changes.\n- Best suited for global shared data.",
+      "uk": "**React Context** дозволяє передавати спільні дані між компонентами без прокидання пропсів через кожен рівень дерева.\n\n#### Основні етапи:\n\n1. **Створення контексту:**\n\n   ```jsx\n   const MyContext = React.createContext();\n   ```\n\n2. **Надання значення через Provider:**\n\n   ```jsx\n   <MyContext.Provider value={value}>\n     <Child />\n   </MyContext.Provider>\n   ```\n\n3. **Отримання значення:**\n\n   ```jsx\n   const value = useContext(MyContext);\n   ```\n\n#### Ключові моменти:\n\n- Уникає `prop drilling`.\n- Зміна значення контексту викликає ререндер усіх споживачів.\n- Використовується для глобальних даних, не локального стану."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "81287fc4-6cb7-46ce-8058-615d2a99541d",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Prop Drilling? How can it be avoided?",
+      "uk": "Що таке буріння пропсів (Prop Drilling)? Як його уникнути?"
+    },
+    "answer": {
+      "en": "**Prop Drilling** is the practice of passing props through multiple nested components even if they are only needed by a deeply nested child. It makes code harder to maintain and less readable.\n\n#### Prop Drilling example:\n\n```jsx\nconst Parent = () => {\n  const user = { name: 'John' };\n  return <Child user={user} />;\n};\n\nconst Child = ({ user }) => {\n  return <GrandChild user={user} />;\n};\n\nconst GrandChild = ({ user }) => {\n  return <p>Name: {user.name}</p>;\n};\n```\n\nHere `user` is passed through `Child` even though it does not use it. This is **Prop Drilling**.\n\n#### How to avoid Prop Drilling?\n\n| **Method** | **Description** |\n| --- | --- |\n| **Context API** | Provides data directly to the components that need it. |\n| **External state (Redux, Zustand, Jotai, Recoil)** | Global state management without passing props. |\n| **Render Props** | Sharing logic via functions instead of props. |\n| **Custom Hooks** | Extracting shared logic into reusable hooks. |\n\n#### Using Context API instead of Prop Drilling\n\n```jsx\nimport { createContext, useContext } from 'react';\n\nconst UserContext = createContext();\n\nconst Parent = () => {\n  const user = { name: 'John' };\n  return (\n    <UserContext.Provider value={user}>\n      <GrandChild />\n    </UserContext.Provider>\n  );\n};\n\nconst GrandChild = () => {\n  const user = useContext(UserContext);\n  return <p>Name: {user.name}</p>;\n};\n```\n\nHere `user` is accessed directly in `GrandChild` without intermediate components.",
+      "uk": "**Prop Drilling** - це передача пропсів через кілька рівнів вкладених компонентів, навіть якщо вони потрібні лише в глибоко вкладеному компоненті. Це ускладнює підтримку коду та знижує його читабельність.\n\n#### Приклад Prop Drilling:\n\n```jsx\nconst Parent = () => {\n  const user = { name: 'John' };\n  return <Child user={user} />;\n};\n\nconst Child = ({ user }) => {\n  return <GrandChild user={user} />;\n};\n\nconst GrandChild = ({ user }) => {\n  return <p>Ім'я: {user.name}</p>;\n};\n```\n\nТут `user` передається через `Child`, хоча він йому не потрібен. Це і є **буріння пропсів**.\n\n#### Як уникнути Prop Drilling?\n\n| **Метод** | **Опис** |\n| --- | --- |\n| **Context API** | Дозволяє передавати дані безпосередньо потрібним компонентам. |\n| **Зовнішні стейти (Redux, Zustand, Jotai, Recoil)** | Глобальне управління станом без передачі пропсів. |\n| **Render Props** | Передача логіки через функції, а не через пропси. |\n| **Custom Hooks** | Винесення спільної логіки в повторно використовувані хуки. |\n\n#### Приклад використання Context API замість Prop Drilling\n\n```jsx\nimport { createContext, useContext } from 'react';\n\nconst UserContext = createContext();\n\nconst Parent = () => {\n  const user = { name: 'John' };\n  return (\n    <UserContext.Provider value={user}>\n      <GrandChild />\n    </UserContext.Provider>\n  );\n};\n\nconst GrandChild = () => {\n  const user = useContext(UserContext);\n  return <p>Ім'я: {user.name}</p>;\n};\n```\n\nТут `user` доступний напряму у `GrandChild`, без проміжних компонентів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "12d3579d-7670-48d2-84fe-68a71ae5b87c",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Redux?",
+      "uk": "Що таке Redux?"
+    },
+    "answer": {
+      "en": "**Redux** is a state management library for JavaScript applications, commonly used with React. It relies on a single global store to hold application state and enforces predictable state changes.\n\n#### Core Redux principles:\n\n1. **Single source of truth** - the entire state is stored in one global `store`.\n2. **State is read-only** - it can only be changed via `actions`.\n3. **Changes via pure functions** - reducers take state and an `action` and return new state.\n\n#### Main Redux elements:\n\n- **Store** - holds the application state.\n- **Actions** - describe state change intentions.\n- **Reducers** - define how state changes.\n- **Dispatch** - sends an `action`.\n- **Selectors** - extract data from the `store`.\n\nRedux fits large applications with complex data flows. For simple apps, it is often unnecessary.",
+      "uk": "**Redux** - це бібліотека для керування станом у JavaScript-додатках, особливо популярна у React. Вона використовує глобальне сховище (store) для зберігання всього стану додатка та забезпечує передбачувані зміни стану.\n\n#### Основні принципи Redux:\n\n1. **Єдине джерело правди** - весь стан зберігається в одному глобальному `store`.\n2. **Стан лише для читання** - змінюється тільки через `action`.\n3. **Зміни через чисті функції** - ред’юсери отримують стан і `action`, повертаючи новий стан.\n\n#### Основні елементи Redux:\n\n- **Store** - єдине сховище стану.\n- **Actions** - описують намір змінити стан.\n- **Reducers** - визначають, як змінюється стан.\n- **Dispatch** - відправляє `action`.\n- **Selectors** - отримують дані зі `store`.\n\nRedux доцільний у великих додатках зі складною логікою стану. У малих проєктах часто надлишковий."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "63db0cbc-fe58-40d9-b1eb-2591aac9829c",
+    "difficulty": "medium",
+    "question": {
+      "en": "What state management libraries do you know in React besides Redux?",
+      "uk": "Які ти ще знаєш бібліотеки керування станом у React, окрім Redux?"
+    },
+    "answer": {
+      "en": "Besides Redux, there are several alternative state management libraries in the React ecosystem:\n\n1. **React Context API** - a built-in React mechanism for sharing state without prop drilling.\n2. **Zustand** - a lightweight library without reducers or actions, based on hooks.\n3. **Recoil** - atom-based state management with selectors for derived data.\n4. **Jotai** - a simpler atom-based approach with minimal boilerplate.\n5. **MobX** - reactive state management using observables.\n6. **Effector** - a reactive and declarative library for complex data flows.\n7. **XState** - state management based on finite state machines.\n\nThe choice depends on application size, complexity, and state control requirements.",
+      "uk": "Окрім Redux, у React екосистемі існує кілька альтернативних бібліотек для керування станом:\n\n1. **React Context API** - вбудований механізм React для передачі стану без пропсів. Підходить для простих і середніх додатків.\n2. **Zustand** - мінімалістична бібліотека без reducers та actions. Працює через хуки.\n3. **Recoil** - бібліотека з атомами та селекторами для побудови гнучкого глобального стану.\n4. **Jotai** - спрощений підхід на основі атомів із мінімальною конфігурацією.\n5. **MobX** - реактивне керування станом на основі observables.\n6. **Effector** - реактивна та декларативна бібліотека для складних потоків даних.\n7. **XState** - бібліотека для моделювання стану через машини станів.\n\nВибір бібліотеки залежить від складності логіки, масштабів додатка та вимог до керованості стану."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "0aa08c4e-281c-47c7-837f-dd562c2826d0",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Redux Thunk?",
+      "uk": "Що таке Redux Thunk?"
+    },
+    "answer": {
+      "en": "**Redux Thunk** is a Redux middleware that allows running asynchronous logic before updating the `store`.\n\n#### How it works:\n\nBy default, `dispatch` accepts only plain objects. Redux Thunk allows dispatching functions, which makes it possible to:\n\n1. Run asynchronous logic before state updates.\n2. Access `dispatch` and `getState` inside a `thunk`.\n\n#### Usage example:\n\n```jsx\nconst fetchData = () => {\n  return async dispatch => {\n    dispatch({ type: 'FETCH_START' });\n    try {\n      const res = await fetch('https://api.example.com/data');\n      const data = await res.json();\n      dispatch({ type: 'FETCH_SUCCESS', payload: data });\n    } catch (error) {\n      dispatch({ type: 'FETCH_ERROR', error });\n    }\n  };\n};\n```\n\nCall it with `dispatch(fetchData())`.\n\n#### When to use:\n\n- API requests.\n- Delayed or multi-step logic.\n- Multiple dispatches in a single action.\n\nFor complex async flows, alternatives like Redux Saga or RTK Query are often a better fit.",
+      "uk": "**Redux Thunk** - це middleware для Redux, яке дозволяє виконувати асинхронні операції перед оновленням `store`.\n\n#### Як працює:\n\nЗа замовчуванням `dispatch` приймає лише об'єкти. Redux Thunk дозволяє передавати функції, що дає змогу:\n\n1. Виконувати асинхронну логіку перед зміною стану.\n2. Мати доступ до `dispatch` та `getState` усередині `thunk`.\n\n#### Приклад використання:\n\n```jsx\nconst fetchData = () => {\n  return async dispatch => {\n    dispatch({ type: 'FETCH_START' });\n    try {\n      const res = await fetch('https://api.example.com/data');\n      const data = await res.json();\n      dispatch({ type: 'FETCH_SUCCESS', payload: data });\n    } catch (error) {\n      dispatch({ type: 'FETCH_ERROR', error });\n    }\n  };\n};\n```\n\nВиклик: `dispatch(fetchData())`.\n\n#### Коли використовувати:\n\n- Запити до API.\n- Складну або поетапну логіку оновлення стану.\n- Кілька dispatch в одній дії.\n\nДля складних сценаріїв асинхронності доцільні альтернативи на кшталт Redux Saga або RTK Query."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "92356cda-cf6e-47aa-a2f2-584d2870d2e1",
+    "difficulty": "medium",
+    "question": {
+      "en": "How does Redux Saga work?",
+      "uk": "Як працює Redux Saga?"
+    },
+    "answer": {
+      "en": "**Redux Saga** is a Redux middleware that uses generator functions (function\\*) to manage asynchronous logic and side effects.\n\n#### How it works:\n\n1. **Listens to actions** via `takeEvery` and `takeLatest`.\n2. **Executes side effects** such as API calls or delays.\n3. **Dispatches new actions** using `put`.\n\n#### Example:\n\n1. **Saga handling API request:**\n\n   ```jsx\n   import { call, put, takeEvery } from 'redux-saga/effects';\n\n   function* fetchData() {\n     try {\n       const response = yield call(fetch, 'https://api.example.com/data');\n       const data = yield response.json();\n       yield put({ type: 'FETCH_SUCCESS', payload: data });\n     } catch (error) {\n       yield put({ type: 'FETCH_ERROR', error });\n     }\n   }\n   ```\n\n#### Advantages of Redux Saga:\n\n- Handles complex async workflows.\n- Built-in cancellation with `takeLatest`.\n- Powerful effects: `call`, `put`, `select`, `delay`.\n\n**Redux Thunk** is simpler, but **Redux Saga** is better suited for complex async logic.",
+      "uk": "**Redux Saga** - це middleware для Redux, яке використовує генератори (function\\*) для керування асинхронною логікою та побічними ефектами.\n\n#### Як працює:\n\n1. **Слухає екшени** (`takeEvery`, `takeLatest`).\n2. **Виконує побічні ефекти** (API, таймери, затримки).\n3. **Диспатчить нові екшени** через `put`.\n\n#### Приклад:\n\n1. **Сага для запиту до API:**\n\n   ```jsx\n   import { call, put, takeEvery } from 'redux-saga/effects';\n\n   function* fetchData() {\n     try {\n       const response = yield call(fetch, 'https://api.example.com/data');\n       const data = yield response.json();\n       yield put({ type: 'FETCH_SUCCESS', payload: data });\n     } catch (error) {\n       yield put({ type: 'FETCH_ERROR', error });\n     }\n   }\n   ```\n\n2. **Слухач екшенів:**\n\n   ```jsx\n   function* watchFetchData() {\n     yield takeEvery('FETCH_REQUEST', fetchData);\n   }\n   ```\n\n#### Переваги Redux Saga:\n\n- Контроль складної асинхронної логіки.\n- Підтримка скасувань через `takeLatest`.\n- Потужні ефекти: `call`, `put`, `select`, `delay`.\n\n**Redux Thunk** простіший, але для складних сценаріїв **Redux Saga** ефективніша."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "7861db88-d11d-4c17-a04d-2633778472f4",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is React Fiber?",
+      "uk": "Що таке React Fiber?"
+    },
+    "answer": {
+      "en": "**React Fiber** is the internal rendering architecture of React introduced in version 16. It was designed to improve performance, enable asynchronous rendering, and provide better control over UI updates.\n\n#### Key features of React Fiber:\n\n1. **Interruptible rendering** - React can pause, resume, or cancel rendering work.\n2. **Asynchronous rendering** - rendering work is split into chunks without blocking the main thread.\n3. **Update prioritization** - different updates have different priorities.\n4. **Task scheduling** - rendering is broken into small units that can yield to other tasks.\n\nReact Fiber is the foundation for Concurrent Rendering, Suspense, and modern React performance optimizations.",
+      "uk": "**React Fiber** - це внутрішня архітектура рендерингу React, представлена з версії 16. Вона створена для підвищення продуктивності, підтримки асинхронного рендерингу та кращого керування оновленнями UI.\n\n#### Ключові особливості React Fiber:\n\n1. **Переривний рендеринг** - React може зупиняти, відкладати або відновлювати рендеринг для обробки важливіших задач.\n2. **Асинхронний підхід** - рендеринг виконується частинами без блокування головного потоку.\n3. **Пріоритети оновлень** - різні типи оновлень UI мають різний пріоритет.\n4. **Розбиття на підзадачі** - рендеринг поділяється на дрібні етапи, між якими React може обробляти події.\n\nFiber є фундаментом для Concurrent Rendering, Suspense та сучасних механізмів оптимізації React."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "74cb01fe-af7f-4ea1-a7fb-a8f8cbf9863f",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Lifting State Up in React?",
+      "uk": "Що таке Lifting State Up у React?"
+    },
+    "answer": {
+      "en": "**Lifting State Up** is a React pattern where state is moved to the closest common parent component so multiple child components can share the same data.\n\n#### Core idea:\n\n1. **Components that share data should not maintain separate local state.**\n2. **State is stored in a common parent and passed down via props.**\n\n#### How it works:\n\n1. **The parent component owns the state.**\n2. **It passes state and update functions to children via props.**\n3. **Children notify the parent about changes using callbacks.**\n\nLifting State Up enables shared state without introducing global state management.",
+      "uk": "**Lifting State Up** - це підхід у React, за якого стан піднімається до найближчого спільного батьківського компонента, щоб кілька дочірніх компонентів могли використовувати одні й ті самі дані.\n\n#### Основна ідея:\n\n1. **Компоненти зі спільними даними не повинні зберігати окремі стани.**\n2. **Стан зберігається у спільного батьківського компонента і передається вниз через props.**\n\n#### Як це працює:\n\n1. **Батьківський компонент зберігає стан.**\n2. **Він передає стан і функції його оновлення дочірнім компонентам через props.**\n3. **Дочірні компоненти повідомляють про зміни через передані callback-функції.**\n\nLifting State Up використовується для синхронізації UI без глобального стану."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "3adbaa0f-a703-4cc3-a91c-9809defc2300",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are Controlled Components?",
+      "uk": "Що таке контрольовані компоненти (Controlled Components)?"
+    },
+    "answer": {
+      "en": "**Controlled Components** are React components where form values are fully controlled by component state via `state`. All changes are handled through event handlers.\n\n#### How it works:\n\n1. **Form values are stored in state.**\n2. **onChange updates the state.**\n3. **UI always reflects the current state.**\n\nThis pattern provides predictable behavior and easier validation for forms.",
+      "uk": "**Контрольовані компоненти** — це компоненти React, у яких значення елементів форми повністю контролюється станом компонента через `state`. Усі зміни відбуваються через обробники подій.\n\n#### Як це працює:\n\n1. **Значення форми зберігається у state.**\n2. **Подія onChange оновлює state.**\n3. **UI завжди відображає актуальний state.**\n\nЦей підхід забезпечує повний контроль над даними форми та спрощує валідацію."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "104f8344-3bae-40e4-b93a-b78916282d73",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are Uncontrolled Components?",
+      "uk": "Що таке неконтрольовані компоненти (Uncontrolled Components)?"
+    },
+    "answer": {
+      "en": "**Uncontrolled Components** are React components where form values are stored directly in the DOM instead of React `state`. Values are accessed using `refs`.\n\n#### Key characteristics:\n\n1. **State is managed by the DOM.**\n2. **Does not rely on useState or setState.**\n3. **Values are accessed via refs.**\n\nThis approach is suitable for simple forms or integration with non-React libraries.",
+      "uk": "**Неконтрольовані компоненти** — це React-компоненти, у яких значення елементів форми зберігаються безпосередньо в DOM, а не в `state` React. Доступ до значень здійснюється через `ref`.\n\n#### Основні характеристики:\n\n1. **Стан керується DOM.**\n2. **Не використовує useState або setState.**\n3. **Значення отримуються через refs.**\n\nПідхід корисний для простих форм або інтеграції зі сторонніми бібліотеками."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "7e2da46a-f2f5-42b4-a64f-27ce895dfdcf",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you create a form in React?",
+      "uk": "Як створити форму в React?"
+    },
+    "answer": {
+      "en": "Forms in React are built using the `<form>` element and can be implemented as controlled or uncontrolled components.\n\n#### Controlled form:\n\nForm values are stored in `state` and updated via event handlers.\n\n#### Uncontrolled form:\n\nForm values are stored in the DOM and accessed using `ref`.\n\nControlled forms are better for complex logic and validation. Uncontrolled forms suit simple cases.",
+      "uk": "Форми в React будуються на базі HTML-елемента `<form>` і можуть бути реалізовані як керовані або некеровані компоненти.\n\n#### Керована форма:\n\nЗначення полів зберігаються у `state` та оновлюються через обробники подій.\n\n#### Некерована форма:\n\nЗначення полів зберігаються у DOM, доступ здійснюється через `ref`.\n\nКеровані форми підходять для складної логіки та валідації. Некеровані — для простих сценаріїв."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "ac7e86ae-107c-4d29-bd5d-9387f8ae162b",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you validate props in React?",
+      "uk": "Як застосувати перевірку пропсів (props) у React?"
+    },
+    "answer": {
+      "en": "To validate props in React, developers use **PropTypes**. They provide runtime type checking during development.\n\n#### Usage example:\n\n```jsx\nimport PropTypes from 'prop-types';\n\nfunction UserCard({ name, age }) {\n  return <div>{name} ({age})</div>;\n}\n\nUserCard.propTypes = {\n  name: PropTypes.string.isRequired,\n  age: PropTypes.number,\n};\n```\n\nPropTypes are checked only in development mode and do not enforce types at runtime in production.",
+      "uk": "Для перевірки пропсів у React використовують **PropTypes**. Вони дозволяють перевіряти типи пропсів під час розробки.\n\n#### Приклад використання:\n\n```jsx\nimport PropTypes from 'prop-types';\n\nfunction UserCard({ name, age }) {\n  return <div>{name} ({age})</div>;\n}\n\nUserCard.propTypes = {\n  name: PropTypes.string.isRequired,\n  age: PropTypes.number,\n};\n```\n\nPropTypes виконують перевірку лише під час розробки та не впливають на runtime у продакшені."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "a10b0cb5-3f98-4e7b-949b-e054871195a3",
+    "difficulty": "medium",
+    "question": {
+      "en": "How is React Router different from traditional routing?",
+      "uk": "Чим React Router відрізняється від звичайної маршрутизації?"
+    },
+    "answer": {
+      "en": "#### Difference between React Router and traditional routing:\n\n| **Criterion** | **React Router** | **Traditional Routing (Server-Side)** |\n| --- | --- | --- |\n| **Routing type** | Client-side (SPA) | Server-side (MPA) |\n| **Navigation** | No page reload | Full page reload |\n| **Performance** | Faster after initial load | Slower due to repeated requests |\n| **SEO** | Requires SSR for full support | Good by default |\n| **Rendering** | React components | Server-rendered HTML |",
+      "uk": "#### Різниця між React Router і звичайною маршрутизацією:\n\n| **Критерій** | **React Router** | **Звичайна маршрутизація (Server-Side)** |\n| --- | --- | --- |\n| **Тип маршрутизації** | Клієнтська (SPA) | Серверна (MPA) |\n| **Навігація** | Без перезавантаження сторінки | З повним перезавантаженням |\n| **Продуктивність** | Вища після першого завантаження | Нижча через повторні запити |\n| **SEO** | Потребує SSR для повної підтримки | Добра за замовчуванням |\n| **Рендеринг** | Компоненти React | HTML з сервера |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "3f265bce-6e17-4350-9146-58e7a6f8331f",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you pass props in React Router?",
+      "uk": "Як передавати пропси в React Router?"
+    },
+    "answer": {
+      "en": "In React Router, props are passed indirectly via routes, navigation state, or URL parameters.\n\n1. **Via Route (React Router v5)**\n\n   ```jsx\n   <Route path=\"/profile\" render={props => <Profile {...props} user=\"John\" />} />\n   ```\n\n2. **Via navigation state**\n\n   ```jsx\n   navigate('/profile', { state: { user: 'John' } });\n   ```\n\n3. **Via URL parameters**\n\n   ```jsx\n   const { id } = useParams();\n   ```\n\nIn React Router v6, navigation state and URL params are the primary approaches.",
+      "uk": "У React Router пропси передаються не напряму, а через маршрути, навігацію або параметри URL.\n\n1. **Через Route (React Router v5)**\n\n   ```jsx\n   <Route path=\"/profile\" render={props => <Profile {...props} user=\"John\" />} />\n   ```\n\n2. **Через навігацію (state)**\n\n   ```jsx\n   navigate('/profile', { state: { user: 'John' } });\n   ```\n\n3. **Через параметри маршруту**\n\n   ```jsx\n   const { id } = useParams();\n   ```\n\nУ React Router v6 основні способи — state навігації та параметри URL."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "3427a5e0-1648-4366-ac75-2cde5b9d7961",
+    "difficulty": "medium",
+    "question": {
+      "en": "What styling approaches are used in React components?",
+      "uk": "Способи стилізації в React-компонентах?"
+    },
+    "answer": {
+      "en": "#### Main styling approaches in React:\n\n1. **Inline styles** — styles passed via the `style` prop as a JS object.\n2. **CSS files** — traditional CSS imported into components.\n3. **CSS Modules** — locally scoped styles per component.\n4. **CSS-in-JS (styled-components, Emotion)** — styles written directly in JavaScript.\n5. **Utility-first (Tailwind CSS)** — styling via predefined utility classes.\n6. **Sass / SCSS** — extended CSS with variables and nesting.\n\nThe choice depends on project scale, style isolation needs, and team preferences.",
+      "uk": "#### Основні способи стилізації в React:\n\n1. **Inline-стилі** — стилі передаються через атрибут `style` у вигляді JS-об’єкта.\n2. **CSS-файли** — класичні CSS, імпортовані в компонент.\n3. **CSS Modules** — локальна ізоляція стилів на рівні компонента.\n4. **CSS-in-JS (styled-components, Emotion)** — стилі описуються безпосередньо в JavaScript.\n5. **Utility-first (Tailwind CSS)** — стилізація через готові utility-класи.\n6. **Sass / SCSS** — розширений CSS з вкладеністю та змінними.\n\nВибір підходу залежить від масштабу проєкту, вимог до ізоляції стилів та підходів команди."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "f38ffddf-d689-43ed-97ba-a85ed7aaa96c",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the advantages of CSS Modules?",
+      "uk": "У чому перевага модульних стилів (CSS Modules)?"
+    },
+    "answer": {
+      "en": "**CSS Modules** provide locally scoped styles at the component level.\n\n1. **Local scope** — styles apply only to the component and avoid global conflicts.\n2. **Unique class names** — class names are automatically generated, preventing overrides.\n3. **Easier maintenance** — styles remain manageable as the project grows.\n\nCSS Modules help keep styles predictable and isolated.",
+      "uk": "**CSS Modules** — це підхід до стилізації, який забезпечує локальну область видимості стилів на рівні компонента.\n\n1. **Локальний scope** — стилі застосовуються лише до конкретного компонента і не конфліктують з іншими.\n2. **Унікальні імена класів** — імена генеруються автоматично, що усуває перезапис стилів.\n3. **Простіше масштабування** — стилі залишаються керованими у великих проєктах.\n\nCSS Modules зменшують кількість помилок і спрощують підтримку стилів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "982e5896-145a-4285-8531-7dc7e94d7837",
+    "difficulty": "medium",
+    "question": {
+      "en": "What approaches are used to optimize React application performance?",
+      "uk": "Які підходи ви знаєте для оптимізації продуктивності React-додатків?"
+    },
+    "answer": {
+      "en": "1. **Component memoization** — using `React.memo` and `PureComponent`\n2. **Memoizing values and callbacks** — `useMemo`, `useCallback`\n3. **Code splitting** — dynamic imports with `React.lazy`\n4. **List virtualization** — render only visible items\n5. **Render control** — avoid unnecessary re-renders\n6. **State optimization** — keep state minimal and local\n\nCore principle: reduce renders, DOM nodes, and main-thread work.",
+      "uk": "1. **Мемоїзація компонентів** — використання `React.memo` та `PureComponent`\n2. **Мемоїзація значень і функцій** — `useMemo`, `useCallback`\n3. **Code Splitting** — динамічні імпорти з `React.lazy`\n4. **Віртуалізація списків** — рендер лише видимих елементів\n5. **Контроль ререндерів** — уникайте зайвих оновлень\n6. **Оптимізація стану** — мінімальний і локальний state\n\nКлючова ідея: менше ререндерів, менше DOM, менше роботи в main thread."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "eb64d999-8799-49a0-9563-3c27607b19c3",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between memo and useMemo?",
+      "uk": "Різниця між memo і useMemo?"
+    },
+    "answer": {
+      "en": "#### Difference between memo and useMemo\n\n| **Criteria** | **memo** | **useMemo** |\n| --- | --- | --- |\n| **What is it?** | Higher-order component (HOC) | Hook |\n| **Purpose** | Prevents unnecessary component re-renders | Caches computation results |\n| **Where used?** | Wraps a component | Inside a component |\n| **What is cached?** | Rendered output of a component | Return value of a function |\n| **Typical use case** | Component renders often with same props | Expensive calculation with dependencies |\n\nmemo optimizes rendering. useMemo optimizes calculations.",
+      "uk": "#### Різниця між memo і useMemo\n\n| **Критерій** | **memo** | **useMemo** |\n| --- | --- | --- |\n| **Що це?** | Функція вищого порядку (HOC) | Хук |\n| **Призначення** | Запобігає повторному рендеру компонента | Кешує результат обчислення |\n| **Де використовується?** | Навколо компонента | Всередині компонента |\n| **Що кешує?** | Результат рендеру компонента | Значення, що повертає функція |\n| **Типовий кейс** | Компонент часто рендериться з тими ж пропсами | Важке обчислення залежить від deps |\n\nmemo оптимізує рендер компонента. useMemo оптимізує обчислення всередині компонента."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "698b37c0-9e53-478b-8a3b-b35b7108b1ee",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why should you pass a function to setState()?",
+      "uk": "Навіщо setState() потрібно передавати функцію?"
+    },
+    "answer": {
+      "en": "A function is passed to `setState()` when the next state depends on the previous one. This is required because state updates are asynchronous and batched.\n\n#### Core issue:\n\nUsing the current state value directly may produce incorrect results when multiple updates occur.\n\n#### Correct approach:\n\nThe function form receives the latest state and guarantees correct updates.",
+      "uk": "Функцію в `setState()` передають тоді, коли новий стан залежить від попереднього. Це необхідно через асинхронність та батчинг оновлень стану.\n\n#### Суть проблеми:\n\nПряме використання значення стану може призвести до помилок, якщо кілька оновлень виконуються поспіль.\n\n#### Правильний підхід:\n\nФункція отримує актуальний попередній стан і гарантує коректний результат."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "fa959c43-7e78-48b5-85de-0efe81d8d132",
+    "difficulty": "medium",
+    "question": {
+      "en": "How are refs used in React to interact with DOM elements?",
+      "uk": "Як рефи (refs) у React використовуються для взаємодії з DOM елементами?"
+    },
+    "answer": {
+      "en": "Refs in React provide direct access to DOM elements or component instances, bypassing props and state.\n\n1. **Creating refs** — using `useRef()` or `createRef()`\n2. **Binding to DOM** — passing the ref via the `ref` attribute\n3. **Accessing the element** — through `ref.current`\n4. **Common use cases** — focus management, scrolling, measurements, third-party integrations.\n\nRefs should not be used for state management and must be applied sparingly.",
+      "uk": "Рефи (refs) у React використовуються для прямого доступу до DOM-елементів або екземплярів компонентів, минаючи пропси та state.\n\n1. **Створення рефа** — через `useRef()` або `createRef()`\n2. **Привʼязка до DOM** — передача рефа в атрибут `ref`\n3. **Доступ до елемента** — через `ref.current`\n4. **Типові сценарії** — фокус, скрол, вимірювання розмірів, інтеграція з не-React бібліотеками.\n\nРефи не призначені для керування станом і повинні використовуватись обмежено."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "839d753a-5cb4-4181-8924-e9bfbdfaca82",
+    "difficulty": "medium",
+    "question": {
+      "en": "How to use InnerHtml in React?",
+      "uk": "Як використовувати InnerHtml у React?"
+    },
+    "answer": {
+      "en": "- In React, HTML content is injected into the DOM using dangerouslySetInnerHTML. It allows rendering raw HTML but introduces security risks if the content is not sanitized.\n\n#### Usage example of `dangerouslySetInnerHTML`:\n\n```jsx\nconst MyComponent = () => {\n  const htmlContent = '<p>This is <strong>HTML</strong> content.</p>';\n\n  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;\n};\n```\n\n#### Explanation:\n\n- `dangerouslySetInnerHTML` accepts an object with the key `__html` containing an HTML string.\n- Unsafe when used with untrusted data sources.\n\n#### When to use:\n\n- When the content source is trusted.\n- For rendering CMS or prebuilt HTML content.\n\n#### Warnings:\n\n- Never inject user input without sanitization.\n- Use libraries like DOMPurify to prevent XSS attacks.\n\n**Sanitization example:**\n\n```jsx\nimport DOMPurify from 'dompurify';\n\nconst MyComponent = () => {\n  const dirtyHtml = \"<img src=x onerror=alert('XSS')>\";\n  const cleanHtml = DOMPurify.sanitize(dirtyHtml);\n\n  return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;\n};\n```\n\n`dangerouslySetInnerHTML` should be used sparingly and carefully.",
+      "uk": "- У React для вставки HTML-контенту в DOM використовується атрибут dangerouslySetInnerHTML. Він дозволяє вставляти сирий HTML безпосередньо в компонент, але є потенційно небезпечним через ризик XSS-атак, якщо дані не очищені.\n\n#### Приклад використання `dangerouslySetInnerHTML`:\n\n```jsx\nconst MyComponent = () => {\n  const htmlContent = '<p>Це <strong>HTML</strong> контент.</p>';\n\n  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;\n};\n```\n\n#### Пояснення:\n\n- `dangerouslySetInnerHTML` приймає обʼєкт, де ключ `__html` містить HTML-рядок.\n- Метод небезпечний при використанні даних з ненадійних джерел.\n\n#### Коли використовувати:\n\n- Коли джерело даних повністю контрольоване.\n- Для рендерингу HTML-статей або шаблонів.\n\n#### Застереження:\n\n- Ніколи не вставляйте користувацькі дані без попередньої очистки.\n- Для захисту використовуйте бібліотеки на кшталт DOMPurify.\n\n**Приклад очищення даних:**\n\n```jsx\nimport DOMPurify from 'dompurify';\n\nconst MyComponent = () => {\n  const dirtyHtml = \"<img src=x onerror=alert('XSS')>\";\n  const cleanHtml = DOMPurify.sanitize(dirtyHtml);\n\n  return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;\n};\n```\n\n`dangerouslySetInnerHTML` слід застосовувати лише у виняткових випадках."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "8caba9c9-32c9-4caa-a809-1479e99ac994",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is ReactDOMServer?",
+      "uk": "Що таке ReactDOMServer?"
+    },
+    "answer": {
+      "en": "**ReactDOMServer** is a library included in React that enables server-side rendering (SSR) of React components. It generates HTML on the server and sends it to the client, improving performance and SEO.\n\n#### Core methods:\n\n1. **ReactDOMServer.renderToString():** Renders React elements to an HTML string for the initial page load.\n\n   ```jsx\n   import ReactDOMServer from 'react-dom/server';\n   const html = ReactDOMServer.renderToString(<App />);\n   ```\n\n2. **ReactDOMServer.renderToStaticMarkup():** Produces plain HTML without React-specific attributes. Useful for fully static pages.\n\n   ```jsx\n   const html = ReactDOMServer.renderToStaticMarkup(<App />);\n   ```\n\n3. **ReactDOMServer.hydrate():** Used on the client to attach React interactivity to server-rendered HTML.\n\n   ```jsx\n   ReactDOM.hydrate(<App />, document.getElementById('root'));\n   ```\n\n#### Usage:\n\n- **SSR (Server-Side Rendering):** Components are rendered on the server and delivered as ready HTML.\n- **SEO:** Search engines can index pages without executing JavaScript.\n\n`ReactDOMServer` enables pre-rendered pages with faster load times and improved SEO.",
+      "uk": "**ReactDOMServer** — це бібліотека, що входить до складу React і використовується для серверного рендерингу (SSR) React-компонентів. Вона дозволяє генерувати HTML на сервері та передавати його клієнту, що покращує продуктивність і SEO.\n\n#### Основні методи:\n\n1. **ReactDOMServer.renderToString():** Рендерить React-елементи в HTML-рядок для початкового завантаження сторінки.\n\n   ```jsx\n   import ReactDOMServer from 'react-dom/server';\n   const html = ReactDOMServer.renderToString(<App />);\n   ```\n\n2. **ReactDOMServer.renderToStaticMarkup():** Генерує чистий HTML без React-атрибутів. Підходить для повністю статичних сторінок.\n\n   ```jsx\n   const html = ReactDOMServer.renderToStaticMarkup(<App />);\n   ```\n\n3. **ReactDOMServer.hydrate():** Використовується на клієнті для підключення реактивності до серверно-рендереного HTML.\n\n   ```jsx\n   ReactDOM.hydrate(<App />, document.getElementById('root'));\n   ```\n\n#### Використання:\n\n- **SSR (Server-Side Rendering):** Рендеринг компонентів на сервері з передачею готового HTML клієнту.\n- **SEO:** Пошукові системи отримують готовий HTML без виконання JavaScript.\n\n`ReactDOMServer` використовується для створення попередньо зрендерених сторінок з кращою швидкістю завантаження та SEO."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "711e103d-3b8c-471e-8ff5-197b424b74c7",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the usage of the react-dom package?",
+      "uk": "Яке використання пакету react-dom?"
+    },
+    "answer": {
+      "en": "The `react-dom` package is responsible for connecting React with the real DOM in web applications. Core features include:\n\n1. **ReactDOM.render():** Renders a React component into the real DOM.\n\n   ```jsx\n   ReactDOM.render(<App />, document.getElementById('root'));\n   ```\n\n2. **ReactDOM.hydrate():** Attaches React to server-rendered HTML.\n\n   ```jsx\n   ReactDOM.hydrate(<App />, document.getElementById('root'));\n   ```\n\n3. **ReactDOM.createPortal():** Renders children into a different DOM subtree.\n\n   ```jsx\n   ReactDOM.createPortal(<Modal />, document.getElementById('modal-root'));\n   ```\n\n4. **ReactDOM.unmountComponentAtNode():** Removes a React component from the DOM.\n\n   ```jsx\n   ReactDOM.unmountComponentAtNode(document.getElementById('root'));\n   ```\n\n5. **ReactDOM.findDOMNode():** Provides access to a component’s DOM node. Considered legacy.",
+      "uk": "Пакет `react-dom` використовується для взаємодії React із реальним DOM у веб-додатках. Основні функції:\n\n1. **ReactDOM.render():** Використовується для рендерингу React-компонента в реальний DOM.\n\n   ```jsx\n   ReactDOM.render(<App />, document.getElementById('root'));\n   ```\n\n2. **ReactDOM.hydrate():** Використовується для гідратації серверно-зрендереного HTML.\n\n   ```jsx\n   ReactDOM.hydrate(<App />, document.getElementById('root'));\n   ```\n\n3. **ReactDOM.createPortal():** Дозволяє рендерити елементи поза основною ієрархією DOM.\n\n   ```jsx\n   ReactDOM.createPortal(<Modal />, document.getElementById('modal-root'));\n   ```\n\n4. **ReactDOM.unmountComponentAtNode():** Видаляє React-компонент з DOM.\n\n   ```jsx\n   ReactDOM.unmountComponentAtNode(document.getElementById('root'));\n   ```\n\n5. **ReactDOM.findDOMNode():** Надає доступ до DOM-елемента компонента. Вважається застарілим підходом."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "3ea16600-5d44-45cf-88d0-d2e3dd6837d0",
+    "difficulty": "medium",
+    "question": {
+      "en": "How to use React.lazy and React.Suspense to load application code?",
+      "uk": "Як використовувати React.lazy та React.Suspense для запуску коду програми?"
+    },
+    "answer": {
+      "en": "`React.lazy` and `React.Suspense` are used for **dynamic component loading** in React via **code splitting**. Code is loaded only when required, reducing initial load time.\n\n#### How it works:\n\n1. **React.lazy()** enables deferred importing of components.\n2. **React.Suspense** wraps lazy components and displays fallback content during loading.\n\n#### Example:\n\n1. **Lazy-loaded component:**\n\n   ```jsx\n   const MyComponent = React.lazy(() => import('./MyComponent'));\n   ```\n\n2. **Suspense wrapper:**\n\n   ```jsx\n   function App() {\n     return (\n       <React.Suspense fallback={<div>Loading...</div>}>\n         <MyComponent />\n       </React.Suspense>\n     );\n   }\n   ```\n\n#### Benefits:\n\n- Smaller initial bundle size.\n- Faster initial application load.",
+      "uk": "`React.lazy` та `React.Suspense` використовуються для **динамічного завантаження компонентів** у React з метою **розподілу коду** (code splitting). Компоненти завантажуються лише за потреби, що зменшує початкове навантаження.\n\n#### Як це працює:\n\n1. **React.lazy()** дозволяє відкладено імпортувати компонент.\n2. **React.Suspense** обгортає ледачі компоненти та показує fallback-контент під час завантаження.\n\n#### Приклад:\n\n1. **Динамічний імпорт компонента:**\n\n   ```jsx\n   const MyComponent = React.lazy(() => import('./MyComponent'));\n   ```\n\n2. **Використання React.Suspense:**\n\n   ```jsx\n   function App() {\n     return (\n       <React.Suspense fallback={<div>Завантаження...</div>}>\n         <MyComponent />\n       </React.Suspense>\n     );\n   }\n   ```\n\n#### Переваги:\n\n- Менший розмір початкового бандлу.\n- Швидше початкове завантаження застосунку."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "b67542d9-a067-48a4-9950-682d6a038b3a",
+    "difficulty": "medium",
+    "question": {
+      "en": "Best security practices in React?",
+      "uk": "Найкращі практики безпеки в React?"
+    },
+    "answer": {
+      "en": "#### Best security practices in React:\n\n1. **Prevent XSS:**\n   - Sanitize all user input before rendering.\n   - Avoid `dangerouslySetInnerHTML`\n\n2. **Avoid code injection:**\n   - Do not use `eval()`\n\n3. **Secure API access:**\n   - Always use HTTPS.\n   - Use HTTPOnly and Secure cookies.\n\n4. **Protect against CSRF:**\n   - Use CSRF tokens.\n   - Use cookies with `SameSite`\n\n5. **Access control:**\n   - Never trust client-side validation.\n   - Enforce checks on the server.\n\n6. **Dependency updates:**\n   - Audit dependencies using `npm audit`\n\n7. **Secrets management:**\n   - Never store secrets in client code.\n\nThese practices reduce common security risks in React applications.",
+      "uk": "#### Найкращі практики безпеки в React:\n\n1. **Запобігання XSS:**\n   - Очищуйте всі користувацькі дані перед відображенням.\n   - Уникайте `dangerouslySetInnerHTML`\n\n2. **Захист від інʼєкцій коду:**\n   - Не використовуйте `eval()` та подібні API.\n\n3. **Безпечна робота з API:**\n   - Використовуйте HTTPS.\n   - Застосовуйте HTTPOnly та Secure cookies.\n\n4. **Захист від CSRF:**\n   - Використовуйте CSRF-токени.\n   - Використовуйте cookie з флагом `SameSite`\n\n5. **Контроль доступу:**\n   - Не довіряйте клієнтській валідації.\n   - Перевіряйте права на сервері.\n\n6. **Оновлення залежностей:**\n   - Регулярно перевіряйте залежності через `npm audit`\n\n7. **Керування секретами:**\n   - Не зберігайте секрети в клієнтському коді.\n\nЦі практики зменшують типові ризики безпеки в React-додатках."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "4f61b2bf-476b-487f-9cc9-326ba259474b",
+    "difficulty": "medium",
+    "question": {
+      "en": "How to handle errors in React using Error Boundaries?",
+      "uk": "Як обробляти помилки в React за допомогою Error Boundary?"
+    },
+    "answer": {
+      "en": "**Error Boundaries** allow React applications to catch rendering and lifecycle errors without crashing the entire app.\n\n#### Key points:\n\n- An Error Boundary is a wrapper component that catches errors in its children.\n- **Error Boundaries** do not catch errors inside themselves.\n\n#### Implementation:\n\n1. **Create Error Boundary:**\n\n   ```jsx\n   class ErrorBoundary extends React.Component {\n     state = { hasError: false };\n\n     static getDerivedStateFromError() {\n       return { hasError: true };\n     }\n\n     componentDidCatch(error, info) {\n       console.error(error, info);\n     }\n\n     render() {\n       if (this.state.hasError) {\n         return <h1>Something went wrong.</h1>;\n       }\n       return this.props.children;\n     }\n   }\n   ```\n\n2. **Usage:**\n\n   ```jsx\n   <ErrorBoundary>\n     <MyComponent />\n   </ErrorBoundary>\n   ```\n\n#### Limitations:\n\n- Does not catch errors in event handlers, async code, or network requests.",
+      "uk": "**Error Boundaries** у React дозволяють перехоплювати помилки під час рендерингу, у методах життєвого циклу та конструкторах компонентів без падіння всього додатку.\n\n#### Основні моменти:\n\n- Error Boundary — це компонент-обгортка, який ловить помилки у своїх дочірніх компонентах.\n- **Error Boundaries** не ловлять помилки всередині самих себе.\n\n#### Реалізація Error Boundary:\n\n1. **Створення компонента:**\n   - `static getDerivedStateFromError(error)` — оновлює стан при помилці.\n   - `componentDidCatch(error, info)` — логування або відправка помилки.\n\n   ```jsx\n   class ErrorBoundary extends React.Component {\n     state = { hasError: false };\n\n     static getDerivedStateFromError() {\n       return { hasError: true };\n     }\n\n     componentDidCatch(error, info) {\n       console.error(error, info);\n     }\n\n     render() {\n       if (this.state.hasError) {\n         return <h1>Щось пішло не так.</h1>;\n       }\n       return this.props.children;\n     }\n   }\n   ```\n\n2. **Використання:**\n\n   ```jsx\n   <ErrorBoundary>\n     <MyComponent />\n   </ErrorBoundary>\n   ```\n\n#### Обмеження:\n\n- Не ловить помилки в обробниках подій, async-коді, таймерах та HTTP-запитах."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "7d478989-9970-4d85-a8b7-270b98bc6ee4",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is inheritance inversion?",
+      "uk": "Що таке інверсія спадкування (Inheritance Inversion)?"
+    },
+    "answer": {
+      "en": "- **Inheritance Inversion** is an anti-pattern where a base class depends on its subclasses or delegates core behavior to them.\n\n#### Problems with inheritance inversion\n\n- Violates the Liskov Substitution Principle.\n- Hard to extend or refactor base classes.\n- Creates tight coupling.\n\n#### Bad practice example\n\n```js\nclass Parent {\n  method() {\n    throw new Error('Must be implemented by child');\n  }\n}\n\nclass Child extends Parent {\n  method() {\n    return 'Child implementation';\n  }\n}\n```\n\nThe base class has no real behavior and forces subclasses to define it.\n\n#### Alternative: composition\n\n```js\nclass Behavior {\n  method() {\n    return 'Implementation without inversion';\n  }\n}\n\nclass Parent {\n  constructor() {\n    this.behavior = new Behavior();\n  }\n\n  method() {\n    return this.behavior.method();\n  }\n}\n```\n\nComposition removes subclass dependency and improves maintainability.",
+      "uk": "- **Інверсія спадкування (Inheritance Inversion)** — це антипатерн, за якого базовий клас втрачає автономну логіку та фактично залежить від своїх нащадків.\n\n#### Проблеми інверсії спадкування\n\n- Порушення принципу підстановки Лісков (LSP).\n- Складність розширення базового класу.\n- Тісна звʼязність між класами.\n\n#### Приклад поганої практики\n\n```js\nclass Parent {\n  method() {\n    throw new Error('Метод має бути реалізований у нащадку');\n  }\n}\n\nclass Child extends Parent {\n  method() {\n    return 'Реалізація в нащадку';\n  }\n}\n```\n\nБазовий клас не має власної поведінки і примушує нащадків її визначати.\n\n#### Альтернатива: композиція\n\n```js\nclass Behavior {\n  method() {\n    return 'Реалізація без інверсії';\n  }\n}\n\nclass Parent {\n  constructor() {\n    this.behavior = new Behavior();\n  }\n\n  method() {\n    return this.behavior.method();\n  }\n}\n```\n\nКомпозиція зменшує залежності та підвищує гнучкість коду."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "6fb9f8c7-5c00-4d50-973c-a50d509c73e0",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is polling? How is it implemented in React?",
+      "uk": "Що таке \"опитування\" (Polling)? Як його реалізувати у React?"
+    },
+    "answer": {
+      "en": "**Polling** is a technique where the client periodically requests updated data from the server when push mechanisms are unavailable.\n\n#### Polling implementation in React\n\nPolling can be implemented using `setInterval`, `setTimeout` and the `useEffect` hook.\n\n1. **Using setInterval:**\n\n   ```jsx\n   useEffect(() => {\n     const fetchData = async () => {\n       const res = await fetch('/api/data');\n       setData(await res.json());\n     };\n\n     fetchData();\n     const id = setInterval(fetchData, 5000);\n     return () => clearInterval(id);\n   }, []);\n   ```\n\n2. **Using setTimeout:** Prevents overlapping requests.\n\nWith setTimeout, the next request starts only after the previous one completes.",
+      "uk": "**Опитування (Polling)** — це періодичне надсилання запитів до сервера для отримання оновлених даних, коли push-механізми недоступні.\n\n#### Реалізація Polling у React\n\nPolling реалізують через `setInterval`, `setTimeout` або хук `useEffect`.\n\n1. **Використання setInterval:**\n\n   ```jsx\n   useEffect(() => {\n     const fetchData = async () => {\n       const res = await fetch('/api/data');\n       setData(await res.json());\n     };\n\n     fetchData();\n     const id = setInterval(fetchData, 5000);\n     return () => clearInterval(id);\n   }, []);\n   ```\n\n2. **Використання setTimeout:** Дозволяє уникнути накладання запитів.\n\nsetTimeout викликає наступний запит лише після завершення попереднього."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "0ed44125-67d9-40af-99de-6a5a435d67d6",
+    "difficulty": "medium",
+    "question": {
+      "en": "How is two-way data binding implemented in React?",
+      "uk": "Як у React реалізувати двостороннє зв'язування даних?"
+    },
+    "answer": {
+      "en": "In React, two-way data binding is implemented using **controlled components**, where component `state` is synchronized with an `input` element.\n\n#### Example\n\n```jsx\nimport { useState } from 'react';\n\nconst TwoWayBinding = () => {\n  const [value, setValue] = useState('');\n\n  return (\n    <input\n      value={value}\n      onChange={e => setValue(e.target.value)}\n    />\n  );\n};\n```\n\nUser input updates state, and state controls what is rendered.",
+      "uk": "У React двостороннє зв’язування даних реалізується через **керовані компоненти**, де стан (`state`) синхронізується з полем вводу (`input`).\n\n#### Приклад реалізації\n\n```jsx\nimport { useState } from 'react';\n\nconst TwoWayBinding = () => {\n  const [value, setValue] = useState('');\n\n  return (\n    <input\n      value={value}\n      onChange={e => setValue(e.target.value)}\n    />\n  );\n};\n```\n\nЗміна значення в полі вводу одразу оновлює стан, а стан керує відображенням."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "98afcfda-7cf8-4106-9a8e-10e08868dbe5",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Reverse Data Flow in React?",
+      "uk": "Що таке зворотний потік даних (Reverse Data Flow) у React?"
+    },
+    "answer": {
+      "en": "Reverse Data Flow in React means passing data changes from a child component back to a parent component, without breaking one-way data flow.\n\n#### How it is implemented:\n\n1. **Callback functions**: the parent passes a function via props and the child invokes it on changes.\n2. **Example:**\n\n   ```jsx\n   function Parent() {\n     const [value, setValue] = useState('');\n\n     const handleChange = v => setValue(v);\n\n     return <Child onValueChange={handleChange} />;\n   }\n\n   function Child({ onValueChange }) {\n     return <input onChange={e => onValueChange(e.target.value)} />;\n   }\n   ```\n\nThe child triggers updates, but state ownership remains in the parent.",
+      "uk": "Зворотний потік даних (Reverse Data Flow) у React — це передача змін від дочірнього компонента до батьківського. На практиці це реалізується без прямого доступу до стану батька.\n\n#### Як це реалізується:\n\n1. **Callback-функції**: батьківський компонент передає функцію через пропси, а дочірній викликає її при зміні даних.\n2. **Приклад:**\n\n   ```jsx\n   function Parent() {\n     const [value, setValue] = useState('');\n\n     const handleChange = v => setValue(v);\n\n     return <Child onValueChange={handleChange} />;\n   }\n\n   function Child({ onValueChange }) {\n     return <input onChange={e => onValueChange(e.target.value)} />;\n   }\n   ```\n\nТаким чином дочірній компонент ініціює зміну стану, але сам стан залишається у батьківському компоненті."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "23a1ef73-f952-4ff9-90f7-7716b97d7b99",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is state mutation and how can it be prevented?",
+      "uk": "Що таке мутація стану і як їй запобігти?"
+    },
+    "answer": {
+      "en": "State mutation is the direct modification of objects or arrays stored in state without creating a new copy. In React, this breaks change detection and may prevent re-rendering.\n\n#### How to prevent state mutation:\n\n1. **Create copies of data**\n   - Arrays: `setItems([...items, newItem])`\n   - Objects: `setUser({ ...user, name: 'John' })`\n\n2. **Use non-mutating methods** `map()`, `filter()`, `reduce()`\n\nImmutable updates allow React to reliably detect state changes.",
+      "uk": "Мутація стану — це пряме змінювання обʼєктів або масивів у стані без створення нової копії. У React це ламає механізм виявлення змін і може призвести до відсутності перерендеру.\n\n#### Як запобігти мутації стану:\n\n1. **Створювати копії даних**\n   - Масиви: `setItems([...items, newItem])`\n   - Обʼєкти: `setUser({ ...user, name: 'John' })`\n\n2. **Використовувати немутуючі методи** `map()`, `filter()`, `reduce()`\n\nНемутуючі оновлення дозволяють React коректно визначати зміни стану."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "50b2abba-d898-4cf8-ae4d-ceb6bcd06180",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is React Strict Mode? Its benefits?",
+      "uk": "Що таке строгий режим (Strict Mode) React? Його переваги?"
+    },
+    "answer": {
+      "en": "**Strict Mode** is a development-only tool in React that helps detect potential issues in the code. It has no effect in production.\n\nEnabled by wrapping components with `<React.StrictMode>`\n\n```jsx\nroot.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);\n```\n\n#### Benefits of Strict Mode\n\n- Detects unsafe and deprecated lifecycle methods.\n- Intentionally double-invokes render and `useEffect` to expose side effects.\n- Warns about deprecated APIs and patterns.\n\nStrict Mode improves code quality but may complicate debugging due to intentional double renders.",
+      "uk": "**Strict Mode** — це інструмент React для виявлення потенційних проблем у коді під час розробки. У продакшені не має жодного ефекту.\n\nАктивується обгорткою в `<React.StrictMode>`\n\n```jsx\nroot.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);\n```\n\n#### Переваги Strict Mode\n\n- Виявляє застарілі та небезпечні lifecycle-методи.\n- Навмисно двічі викликає рендер і `useEffect` у dev-режимі для виявлення побічних ефектів.\n- Попереджає про використання застарілого API.\n\nStrict Mode корисний для раннього виявлення проблем, але може ускладнювати дебаг через подвійні виклики."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "3c9ffd3b-4ddd-4c10-a255-589b9d08f4be",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the recommended ways to check static types?",
+      "uk": "Які рекомендовані способи перевірки статичних типів?"
+    },
+    "answer": {
+      "en": "1. **TypeScript** — the primary solution for static typing in React. Types are checked at compile time.\n2. **PropTypes** — runtime validation of React props. Not true static typing.\n\n   ```jsx\n   MyComponent.propTypes = {\n     name: PropTypes.string.isRequired,\n     age: PropTypes.number,\n   };\n   ```\n\n3. **Flow** — a static type checker for JavaScript. Less common than TypeScript.\n4. **ESLint plugins** — partial type-related checks, not a full typing system.\n\nThe recommended choice is **TypeScript**. It provides real static typing.",
+      "uk": "1. **TypeScript** — основний інструмент статичної типізації для React. Перевіряє типи на етапі компіляції та запобігає більшості класів помилок.\n2. **PropTypes** — runtime-перевірка типів пропсів у React. Не є статичною типізацією.\n\n   ```jsx\n   MyComponent.propTypes = {\n     name: PropTypes.string.isRequired,\n     age: PropTypes.number,\n   };\n   ```\n\n3. **Flow** — статична типізація для JavaScript. Менш поширений і поступається TypeScript.\n4. **ESLint з плагінами** — допоміжний контроль типів, але не замінює повноцінну типізацію.\n\nРекомендований вибір — **TypeScript**. Він дає реальну статичну типізацію."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "c22b20fd-534a-48c6-9d40-f9c744d8e025",
+    "difficulty": "medium",
+    "question": {
+      "en": "How can animations be implemented in React?",
+      "uk": "Як реалізувати анімацію в React?"
+    },
+    "answer": {
+      "en": "1. **CSS animations** — the simplest solution for basic effects.\n2. **React Transition Group** — animations for component mount and unmount.\n3. **Framer Motion** — declarative animations for complex UI.\n4. **React Spring** — physics-based animation library.\n5. **Inline styles with state** — animation driven by component state.\n\nFor advanced animations, **Framer Motion** or **React Spring** are preferred.",
+      "uk": "1. **CSS-анімації** — простий варіант для базових ефектів.\n\n   ```jsx\n   .box { animation: fadeIn 1s ease-in; }\n   ```\n\n2. **React Transition Group** — керування анімаціями при монтуванні та демонтуванні компонентів.\n3. **Framer Motion** — декларативна бібліотека для складних анімацій.\n4. **React Spring** — анімації з фізичною моделлю руху.\n5. **Inline-стилі + state** — керування стилями через стан компонента.\n\nДля складних сценаріїв доцільніше використовувати **Framer Motion** або **React Spring**."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "376fa00d-3c82-4da4-a5c9-48c30eb8b6c4",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the most popular animation libraries for React?",
+      "uk": "Які самі популярні пакети для анімації у React?"
+    },
+    "answer": {
+      "en": "#### Popular animation libraries for React:\n\n1. **Framer Motion** — the de facto standard for React animations. Declarative API with layout and gesture support.\n2. **React Spring** — physics-based animations using springs. Flexible but harder to reason about.\n3. **GSAP** — extremely powerful low-level animation engine with timelines.\n4. **React Transition Group** — basic enter and exit transitions for components.\n5. **Lottie for React** — plays After Effects animations exported as JSON.",
+      "uk": "#### Популярні пакети для анімації в React:\n\n1. **Framer Motion** — де-факто стандарт для React-анімацій. Декларативний API, підтримка gesture, layout і complex transitions.\n2. **React Spring** — фізично базовані анімації з пружинами. Гнучкий, але складніший у контролі.\n3. **GSAP** — надпотужна low-level бібліотека для складних таймлайнів і високої продуктивності.\n4. **React Transition Group** — базові анімації входу та виходу компонентів.\n5. **Lottie for React** — відтворення JSON-анімацій з After Effects."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "00b9a852-6d5b-403a-a25d-f08a5fc1c565",
+    "difficulty": "medium",
+    "question": {
+      "en": "React DevTools: How to use it for debugging?",
+      "uk": "React DevTools: Як використовувати для налагодження?"
+    },
+    "answer": {
+      "en": "1. **Installation**\n   - Install React Developer Tools for Chrome or Firefox.\n   - Use the CLI for Electron or React Native.\n\n2. **Components tab**\n   - Inspect component tree.\n   - View props, state, context, hooks.\n   - Temporarily edit values for testing.\n\n3. **Profiler tab**\n   - Record and analyze renders.\n   - Find unnecessary or expensive renders.\n\n4. **Strict Mode**\n   - Double renders in dev are expected and intentional.\n\nUse Components for logic and state. Use Profiler for performance.",
+      "uk": "1. **Встановлення**\n   - Встанови розширення React Developer Tools для Chrome або Firefox.\n   - Для Electron або React Native використай CLI.\n\n2. **Вкладка Components**\n   - Перегляд дерева компонентів.\n   - Інспекція props, state, context і хуків.\n   - Тимчасове редагування state/props для перевірок.\n\n3. **Вкладка Profiler**\n   - Запис і аналіз рендерів.\n   - Виявлення зайвих і дорогих рендерів.\n\n4. **Strict Mode**\n   - Подвійні рендери у dev нормальні і допомагають знайти побічні ефекти.\n\nComponents для логіки і стану. Profiler для продуктивності."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "43d08bd4-43f5-4035-8819-75db64328f88",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the most popular linters for React?",
+      "uk": "Які самі популярні лінтери для React?"
+    },
+    "answer": {
+      "en": "#### Most popular linters for React:\n\n1. **ESLint** - the most widely used linter for `JavaScript`, supporting `React` via the `eslint-plugin-react` plugin. It enforces code style, detects errors, and integrates with tools like `Prettier`.\n2. **Prettier** - an automatic code formatter, commonly used together with `ESLint` to maintain consistent code style.\n3. **TSLint** - a linter for `TypeScript`, compatible with `React`, but now deprecated in favor of `ESLint`.\n\nThese tools help maintain code quality and reduce errors in large projects.",
+      "uk": "#### Самі популярні лінтери для React:\n\n1. **ESLint** - найпоширеніший лінтер для `JavaScript`, який підтримує `React` через плагін `eslint-plugin-react`. Перевіряє стиль коду, знаходить помилки та інтегрується з іншими інструментами, зокрема `Prettier`.\n2. **Prettier** - інструмент автоматичного форматування коду, який часто використовують разом з `ESLint` для єдиного стилю.\n3. **TSLint** - лінтер для `TypeScript`, сумісний з `React`, але вважається застарілим і замінений на `ESLint`.\n\nЦі інструменти використовують для контролю якості коду та зниження кількості помилок."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "df089749-50c5-4391-8801-6c8506a2aa46",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Next.js?",
+      "uk": "Що таке Next.js?"
+    },
+    "answer": {
+      "en": "**Next.js** is a React framework that provides built-in solutions for server-side rendering (SSR), static site generation (SSG), API routes, routing, performance optimization, and SEO.\n\n#### Key features:\n\n- **Hybrid rendering:** support for SSR, SSG, and ISR.\n- **Automatic routing:** files in pages/ become routes automatically.\n- **API routes:** building backend endpoints in pages/api/\\*.\n- **Performance optimization:** automatic code splitting and smaller bundles.\n- **App Router support:** based on React Server Components and the app/ directory.\n- **Built-in support for Tailwind, TypeScript, ESLint, and other tools**.\n\nUsed to build high-performance web applications, blogs, e-commerce platforms, and complex user interfaces.",
+      "uk": "**Next.js** - це React-фреймворк, який надає готові рішення для серверного рендерингу (SSR), статичної генерації (SSG), API-роутів, маршрутизації, оптимізації продуктивності та SEO.\n\n#### Основні можливості:\n\n- **Гібридний рендеринг:** підтримка SSR, SSG та ISR.\n- **Автоматична маршрутизація:** файли у pages/ автоматично стають маршрутами.\n- **API-роути:** створення серверних ендпоінтів у pages/api/\\*.\n- **Оптимізація продуктивності:** автоматичний код-сплітинг і зменшення бандлу.\n- **Підтримка App Router:** використання React Server Components і app/ замість pages/.\n- **Вбудована підтримка Tailwind, TypeScript, ESLint та інших технологій**.\n\nЗастосовується для створення продуктивних вебзастосунків, блогів, e-commerce та складних інтерфейсів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "f86eb8d9-5966-47e9-8a3a-6b8bd92ed904",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the main differences between Next.js and React?",
+      "uk": "Які головні відмінності між Next.js і React?"
+    },
+    "answer": {
+      "en": "#### Main differences between Next.js and React:\n\n| **Criteria** | **React** | **Next.js** |\n| --- | --- | --- |\n| **Type** | UI library | Framework built on React |\n| **Rendering** | Client-side only (CSR) | Supports CSR, SSR, SSG, ISR |\n| **Routing** | Manual setup via React Router | File-based routing (`pages/` or `app/`) |\n| **SEO** | Limited due to CSR | Strong SEO support (SSR, SSG) |\n| **API routes** | Not available | Built-in API endpoints (`pages/api/`) |\n| **Caching** | No built-in mechanisms | ISR for incremental page updates |\n| **Performance optimization** | Relies on external tools | Built-in optimizations and code splitting |\n| **Server Components** | Configuration dependent | Native support for React Server Components (`app/`) |\n\n#### Conclusion:\n\n- **React** fits client-rendered SPAs.\n- **Next.js** is better for SEO-focused and high-performance applications.",
+      "uk": "#### Головні відмінності між Next.js і React:\n\n| **Критерій** | **React** | **Next.js** |\n| --- | --- | --- |\n| **Тип** | Бібліотека для створення UI | Фреймворк на базі React |\n| **Рендеринг** | Тільки клієнтський (CSR) | Підтримує CSR, SSR, SSG, ISR |\n| **Маршрутизація** | Реалізується вручну через React Router | Файлова маршрутизація (`pages/` або `app/`) |\n| **SEO** | Обмежена підтримка через CSR | Повноцінна підтримка SEO (SSR, SSG) |\n| **API-роути** | Відсутні | Вбудовані API-ендпоінти (`pages/api/`) |\n| **Кешування** | Немає вбудованих механізмів | ISR для оновлення сторінок без повної регенерації |\n| **Оптимізація продуктивності** | Покладається на сторонні рішення | Вбудовані оптимізації та код-сплітинг |\n| **Серверні компоненти** | Залежить від налаштувань | Вбудована підтримка React Server Components (`app/`) |\n\n#### Висновок:\n\n- **React** підходить для клієнтських SPA.\n- **Next.js** орієнтований на SEO, гібридний рендеринг та продуктивність."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "4411a65e-3532-477f-bb53-6a94a8f0b099",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is React Helmet Async used for?",
+      "uk": "Для чого потрібен React Helmet Async?"
+    },
+    "answer": {
+      "en": "**React Helmet Async** is an optimized version of **React Helmet** used to dynamically manage the `<head>` section (meta tags, titles, Open Graph) in React applications.\n\n#### Why is it needed?\n\n1. **SEO optimization** – dynamic control over title and meta tags.\n2. **Dynamic `<head>`** – page-level head management without reloads.\n3. **SSR support** – works correctly with server-side rendering.\n\n#### Usage example:\n\n```jsx\nimport { Helmet } from 'react-helmet-async';\n\nfunction MyComponent() {\n  return (\n    <Helmet>\n      <title>Home page</title>\n      <meta name=\"description\" content=\"Home page description\" />\n    </Helmet>\n  );\n}\n```\n\n#### Why better than react-helmet?\n\n- Safe for SSR.\n- Smaller and faster.\n- Compatible with `StrictMode`.\n\n#### Conclusion:\n\nFor React apps with SSR and SEO requirements, use `react-helmet-async`.",
+      "uk": "**React Helmet Async** - це оптимізована версія **React Helmet**, яка використовується для динамічного оновлення `<head>` (мета-теги, заголовки, Open Graph тощо) у React-додатках.\n\n#### Навіщо потрібен?\n\n1. **SEO-оптимізація** – динамічна зміна title, meta description, ключових слів.\n2. **Динамічний `<head>`** – керування head без перезавантаження сторінки.\n3. **Підтримка SSR** – коректна робота в SSR без асинхронних конфліктів.\n\n#### Приклад використання:\n\n```jsx\nimport { Helmet } from 'react-helmet-async';\n\nfunction MyComponent() {\n  return (\n    <Helmet>\n      <title>Головна сторінка</title>\n      <meta name=\"description\" content=\"Це опис для головної сторінки\" />\n    </Helmet>\n  );\n}\n```\n\n#### SSR (Next.js, Express):\n\n```jsx\nimport { HelmetProvider, Helmet } from 'react-helmet-async';\n\nconst helmetContext = {};\nconst html = renderToString(\n  <HelmetProvider context={helmetContext}>\n    <App />\n  </HelmetProvider>\n);\nconst { helmet } = helmetContext;\n```\n\n#### Чому краще за `react-helmet`?\n\n- Працює з SSR без помилок асинхронності.\n- Легший і швидший.\n- Сумісний з `StrictMode`.\n\n#### Висновок:\n\nДля React-додатків з SEO та SSR варто використовувати `react-helmet-async`."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "b10d9f71-3665-4798-a064-2f966ebbbebd",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a Distributed Component?",
+      "uk": "Що таке розподілений компонент (Distributed Component)?"
+    },
+    "answer": {
+      "en": "**A Distributed Component** is an architectural concept where a component is split into independent parts that can render or execute logic separately while functioning as a single unit.\n\n#### Implementation examples:\n\n1. **Code Splitting**\n   - Components are loaded only when needed, reducing initial bundle size.\n\n2. **Container-Presentational Pattern**\n   - Separates business logic from UI for better maintainability.\n\n3. **Micro Frontends**\n   - Independent UI parts developed and deployed separately.\n\n#### When to use:\n\n- To improve performance via lazy loading.\n- To simplify code maintenance and reuse.\n- For large-scale and team-distributed applications.",
+      "uk": "**Розподілений компонент (Distributed Component)** - це архітектурна концепція, за якої компонент поділяється на незалежні частини, що можуть виконуватися або рендеритися окремо, але логічно працюють як єдине ціле.\n\n#### Приклади реалізації:\n\n1. **Код-сплітинг (Code Splitting)**\n   - Компоненти завантажуються лише за потреби, що зменшує початковий розмір бандла.\n\n2. **Container-Presentational Pattern**\n   - Розділення бізнес-логіки та UI для кращої підтримки та повторного використання.\n\n3. **Мікрофронтенди (Micro Frontends)**\n   - Автономні частини інтерфейсу, що розробляються та деплояться незалежно.\n\n#### Коли використовувати:\n\n- Для оптимізації продуктивності та зменшення початкового завантаження.\n- Для відокремлення логіки від відображення.\n- Для масштабованих та командно-орієнтованих проєктів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "000e9d71-010b-46f1-b082-a074ad57893f",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a Switching Component?",
+      "uk": "Що таке компонент-перемикач (Switching Component)?"
+    },
+    "answer": {
+      "en": "**A Switching Component** is a React pattern where a component conditionally renders one of its child components based on state, props, routes, or data.\n\n#### Example: conditional switching\n\n```jsx\nconst SwitchingComponent = ({ type }) => {\n  switch (type) {\n    case 'success': return <SuccessMessage />;\n    case 'error': return <ErrorMessage />;\n    default: return <DefaultMessage />;\n  }\n};\n```\n\nThis pattern keeps conditional rendering explicit and easier to maintain.",
+      "uk": "**Компонент-перемикач (Switching Component)** — це патерн у React, за якого компонент умовно рендерить один із дочірніх компонентів залежно від стану, пропсів, маршруту або даних.\n\n#### Приклад: перемикання за умовою\n\n```jsx\nconst SwitchingComponent = ({ type }) => {\n  switch (type) {\n    case 'success': return <SuccessMessage />;\n    case 'error': return <ErrorMessage />;\n    default: return <DefaultMessage />;\n  }\n};\n```\n\nТакий підхід централізує умовний рендеринг і спрощує підтримку коду."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "48516a17-3415-4d16-98b8-f79302aca682",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Reselect and how does it work?",
+      "uk": "Що таке Reselect та як він працює?"
+    },
+    "answer": {
+      "en": "**Reselect** is a library for creating memoized selectors in Redux. It optimizes derived data access and reduces unnecessary re-renders.\n\n#### How does Reselect work?\n\nReselect uses **memoization** to reuse computed results when input data has not changed.\n\n1. **Input selectors** read data from the state.\n2. **Result selector** computes derived values.\n3. **Results are cached** and reused when inputs are unchanged.\n\n#### Benefits:\n\n- Fewer computations per render.\n- Prevents unnecessary component re-renders.\n- Improves Redux application performance.",
+      "uk": "**Reselect** - це бібліотека для створення мемоізованих селекторів у Redux. Вона оптимізує отримання похідних даних зі стану та зменшує кількість зайвих рендерів.\n\n#### Як працює Reselect?\n\nReselect використовує **мемоізацію**, щоб повторно використовувати результат обчислень, якщо вхідні дані не змінилися.\n\n1. **Input-селектори** отримують дані зі state.\n2. **Результуючий селектор** обчислює похідні дані.\n3. **Результат кешується** і перевикористовується при незмінних входах.\n\n#### Переваги:\n\n- Менше обчислень при кожному рендері.\n- Менше непотрібних рендерів компонентів.\n- Покращення продуктивності Redux-додатків."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "c1976ad7-0292-409b-85a0-b13a0910e611",
+    "difficulty": "medium",
+    "question": {
+      "en": "What data types can render return?",
+      "uk": "Які типи даних може повернути render?"
+    },
+    "answer": {
+      "en": "The `render()` method in React can return:\n\n1. **JSX or a React element**\n2. **An array of elements**\n3. **Fragments (React.Fragment)**\n4. **null**\n5. **Boolean values (ignored)**\n6. **Strings and numbers**\n7. **Portals**\n\nJSX is the common case, but React supports multiple return types for flexible rendering.",
+      "uk": "Метод `render()` у React може повертати:\n\n1. **JSX або React-елемент**\n\n   ```jsx\n   render() {\n     return <div>Hello, World!</div>;\n   }\n   ```\n\n2. **Масив елементів**\n\n   ```jsx\n   render() {\n     return [\n       <li key=\"1\">Item 1</li>,\n       <li key=\"2\">Item 2</li>\n     ];\n   }\n   ```\n\n3. **Фрагменти (React.Fragment)**\n\n   ```jsx\n   render() {\n     return (\n       <>\n         <h1>Title</h1>\n         <p>Description</p>\n       </>\n     );\n   }\n   ```\n\n4. **null**\n\n   ```jsx\n   render() {\n     return null;\n   }\n   ```\n\n5. **Булеві значення**\n\n   ```jsx\n   render() {\n     return false;\n   }\n   ```\n\n6. **Рядки та числа**\n\n   ```jsx\n   render() {\n     return \"Hello, World!\";\n   }\n   ```\n\n7. **Портали**\n\n   ```jsx\n   import { createPortal } from 'react-dom';\n\n   render() {\n     return createPortal(\n       <div>Modal</div>,\n       document.getElementById('modal-root')\n     );\n   }\n   ```\n\nНайчастіше render повертає JSX, але React підтримує й інші типи для гнучкого рендерингу."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "37189aec-f501-4450-a3d1-9e23944d0b99",
+    "difficulty": "medium",
+    "question": {
+      "en": "How does React handle or restrict props of specific types?",
+      "uk": "Як React обробляє чи обмежує використання пропсів певного типу?"
+    },
+    "answer": {
+      "en": "React restricts prop types using `PropTypes` or `TypeScript`.\n\n1. **PropTypes** — runtime type checking in JavaScript.\n2. **TypeScript** — compile-time static type checking.\n\n#### Conclusion:\n\nTypeScript prevents invalid props before runtime. PropTypes only warns during execution.",
+      "uk": "React обмежує типи пропсів за допомогою `PropTypes` або `TypeScript`.\n\n1. **PropTypes** — runtime-перевірка типів у JavaScript.\n2. **TypeScript** — статична перевірка типів на етапі компіляції.\n\n#### Висновок:\n\nTypeScript забезпечує суворий контроль до запуску коду. PropTypes дає лише попередження під час виконання."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "7582a8b8-293a-4987-8574-806e899939f0",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between rendering and mounting?",
+      "uk": "Різниця між рендерингом та монтуванням?"
+    },
+    "answer": {
+      "en": "The difference between rendering and mounting in React.\n\n| **Process** | **Description** |\n| --- | --- |\n| **Mounting** | The component is created and inserted into the DOM for the first time. Calls include `constructor`, `render`, `componentDidMount` or `useEffect` with an empty dependency array. |\n| **Rendering** | UI updates via repeated calls to `render()` or re execution of a functional component when `state` or `props` change. |",
+      "uk": "Різниця між рендерингом та монтуванням у React.\n\n| **Процес** | **Опис** |\n| --- | --- |\n| **Монтування (Mounting)** | Компонент створюється і додається в DOM вперше. Викликаються `constructor`, `render`, `componentDidMount` або `useEffect` з порожнім масивом залежностей. |\n| **Рендеринг (Rendering)** | Оновлення UI через повторний виклик `render()` або функціонального компонента при зміні `state` чи `props`. |"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "7f6cee62-c7cd-416d-972f-4e5af427e041",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is reactive data flow in React?",
+      "uk": "Що таке реактивний потік даних (reactive data flow) у React?"
+    },
+    "answer": {
+      "en": "**Reactive data flow in React** means that changes in state or props automatically trigger UI updates without manual re rendering.\n\n#### Core principles:\n\n1. **One way data flow** – data flows from parent to child components.\n2. **Declarative model** – developers describe what to render, not how.\n3. **Automatic updates** – UI updates when state or props change.",
+      "uk": "**Реактивний потік даних (Reactive Data Flow) у React** означає, що зміни в стані або пропсах автоматично призводять до оновлення UI без ручного керування ререндерингом.\n\n#### Основні принципи:\n\n1. **Односторонній потік даних** – дані передаються зверху вниз.\n2. **Декларативність** – описується результат, а не процес оновлення.\n3. **Автоматичний ререндер** – UI оновлюється при зміні state або props."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "197ef75d-e0ce-48f3-a441-5abae3f8af94",
+    "difficulty": "medium",
+    "question": {
+      "en": "Is React reactive?",
+      "uk": "Чи є React реактивним?"
+    },
+    "answer": {
+      "en": "React is not a fully reactive library. It applies reactive ideas through its rendering model.\n\n1. **Automatic UI updates** – the UI updates when state or props change via re rendering.\n2. **Hooks and functional components** – `useState`, `useEffect` enable reactive behavior without automatic dependency tracking.\n3. **Limited reactivity** – React reacts only to state and props changes, not arbitrary variables.\n\nReact is reactive at the UI level but not a fully reactive framework.",
+      "uk": "React не є повністю реактивною бібліотекою. Він використовує реактивні ідеї, але реалізує їх через власну модель рендерингу.\n\n1. **Автоматичне оновлення UI** – UI оновлюється при зміні state або props через повторний рендер.\n2. **Хуки та функціональні компоненти** – `useState`, `useEffect` створюють реактивну поведінку, але без автоматичних спостерігачів.\n3. **Обмежена реактивність** – React реагує лише на зміни state і props, а не на довільні змінні.\n\nReact реактивний на рівні UI, але не є повністю реактивним фреймворком."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "675f6387-27ca-4d0a-9450-568420171e0a",
+    "difficulty": "medium",
+    "question": {
+      "en": "What drag-and-drop implementation options do you know in React?",
+      "uk": "Які варіанти реалізації drag-and-drop у React ти знаєш?"
+    },
+    "answer": {
+      "en": "Drag and drop in React can be implemented using native browser APIs or dedicated libraries.\n\n- **HTML5 Drag-and-Drop API** – built in browser events.\n- **react-dnd** – flexible solution for complex use cases.\n- **dnd-kit** – modern and lightweight alternative.\n\nThe choice depends on the required complexity and level of control.",
+      "uk": "Drag-and-drop у React можна реалізувати кількома підходами, від нативних API до спеціалізованих бібліотек.\n\n- **HTML5 Drag-and-Drop API** – нативні події браузера.\n- **react-dnd** – гнучка бібліотека для складних сценаріїв.\n- **dnd-kit** – сучасне та легке рішення.\n\nВибір підходу залежить від складності drag-and-drop логіки та вимог до контролю."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "9602769d-c56a-45be-b131-39a549a69023",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you render HTML code in a React component?",
+      "uk": "Як відрендерити HTML код у React-компоненті?"
+    },
+    "answer": {
+      "en": "To render raw HTML in React, use `dangerouslySetInnerHTML`. It is unsafe when used with unsanitized input due to XSS risks.\n\n#### Example:\n\n```jsx\nfunction MyComponent() {\n  const htmlContent = \"<p style='color:red;'>This is HTML</p>\";\n\n  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;\n}\n```\n\nAlways sanitize dynamic HTML before rendering.",
+      "uk": "Для рендерингу HTML у React використовується `dangerouslySetInnerHTML`. Це небезпечно при роботі з несанітизованими даними через ризик XSS.\n\n#### Приклад:\n\n```jsx\nfunction MyComponent() {\n  const htmlContent = \"<p style='color:red;'>Це HTML-код</p>\";\n\n  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;\n}\n```\n\nHTML з зовнішніх джерел потрібно обовʼязково санітизувати."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "3141cc9d-8339-4e73-858a-ccea183e0e07",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you conditionally add a class in React?",
+      "uk": "Як реалізувати додавання класу за умовою в React?"
+    },
+    "answer": {
+      "en": "In React, conditional class assignment is done via `className` combined with conditional logic.\n\n#### Common approaches:\n\n1. **Ternary operator**\n\n   ```jsx\n   function MyComponent({ isActive }) {\n     return <div className={isActive ? 'active' : 'inactive'}>Hello</div>;\n   }\n   ```\n\n2. **Template literals**\n\n   ```jsx\n   function MyComponent({ isHighlighted }) {\n     return <div className={`base ${isHighlighted ? 'highlighted' : ''}`}>Hello</div>;\n   }\n   ```\n\n3. **clsx library**\n\n   ```jsx\n   import clsx from 'clsx';\n\n   function MyComponent({ isActive, isDisabled }) {\n     return (\n       <div className={clsx('base', { active: isActive, disabled: isDisabled })}>Hello</div>\n     );\n   }\n   ```\n\nLibraries are preferred when conditional logic becomes complex.",
+      "uk": "У React умовне додавання CSS класів виконується через `className` з використанням умовної логіки.\n\n#### Основні підходи:\n\n1. **Тернарний оператор**\n\n   ```jsx\n   function MyComponent({ isActive }) {\n     return <div className={isActive ? 'active' : 'inactive'}>Hello</div>;\n   }\n   ```\n\n2. **Шаблонні рядки**\n\n   ```jsx\n   function MyComponent({ isHighlighted }) {\n     return <div className={`base ${isHighlighted ? 'highlighted' : ''}`}>Hello</div>;\n   }\n   ```\n\n3. **Бібліотека clsx**\n\n   ```jsx\n   import clsx from 'clsx';\n\n   function MyComponent({ isActive, isDisabled }) {\n     return (\n       <div className={clsx('base', { active: isActive, disabled: isDisabled })}>Hello</div>\n     );\n   }\n   ```\n\nДля складних умов використання бібліотек підвищує читабельність коду."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "12726599-c7fa-4519-bca7-36f1a7b15cc3",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you run code before a component is removed from the tree?",
+      "uk": "Як виконати код перед видаленням компонента з дерева?"
+    },
+    "answer": {
+      "en": "In React, code before a component is removed is executed using lifecycle methods or hooks.\n\n1. **Class components** – use the `componentWillUnmount` lifecycle method.\n2. **Functional components** – use `useEffect` with a cleanup function.\n\nThis logic runs right before the component is unmounted.",
+      "uk": "У React код перед видаленням компонента виконується через спеціальні хуки або методи життєвого циклу.\n\n1. **Класові компоненти** – використовується метод `componentWillUnmount`.\n2. **Функціональні компоненти** – використовується `useEffect` з функцією очищення.\n\nЦей код виконується безпосередньо перед демонтуванням компонента."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "24944b53-3f0c-45a2-8ad4-0a49ec5e9b3e",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is useReducer()?",
+      "uk": "Що таке useReducer()?"
+    },
+    "answer": {
+      "en": "`useReducer()` is a React hook used for state management in functional components. It is an alternative to `useState()` and is suited for complex state logic or state transitions based on previous state.\n\n#### Syntax:\n\n```jsx\nconst [state, dispatch] = useReducer(reducer, initialState);\n```\n\n- `reducer` — a function that returns new state based on state and action.\n- `dispatch` — triggers state updates via actions.",
+      "uk": "`useReducer()` — це хук React для керування станом у функціональних компонентах. Він є альтернативою `useState()` і використовується, коли логіка оновлення стану складна або залежить від попереднього стану.\n\n#### Синтаксис:\n\n```jsx\nconst [state, dispatch] = useReducer(reducer, initialState);\n```\n\n- `reducer` — функція, що приймає state і action та повертає новий стан.\n- `dispatch` — викликає reducer з action."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "e10c84af-2770-40cb-9af6-aca332983856",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you use React.lazy and React.Suspense to load application code?",
+      "uk": "Як використовувати React.lazy та React.Suspense для запуску коду програми?"
+    },
+    "answer": {
+      "en": "`React.lazy` and `React.Suspense` are used for dynamic component loading and code splitting.\n\n#### How it works:\n\n1. `React.lazy()` loads a component lazily using dynamic import.\n2. `React.Suspense` renders fallback UI while the component is loading.\n\n#### Example:\n\n```jsx\nconst MyComponent = React.lazy(() => import('./MyComponent'));\n\nfunction App() {\n  return (\n    <React.Suspense fallback={<div>Loading...</div>}>\n      <MyComponent />\n    </React.Suspense>\n  );\n}\n```",
+      "uk": "`React.lazy` та `React.Suspense` використовуються для динамічного завантаження компонентів і розбиття коду (code splitting).\n\n#### Як це працює:\n\n1. `React.lazy()` відкладено завантажує компонент через dynamic import.\n2. `React.Suspense` показує fallback-контент, поки компонент не завантажився.\n\n#### Приклад:\n\n```jsx\nconst MyComponent = React.lazy(() => import('./MyComponent'));\n\nfunction App() {\n  return (\n    <React.Suspense fallback={<div>Завантаження...</div>}>\n      <MyComponent />\n    </React.Suspense>\n  );\n}\n```"
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "757de713-a416-4e98-b20a-c2362ef98ca2",
+    "difficulty": "medium",
+    "question": {
+      "en": "What approaches are used to perform HTTP requests in React?",
+      "uk": "Які підходи використовуються для виконання HTTP-запитів у React?"
+    },
+    "answer": {
+      "en": "React does not provide a built-in HTTP API, so standard JavaScript tools or external libraries are used.\n\n1. **Fetch API** — native browser API for basic requests.\n2. **Axios** — library with interceptors, timeouts, and cleaner syntax.\n3. **React Query (TanStack Query)** — server state management with caching and refetching.\n4. **GraphQL clients (Apollo)** — for GraphQL based APIs.\n5. **Custom Hooks** — reusable abstraction for request logic.",
+      "uk": "React не має власного API для HTTP-запитів, тому використовуються стандартні можливості JavaScript або сторонні бібліотеки.\n\n1. **Fetch API** — нативний браузерний спосіб для простих HTTP-запитів.\n2. **Axios** — бібліотека з підтримкою interceptors, тайм-аутів і зручнішого API.\n3. **React Query (TanStack Query)** — керування серверним станом, кешування, refetch, retries.\n4. **GraphQL клієнти (Apollo)** — робота з GraphQL API.\n5. **Custom Hooks** — винесення логіки запитів для повторного використання."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "f2fdb7e7-ca24-4c0f-a2dd-c0963f36ee87",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between createElement and cloneElement?",
+      "uk": "Яка різниця між createElement і cloneElement?"
+    },
+    "answer": {
+      "en": "| **Method** | **Description** | **Primary use** |\n| --- | --- | --- |\n| `React.createElement` | Creates a new React element from type, props, and children. | Core mechanism behind JSX rendering. |\n| `React.cloneElement` | Clones an existing React element and overrides props or children. | Modifying existing React elements. |\n\n- `createElement` creates a brand new element.\n- `cloneElement` requires an existing element to work with.",
+      "uk": "| **Метод** | **Опис** | **Основне застосування** |\n| --- | --- | --- |\n| `React.createElement` | Створює новий React-елемент з типу, пропсів і дітей. | Базове створення елементів, на чому працює JSX. |\n| `React.cloneElement` | Клонує існуючий React-елемент із можливістю змінити пропси або children. | Модифікація вже створених елементів. |\n\n- `createElement` створює елемент з нуля.\n- `cloneElement` працює лише з уже існуючим елементом."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "4eb8f152-4a38-4a3f-b5e3-0e9e51ee7ab0",
+    "difficulty": "medium",
+    "question": {
+      "en": "Does React.lazy support named exports?",
+      "uk": "Чи підтримує функція lazy іменований експорт?"
+    },
+    "answer": {
+      "en": "No. `React.lazy` works only with default exports. Named exports are not supported directly.\n\n#### Workaround:\n\n```jsx\nexport const MyComponent = () => <div>Hello</div>;\n\nconst LazyComponent = React.lazy(() =>\n  import('./MyComponent').then(m => ({ default: m.MyComponent }))\n);\n```\n\nThe named export is explicitly mapped to default.",
+      "uk": "Ні. `React.lazy` працює лише з default export. Іменований експорт напряму не підтримується.\n\n#### Обхідне рішення:\n\n```jsx\nexport const MyComponent = () => <div>Hello</div>;\n\nconst LazyComponent = React.lazy(() =>\n  import('./MyComponent').then(m => ({ default: m.MyComponent }))\n);\n```\n\nІменований експорт явно приводиться до default."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "fea5a831-8b4a-436f-a91e-f20e521096c8",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the advantages of React?",
+      "uk": "Які переваги React?"
+    },
+    "answer": {
+      "en": "1. **High performance** — Virtual DOM minimizes real DOM updates.\n2. **Component based architecture** — reusable components improve maintainability.\n3. **One way data flow** — simplifies state tracking and debugging.\n4. **Hooks** — manage state and side effects without classes.\n5. **Strong ecosystem** — rich tooling and library support.",
+      "uk": "1. **Висока продуктивність** — використання Virtual DOM зменшує кількість оновлень реального DOM.\n2. **Компонентна архітектура** — повторне використання компонентів спрощує підтримку коду.\n3. **Односторонній потік даних** — спрощує контроль стану та налагодження.\n4. **Хуки** — дозволяють керувати станом та ефектами без класів.\n5. **Розвинена екосистема** — велика кількість бібліотек і інструментів."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "9a6a283c-4d3c-4b01-bf75-c139b073eefa",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are the limitations of React?",
+      "uk": "Які обмеження React?"
+    },
+    "answer": {
+      "en": "1. **Excessive re-renders** — poor optimization can hurt performance.\n2. **Complex state management** — larger apps require extra tooling.\n3. **One-way data flow** — passing data through deep trees is cumbersome.\n4. **Limited reactivity** — Virtual DOM updates are not always optimal.\n5. **JavaScript dependency** — limited functionality without JS.\n6. **Learning curve** — hooks and optimization require experience.",
+      "uk": "1. **Надмірні перерендери** — без оптимізації можливі проблеми з продуктивністю.\n2. **Складне керування станом** — великі додатки потребують додаткових рішень.\n3. **Однонаправлений потік даних** — ускладнює передачу даних через глибоку ієрархію.\n4. **Відсутність повної реактивності** — оновлення через Virtual DOM не завжди оптимальні.\n5. **Залежність від JavaScript** — без JS функціональність обмежена.\n6. **Поріг входу** — хуки, контекст і оптимізація вимагають досвіду."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "a8f6e905-877e-438a-b252-31ddbdbf55cb",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the purpose of registerServiceWorker() in React?",
+      "uk": "Для чого призначений метод registerServiceWorker() у React?"
+    },
+    "answer": {
+      "en": "`registerServiceWorker()` was used in Create React App to register a Service Worker. It is deprecated and removed starting from CRA v4.\n\n- Offline caching support.\n- Faster application loading.\n- Background resource updates.\n\nToday, Service Workers must be registered manually using navigator.serviceWorker.register().",
+      "uk": "`registerServiceWorker()` використовувався у Create React App для реєстрації Service Worker. Метод застарілий і видалений, починаючи з CRA v4.\n\n- Кешування ресурсів і робота офлайн.\n- Швидше завантаження додатка.\n- Фонове оновлення ресурсів.\n\nЗараз Service Worker потрібно реєструвати вручну через navigator.serviceWorker.register()."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "ea9c079e-d97a-4bd3-bbd3-e0a218339fbc",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are SyntheticEvents in React?",
+      "uk": "Що таке синтетичні події (SyntheticEvent) у React?"
+    },
+    "answer": {
+      "en": "**SyntheticEvent** in React is a wrapper around native browser events that provides a consistent API.\n\n- Cross browser compatibility.\n- Normalized event interface.\n- Memory optimizations via event pooling in older React versions.\n\nThe original browser event is доступible via `nativeEvent`.",
+      "uk": "**SyntheticEvent** у React — це обгортка над нативними подіями браузера, яка уніфікує їх поведінку та API.\n\n- Кросбраузерна сумісність.\n- Нормалізований інтерфейс подій.\n- Оптимізація памʼяті через pooling (у старих версіях React).\n\nSyntheticEvent надає доступ до оригінальної події через `nativeEvent`."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "c5149a42-357f-4b7c-8ca6-244a5c873d4b",
+    "difficulty": "medium",
+    "question": {
+      "en": "React performance optimization techniques?",
+      "uk": "Техніки оптимізації перфомансу React?"
+    },
+    "answer": {
+      "en": "1. **Memoization** — React.memo, useMemo, useCallback to avoid re-renders.\n2. **Render control** — proper state, props, and Context usage.\n3. **List virtualization** — react-window, react-virtualized.\n4. **Code splitting** — React.lazy and Suspense.\n5. **Effect optimization** — correct useEffect dependencies, useRef for mutable values.\n6. **Data handling** — caching, debounce/throttle for events.",
+      "uk": "1. **Мемоізація** — React.memo, useMemo, useCallback для зменшення ререндерів.\n2. **Контроль ререндерів** — правильне використання state, props і Context.\n3. **Віртуалізація списків** — react-window, react-virtualized.\n4. **Code splitting** — React.lazy та Suspense.\n5. **Оптимізація ефектів** — коректні залежності useEffect, useRef для mutable значень.\n6. **Робота з даними** — кешування, debounce/throttle для подій."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "a372a398-60dd-45a8-b94d-14416fa87c85",
+    "difficulty": "medium",
+    "question": {
+      "en": "Is it possible to use async/await in React?",
+      "uk": "Чи можливо використовувати async/await у React?"
+    },
+    "answer": {
+      "en": "Yes, `async/await` can be used in React for asynchronous operations.\n\n- It cannot be used directly inside component render logic.\n- It is commonly used inside `useEffect` or event handlers.\n- Errors should be handled with `try/catch`.",
+      "uk": "Так, `async/await` можна використовувати в React для асинхронних операцій.\n\n- Не можна використовувати `async` безпосередньо в тілі компонента або в `render`.\n- Можна використовувати в `useEffect`, обробниках подій або окремих функціях.\n- Помилки потрібно обробляти через `try/catch`."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "e894dec8-5f7a-451c-9c03-9251f3fa4963",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the evolution history of React?",
+      "uk": "Яка історія еволюції React?"
+    },
+    "answer": {
+      "en": "1. **2011** — React was created at Facebook by Jordan Walke.\n2. **2013** — React was released as open source.\n3. **2015** — React 0.14, ReactDOM split, React Native introduced.\n4. **2017** — React 16 with Fiber architecture.\n5. **2019** — React 16.8, Hooks officially released.\n6. **2020** — React 17 focused on easier upgrades.\n7. **2022** — React 18 with Concurrent Rendering.\n8. **2024** — React 19, Server Components, use(), React Compiler.",
+      "uk": "1. **2011** — створення React у Facebook Джорданом Волке для внутрішніх продуктів.\n2. **2013** — відкриття React як open source.\n3. **2015** — React 0.14, поділ на React і ReactDOM, поява React Native.\n4. **2017** — React 16 та архітектура Fiber, Error Boundaries, Portals.\n5. **2019** — React 16.8, офіційний реліз Hooks.\n6. **2020** — React 17, спрощення міграцій без змін API.\n7. **2022** — React 18, Concurrent Rendering, useTransition.\n8. **2024** — React 19, React Server Components, use(), React Compiler."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "f6307d59-2f32-4c0f-a1aa-e8c29e7e853e",
+    "difficulty": "medium",
+    "question": {
+      "en": "What new features were introduced in React 19?",
+      "uk": "Які нововведення було додано в React 19?"
+    },
+    "answer": {
+      "en": "1. **React Compiler** — automatic render optimization without manual memoization.\n2. **use() hook** — simplified async data handling and Server Components.\n3. **Actions API** — unified model for mutations and server actions.\n4. **Improved Suspense** — better async rendering and hydration control.\n5. **Native metadata handling** — title, meta, link without extra libraries.",
+      "uk": "1. **React Compiler** — автоматична оптимізація ререндерів без ручного memo.\n2. **Хук use()** — спрощена робота з асинхронними даними та Server Components.\n3. **Actions API** — уніфікований підхід до мутацій і серверних дій.\n4. **Покращений Suspense** — кращий контроль асинхронного рендерингу та гідратації.\n5. **Нативна робота з метатегами** — title, meta, link без сторонніх бібліотек."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "f64c97a0-a541-4c07-ab48-c5286b166552",
+    "difficulty": "medium",
+    "question": {
+      "en": "What do React developers recommend after Create React App became deprecated?",
+      "uk": "Що рекомендують використовувати розробники React після того як Create React App став deprecated?"
+    },
+    "answer": {
+      "en": "1. **Next.js** — the default recommended framework with SSR, SSG, RSC, and modern tooling.\n2. **Vite + React** — a lightweight SPA setup with fast dev server and minimal config.\n3. **React Router + Vite** — for client side SPAs without server rendering.\n4. **Expo** — for React Native and cross platform development.",
+      "uk": "1. **Next.js** — рекомендований за замовчуванням фреймворк з SSR, SSG, RSC та сучасним tooling.\n2. **Vite + React** — легка альтернатива для SPA з швидким дев-сервером і мінімальною конфігурацією.\n3. **React Router + Vite** — для клієнтських SPA без серверного рендерингу.\n4. **Expo** — для React Native та кросплатформеної розробки."
+    },
+    "categoryId": null,
+    "tags": []
+  },
+  {
+    "id": "d6260bfa-6795-4322-a6b0-41344302b35e",
+    "difficulty": "medium",
+    "question": {
+      "en": "How does the useDeferredValue hook work in React?",
+      "uk": "Як працює хук useDeferredValue у React?"
+    },
+    "answer": {
+      "en": "`useDeferredValue` delays low priority value updates to keep the UI responsive.\n\n- Urgent updates run immediately.\n- Expensive updates are deferred.\n- Intermediate values may be skipped.",
+      "uk": "`useDeferredValue` дозволяє відкладати оновлення значення з нижчим пріоритетом, щоб зберегти чуйність інтерфейсу.\n\n- Термінові оновлення виконуються одразу.\n- Важкі обчислення виконуються пізніше.\n- Проміжні значення можуть бути пропущені."
+    },
+    "categoryId": null,
+    "tags": []
+  }
+]

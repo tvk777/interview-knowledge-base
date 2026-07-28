@@ -1,0 +1,107 @@
+                Исходные данные
+                      │
+                      ▼
+         Original JSON (DevLovers)
+                      │
+                      ▼
+         Скрипт нормализации (Node.js)
+                      │
+                      ▼
+            Enriched JSON (наша БД)
+                      │
+                      ▼
+          React + Vite + TypeScript
+                      │
+        ┌─────────────┼─────────────┐
+        ▼             ▼             ▼
+    Категории      Поиск        Глоссарий
+        │             │             │
+        └─────────────┼─────────────┘
+                      ▼
+               Карточка вопроса
+
+
+               project/
+
+Структура проекта
+
+├── data/
+│
+│   ├── original/
+│   │     javascript.json
+│   │     react.json
+│   │     nextjs.json
+│   │     typescript.json
+│   │
+│   └── enriched/
+│         index.json
+│         javascript.json
+│         react.json
+│         nextjs.json
+│         typescript.json
+│
+├── scripts/
+│
+│   build-db.ts
+│   // normalize.ts
+│   // enrich.ts
+│   // validate.ts
+│
+├── src/
+│
+│   React application
+│
+└── package.json
+
+index.json
+Минимальный.
+
+{
+  "version": "1.0.0",
+  "technologies": [
+    {
+      "id": "javascript",
+      "file": "javascript.json"
+    },
+    {
+      "id": "react",
+      "file": "react.json"
+    },
+    {
+      "id": "nextjs",
+      "file": "nextjs.json"
+    },
+    {
+      "id": "typescript",
+      "file": "typescript.json"
+    }
+  ]
+}
+
+
+build-db.ts
+Он делает буквально четыре вещи:
+
+1. Читает original/*.json
+2. Преобразует каждый вопрос
+3. Сохраняет enriched/*.json
+4. Генерирует index.json
+
+Всё.
+
+React
+React тоже максимально простой:
+
+Старт
+↓
+fetch(index.json)
+↓
+Показать технологии
+↓
+Пользователь выбрал React
+↓
+fetch(react.json)
+↓
+Показать вопросы
+
+

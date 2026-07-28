@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Static Typing",
+    "categoryId": 1
+  },
+  {
+    "name": "Structural Typing",
+    "categoryId": 1
+  },
+  {
+    "name": "Type Inference",
+    "categoryId": 1
+  },
+  {
+    "name": "any",
+    "categoryId": 2
+  },
+  {
+    "name": "Enum",
+    "categoryId": 2
+  },
+  {
+    "name": "never",
+    "categoryId": 2
+  },
+  {
+    "name": "Tuple",
+    "categoryId": 2
+  },
+  {
+    "name": "unknown",
+    "categoryId": 2
+  },
+  {
+    "name": "Conditional Type",
+    "categoryId": 3
+  },
+  {
+    "name": "Discriminated Union",
+    "categoryId": 3
+  },
+  {
+    "name": "Index Signature",
+    "categoryId": 3
+  },
+  {
+    "name": "infer",
+    "categoryId": 3
+  },
+  {
+    "name": "Intersection Type",
+    "categoryId": 3
+  },
+  {
+    "name": "keyof",
+    "categoryId": 3
+  },
+  {
+    "name": "Mapped Type",
+    "categoryId": 3
+  },
+  {
+    "name": "Template Literal Types",
+    "categoryId": 3
+  },
+  {
+    "name": "Type Assertion",
+    "categoryId": 3
+  },
+  {
+    "name": "Type Guard",
+    "categoryId": 3
+  },
+  {
+    "name": "Type Narrowing",
+    "categoryId": 3
+  },
+  {
+    "name": "typeof",
+    "categoryId": 3
+  },
+  {
+    "name": "Union Type",
+    "categoryId": 3
+  },
+  {
+    "name": "Interface",
+    "categoryId": 4
+  },
+  {
+    "name": "Type Alias",
+    "categoryId": 4
+  },
+  {
+    "name": "Function Overloading",
+    "categoryId": 5
+  },
+  {
+    "name": "Optional Parameters",
+    "categoryId": 5
+  },
+  {
+    "name": "Generic Constraint",
+    "categoryId": 6
+  },
+  {
+    "name": "Generics",
+    "categoryId": 6
+  },
+  {
+    "name": "Exclude",
+    "categoryId": 7
+  },
+  {
+    "name": "Extract",
+    "categoryId": 7
+  },
+  {
+    "name": "NonNullable",
+    "categoryId": 7
+  },
+  {
+    "name": "Omit",
+    "categoryId": 7
+  },
+  {
+    "name": "Parameters",
+    "categoryId": 7
+  },
+  {
+    "name": "Partial",
+    "categoryId": 7
+  },
+  {
+    "name": "Pick",
+    "categoryId": 7
+  },
+  {
+    "name": "Readonly",
+    "categoryId": 7
+  },
+  {
+    "name": "Record",
+    "categoryId": 7
+  },
+  {
+    "name": "Required",
+    "categoryId": 7
+  },
+  {
+    "name": "ReturnType",
+    "categoryId": 7
+  },
+  {
+    "name": "Abstract Class",
+    "categoryId": 8
+  },
+  {
+    "name": "Access Modifier",
+    "categoryId": 8
+  },
+  {
+    "name": "Class Decorator",
+    "categoryId": 8
+  },
+  {
+    "name": "Decorators",
+    "categoryId": 8
+  },
+  {
+    "name": "Method Decorator",
+    "categoryId": 8
+  },
+  {
+    "name": "Parameter Decorator",
+    "categoryId": 8
+  },
+  {
+    "name": "Property Decorator",
+    "categoryId": 8
+  },
+  {
+    "name": "Ambient Declaration",
+    "categoryId": 9
+  },
+  {
+    "name": "Declaration File",
+    "categoryId": 9
+  },
+  {
+    "name": "Module",
+    "categoryId": 9
+  },
+  {
+    "name": "Namespace",
+    "categoryId": 9
+  },
+  {
+    "name": "Source Map",
+    "categoryId": 10
+  },
+  {
+    "name": "Strict Mode",
+    "categoryId": 10
+  },
+  {
+    "name": "Tree Shaking",
+    "categoryId": 10
+  },
+  {
+    "name": "tsconfig",
+    "categoryId": 10
+  },
+  {
+    "name": "DefinitelyTyped",
+    "categoryId": 11
+  },
+  {
+    "name": "JSDoc",
+    "categoryId": 11
+  },
+  {
+    "name": "Babel",
+    "categoryId": 12
+  },
+  {
+    "name": "Design Pattern",
+    "categoryId": 12
+  },
+  {
+    "name": "Domain-Driven Design",
+    "categoryId": 12
+  },
+  {
+    "name": "Factory",
+    "categoryId": 12
+  },
+  {
+    "name": "Observer",
+    "categoryId": 12
+  },
+  {
+    "name": "Reflection",
+    "categoryId": 12
+  },
+  {
+    "name": "Repository",
+    "categoryId": 12
+  },
+  {
+    "name": "Singleton",
+    "categoryId": 12
+  },
+  {
+    "name": "Vite",
+    "categoryId": 12
+  },
+  {
+    "name": "Webpack",
+    "categoryId": 12
+  }
+]
