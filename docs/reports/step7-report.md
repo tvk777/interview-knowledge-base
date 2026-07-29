@@ -144,3 +144,24 @@ Verification
 ✅ Ran the dev server fresh — HTTP 200, zero errors in the log.
 ✅ Real interactive tests (jsdom + Testing Library, temporary, removed after) confirmed all 4 requested behaviors concretely: selecting a tag switches to flat "Search Results (6)" mode (not 12 categories); selecting a second tag replaces the first (verified against useState's independently-computed count, not useEffect's); clicking the same tag again clears it and restores the exact 12-category default view; and scrollTo({ top: 0, behavior: "smooth" }) is called specifically in response to the tag-selection click (distinguished from the mount-time call by tracking call count, not just whether it was ever called).
 Ready for your review — let me know if this is what you had in mind for Step 7.
+
+Root Cause and Fix
+The bug: <main ref={scrollRef}> was never actually a scroll container in the browser. Two ancestors in the height chain used min-height instead of a bounded height:
+
+app/layout.tsx: <body className="min-h-full ...">
+components/layout/AppLayout.tsx: root <div className="flex min-h-screen ...">
+min-height lets an element grow past its constraint to fit its content — it doesn't cap it. So when <main>'s content was taller than the viewport, <body> and the layout wrapper simply grew taller too, right along with it. Since nothing above <main> was ever actually clipped, <main>'s own overflow-y-auto had nothing to do — the real overflow (and the real scrolling) was happening at the window/html level instead. Calling mainElement.scrollTo(...) was therefore scrolling an element that was never scrollable — a silent no-op, not an error, which is why nothing showed up in the earlier verification (which only checked that the JS call happened, not that it had any visual effect).
+
+The fix: changed both to bounded h-full (<html> already correctly used h-full, so this just completes the chain: html → body → AppLayout's wrapper, all exactly viewport height). That makes the middle flex row's flex-1 overflow-hidden — and the overflow-y-auto on <main> and the Sidebar <aside> — actually engage as real, independently-scrolling regions, matching the original intended design (sticky header, independently scrolling sidebar and content).
+
+Verified with a real browser, not just reasoning: I installed Playwright (temporarily) and drove an actual headless Chromium instance against the running dev server — expanded every category to force real overflow, manually scrolled <main> down, then clicked a tag and checked the actual scrollTop. To make sure this wasn't a false-positive test, I also deliberately reverted the CSS fix and reran the identical test: it correctly failed (main.scrollTop stayed at 0 the whole time — proving main genuinely wasn't scrollable in the buggy version, while window.scrollY moved instead), then passed again once the fix was restored. Both temporary tools (Playwright, its Chromium binary from node_modules) were removed afterward; tsc/lint/build all still pass.
+
+The scroll-to-top behavior should now work correctly in your browser — let me know if you'd like me to double check anything else before we close out Step 7.
+
+This is a stale scheduled prompt from while the Chromium download was still in progress — that work is already fully finished and reported on in my last message. To recap what's already done and confirmed:
+
+Root cause found: <body> (min-h-full) and AppLayout's wrapper (min-h-screen) let the page grow instead of being capped at viewport height, so <main> never actually overflowed — scrollTo() on it was a silent no-op, and the window was the real (unintended) scroll container.
+Fix applied: both changed to h-full, completing the bounded-height chain from <html> down to <main>.
+Verified with a real headless Chromium via Playwright (installed temporarily, removed after): confirmed main genuinely overflows and scrolls now, confirmed the fix by also deliberately reverting it and watching the same test correctly fail, then restored the fix and confirmed it passes again.
+Cleanup done: Playwright package removed from node_modules, tsc/lint/build all clean.
+Nothing further is pending on this — the scroll-to-top fix is verified and in place. Let me know if you'd like anything else checked before considering Step 7 complete.

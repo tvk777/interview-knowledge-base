@@ -1,19 +1,27 @@
-"use client";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import type { Technology } from "@/types/technology";
 
-const TECHNOLOGIES = ["React", "JavaScript", "TypeScript", "Next.js"];
+interface TechnologyTabsProps {
+  technologies: Technology[];
+  currentTechnology: string;
+}
 
-export default function TechnologyTabs() {
+export default function TechnologyTabs({
+  technologies,
+  currentTechnology,
+}: TechnologyTabsProps) {
   return (
     <div className="flex flex-wrap items-center gap-1">
-      {TECHNOLOGIES.map((technology, index) => (
+      {technologies.map((technology) => (
         <Button
-          key={technology}
-          variant={index === 0 ? "secondary" : "ghost"}
+          key={technology.slug}
+          variant={technology.slug === currentTechnology ? "secondary" : "ghost"}
           size="sm"
+          render={<Link href={`/${technology.slug}`} />}
         >
-          {technology}
+          {technology.name}
         </Button>
       ))}
     </div>

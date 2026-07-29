@@ -8,8 +8,17 @@ import { SheetTrigger } from "@/components/ui/sheet";
 import LanguageSwitcher from "@/components/header/LanguageSwitcher";
 import SearchBar from "@/components/header/SearchBar";
 import TechnologyTabs from "@/components/header/TechnologyTabs";
+import type { Technology } from "@/types/technology";
 
-export default function Header() {
+interface HeaderProps {
+  technologies: Technology[];
+  currentTechnology: string;
+}
+
+export default function Header({
+  technologies,
+  currentTechnology,
+}: HeaderProps) {
   return (
     <header className="sticky top-0 z-40 flex h-14 shrink-0 items-center gap-3 border-b bg-background px-4">
       <SheetTrigger
@@ -28,7 +37,10 @@ export default function Header() {
       <Separator orientation="vertical" className="hidden h-6 md:block" />
 
       <div className="hidden md:block">
-        <TechnologyTabs />
+        <TechnologyTabs
+          technologies={technologies}
+          currentTechnology={currentTechnology}
+        />
       </div>
 
       <div className="hidden flex-1 justify-center px-2 md:flex">
