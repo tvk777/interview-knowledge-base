@@ -45,3 +45,19 @@ Verified, not just written: tsc --noEmit clean, npm run lint clean, npm run buil
 The Sheet/Content composition pattern (shared context via common ancestor) is worth keeping in mind as the template for future cross-component coordination, rather than reaching for lifted useState or a context provider by default.
 Next logical step per the specs would be the data layer (getQuestions()/getCategories()/getTags() in a new services/ folder) — but per your instruction, I'm not creating that folder or any code until it's actually the step that needs it.
 Not starting Step 2 — waiting for your review and approval.
+
+
+STEP 1-1
+Summary
+Implemented the three approved refinements — no additional functionality introduced.
+
+Modified Files
+components/header/Header.tsx — SearchBar and LanguageSwitcher are now wrapped in hidden md:flex / hidden md:block, so mobile Header shows only the menu button and title. Desktop layout (title, separator, TechnologyTabs, search, language) is byte-for-byte unchanged in structure — only the two new wrapper hidden md:* classes were added around elements that were previously always visible. Also updated the trigger's screen-reader label from "Toggle tags menu" to "Toggle navigation menu" to match the drawer's new scope.
+components/sidebar/Sidebar.tsx — SheetContent's title changed from "Tags" to "Navigation"; content now renders TechnologyTabs → Separator → TagList, in that order. The desktop <aside> (still "Tags"-only) is untouched.
+components/header/TechnologyTabs.tsx — added flex-wrap to the button row so it doesn't overflow inside the narrower Sheet panel.
+Architectural Decisions
+TechnologyTabs is imported into Sidebar.tsx and rendered a second time there — same component, two render sites, no duplication. Since SheetContent only mounts when the Sheet is open, and the Header's copy is CSS-hidden below md, mobile users see exactly one instance.
+No new state was introduced. The Sheet's open/close is still entirely owned by the base-ui primitive, as in Step 1.
+Verified: tsc --noEmit clean, npm run lint clean, npm run build succeeds. Ran the dev server and confirmed in the actual rendered HTML: SearchBar wrapper carries hidden ... md:flex, LanguageSwitcher wrapper carries hidden md:block, the trigger's accessible label reads "Toggle navigation menu", and zero errors/warnings appeared in the dev server log. (The Sheet's "Navigation" title itself isn't present in the initial SSR HTML since SheetContent only mounts once opened — same behavior as before for "Tags", not a regression.)
+
+Not continuing to the next step — this was scoped as a refinement only.

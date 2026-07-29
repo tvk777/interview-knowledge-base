@@ -1,6 +1,8 @@
 "use client";
 
+import { Separator } from "@/components/ui/separator";
 import { SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
+import TechnologyTabs from "@/components/header/TechnologyTabs";
 import TagList from "@/components/sidebar/TagList";
 
 export default function Sidebar() {
@@ -15,9 +17,11 @@ export default function Sidebar() {
 
       <SheetContent side="left">
         <SheetHeader>
-          <SheetTitle>Tags</SheetTitle>
+          <SheetTitle>Navigation</SheetTitle>
         </SheetHeader>
         <div className="overflow-y-auto px-4 pb-4">
+          <TechnologyTabs />
+          <Separator className="my-4" />
           <TagList />
         </div>
       </SheetContent>

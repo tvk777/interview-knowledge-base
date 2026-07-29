@@ -6,7 +6,7 @@ const TECHNOLOGIES = ["React", "JavaScript", "TypeScript", "Next.js"];
 
 export default function TechnologyTabs() {
   return (
-    <div className="flex items-center gap-1">
+    <div className="flex flex-wrap items-center gap-1">
       {TECHNOLOGIES.map((technology, index) => (
         <Button
           key={technology}

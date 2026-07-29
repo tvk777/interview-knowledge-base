@@ -106,6 +106,29 @@ No search logic.
 
 ---
 
+## Mobile Navigation
+
+On mobile devices, the application should provide access to all primary navigation.
+
+The mobile navigation is displayed inside a Sheet.
+
+The Sheet contains:
+
+- Technology selector
+- Tag filters
+
+The Header contains:
+
+- Menu button
+- Application title
+
+The search input is not displayed on mobile in the initial version and may be added in a future iteration.
+
+The goal is to keep the mobile interface simple while preserving access to all navigation features.
+
+
+---
+
 ## Main Content
 
 Responsible for:

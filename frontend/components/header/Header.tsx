@@ -18,7 +18,7 @@ export default function Header() {
         }
       >
         <MenuIcon />
-        <span className="sr-only">Toggle tags menu</span>
+        <span className="sr-only">Toggle navigation menu</span>
       </SheetTrigger>
 
       <span className="text-sm font-semibold whitespace-nowrap">
@@ -31,11 +31,13 @@ export default function Header() {
         <TechnologyTabs />
       </div>
 
-      <div className="flex flex-1 justify-center px-2">
+      <div className="hidden flex-1 justify-center px-2 md:flex">
         <SearchBar />
       </div>
 
-      <LanguageSwitcher />
+      <div className="hidden md:block">
+        <LanguageSwitcher />
+      </div>
     </header>
   );
 }
