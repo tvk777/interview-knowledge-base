@@ -221,7 +221,30 @@ Drawer for tags
 
 Content
 
-Search should remain easily accessible.
+Search is desktop-only in this MVP. See Mobile Navigation below.
+
+---
+
+# Mobile Navigation
+
+On mobile, the Header contains only:
+
+- Menu button
+- Application title
+
+All other navigation is consolidated into a single entry point: the mobile Sheet, opened by the menu button.
+
+The mobile Sheet contains, in order:
+
+1. Technology selector (TechnologyTabs)
+2. Divider
+3. Tag filters
+
+TechnologyTabs is the same component rendered in the desktop Header, reused inside the Sheet rather than duplicated. On mobile the Header's copy is hidden and the Sheet's copy is the only one shown, so there is still only one technology selector visible at a time.
+
+SearchBar and LanguageSwitcher are intentionally desktop-only in this MVP. They are not present in the mobile Header or the mobile Sheet.
+
+They may be introduced on mobile in a future iteration, once core functionality (data loading, search, filtering) is implemented.
 
 ---
 

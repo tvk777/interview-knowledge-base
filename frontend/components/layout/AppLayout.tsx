@@ -1,20 +1,24 @@
 "use client";
 
 import { Sheet } from "@/components/ui/sheet";
-import Content from "@/components/content/Content";
+import { SearchProvider } from "@/hooks/useSearch";
 import Header from "@/components/header/Header";
-import Sidebar from "@/components/sidebar/Sidebar";
 
-export default function AppLayout() {
+export default function AppLayout({
+  sidebar,
+  children,
+}: Readonly<{ sidebar: React.ReactNode; children: React.ReactNode }>) {
   return (
-    <Sheet>
-      <div className="flex min-h-screen flex-col">
-        <Header />
-        <div className="flex flex-1 overflow-hidden">
-          <Sidebar />
-          <Content />
+    <SearchProvider>
+      <Sheet>
+        <div className="flex h-full flex-col">
+          <Header />
+          <div className="flex flex-1 overflow-hidden">
+            {sidebar}
+            {children}
+          </div>
         </div>
-      </div>
-    </Sheet>
+      </Sheet>
+    </SearchProvider>
   );
 }

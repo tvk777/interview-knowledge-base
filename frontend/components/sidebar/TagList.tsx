@@ -1,24 +1,33 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { useSearch } from "@/hooks/useSearch";
+import type { Tag } from "@/types/tag";
 
-const PLACEHOLDER_TAGS = [
-  "useState",
-  "useEffect",
-  "Closures",
-  "Event Loop",
-  "Generics",
-  "Server Components",
-];
+interface TagListProps {
+  tags: Tag[];
+}
 
-export default function TagList() {
+export default function TagList({ tags }: TagListProps) {
+  const { selectedTag, selectTag } = useSearch();
+  const sortedTags = [...tags].sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <div className="flex flex-wrap gap-1.5">
-      {PLACEHOLDER_TAGS.map((tag) => (
-        <Badge key={tag} variant="outline">
-          {tag}
-        </Badge>
-      ))}
+      {sortedTags.map((tag) => {
+        const isSelected = selectedTag === tag.name;
+        return (
+          <Button
+            key={tag.name}
+            variant={isSelected ? "default" : "outline"}
+            size="sm"
+            className="rounded-full"
+            onClick={() => selectTag(tag.name)}
+          >
+            {tag.name}
+          </Button>
+        );
+      })}
     </div>
   );
 }

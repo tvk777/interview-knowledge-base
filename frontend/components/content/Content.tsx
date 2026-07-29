@@ -1,5 +1,15 @@
-"use client";
+import KnowledgeBase from "@/components/content/KnowledgeBase";
+import { getCategories, getQuestions } from "@/services/knowledge-base";
 
-export default function Content() {
-  return <main className="flex-1 overflow-y-auto p-4" />;
+interface ContentProps {
+  technology: string;
+}
+
+export default async function Content({ technology }: ContentProps) {
+  const [categories, questions] = await Promise.all([
+    getCategories(technology),
+    getQuestions(technology),
+  ]);
+
+  return <KnowledgeBase categories={categories} questions={questions} />;
 }
