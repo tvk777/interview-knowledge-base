@@ -195,7 +195,49 @@ Language switching should affect only displayed content while preserving the cur
 
 ---
 
-# Step 11 — Polish
+## Step 11 — Knowledge Base Landing Page
+
+Replace the current redirect from `/` with a dedicated landing page that serves as the main entry point to the knowledge base.
+
+### Goals
+
+- Create a real homepage at `/`.
+- Display the existing application header.
+- Provide an overview of all available technologies.
+- Improve navigation and discoverability.
+
+### Requirements
+
+- Reuse the existing application header.
+- Display every technology as a separate section.
+- Each section should include:
+  - technology name;
+  - list of tags belonging to that technology.
+- Clicking a technology navigates to its knowledge base.
+- Clicking a tag navigates to the corresponding technology page with that tag already selected.
+- Tag navigation should produce the same result as selecting a tag in the sidebar.
+
+### Architecture
+
+- Keep data loading on the server.
+- Reuse existing services for loading technologies and tags.
+- Avoid duplicating filtering logic.
+- Prefer URL-driven navigation for deep linking when appropriate.
+- Reuse existing UI components whenever possible.
+- Separate presentation from behavior.
+
+### Acceptance Criteria
+
+- `/` no longer redirects.
+- The landing page displays all technologies.
+- Every technology section displays its tags.
+- Technology links navigate correctly.
+- Tag links immediately open filtered results.
+- Existing technology pages continue to work without regressions.
+
+---
+
+# Step 12 — Polish
 
 ### Goals
 

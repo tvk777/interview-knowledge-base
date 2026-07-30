@@ -232,10 +232,6 @@
     "categoryId": 10
   },
   {
-    "name": "Action",
-    "categoryId": 11
-  },
-  {
     "name": "Dispatch",
     "categoryId": 11
   },
@@ -289,10 +285,6 @@
   },
   {
     "name": "React Helmet",
-    "categoryId": 12
-  },
-  {
-    "name": "React Native",
     "categoryId": 12
   },
   {
