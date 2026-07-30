@@ -24,6 +24,11 @@
     "name": "Forms",
     "description": "Controlled and uncontrolled components, form handling, validation, React Hook Form, Formik, and form-related patterns."
   },
+    {
+    "id": 13,
+    "name": "Event handling",
+    "description": "Synthetic Events, Pointer Events"
+  },
   {
     "id": 6,
     "name": "Context API",
