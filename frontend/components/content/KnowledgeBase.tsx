@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import { Accordion } from "@/components/ui/accordion";
 import CategoryAccordion from "@/components/content/CategoryAccordion";
 import QuestionAccordion from "@/components/content/QuestionAccordion";
+import { useLanguage } from "@/hooks/useLanguage";
 import { useSearch } from "@/hooks/useSearch";
 import { filterByTags } from "@/lib/filterByTags";
 import { searchQuestions } from "@/lib/search";
@@ -30,6 +31,7 @@ export default function KnowledgeBase({
   questions,
 }: KnowledgeBaseProps) {
   const { query, selectedTag } = useSearch();
+  const { language } = useLanguage();
   const scrollRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -56,7 +58,7 @@ export default function KnowledgeBase({
     );
   } else {
     const visible = filterByTags(
-      searchQuestions(questions, query),
+      searchQuestions(questions, query, language),
       selectedTag ? [selectedTag] : [],
     );
 

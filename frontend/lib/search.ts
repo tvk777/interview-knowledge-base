@@ -1,8 +1,11 @@
+import { resolveLocalizedText } from "@/lib/resolveLocalizedText";
+import type { Language } from "@/types/common";
 import type { Question } from "@/types/question";
 
 export function searchQuestions(
   questions: Question[],
   query: string,
+  language: Language,
 ): Question[] {
   const normalized = query.trim().toLowerCase();
 
@@ -11,8 +14,8 @@ export function searchQuestions(
   }
 
   return questions.filter((question) => {
-    const title = question.question.en.toLowerCase();
-    const answer = question.answer.en.toLowerCase();
+    const title = resolveLocalizedText(question.question, language).toLowerCase();
+    const answer = resolveLocalizedText(question.answer, language).toLowerCase();
     return title.includes(normalized) || answer.includes(normalized);
   });
 }
