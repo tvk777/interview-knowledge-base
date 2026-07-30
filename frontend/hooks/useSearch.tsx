@@ -9,13 +9,21 @@ interface SearchContextValue {
   selectTag: (tag: string) => void;
 }
 
+interface SearchProviderProps {
+  children: React.ReactNode;
+  initialSelectedTag?: string | null;
+}
+
 const SearchContext = createContext<SearchContextValue | null>(null);
 
 export function SearchProvider({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+  initialSelectedTag = null,
+}: Readonly<SearchProviderProps>) {
   const [query, setQuery] = useState("");
-  const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [selectedTag, setSelectedTag] = useState<string | null>(
+    initialSelectedTag,
+  );
 
   function selectTag(tag: string) {
     setSelectedTag((current) => (current === tag ? null : tag));

@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import { notFound } from "next/navigation";
 
 import AppLayout from "@/components/layout/AppLayout";
@@ -9,14 +10,11 @@ interface TechnologyPageProps {
   params: Promise<{ technology: string }>;
 }
 
-export async function generateStaticParams() {
-  const technologies = await getTechnologies();
-  return technologies.map((technology) => ({ technology: technology.slug }));
-}
-
 export default async function TechnologyPage({
   params,
 }: TechnologyPageProps) {
+  await connection();
+
   const { technology } = await params;
   const technologies = await getTechnologies();
 

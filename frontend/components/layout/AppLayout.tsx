@@ -1,7 +1,7 @@
 "use client";
 
 import { Sheet } from "@/components/ui/sheet";
-import { SearchProvider } from "@/hooks/useSearch";
+import { SearchProviderFromUrl } from "@/components/layout/SearchProviderFromUrl";
 import Header from "@/components/header/Header";
 import type { Technology } from "@/types/technology";
 
@@ -19,7 +19,7 @@ export default function AppLayout({
   children,
 }: Readonly<AppLayoutProps>) {
   return (
-    <SearchProvider key={technology}>
+    <SearchProviderFromUrl key={technology}>
       <Sheet>
         <div className="flex h-full flex-col">
           <Header technologies={technologies} currentTechnology={technology} />
@@ -29,6 +29,6 @@ export default function AppLayout({
           </div>
         </div>
       </Sheet>
-    </SearchProvider>
+    </SearchProviderFromUrl>
   );
 }

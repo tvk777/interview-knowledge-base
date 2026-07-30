@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import TagChip from "@/components/common/TagChip";
 import { useSearch } from "@/hooks/useSearch";
 import type { Tag } from "@/types/tag";
 
@@ -14,20 +14,15 @@ export default function TagList({ tags }: TagListProps) {
 
   return (
     <div className="flex flex-wrap gap-1.5">
-      {sortedTags.map((tag) => {
-        const isSelected = selectedTag === tag.name;
-        return (
-          <Button
-            key={tag.name}
-            variant={isSelected ? "default" : "outline"}
-            size="sm"
-            className="rounded-full"
-            onClick={() => selectTag(tag.name)}
-          >
-            {tag.name}
-          </Button>
-        );
-      })}
+      {sortedTags.map((tag) => (
+        <TagChip
+          key={tag.name}
+          selected={selectedTag === tag.name}
+          onClick={() => selectTag(tag.name)}
+        >
+          {tag.name}
+        </TagChip>
+      ))}
     </div>
   );
 }

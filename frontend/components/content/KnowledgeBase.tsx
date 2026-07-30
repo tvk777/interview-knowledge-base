@@ -20,8 +20,8 @@ interface KnowledgeBaseProps {
 function EmptyState() {
   return (
     <div className="py-8 text-center text-sm text-muted-foreground">
-      <p>No results found.</p>
-      <p>Try another keyword.</p>
+      <p>No questions match the current filters.</p>
+      <p>Try a different keyword or tag.</p>
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import type { Technology } from "@/types/technology";
 
 interface TechnologyTabsProps {
   technologies: Technology[];
-  currentTechnology: string;
+  currentTechnology: string | null;
 }
 
 export default function TechnologyTabs({
@@ -15,14 +16,19 @@ export default function TechnologyTabs({
   return (
     <div className="flex flex-wrap items-center gap-1">
       {technologies.map((technology) => (
-        <Button
+        <Link
           key={technology.slug}
-          variant={technology.slug === currentTechnology ? "secondary" : "ghost"}
-          size="sm"
-          render={<Link href={`/${technology.slug}`} />}
+          href={`/${technology.slug}`}
+          className={cn(
+            buttonVariants({
+              variant:
+                technology.slug === currentTechnology ? "secondary" : "ghost",
+              size: "sm",
+            }),
+          )}
         >
           {technology.name}
-        </Button>
+        </Link>
       ))}
     </div>
   );
