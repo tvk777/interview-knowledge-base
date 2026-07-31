@@ -12,6 +12,10 @@
     "categoryId": 1
   },
   {
+    "name": "React Limitations",
+    "categoryId": 1
+  },
+  {
     "name": "React Fiber",
     "categoryId": 1
   },
@@ -21,6 +25,14 @@
   },
   {
     "name": "Virtual DOM",
+    "categoryId": 1
+  },
+  {
+    "name": "Next.js",
+    "categoryId": 1
+  },
+  {
+    "name": "registerServiceWorker",
     "categoryId": 1
   },
   {
@@ -145,6 +157,10 @@
   },
   {
     "name": "Lifting State Up",
+    "categoryId": 7
+  },
+  {
+    "name": "Reverse Data Flow",
     "categoryId": 7
   },
   {

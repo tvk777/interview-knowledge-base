@@ -195,7 +195,8 @@
     },
     "categoryId": 3,
     "tags": [
-      "Props"
+      "Props",
+      "One-Way Data Flow"
     ]
   },
   {
@@ -612,8 +613,8 @@
       "uk": "Як виконати код перед видаленням компонента з дерева?"
     },
     "answer": {
-      "en": "To execute code before a component is removed from the React tree, the following approaches are used:\n\n1. **Class components:** `componentWillUnmount`Class components provide the componentWillUnmount lifecycle method, which is called right before the component is removed.\n\n   ```jsx\n   class MyComponent extends React.Component {\n     componentWillUnmount() {\n       console.log('Component will be removed');\n     }\n\n     render() {\n       return <div>My component</div>;\n     }\n   }\n   ```\n\n2. **Function components:** `useEffect` with cleanupIn function components, cleanup logic is implemented in useEffect by returning a function that runs before unmount.\n\n   ```jsx\n   import { useEffect } from 'react';\n\n   function MyComponent() {\n     useEffect(() => {\n       return () => {\n         console.log('Component will be removed');\n       };\n     }, []);\n\n     return <div>My component</div>;\n   }\n   ```\n\n3. **Handling page unload (beforeunload)**\n\nIf code must be executed before closing or reloading the page:\n\n```jsx\nuseEffect(() => {\n  const handleUnload = () => {\n    console.log('Page is closing');\n  };\n\n  window.addEventListener('beforeunload', handleUnload);\n  return () => window.removeEventListener('beforeunload', handleUnload);\n}, []);\n```\n\n#### Conclusion\n\n- `componentWillUnmount` for class components.\n- `useEffect` with `return` for function components.\n- `beforeunload` for reacting to page exit.",
-      "uk": "Щоб виконати код перед видаленням компонента з дерева в React, використовують такі підходи:\n\n1. **Класові компоненти:** `componentWillUnmount`Для класових компонентів є метод життєвого циклу componentWillUnmount, який викликається перед видаленням компонента.\n\n   ```jsx\n   class MyComponent extends React.Component {\n     componentWillUnmount() {\n       console.log('Компонент буде видалено');\n     }\n\n     render() {\n       return <div>Мій компонент</div>;\n     }\n   }\n   ```\n\n2. **Функціональні компоненти:** `useEffect` з очищеннямУ функціональних компонентах очищення можна зробити в useEffect, повернувши функцію, яка виконається перед видаленням компонента.\n\n   ```jsx\n   import { useEffect } from 'react';\n\n   function MyComponent() {\n     useEffect(() => {\n       return () => {\n         console.log('Компонент буде видалено');\n       };\n     }, []);\n\n     return <div>Мій компонент</div>;\n   }\n   ```\n\n3. **Обробка перед закриттям сторінки (beforeunload)**\n\nЯкщо потрібно виконати код перед закриттям вкладки або перезавантаженням сторінки:\n\n```jsx\nuseEffect(() => {\n  const handleUnload = () => {\n    console.log('Сторінка закривається');\n  };\n\n  window.addEventListener('beforeunload', handleUnload);\n  return () => window.removeEventListener('beforeunload', handleUnload);\n}, []);\n```\n\n#### Висновок\n\n- `componentWillUnmount` – для класових компонентів.\n- `useEffect` із `return` – для функціональних.\n- `beforeunload` – для випадків, коли потрібно реагувати на вихід із сторінки."
+      "en": "In React, code before a component is removed is executed using lifecycle methods or hooks.\n\n1. **Class components** – use the `componentWillUnmount` lifecycle method.\n2. **Functional components** – use `useEffect` with a cleanup function.\n\nThis logic runs right before the component is unmounted.\n\n---\n\nTo execute code before a component is removed from the React tree, the following approaches are used:\n\n1. **Class components:** `componentWillUnmount`Class components provide the componentWillUnmount lifecycle method, which is called right before the component is removed.\n\n   ```jsx\n   class MyComponent extends React.Component {\n     componentWillUnmount() {\n       console.log('Component will be removed');\n     }\n\n     render() {\n       return <div>My component</div>;\n     }\n   }\n   ```\n\n2. **Function components:** `useEffect` with cleanupIn function components, cleanup logic is implemented in useEffect by returning a function that runs before unmount.\n\n   ```jsx\n   import { useEffect } from 'react';\n\n   function MyComponent() {\n     useEffect(() => {\n       return () => {\n         console.log('Component will be removed');\n       };\n     }, []);\n\n     return <div>My component</div>;\n   }\n   ```\n\n3. **Handling page unload (beforeunload)**\n\nIf code must be executed before closing or reloading the page:\n\n```jsx\nuseEffect(() => {\n  const handleUnload = () => {\n    console.log('Page is closing');\n  };\n\n  window.addEventListener('beforeunload', handleUnload);\n  return () => window.removeEventListener('beforeunload', handleUnload);\n}, []);\n```\n\n#### Conclusion\n\n- `componentWillUnmount` for class components.\n- `useEffect` with `return` for function components.\n- `beforeunload` for reacting to page exit.",
+      "uk": "У React код перед видаленням компонента виконується через спеціальні хуки або методи життєвого циклу.\n\n1. **Класові компоненти** – використовується метод `componentWillUnmount`.\n2. **Функціональні компоненти** – використовується `useEffect` з функцією очищення.\n\nЦей код виконується безпосередньо перед демонтуванням компонента.\n\n---\n\nЩоб виконати код перед видаленням компонента з дерева в React, використовують такі підходи:\n\n1. **Класові компоненти:** `componentWillUnmount`Для класових компонентів є метод життєвого циклу componentWillUnmount, який викликається перед видаленням компонента.\n\n   ```jsx\n   class MyComponent extends React.Component {\n     componentWillUnmount() {\n       console.log('Компонент буде видалено');\n     }\n\n     render() {\n       return <div>Мій компонент</div>;\n     }\n   }\n   ```\n\n2. **Функціональні компоненти:** `useEffect` з очищеннямУ функціональних компонентах очищення можна зробити в useEffect, повернувши функцію, яка виконається перед видаленням компонента.\n\n   ```jsx\n   import { useEffect } from 'react';\n\n   function MyComponent() {\n     useEffect(() => {\n       return () => {\n         console.log('Компонент буде видалено');\n       };\n     }, []);\n\n     return <div>Мій компонент</div>;\n   }\n   ```\n\n3. **Обробка перед закриттям сторінки (beforeunload)**\n\nЯкщо потрібно виконати код перед закриттям вкладки або перезавантаженням сторінки:\n\n```jsx\nuseEffect(() => {\n  const handleUnload = () => {\n    console.log('Сторінка закривається');\n  };\n\n  window.addEventListener('beforeunload', handleUnload);\n  return () => window.removeEventListener('beforeunload', handleUnload);\n}, []);\n```\n\n#### Висновок\n\n- `componentWillUnmount` – для класових компонентів.\n- `useEffect` із `return` – для функціональних.\n- `beforeunload` – для випадків, коли потрібно реагувати на вихід із сторінки."
     },
     "categoryId": 3,
     "tags": [
@@ -912,7 +913,8 @@
     "categoryId": 7,
     "tags": [
       "Lifting State Up",
-      "State"
+      "State",
+      "Reverse Data Flow"
     ]
   },
   {
@@ -1262,7 +1264,8 @@
     },
     "categoryId": 1,
     "tags": [
-      "One-Way Data Flow"
+      "One-Way Data Flow",
+      "Controlled Component"
     ]
   },
   {
@@ -1278,7 +1281,10 @@
     },
     "categoryId": 1,
     "tags": [
-      "One-Way Data Flow"
+      "One-Way Data Flow",
+      "Reverse Data Flow",
+      "Lifting State Up",
+      "State"
     ]
   },
   {
@@ -1406,8 +1412,8 @@
     },
     "categoryId": 1,
     "tags": [
-      "Virtual DOM",
-      "Server-Side Rendering"
+      "Server-Side Rendering",
+      "Next.js"
     ]
   },
   {
@@ -1423,8 +1429,8 @@
     },
     "categoryId": 1,
     "tags": [
-      "Server-Side Rendering",
-      "Virtual DOM"
+      "Next.js",
+      "Server-Side Rendering"
     ]
   },
   {
@@ -1625,23 +1631,6 @@
     ]
   },
   {
-    "id": "12726599-c7fa-4519-bca7-36f1a7b15cc3",
-    "difficulty": "medium",
-    "question": {
-      "en": "How do you run code before a component is removed from the tree?",
-      "uk": "Як виконати код перед видаленням компонента з дерева?"
-    },
-    "answer": {
-      "en": "In React, code before a component is removed is executed using lifecycle methods or hooks.\n\n1. **Class components** – use the `componentWillUnmount` lifecycle method.\n2. **Functional components** – use `useEffect` with a cleanup function.\n\nThis logic runs right before the component is unmounted.",
-      "uk": "У React код перед видаленням компонента виконується через спеціальні хуки або методи життєвого циклу.\n\n1. **Класові компоненти** – використовується метод `componentWillUnmount`.\n2. **Функціональні компоненти** – використовується `useEffect` з функцією очищення.\n\nЦей код виконується безпосередньо перед демонтуванням компонента."
-    },
-    "categoryId": 3,
-    "tags": [
-      "componentWillUnmount",
-      "Lifecycle Method"
-    ]
-  },
-  {
     "id": "24944b53-3f0c-45a2-8ad4-0a49ec5e9b3e",
     "difficulty": "medium",
     "question": {
@@ -1739,7 +1728,7 @@
     },
     "categoryId": 1,
     "tags": [
-      "Virtual DOM"
+      "React Limitations"
     ]
   },
   {
@@ -1755,7 +1744,7 @@
     },
     "categoryId": 1,
     "tags": [
-      "Virtual DOM"
+      "registerServiceWorker"
     ]
   },
   {
@@ -1806,8 +1795,7 @@
     },
     "categoryId": 1,
     "tags": [
-      "Virtual DOM",
-      "React Fiber"
+      "React Features"
     ]
   },
   {
@@ -1823,7 +1811,6 @@
     },
     "categoryId": 1,
     "tags": [
-      "Virtual DOM",
       "Server Components",
       "React Features"
     ]
@@ -1842,7 +1829,8 @@
     "categoryId": 9,
     "tags": [
       "React Router",
-      "Server-Side Rendering"
+      "Server-Side Rendering",
+      "Next.js"
     ]
   },
   {
