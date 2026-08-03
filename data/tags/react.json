@@ -64,14 +64,6 @@
     "categoryId": 3
   },
   {
-    "name": "componentDidMount",
-    "categoryId": 3
-  },
-  {
-    "name": "componentWillUnmount",
-    "categoryId": 3
-  },
-  {
     "name": "Functional Component",
     "categoryId": 3
   },
@@ -220,19 +212,11 @@
     "categoryId": 9
   },
   {
-    "name": "Container-Presentational Pattern",
-    "categoryId": 10
-  },
-  {
     "name": "Error Boundary",
     "categoryId": 10
   },
   {
     "name": "Higher-Order Component",
-    "categoryId": 10
-  },
-  {
-    "name": "Micro Frontends",
     "categoryId": 10
   },
   {
@@ -244,11 +228,23 @@
     "categoryId": 10
   },
   {
+    "name": "TypeScript",
+    "categoryId": 10
+  },
+  {
+    "name": "childeren",
+    "categoryId": 10
+  },
+  {
     "name": "Render Props",
     "categoryId": 10
   },
   {
     "name": "Strict Mode",
+    "categoryId": 10
+  },
+  {
+    "name": "CSS",
     "categoryId": 10
   },
   {
@@ -305,6 +301,18 @@
   },
   {
     "name": "React Helmet",
+    "categoryId": 12
+  },
+  {
+    "name": "Security",
+    "categoryId": 12
+  },
+  {
+    "name": "Animation",
+    "categoryId": 12
+  },
+  {
+    "name": "async await",
     "categoryId": 12
   },
   {

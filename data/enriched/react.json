@@ -178,8 +178,7 @@
     },
     "categoryId": 2,
     "tags": [
-      "key",
-      "Reconciliation"
+      "key"
     ]
   },
   {
@@ -279,8 +278,7 @@
     },
     "categoryId": 2,
     "tags": [
-      "key",
-      "Reconciliation"
+      "key"
     ]
   },
   {
@@ -536,7 +534,8 @@
     },
     "categoryId": 3,
     "tags": [
-      "Props"
+      "Props",
+      "childeren"
     ]
   },
   {
@@ -618,7 +617,6 @@
     },
     "categoryId": 3,
     "tags": [
-      "componentWillUnmount",
       "Lifecycle Method"
     ]
   },
@@ -653,8 +651,7 @@
     "categoryId": 4,
     "tags": [
       "useState",
-      "useEffect",
-      "Custom Hook"
+      "useEffect"
     ]
   },
   {
@@ -1029,7 +1026,7 @@
     },
     "categoryId": 10,
     "tags": [
-      "Container-Presentational Pattern"
+      "CSS"
     ]
   },
   {
@@ -1045,7 +1042,7 @@
     },
     "categoryId": 10,
     "tags": [
-      "Container-Presentational Pattern"
+      "CSS"
     ]
   },
   {
@@ -1147,8 +1144,7 @@
     },
     "categoryId": 9,
     "tags": [
-      "Server-Side Rendering",
-      "Hydration"
+      "Server-Side Rendering"
     ]
   },
   {
@@ -1199,7 +1195,7 @@
     "categoryId": 12,
     "tags": [
       "dangerouslySetInnerHTML",
-      "Synthetic Event"
+      "Security"
     ]
   },
   {
@@ -1331,7 +1327,8 @@
     },
     "categoryId": 12,
     "tags": [
-      "PropTypes"
+      "PropTypes",
+      "TypeScript"
     ]
   },
   {
@@ -1347,7 +1344,8 @@
     },
     "categoryId": 12,
     "tags": [
-      "Framer Motion"
+      "Framer Motion",
+      "Animation"
     ]
   },
   {
@@ -1363,7 +1361,8 @@
     },
     "categoryId": 12,
     "tags": [
-      "Framer Motion"
+      "Framer Motion",
+      "Animation"
     ]
   },
   {
@@ -1528,7 +1527,8 @@
     "categoryId": 3,
     "tags": [
       "Props",
-      "PropTypes"
+      "PropTypes",
+      "TypeScript"
     ]
   },
   {
@@ -1544,8 +1544,7 @@
     },
     "categoryId": 3,
     "tags": [
-      "Lifecycle Method",
-      "componentDidMount"
+      "Lifecycle Method"
     ]
   },
   {
@@ -1645,24 +1644,6 @@
       "useReducer",
       "useState",
       "Dispatch"
-    ]
-  },
-  {
-    "id": "e10c84af-2770-40cb-9af6-aca332983856",
-    "difficulty": "medium",
-    "question": {
-      "en": "How do you use React.lazy and React.Suspense to load application code?",
-      "uk": "Як використовувати React.lazy та React.Suspense для запуску коду програми?"
-    },
-    "answer": {
-      "en": "`React.lazy` and `React.Suspense` are used for dynamic component loading and code splitting.\n\n#### How it works:\n\n1. `React.lazy()` loads a component lazily using dynamic import.\n2. `React.Suspense` renders fallback UI while the component is loading.\n\n#### Example:\n\n```jsx\nconst MyComponent = React.lazy(() => import('./MyComponent'));\n\nfunction App() {\n  return (\n    <React.Suspense fallback={<div>Loading...</div>}>\n      <MyComponent />\n    </React.Suspense>\n  );\n}\n```",
-      "uk": "`React.lazy` та `React.Suspense` використовуються для динамічного завантаження компонентів і розбиття коду (code splitting).\n\n#### Як це працює:\n\n1. `React.lazy()` відкладено завантажує компонент через dynamic import.\n2. `React.Suspense` показує fallback-контент, поки компонент не завантажився.\n\n#### Приклад:\n\n```jsx\nconst MyComponent = React.lazy(() => import('./MyComponent'));\n\nfunction App() {\n  return (\n    <React.Suspense fallback={<div>Завантаження...</div>}>\n      <MyComponent />\n    </React.Suspense>\n  );\n}\n```"
-    },
-    "categoryId": 8,
-    "tags": [
-      "React.lazy",
-      "Suspense",
-      "Code Splitting"
     ]
   },
   {
@@ -1778,7 +1759,8 @@
     },
     "categoryId": 4,
     "tags": [
-      "useEffect"
+      "useEffect",
+      "async await"
     ]
   },
   {
@@ -1846,6 +1828,134 @@
     "categoryId": 4,
     "tags": [
       "useDeferredValue"
+    ]
+  },
+  {
+    "id": "8edbe2c8-b6c0-4c79-a16a-15949cf03675",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a Custom Hook?",
+      "uk": "Що таке Custom Hook?"
+    },
+    "answer": {
+      "en": "A **Custom Hook** is a regular JavaScript function whose name starts with the prefix `use`, and which can call other React hooks inside it (`useState`, `useEffect`, `useContext`, etc.).\n\nThe main purpose is to **extract reusable logic** out of components into a separate function, so it can be shared across different components without duplicating code.\n\n## Why it's needed\n\n- Removes duplicated logic between components\n- Separates UI (JSX) from business logic\n- Makes code more testable and readable\n- Encapsulates complex logic (requests, subscriptions, timers) in one place\n\n## Example\n\n```jsx\n// Custom Hook\nfunction useWindowWidth() {\n  const [width, setWidth] = useState(window.innerWidth);\n\n  useEffect(() => {\n    const handleResize = () => setWidth(window.innerWidth);\n    window.addEventListener('resize', handleResize);\n    return () => window.removeEventListener('resize', handleResize);\n  }, []);\n\n  return width;\n}\n\n// Usage in a component\nfunction MyComponent() {\n  const width = useWindowWidth();\n  return <p>Window width: {width}px</p>;\n}\n```\n\n## Key rules\n\n1. **The name must start with `use`** — React (and eslint-plugin-react-hooks) relies on this naming convention to enforce the Rules of Hooks.\n2. **Rules of Hooks** still apply: hooks cannot be called conditionally, inside loops, or in nested functions — only at the top level.\n3. Each call to a custom hook creates its **own independent state** — even if two components use the same hook, their data is not shared or linked.\n4. A Custom Hook is purely about **logic** — it does not return JSX (unlike a component).\n\n## Typical interview answer\n\n## How is a Custom Hook different from a regular helper function?\" — answer:\n\nA Custom Hook differs because it can call other React hooks internally (state, effects, context) and must follow the Rules of Hooks. A regular helper function can't do that — it simply computes a value without access to React's reactivity mechanisms.",
+      "uk": "**Custom Hook** (кастомний хук) — це звичайна JavaScript-функція, назва якої починається з префікса `use`, і яка може використовувати всередині себе інші React-хуки (`useState`, `useEffect`, `useContext` тощо).\n\nГоловна мета — **винести повторювану логіку** з компонентів в окрему функцію, щоб її можна було перевикористовувати в різних компонентах, не дублюючи код.\n\n## Навіщо потрібен\n\n- Прибрати дублювання логіки між компонентами\n- Розділити UI (JSX) і бізнес-логіку\n- Зробити код тестованим і читабельним\n- Інкапсулювати складну логіку (запити, підписки, таймери) в одному місці\n\n## Приклад\n\n```jsx\n// Custom Hook\nfunction useWindowWidth() {\n  const [width, setWidth] = useState(window.innerWidth);\n\n  useEffect(() => {\n    const handleResize = () => setWidth(window.innerWidth);\n    window.addEventListener('resize', handleResize);\n    return () => window.removeEventListener('resize', handleResize);\n  }, []);\n\n  return width;\n}\n\n// Використання в компоненті\nfunction MyComponent() {\n  const width = useWindowWidth();\n  return <p>Ширина вікна: {width}px</p>;\n}\n```\n\n## Ключові правила\n\n1. **Назва завжди з `use`** — React (і eslint-plugin-react-hooks) використовує це, щоб перевіряти дотримання правил хуків.\n2. **Rules of Hooks** діють і тут: не можна викликати хуки умовно, у циклах чи вкладених функціях — тільки на верхньому рівні.\n3. Кожен виклик custom hook створює **свій незалежний стан** — навіть якщо два компоненти використовують один і той самий хук, їхні дані не пов'язані між собою.\n4. Custom Hook — це саме про **логіку**, він не повертає JSX (на відміну від компонентів).\n\n## Чим відрізняється Custom Hook від звичайної функції-хелпера?\n\nCustom Hook відрізняється тим, що всередині він може викликати інші хуки React (стан, ефекти, контекст) і підпорядковується Rules of Hooks. Звичайна функція-хелпер такого робити не може — вона просто обчислює значення без доступу до React-механізмів реактивності."
+    },
+    "categoryId": 4,
+    "tags": [
+      "Custom Hook"
+    ]
+  },
+  {
+    "id": "d9e10c1b-e311-47b6-a36d-a9e91ebcf9a6",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Redux Toolkit?",
+      "uk": "Що таке Redux Toolkit?"
+    },
+    "answer": {
+      "en": "**Redux Toolkit (RTK)** is the official, recommended way to write Redux logic. It's a set of tools built on top of plain Redux that simplifies and reduces boilerplate code, solving the most common pain points: too much configuration, the need to manually wire up several separate packages (redux-thunk, immer, reselect), and the risk of accidentally mutating state.\n\n## Why it's needed\n\n- Significantly less boilerplate compared to \"old-school\" Redux\n- Immer built in out of the box — you can write \"mutating\" logic in reducers, and RTK converts it into immutable updates under the hood\n- Built-in `redux-thunk` for async logic\n- Automatic generation of action creators and action types\n- Redux DevTools and good default store settings enabled by default\n- `createAsyncThunk` — a standardized way to handle async requests (loading/success/error states)\n- RTK Query — a separate tool for data fetching (caching, requests, invalidation) without writing reducers by hand\n\n## Core APIs\n\n### 1. configureStore\nA simplified store setup — automatically wires up Redux DevTools and middleware (including thunk).\n\n    import { configureStore } from '@reduxjs/toolkit';\n\n    const store = configureStore({\n      reducer: {\n        counter: counterReducer,\n      },\n    });\n\n### 2. createSlice\nThe main RTK function — combines reducer logic, actions, and initial state in one place.\n\n    import { createSlice } from '@reduxjs/toolkit';\n\n    const counterSlice = createSlice({\n      name: 'counter',\n      initialState: { value: 0 },\n      reducers: {\n        increment: (state) => {\n          state.value += 1; // \"mutation\" is safe thanks to Immer\n        },\n        decrement: (state) => {\n          state.value -= 1;\n        },\n        incrementByAmount: (state, action) => {\n          state.value += action.payload;\n        },\n      },\n    });\n\n    export const { increment, decrement, incrementByAmount } = counterSlice.actions;\n    export default counterSlice.reducer;\n\n### 3. createAsyncThunk\nFor asynchronous operations (e.g., API requests).\n\n    import { createAsyncThunk } from '@reduxjs/toolkit';\n\n    export const fetchUser = createAsyncThunk(\n      'user/fetchUser',\n      async (userId) => {\n        const response = await fetch(`/api/users/${userId}`);\n        return response.json();\n      }\n    );\n\n## Key difference from plain Redux\n\n| Plain Redux | Redux Toolkit |\n|---|---|\n| A lot of boilerplate (action types, action creators, switch-case reducers) | A single `createSlice` generates everything automatically |\n| Manual immutability (spread operators everywhere) | Immer under the hood lets you \"mutate\" state safely |\n| Middleware must be wired up manually | `configureStore` includes it by default |\n| No standard pattern for async logic | `createAsyncThunk` provides a ready-made pattern |\n\n## Why use Redux Toolkit instead of plain Redux?\n\nRedux Toolkit drastically reduces boilerplate, eliminates common mistakes like accidental state mutation thanks to built-in Immer, and provides standardized patterns for async logic via createAsyncThunk. It's the officially recommended approach from the Redux team, so plain Redux is rarely used in new projects today.",
+      "uk": "**Redux Toolkit (RTK)** — це офіційний, рекомендований спосіб писати Redux-логіку. Це набір інструментів поверх звичайного Redux, який спрощує та скорочує бойлерплейт-код, усуваючи найбільш поширені проблеми: занадто багато конфігурацій, потребу підключати купу окремих пакетів (redux-thunk, immer, reselect) вручну та ризик мутації стану.\n\n## Навіщо потрібен\n\n- Значно менше бойлерплейту порівняно зі \"старим\" Redux\n- Immer вбудований \"з коробки\" — можна писати мутабельний код у reducer'ах, а RTK сам перетворює це в іммутабельні оновлення\n- Вбудований `redux-thunk` для асинхронної логіки\n- Автоматична генерація action creators і action types\n- Вбудовані DevTools і хороші дефолтні налаштування store\n- `createAsyncThunk` — стандартизований спосіб роботи з асинхронними запитами (loading/success/error стани)\n- RTK Query — окремий інструмент для роботи з даними (кешування, запити, інвалідація) без необхідності писати reducer'и вручну\n\n## Основні функції\n\n### 1. configureStore\nСпрощена конфігурація store — автоматично підключає Redux DevTools і middleware (включно з thunk).\n\n    import { configureStore } from '@reduxjs/toolkit';\n\n    const store = configureStore({\n      reducer: {\n        counter: counterReducer,\n      },\n    });\n\n### 2. createSlice\nГоловна функція RTK — об'єднує reducer, actions і initial state в одному місці.\n\n    import { createSlice } from '@reduxjs/toolkit';\n\n    const counterSlice = createSlice({\n      name: 'counter',\n      initialState: { value: 0 },\n      reducers: {\n        increment: (state) => {\n          state.value += 1; // \"мутація\" безпечна завдяки Immer\n        },\n        decrement: (state) => {\n          state.value -= 1;\n        },\n        incrementByAmount: (state, action) => {\n          state.value += action.payload;\n        },\n      },\n    });\n\n    export const { increment, decrement, incrementByAmount } = counterSlice.actions;\n    export default counterSlice.reducer;\n\n### 3. createAsyncThunk\nДля асинхронних операцій (наприклад, запитів до API).\n\n    import { createAsyncThunk } from '@reduxjs/toolkit';\n\n    export const fetchUser = createAsyncThunk(\n      'user/fetchUser',\n      async (userId) => {\n        const response = await fetch(`/api/users/${userId}`);\n        return response.json();\n      }\n    );\n\n## Ключова відмінність від \"старого\" Redux\n\n| Звичайний Redux | Redux Toolkit |\n|---|---|\n| Багато бойлерплейту (action types, action creators, switch-case reducers) | Один `createSlice` генерує все автоматично |\n| Обов'язкова іммутабельність вручну (spread-оператори) | Immer під капотом дозволяє \"мутувати\" стан безпечно |\n| Middleware треба підключати вручну | `configureStore` підключає їх за замовчуванням |\n| Немає стандарту для async-логіки | `createAsyncThunk` дає готовий патерн |\n\n## Чому варто використовувати Redux Toolkit замість чистого Redux?\n\n> Redux Toolkit значно скорочує кількість коду, усуває типові помилки (наприклад, випадкову мутацію стану) завдяки"
+    },
+    "categoryId": 11,
+    "tags": [
+      "Redux Toolkit"
+    ]
+  },
+  {
+    "id": "e32f5d1d-1221-43cf-a225-d5f31946f094",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Render Props?",
+      "uk": "Що таке Render Props?"
+    },
+    "answer": {
+      "en": "**Render Props** is a React pattern where a component accepts a **prop whose value is a function**, and uses that function (instead of static JSX) to determine what to render. The component calls this function prop, passes it some data/state, and inserts the returned result into its own tree.\n\nThe name \"render prop\" comes from the fact that this prop is often literally named `render`, though the name can be anything — what matters is that it's a function returning JSX.\n\n## Why it's needed\n\n- Allows **sharing logic** (state, behavior, subscriptions) between components without duplicating code\n- The component that owns the logic doesn't need to know in advance how the UI will look — that's decided by whoever uses it\n- It's one of the older solutions (pre-hooks) to the problem of \"how to reuse stateful logic\" — an alternative to Higher-Order Components (HOC)\n\n## Example\n\n    // Component with logic — tracks mouse position\n    class MouseTracker extends React.Component {\n      state = { x: 0, y: 0 };\n\n      handleMouseMove = (event) => {\n        this.setState({ x: event.clientX, y: event.clientY });\n      };\n\n      render() {\n        return (\n          <div onMouseMove={this.handleMouseMove}>\n            {/* Instead of its own JSX, it calls the render prop */}\n            {this.props.render(this.state)}\n          </div>\n        );\n      }\n    }\n\n    // Usage — the caller decides how to display the data\n    function App() {\n      return (\n        <MouseTracker render={({ x, y }) => (\n          <p>Mouse position: {x}, {y}</p>\n        )} />\n      );\n    }\n\nAnother common variant — using `children` as a function:\n\n    <MouseTracker>\n      {({ x, y }) => <p>Mouse position: {x}, {y}</p>}\n    </MouseTracker>\n\n## Advantages\n\n- Flexibility — logic and rendering are fully decoupled\n- No \"prop name collision\" issue, which often happens with HOCs\n- It's explicit where the data comes from (unlike HOCs, where props are \"magically\" injected)\n\n## Disadvantages\n\n- **\"Wrapper hell\"** — nesting many render props inside each other makes JSX hard to read\n- More boilerplate compared to hooks\n- Harder to optimize performance (each render creates a new function prop)\n\n## Render Props vs Custom Hooks\n\nToday, in most cases render props have been **replaced by custom hooks** — they achieve the same goal (logic reuse), but without JSX nesting and without extra wrapper components.\n\n    // Same example using a custom hook\n    function useMousePosition() {\n      const [position, setPosition] = useState({ x: 0, y: 0 });\n\n      useEffect(() => {\n        const handleMove = (e) => setPosition({ x: e.clientX, y: e.clientY });\n        window.addEventListener('mousemove', handleMove);\n        return () => window.removeEventListener('mousemove', handleMove);\n      }, []);\n\n      return position;\n    }\n\n    function App() {\n      const { x, y } = useMousePosition();\n      return <p>Mouse position: {x}, {y}</p>;\n    }\n\n## How does Render Props differ from Custom Hooks, and is it still worth using?\n\n> Render Props is a pattern for reusing logic via a function prop that returns JSX. It solves the same problem as custom hooks, but hooks came later and do it more simply — without component nesting or \"wrapper hell.\" Today render props mostly show up in legacy codebases or certain libraries (e.g., React Router v5, Formik), while new code almost always uses hooks instead.",
+      "uk": "**Render Props** — це патерн у React, коли компонент приймає **проп, значенням якого є функція**, і використовує цю функцію (замість статичного JSX), щоб визначити, що саме рендерити. Компонент викликає цю функцію-проп, передає їй якісь дані/стан, а результат виклику вставляє у своє дерево.\n\nНазва \"render prop\" походить від того, що часто такий проп буквально називають `render`, хоча ім'я може бути будь-яким — головне, що це функція, яка повертає JSX.\n\n## Навіщо потрібен\n\n- Дозволяє **ділитися логікою** (стан, поведінка, підписки) між компонентами без дублювання коду\n- Компонент-власник логіки не знає заздалегідь, як саме буде виглядати UI — це вирішує той, хто його використовує\n- Це один зі старих способів (до хуків) вирішити проблему \"як перевикористати stateful-логіку\" — альтернатива Higher-Order Components (HOC)\n\n## Приклад\n\n    // Компонент з логікою — відстежує позицію миші\n    class MouseTracker extends React.Component {\n      state = { x: 0, y: 0 };\n\n      handleMouseMove = (event) => {\n        this.setState({ x: event.clientX, y: event.clientY });\n      };\n\n      render() {\n        return (\n          <div onMouseMove={this.handleMouseMove}>\n            {/* Замість власного JSX викликаємо render-проп */}\n            {this.props.render(this.state)}\n          </div>\n        );\n      }\n    }\n\n    // Використання — сам вирішує, як відобразити дані\n    function App() {\n      return (\n        <MouseTracker render={({ x, y }) => (\n          <p>Позиція миші: {x}, {y}</p>\n        )} />\n      );\n    }\n\nЩе один поширений варіант — через `children` як функцію:\n\n    <MouseTracker>\n      {({ x, y }) => <p>Позиція миші: {x}, {y}</p>}\n    </MouseTracker>\n\n## Переваги\n\n- Гнучкість — логіка й відображення повністю розділені\n- Немає проблеми \"зіткнення імен пропсів\", яка часто виникає у HOC\n- Явно видно, звідки беруться дані (на відміну від HOC, де пропси \"магічно\" додаються)\n\n## Недоліки\n\n- **\"Wrapper hell\"** — вкладення багатьох render props одне в одне робить JSX важким для читання\n- Більше бойлерплейту порівняно з хуками\n- Складніше оптимізувати продуктивність (кожен рендер створює нову функцію-пропс)\n\n## Render Props vs Custom Hooks\n\nСьогодні для більшості випадків render props **замінені кастомними хуками** — вони роблять те саме (перевикористання логіки), але без вкладеності JSX і без додаткових компонентів-обгорток.\n\n    // Той самий приклад через custom hook\n    function useMousePosition() {\n      const [position, setPosition] = useState({ x: 0, y: 0 });\n\n      useEffect(() => {\n        const handleMove = (e) => setPosition({ x: e.clientX, y: e.clientY });\n        window.addEventListener('mousemove', handleMove);\n        return () => window.removeEventListener('mousemove', handleMove);\n      }, []);\n\n      return position;\n    }\n\n    function App() {\n      const { x, y } = useMousePosition();\n      return <p>Позиція миші: {x}, {y}</p>;\n    }\n\n## Чим Render Props відрізняється від Custom Hooks і чи варто їх використовувати зараз?\n\nRender Props — це патерн для перевикористання логіки через проп-функцію, яка повертає JSX. Він вирішує ту саму задачу, що й custom hooks, але хуки з'явилися пізніше й роблять це простіше — без вкладеності компонентів і \"wrapper hell\". Сьогодні render props здебільшого зустрічаються у старих кодбазах або в деяких бібліотеках (наприклад, React Router v5, Formik), а для нового коду майже завжди обирають хуки."
+    },
+    "categoryId": 10,
+    "tags": [
+      "Render Props"
+    ]
+  },
+  {
+    "id": "f49afca2-d551-41aa-b19b-27c8f21a4028",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is RTK Query?",
+      "uk": "Що таке RTK Query?"
+    },
+    "answer": {
+      "en": "**RTK Query** is a data-fetching and caching tool built into Redux Toolkit: it handles API requests, caching, automatic refetching, and loading-state management. It's an add-on layer on top of Redux Toolkit that removes the need to manually write reducers, actions, and thunks for fetching and syncing server data.\n\nIn simple terms — it's the Redux ecosystem's equivalent of **React Query / SWR**, but built in natively.\n\n## Why it's needed\n\n- Eliminates manually writing `createAsyncThunk`, loading/error states, and caching logic\n- Automatic caching of query results — identical requests aren't duplicated\n- Automatic **cache invalidation** and refetching after mutations (e.g., after POST/PUT/DELETE)\n- Ready-made hooks for components (`useGetPostsQuery`, `useAddPostMutation`, etc.)\n- Built-in request deduplication, polling, refetch-on-focus/reconnect\n- Less boilerplate — no need to hand-write a reducer for every endpoint\n\n## Core concepts\n\n### 1. createApi\nThe main function — defines an \"API slice\": base URL, endpoints, cache tags.\n\n    import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';\n\n    export const postsApi = createApi({\n      reducerPath: 'postsApi',\n      baseQuery: fetchBaseQuery({ baseUrl: '/api' }),\n      tagTypes: ['Post'],\n      endpoints: (builder) => ({\n        getPosts: builder.query({\n          query: () => '/posts',\n          providesTags: ['Post'],\n        }),\n        addPost: builder.mutation({\n          query: (newPost) => ({\n            url: '/posts',\n            method: 'POST',\n            body: newPost,\n          }),\n          invalidatesTags: ['Post'],\n        }),\n      }),\n    });\n\n    export const { useGetPostsQuery, useAddPostMutation } = postsApi;\n\n### 2. query vs mutation\n- **query** — for fetching data (GET-like requests)\n- **mutation** — for changing data (POST, PUT, DELETE)\n\n### 3. Usage in a component\n\n    function PostsList() {\n      const { data: posts, isLoading, error } = useGetPostsQuery();\n      const [addPost] = useAddPostMutation();\n\n      if (isLoading) return <p>Loading...</p>;\n      if (error) return <p>Error!</p>;\n\n      return (\n        <ul>\n          {posts.map((post) => <li key={post.id}>{post.title}</li>)}\n        </ul>\n      );\n    }\n\n### 4. Wiring into the store\n\n    import { configureStore } from '@reduxjs/toolkit';\n    import { postsApi } from './postsApi';\n\n    const store = configureStore({\n      reducer: {\n        [postsApi.reducerPath]: postsApi.reducer,\n      },\n      middleware: (getDefault) => getDefault().concat(postsApi.middleware),\n    });\n\n## Caching and tags\n\nThis is the key concept behind RTK Query:\n\n- **providesTags** — marks which data a query \"provides\" (e.g., `['Post']` or `[{ type: 'Post', id }]`)\n- **invalidatesTags** — marks which tags become \"stale\" after a mutation, causing RTK Query to automatically refetch the relevant data\n\nThanks to this, the UI automatically stays in sync with the server after any change — no need to manually dispatch a refetch.\n\n## RTK Query vs plain Redux Toolkit (createAsyncThunk)\n\n| createAsyncThunk | RTK Query |\n|---|---|\n| Reducer for pending/fulfilled/rejected written by hand | Everything generated automatically |\n| Caching — manual | Caching built in |\n| Invalidation/refetch — manual | Automatic via tags |\n| More control, more code | Less code, less low-level control |\n\n## How does RTK Query differ from plain Redux Toolkit?\n\nRTK Query is an abstraction layer on top of Redux Toolkit, purpose-built for data fetching. Instead of manually writing thunks, reducers, and caching logic, RTK Query generates ready-to-use hooks for queries and mutations and manages the cache automatically through a tagging system — when a mutation invalidates a tag, all related queries refetch automatically. This significantly cuts down on code and eliminates common server-state synchronization bugs.",
+      "uk": "**RTK Query** — це вбудований у Redux Toolkit інструмент для роботи з даними: запити до API, кешування, автоматичне оновлення та керування станами завантаження. Це надбудова над Redux Toolkit, яка позбавляє потреби вручну писати reducer'и, actions і thunk'и для отримання й синхронізації даних із сервером.\n\nПростими словами — це аналог **React Query / SWR**, тільки органічно вбудований у Redux-екосистему.\n\n## Навіщо потрібен\n\n- Позбавляє від ручного написання `createAsyncThunk`, loading/error станів, кешування вручну\n- Автоматичне кешування результатів запитів — однакові запити не дублюються\n- Автоматична **інвалідація кешу** й повторне отримання даних після мутацій (наприклад, після POST/PUT/DELETE)\n- Готові хуки для компонентів (`useGetPostsQuery`, `useAddPostMutation` тощо)\n- Вбудована дедублікація запитів, polling, refetch-on-focus/reconnect\n- Менше бойлерплейту — не потрібно вручну писати reducer для кожного ендпоінту\n\n## Основні поняття\n\n### 1. createApi\nГоловна функція — описує \"API slice\": базовий URL, ендпоінти, теги для кешу.\n\n    import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';\n\n    export const postsApi = createApi({\n      reducerPath: 'postsApi',\n      baseQuery: fetchBaseQuery({ baseUrl: '/api' }),\n      tagTypes: ['Post'],\n      endpoints: (builder) => ({\n        getPosts: builder.query({\n          query: () => '/posts',\n          providesTags: ['Post'],\n        }),\n        addPost: builder.mutation({\n          query: (newPost) => ({\n            url: '/posts',\n            method: 'POST',\n            body: newPost,\n          }),\n          invalidatesTags: ['Post'],\n        }),\n      }),\n    });\n\n    export const { useGetPostsQuery, useAddPostMutation } = postsApi;\n\n### 2. query vs mutation\n- **query** — для отримання даних (GET-подібні запити)\n- **mutation** — для зміни даних (POST, PUT, DELETE)\n\n### 3. Використання в компоненті\n\n    function PostsList() {\n      const { data: posts, isLoading, error } = useGetPostsQuery();\n      const [addPost] = useAddPostMutation();\n\n      if (isLoading) return <p>Завантаження...</p>;\n      if (error) return <p>Помилка!</p>;\n\n      return (\n        <ul>\n          {posts.map((post) => <li key={post.id}>{post.title}</li>)}\n        </ul>\n      );\n    }\n\n### 4. Підключення до store\n\n    import { configureStore } from '@reduxjs/toolkit';\n    import { postsApi } from './postsApi';\n\n    const store = configureStore({\n      reducer: {\n        [postsApi.reducerPath]: postsApi.reducer,\n      },\n      middleware: (getDefault) => getDefault().concat(postsApi.middleware),\n    });\n\n## Кешування і теги (tags)\n\nЦе ключова концепція RTK Query:\n\n- **providesTags** — позначає, які дані \"надає\" запит (наприклад, `['Post']` або `[{ type: 'Post', id }]`)\n- **invalidatesTags** — позначає, які теги стають \"застарілими\" після мутації, і RTK Query автоматично робить повторний запит для оновлення даних\n\nЗавдяки цьому UI сам синхронізується з сервером після будь-якої зміни — не потрібно вручну диспатчити повторний fetch.\n\n## RTK Query vs звичайний Redux Toolkit (createAsyncThunk)\n\n| createAsyncThunk | RTK Query |\n|---|---|\n| Треба вручну писати reducer для pending/fulfilled/rejected | Все генерується автоматично |\n| Кешування — вручну | Кешування вбудоване |\n| Інвалідація/рефетч — вручну | Через теги — автоматично |\n| Більше контролю, більше коду | Менше коду, менше контролю над деталями |\n\n## Чим RTK Query відрізняється від звичайного Redux Toolkit?\n\nRTK Query — це рівень абстракції над Redux Toolkit, спеціально заточений під data fetching. Замість того щоб вручну писати thunk'и, reducer'и та кешування, RTK Query генерує готові хуки для запитів і мутацій, а також автоматично керує кешем через систему тегів — коли мутація \"інвалідує\" тег, всі пов'язані запити автоматично оновлюються. Це значно скорочує код і усуває типові помилки синхронізації даних із сервером."
+    },
+    "categoryId": 10,
+    "tags": []
+  },
+  {
+    "id": "9fc9e64f-5e82-4206-8ac8-ae03df1b4400",
+    "difficulty": "medium",
+    "question": {
+      "en": "Difference between useRef and useState",
+      "uk": "Різниця між useRef і useState"
+    },
+    "answer": {
+      "en": "Both hooks let you \"persist\" a value across component renders, but they work in fundamentally different ways — and are designed for different purposes.\n\n## Main difference\n\n| | useState | useRef |\n|---|---|---|\n| Triggers a re-render on change | ✅ Yes | ❌ No |\n| Value persists across renders | ✅ Yes | ✅ Yes |\n| Accessing the value | Via the state variable (a snapshot at render time) | Via `.current` (always the latest value) |\n| Typical use case | Data that affects the UI | Data that should NOT directly affect the UI; references to DOM elements |\n\n## useState\n\n    function Counter() {\n      const [count, setCount] = useState(0);\n\n      const increment = () => setCount(count + 1);\n\n      return <button onClick={increment}>Count: {count}</button>;\n    }\n\n- Every call to `setCount` **triggers a re-render** so the UI reflects the new value\n- The `count` value is a \"snapshot\" valid for that specific render (it's not mutated directly)\n- Ideal for any data that gets displayed in the UI\n\n## useRef\n\n    function Timer() {\n      const intervalRef = useRef(null);\n\n      useEffect(() => {\n        intervalRef.current = setInterval(() => {\n          console.log('tick');\n        }, 1000);\n\n        return () => clearInterval(intervalRef.current);\n      }, []);\n\n      return <p>Check the console</p>;\n    }\n\n- Changing `intervalRef.current` does **NOT trigger a re-render**\n- The value is stored \"mutably\" — you can update `.current` directly, without a setter function\n- The value is always \"up to date\" (unlike useState, where closures can capture a stale value)\n\n## Two main uses of useRef\n\n### 1. Referencing a DOM element\n\n    function TextInput() {\n      const inputRef = useRef(null);\n\n      const focusInput = () => {\n        inputRef.current.focus();\n      };\n\n      return (\n        <>\n          <input ref={inputRef} type=\"text\" />\n          <button onClick={focusInput}>Focus</button>\n        </>\n      );\n    }\n\n### 2. Storing a \"mutable\" value without triggering a re-render\n\nFor example: storing a timer ID, a previous prop value, a render counter, a reference to a WebSocket connection — anything that shouldn't directly drive what the UI displays.\n\n## Key conceptual difference\n\n> **useState** — for data that is part of the UI and should trigger a re-render when it changes.\n> **useRef** — for data that needs to persist across renders, but whose change should NOT directly affect the UI (or for direct DOM access).\n\n## Why can't you just store state in a regular variable?\n\nA regular variable resets on every render (the component function runs again from scratch). useRef persists a value across renders without resetting it, but it also doesn't trigger a UI update — unlike useState.\n\n## When would you use useRef instead of useState?\n\n> You'd use useRef when you need to persist a value across renders, but changing that value shouldn't cause the component to re-render — for example, accessing DOM elements, storing timer IDs, tracking previous prop values, or any \"internal\" data that isn't part of the visual output. useState, on the other hand, is used for data whose changes need to be immediately reflected in the UI.",
+      "uk": "Обидва хуки дозволяють \"зберігати\" значення між рендерами компонента, але роблять це принципово по-різному — і призначені для різних задач.\n\n## Головна різниця\n\n| | useState | useRef |\n|---|---|---|\n| Викликає повторний рендер при зміні | ✅ Так | ❌ Ні |\n| Значення \"живе\" між рендерами | ✅ Так | ✅ Так |\n| Доступ до значення | Через змінну стану (снепшот на момент рендеру) | Через `.current` (завжди актуальне значення) |\n| Типове використання | Дані, які впливають на UI | Дані, які НЕ повинні впливати на UI напряму; посилання на DOM-елементи |\n\n## useState\n\n    function Counter() {\n      const [count, setCount] = useState(0);\n\n      const increment = () => setCount(count + 1);\n\n      return <button onClick={increment}>Count: {count}</button>;\n    }\n\n- Кожен виклик `setCount` **запускає повторний рендер**, щоб UI показав нове значення\n- Значення в `count` — це \"снепшот\", актуальний саме для поточного рендеру (не мутується напряму)\n- Ідеально підходить для будь-яких даних, які відображаються в UI\n\n## useRef\n\n    function Timer() {\n      const intervalRef = useRef(null);\n\n      useEffect(() => {\n        intervalRef.current = setInterval(() => {\n          console.log('tick');\n        }, 1000);\n\n        return () => clearInterval(intervalRef.current);\n      }, []);\n\n      return <p>Дивись консоль</p>;\n    }\n\n- Зміна `intervalRef.current` **НЕ викликає повторний рендер**\n- Значення зберігається \"мутабельно\" — можна змінювати `.current` напряму, без setter-функції\n- Значення завжди \"актуальне\" (на відміну від useState, де в замиканнях може бути застаріле значення)\n\n## Два основні застосування useRef\n\n### 1. Посилання на DOM-елемент\n\n    function TextInput() {\n      const inputRef = useRef(null);\n\n      const focusInput = () => {\n        inputRef.current.focus();\n      };\n\n      return (\n        <>\n          <input ref={inputRef} type=\"text\" />\n          <button onClick={focusInput}>Фокус</button>\n        </>\n      );\n    }\n\n### 2. Зберігання \"мутабельного\" значення без ре-рендеру\n\nНаприклад, для зберігання ID таймера, попереднього значення пропа, лічильника рендерів, посилання на WebSocket-з'єднання тощо — усього, що не має напряму впливати на те, що показує UI.\n\n## Ключова концептуальна відмінність\n\n> **useState** — для даних, які є частиною UI й повинні викликати повторний рендер при зміні.\n> **useRef** — для даних, які потрібно зберігати між рендерами, але зміна яких НЕ повинна впливати на UI напряму (або для прямого доступу до DOM).\n\n## Чому не можна просто зберігати стан у звичайній змінній?\n\nЗвичайна змінна скидається при кожному рендері компонента (функція компонента виконується заново). useRef зберігає значення між рендерами, не скидаючи його, але й не тригерить оновлення UI — на відміну від useState.\n\n## Коли використати useRef замість useState?\n\n> useRef варто використовувати, коли потрібно зберегти значення між рендерами, але зміна цього значення не має спричиняти повторний рендер компонента — наприклад, для доступу до DOM-елементів, зберігання ID таймерів, попередніх значень пропсів або будь-яких \"службових\" даних, які не є частиною візуального виводу. useState, натомість, використовують для даних, зміна яких повинна одразу відобразитись в UI."
+    },
+    "categoryId": 4,
+    "tags": [
+      "useRef",
+      "useState"
+    ]
+  },
+  {
+    "id": "0e9c19b3-4dd7-45dc-8e63-d6eadf2cc443",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Code Splitting?",
+      "uk": "Що таке Code Splitting?"
+    },
+    "answer": {
+      "en": "**Code Splitting** is a technique for breaking a JavaScript bundle into smaller pieces (chunks) that are loaded **on demand rather than all at once**. Instead of serving the user one massive `bundle.js` on the very first page load, the application is split into pieces, and each piece is only downloaded when it's actually needed.\n\n## Why it's needed\n\n- Reduces the **initial bundle size**, so the page loads and becomes interactive faster (better metrics like FCP, TTI)\n- Users don't download code for parts of the app they may never actually use\n- Especially important for large SPAs with many pages/features\n- Enables **better caching** — parts that rarely change (e.g., vendor libraries) get cached by the browser separately from frequently-changing code\n\n## How it's implemented in React\n\n### 1. React.lazy + Suspense (route-based splitting)\nThe most common approach — splitting by route (page):\n\n    import { lazy, Suspense } from 'react';\n    import { Routes, Route } from 'react-router-dom';\n\n    const Home = lazy(() => import('./pages/Home'));\n    const Dashboard = lazy(() => import('./pages/Dashboard'));\n    const Settings = lazy(() => import('./pages/Settings'));\n\n    function App() {\n      return (\n        <Suspense fallback={<p>Loading...</p>}>\n          <Routes>\n            <Route path=\"/\" element={<Home />} />\n            <Route path=\"/dashboard\" element={<Dashboard />} />\n            <Route path=\"/settings\" element={<Settings />} />\n          </Routes>\n        </Suspense>\n      );\n    }\n\nThe code for `Dashboard` and `Settings` only loads once the user actually navigates to those pages.\n\n### 2. Component-based splitting\nYou can split not just by page, but by individual heavy components (e.g., modals, charts, editors):\n\n    const HeavyChart = lazy(() => import('./components/HeavyChart'));\n\n    function Dashboard() {\n      const [showChart, setShowChart] = useState(false);\n\n      return (\n        <div>\n          <button onClick={() => setShowChart(true)}>Show chart</button>\n          {showChart && (\n            <Suspense fallback={<p>Loading chart...</p>}>\n              <HeavyChart />\n            </Suspense>\n          )}\n        </div>\n      );\n    }\n\n### 3. Dynamic import()\nUnder the hood, all of this relies on the standard JS dynamic import syntax:\n\n    button.addEventListener('click', async () => {\n      const module = await import('./heavyModule.js');\n      module.doSomething();\n    });\n\nThe bundler (Webpack, Vite, Rollup) automatically recognizes `import()` and extracts that code into a separate chunk.\n\n## What handles this under the hood\n\n- **Webpack / Vite / Rollup** — automatically split code into chunks whenever they encounter a dynamic `import()`\n- **React Router** — commonly paired with `React.lazy` for route-based splitting\n- **Suspense** — controls what's shown to the user while a chunk is loading (fallback UI)\n\n## Common splitting strategies\n\n1. **Route-based** — by page/route (most common)\n2. **Component-based** — heavy components that aren't always needed (modals, charts)\n3. **Vendor splitting** — a separate chunk for third-party libraries (react, lodash, etc.) that rarely change and cache well\n\n## How would you optimize the load time of a large React app?\n\n> One of the main tools is code splitting: breaking the bundle into smaller chunks using React.lazy and Suspense, typically split by route. This way, only the code needed for the current page loads upfront, while the rest is fetched dynamically as the user navigates to it. This directly improves initial load metrics like Time to Interactive.",
+      "uk": "**Code Splitting** — це техніка розбиття JavaScript-бандлу на менші частини (чанки), які завантажуються **не одразу всі разом, а по мірі потреби**. Замість того щоб віддавати користувачу один величезний `bundle.js` при першому завантаженні сторінки, застосунок розбивається на частини, і кожна частина підвантажується лише тоді, коли вона реально потрібна.\n\n## Навіщо потрібен\n\n- Зменшує **початковий розмір бандлу**, тому сторінка швидше завантажується і стає інтерактивною (кращі метрики: FCP, TTI)\n- Користувач не завантажує код тих частин застосунку, якими він, можливо, ніколи не скористається\n- Особливо критично для великих SPA з багатьма сторінками/фічами\n- Дозволяє **паралельне кешування** — частини, які не змінюються часто (наприклад, vendor-бібліотеки), кешуються браузером окремо від коду, що змінюється часто\n\n## Як реалізується у React\n\n### 1. React.lazy + Suspense (route-based splitting)\nНайпоширеніший підхід — розбиття по маршрутах (сторінках):\n\n    import { lazy, Suspense } from 'react';\n    import { Routes, Route } from 'react-router-dom';\n\n    const Home = lazy(() => import('./pages/Home'));\n    const Dashboard = lazy(() => import('./pages/Dashboard'));\n    const Settings = lazy(() => import('./pages/Settings'));\n\n    function App() {\n      return (\n        <Suspense fallback={<p>Завантаження...</p>}>\n          <Routes>\n            <Route path=\"/\" element={<Home />} />\n            <Route path=\"/dashboard\" element={<Dashboard />} />\n            <Route path=\"/settings\" element={<Settings />} />\n          </Routes>\n        </Suspense>\n      );\n    }\n\nКод для `Dashboard` і `Settings` завантажиться лише тоді, коли користувач реально перейде на ці сторінки.\n\n### 2. Component-based splitting\nМожна розбивати не тільки по сторінках, а й по важких окремих компонентах (наприклад, модальні вікна, графіки, редактори):\n\n    const HeavyChart = lazy(() => import('./components/HeavyChart'));\n\n    function Dashboard() {\n      const [showChart, setShowChart] = useState(false);\n\n      return (\n        <div>\n          <button onClick={() => setShowChart(true)}>Показати графік</button>\n          {showChart && (\n            <Suspense fallback={<p>Завантаження графіка...</p>}>\n              <HeavyChart />\n            </Suspense>\n          )}\n        </div>\n      );\n    }\n\n### 3. Dynamic import()\nВ основі всього лежить стандартний JS-синтаксис динамічного імпорту:\n\n    button.addEventListener('click', async () => {\n      const module = await import('./heavyModule.js');\n      module.doSomething();\n    });\n\nБандлер (Webpack, Vite, Rollup) автоматично розпізнає `import()` і виносить відповідний код в окремий чанк.\n\n## Хто це робить \"під капотом\"\n\n- **Webpack / Vite / Rollup** — автоматично розбивають код на чанки при зустрічі динамічного `import()`\n- **React Router** — часто використовується разом із `React.lazy` для розбиття по маршрутах\n- **Suspense** — керує тим, що показати користувачу, поки чанк завантажується (fallback UI)\n\n## Типові стратегії розбиття\n\n1. **Route-based** — по сторінках/маршрутах (найпоширеніше)\n2. **Component-based** — важкі компоненти, які не завжди потрібні (модалки, графіки)\n3. **Vendor splitting** — окремий чанк для сторонніх бібліотек (react, lodash тощо), які рідко змінюються і добре кешуються\n\n## Як би ти оптимізувала швидкість завантаження великого React-застосунку?\" — відповідь:\n\nОдин із головних інструментів — code splitting: розбиття бандлу на менші чанки за допомогою React.lazy і Suspense, зазвичай по маршрутах. Це дозволяє завантажувати одразу лише той код, що потрібен для поточної сторінки, а решту — підвантажувати динамічно, коли користувач до неї доходить. Це напряму покращує метрики першого завантаження, як-от Time to Interactive."
+    },
+    "categoryId": 8,
+    "tags": [
+      "Code Splitting"
+    ]
+  },
+  {
+    "id": "671746c8-2192-44e4-bb41-7751c3c740ce",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is Hydration?",
+      "uk": "Що таке Hydration?"
+    },
+    "answer": {
+      "en": "**Hydration** is the process where React \"activates\" HTML that was already generated on the server (Server-Side Rendering, SSR) or statically (Static Site Generation, SSG), attaching JavaScript event handlers, state, and interactivity to it — without recreating the DOM from scratch.\n\nIn simple terms: the server sends back ready-made HTML (so the user sees content immediately), and then React \"attaches\" itself to that HTML on the client, turning the static markup into a fully interactive application.\n\n## How it works, step by step\n\n1. The **server** renders components into an HTML string (`renderToString` in React) and sends the ready HTML to the browser\n2. The **browser** displays this HTML immediately — the user sees content very quickly, even before JS loads\n3. The **JavaScript bundle** loads in the background\n4. React calls `hydrateRoot` (previously `ReactDOM.hydrate`) — it does **not recreate** the DOM elements, but instead \"reconciles\" the existing HTML against what a client-side render would produce, and attaches event handlers (`onClick`, `onChange`, etc.)\n5. After hydration, the page becomes fully interactive — React now manages this DOM just like a regular SPA\n\n## Code example\n\n    // Server (simplified)\n    import { renderToString } from 'react-dom/server';\n    const html = renderToString(<App />);\n    // html is sent to the browser as part of the page\n\n    // Client\n    import { hydrateRoot } from 'react-dom/client';\n    hydrateRoot(document.getElementById('root'), <App />);\n\nCompare this with \"pure\" client-side rendering:\n\n    import { createRoot } from 'react-dom/client';\n    createRoot(document.getElementById('root')).render(<App />);\n    // here the DOM is built from scratch, not reconciled with existing markup\n\n## Why hydration is needed\n\n- **Faster First Contentful Paint (FCP)** — the user sees content before all of the JS has loaded and executed\n- **SEO** — search engine crawlers get fully-formed HTML right away, instead of an empty `<div id=\"root\">`\n- Better UX on slow networks/devices — there's something to show while JS is still loading\n\n## Common hydration issues\n\n### Hydration Mismatch\nThe most common problem — when the HTML generated on the server **doesn't match** what React expects to generate on the client. React logs a warning to the console and re-renders that element on the client, which:\n- Slows the app down\n- Can cause a visible \"flicker\" of content (mismatch flicker)\n\nTypical causes:\n- Using `Date.now()`, `Math.random()` directly inside JSX\n- Checks like `if (typeof window !== 'undefined')` that render different content on server vs. client\n- Data discrepancies (e.g., date localization differing between the server and the user's browser)\n- Invalid HTML (e.g., a `<div>` inside a `<p>`) that the browser \"auto-corrects,\" changing the DOM structure\n\n### Example of the problem\n\n    // BAD — produces a different result on server vs client\n    function Component() {\n      return <p>Current time: {Date.now()}</p>;\n    }\n\n## Hydration vs SSR vs CSR\n\n| | CSR (Client-Side Rendering) | SSR + Hydration |\n|---|---|---|\n| What comes from the server | Empty HTML + JS bundle | Fully-formed HTML |\n| When content becomes visible | After JS loads and executes | Immediately |\n| When interactivity kicks in | Right after render | Only after hydration |\n| SEO | Worse (without extra setup) | Better out of the box |\n\n## What is hydration and why do hydration mismatch errors happen?\n\n> Hydration is the process where React attaches event handlers and interactivity to HTML that was already generated on the server, instead of building the DOM from scratch. This gives a faster initial render and better SEO. A hydration mismatch happens when the server-rendered HTML doesn't match what React expects on the client — for example, due to using Date.now() or checking typeof window directly during render — forcing React to re-render that element, which hurts performance.",
+      "uk": "**Hydration (гідратація)** — це процес, коли React \"оживляє\" HTML, що вже був згенерований на сервері (Server-Side Rendering, SSR) або статично (Static Site Generation, SSG), додаючи до нього JavaScript-обробники подій, стан та інтерактивність — без повторного створення DOM з нуля.\n\nПростими словами: сервер віддає готовий HTML (щоб користувач одразу бачив контент), а потім React \"прикріплюється\" до цього HTML на клієнті й перетворює статичну розмітку на повноцінний інтерактивний застосунок.\n\n## Як це працює покроково\n\n1. **Сервер** рендерить компоненти в HTML-рядок (`renderToString` у React) і відправляє готовий HTML браузеру\n2. **Браузер** одразу показує цей HTML — користувач бачить контент дуже швидко, ще до завантаження JS\n3. **JavaScript-бандл** завантажується у фоні\n4. React викликає `hydrateRoot` (раніше `ReactDOM.hydrate`) — він **не перестворює** DOM-елементи, а \"звіряє\" існуючий HTML із тим, що мав би вийти при клієнтському рендері, і навішує обробники подій (`onClick`, `onChange` тощо)\n5. Після гідратації сторінка стає повністю інтерактивною — React тепер керує цим DOM як звичайний SPA\n\n## Приклад коду\n\n    // Сервер (спрощено)\n    import { renderToString } from 'react-dom/server';\n    const html = renderToString(<App />);\n    // html відправляється браузеру як частина сторінки\n\n    // Клієнт\n    import { hydrateRoot } from 'react-dom/client';\n    hydrateRoot(document.getElementById('root'), <App />);\n\nПорівняй з \"чистим\" клієнтським рендерингом:\n\n    import { createRoot } from 'react-dom/client';\n    createRoot(document.getElementById('root')).render(<App />);\n    // тут DOM створюється з нуля, а не \"звіряється\" з існуючим\n\n## Навіщо потрібна гідратація\n\n- **Швидший First Contentful Paint (FCP)** — користувач бачить контент до того, як завантажиться і виконається весь JS\n- **SEO** — пошукові боти одразу отримують готовий HTML, а не порожній `<div id=\"root\">`\n- Кращий UX на повільних мережах/пристроях — є що показати, поки JS вантажиться\n\n## Типові проблеми з гідратацією\n\n### Hydration Mismatch\nНайпоширеніша проблема — коли HTML, згенерований на сервері, **не збігається** з тим, що React очікує згенерувати на клієнті. React видає попередження в консолі й перерендерює елемент на клієнті, що:\n- Уповільнює додаток\n- Може викликати \"блимання\" контенту (miscmatch flicker)\n\nТипові причини:\n- Використання `Date.now()`, `Math.random()` напряму в JSX\n- Перевірки типу `if (typeof window !== 'undefined')`, які по-різному рендерять контент на сервері й клієнті\n- Розбіжності в даних (наприклад, локалізація дати відрізняється між сервером і браузером користувача)\n- Невалідний HTML (наприклад, `<div>` всередині `<p>`), який браузер сам \"виправляє\", змінюючи структуру DOM\n\n### Приклад проблеми\n\n    // ПОГАНО — різний результат на сервері й клієнті\n    function Component() {\n      return <p>Поточний час: {Date.now()}</p>;\n    }\n\n## Hydration vs SSR vs CSR\n\n| | CSR (Client-Side Rendering) | SSR + Hydration |\n|---|---|---|\n| Що приходить з сервера | Порожній HTML + JS-бандл | Готовий HTML |\n| Коли видно контент | Після завантаження і виконання JS | Одразу |\n| Коли з'являється інтерактивність | Одразу після рендеру | Тільки після гідратації |\n| SEO | Гірше (без додаткових налаштувань) | Краще з коробки |\n\n## Що таке hydration і чому виникають hydration mismatch помилки?\n\n> Hydration — це процес, коли React прикріплює обробники подій та інтерактивність до вже готового HTML, згенерованого на сервері, замість того щоб створювати DOM заново. Це дає швидший перший рендер і краще SEO. Hydration mismatch виникає, коли HTML із сервера не збігається з тим, що React очікує на клієнті — наприклад, через використання Date.now() або перевірку typeof window напряму в рендері — і React змушений перерендерювати елемент, що шкодить продуктивності."
+    },
+    "categoryId": 9,
+    "tags": [
+      "Hydration"
+    ]
+  },
+  {
+    "id": "ac06931e-373f-47f6-9f49-cb7765684ea9",
+    "difficulty": "medium",
+    "question": {
+      "en": "Difference between useEffect and useLayoutEffect",
+      "uk": "Різниця між useEffect і useLayoutEffect"
+    },
+    "answer": {
+      "en": "Both hooks let you run \"side effects\" in function components and share the **same API** — the difference is purely about **when** the browser runs them relative to painting the screen.\n\n## Main difference\n\n| | useEffect | useLayoutEffect |\n|---|---|---|\n| When it runs | **Asynchronously**, after the browser has painted the changes to the screen | **Synchronously**, right after the DOM update, but **before** the browser paints |\n| Blocks visual update | ❌ No | ✅ Yes |\n| When to use | Most of the time (the default choice) | When you need to measure/mutate the DOM before the user sees it |\n| Performance impact | Doesn't block rendering — faster | Can slow down rendering if the logic is heavy |\n\n## Execution order\n\n    1. React updates the DOM\n    2. useLayoutEffect runs SYNCHRONOUSLY (the browser waits)\n    3. The browser paints the changes to the screen\n    4. useEffect runs ASYNCHRONOUSLY (after paint)\n\n## useEffect — example\n\n    function Component() {\n      useEffect(() => {\n        console.log('Runs after the browser has painted the UI');\n      }, []);\n\n      return <div>Hello</div>;\n    }\n\nGood for: API requests, subscriptions, logging, timers — anything that doesn't directly affect what the user sees in that first moment.\n\n## useLayoutEffect — example\n\n    function Tooltip() {\n      const ref = useRef(null);\n      const [position, setPosition] = useState({ top: 0 });\n\n      useLayoutEffect(() => {\n        const { height } = ref.current.getBoundingClientRect();\n        setPosition({ top: -height - 10 }); // adjust position BEFORE it's shown to the user\n      }, []);\n\n      return <div ref={ref} style={{ top: position.top }}>Tooltip</div>;\n    }\n\nGood for: measuring the size/position of DOM elements and synchronously adjusting styles/layout to avoid a visual \"flicker.\"\n\n## Why this matters: the flicker problem\n\nIf you use `useEffect` instead of `useLayoutEffect` to measure and adjust an element's position (as in the tooltip example above):\n\n1. React renders the element in the \"wrong\" position\n2. The browser **has time to paint** that wrong position on screen\n3. Only then does `useEffect` fire and correct the position\n4. The user briefly sees the element \"jump\"\n\n`useLayoutEffect` runs **before** painting, so the user sees the correct position right away — no flicker.\n\n## When useLayoutEffect is required\n\n- Measuring a DOM element's size/position (`getBoundingClientRect`) and synchronously adjusting layout based on those measurements\n- Avoiding a visible content \"jump\" (positioning tooltips, popovers, animations that depend on actual element dimensions)\n- Synchronizing scroll position\n\n## When NOT to use it\n\nuseLayoutEffect **blocks the browser** from painting until it finishes. If the logic is heavy (e.g., expensive computations), this can noticeably stall the UI. So by default you should always start with `useEffect`, and only switch to `useLayoutEffect` if you're actually seeing a flicker problem.\n\n## When would you use useLayoutEffect instead of useEffect?\n\n> You'd use useLayoutEffect when you need to synchronously measure the DOM (e.g., an element's size or position) and adjust the layout immediately, before the browser paints the changes — this prevents a visual flicker. For everything else — API calls, subscriptions, logging — useEffect is the better choice, since it doesn't block rendering and has no performance cost.",
+      "uk": "Обидва хуки дозволяють виконувати \"побічні ефекти\" (side effects) у функціональних компонентах, і мають **однаковий синтаксис** — різниця лише в тому, **коли саме** браузер виконує ці ефекти відносно оновлення екрану.\n\n## Головна різниця\n\n| | useEffect | useLayoutEffect |\n|---|---|---|\n| Коли виконується | **Асинхронно**, після того як браузер намалював зміни на екрані | **Синхронно**, одразу після оновлення DOM, але **до** того як браузер намалює зміни |\n| Блокує візуальне оновлення | ❌ Ні | ✅ Так |\n| Коли використовувати | У більшості випадків (за замовчуванням) | Коли потрібно виміряти/змінити DOM до того, як користувач це побачить |\n| Вплив на продуктивність | Не блокує рендер — швидше | Може уповільнити рендер, якщо логіка важка |\n\n## Порядок виконання\n\n    1. React оновлює DOM\n    2. useLayoutEffect виконується СИНХРОННО (браузер чекає)\n    3. Браузер малює зміни на екрані (paint)\n    4. useEffect виконується АСИНХРОННО (вже після paint)\n\n## useEffect — приклад\n\n    function Component() {\n      useEffect(() => {\n        console.log('Виконається після того, як браузер намалював UI');\n      }, []);\n\n      return <div>Hello</div>;\n    }\n\nПідходить для: запитів до API, підписок, логування, роботи з таймерами — усього, що не впливає напряму на те, що користувач бачить у перший момент.\n\n## useLayoutEffect — приклад\n\n    function Tooltip() {\n      const ref = useRef(null);\n      const [position, setPosition] = useState({ top: 0 });\n\n      useLayoutEffect(() => {\n        const { height } = ref.current.getBoundingClientRect();\n        setPosition({ top: -height - 10 }); // коригуємо позицію ДО показу користувачу\n      }, []);\n\n      return <div ref={ref} style={{ top: position.top }}>Підказка</div>;\n    }\n\nПідходить для: вимірювання розмірів/позиції DOM-елементів і синхронного коригування стилів/layout — щоб уникнути візуального \"блимання\" (flicker).\n\n## Чому це важливо: проблема \"блимання\" (flicker)\n\nЯкщо для вимірювання й коригування позиції елемента (як у прикладі з tooltip) використати `useEffect` замість `useLayoutEffect`:\n\n1. React рендерить елемент у \"неправильній\" позиції\n2. Браузер **встигає намалювати** цю неправильну позицію на екрані\n3. Тільки потім спрацьовує `useEffect`, і позиція виправляється\n4. Користувач на долю секунди бачить \"стрибок\" елемента\n\n`useLayoutEffect` виконується **до** малювання, тому користувач одразу бачить правильну позицію — без блимання.\n\n## Коли обов'язково useLayoutEffect\n\n- Вимірювання розмірів/позиції DOM-елемента (`getBoundingClientRect`) і синхронне коригування layout на основі цих вимірювань\n- Уникнення видимого \"стрибка\" контенту (позиціонування tooltip'ів, popover'ів, анімації, які залежать від реальних розмірів)\n- Синхронізація scroll-позиції\n\n## Коли НЕ варто\n\nuseLayoutEffect **блокує браузер** від малювання, доки не завершиться. Якщо логіка важка (наприклад, важкі обчислення) — це може помітно \"гальмувати\" інтерфейс. Тому за замовчуванням завжди варто починати з `useEffect`, і переходити на `useLayoutEffect` тільки якщо є реальна проблема з \"блиманням\".\n\n## Коли ти б використала useLayoutEffect замість useEffect?\n\n> useLayoutEffect варто використовувати, коли потрібно синхронно виміряти DOM (наприклад, розміри чи позицію елемента) і одразу скоригувати layout до того, як браузер відмалює зміни на екрані — це запобігає візуальному \"блиманню\". У всіх інших випадках — запити до API, підписки, логування — краще використовувати useEffect, бо він не блокує рендер і не впливає на продуктивність."
+    },
+    "categoryId": 4,
+    "tags": [
+      "useEffect",
+      "useLayoutEffect"
     ]
   }
 ]
