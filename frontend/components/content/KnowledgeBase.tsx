@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { Accordion } from "@/components/ui/accordion";
 import CategoryAccordion from "@/components/content/CategoryAccordion";
@@ -9,6 +9,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 import { useSearch } from "@/hooks/useSearch";
 import { filterByTags } from "@/lib/filterByTags";
 import { searchQuestions } from "@/lib/search";
+import { cn } from "@/lib/utils";
 import type { Category } from "@/types/category";
 import type { Question } from "@/types/question";
 
@@ -33,6 +34,7 @@ export default function KnowledgeBase({
   const { query, selectedTag } = useSearch();
   const { language } = useLanguage();
   const scrollRef = useRef<HTMLElement>(null);
+  const [expandedQuestions, setExpandedQuestions] = useState<string[]>([]);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: 0, behavior: "smooth" });
@@ -67,10 +69,26 @@ export default function KnowledgeBase({
         <EmptyState />
       ) : (
         <div>
-          <h2 className="mb-2 text-base font-semibold">
-            Search Results ({visible.length})
-          </h2>
-          <Accordion>
+          <div className="mb-2 flex items-center justify-between">
+            <h2 className="text-base font-semibold">
+              Search Results ({visible.length})
+            </h2>
+            <button
+              type="button"
+              onClick={() => setExpandedQuestions([])}
+              className={cn(
+                "text-xs text-muted-foreground hover:underline",
+                expandedQuestions.length === 0 && "invisible",
+              )}
+            >
+              Collapse all
+            </button>
+          </div>
+          <Accordion
+            multiple
+            value={expandedQuestions}
+            onValueChange={setExpandedQuestions}
+          >
             {visible.map((question) => (
               <QuestionAccordion key={question.id} question={question} />
             ))}

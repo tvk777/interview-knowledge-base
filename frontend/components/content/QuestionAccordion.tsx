@@ -21,10 +21,10 @@ export default function QuestionAccordion({
 
   return (
     <AccordionItem value={question.id}>
-      <AccordionTrigger className="text-sm font-normal">
+      <AccordionTrigger className="text-sm font-semibold text-foreground">
         {resolveLocalizedText(question.question, language)}
       </AccordionTrigger>
-      <AccordionContent>
+      <AccordionContent className="rounded-md bg-muted/40 px-3 py-2">
         <Markdown content={resolveLocalizedText(question.answer, language)} />
       </AccordionContent>
     </AccordionItem>
