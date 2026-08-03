@@ -27,7 +27,7 @@
     {
     "id": 13,
     "name": "Event handling",
-    "description": "Synthetic Events, Pointer Events"
+    "description": "SyntheticEvent system, differences from native DOM events, event binding, event delegation, and pointer events."
   },
   {
     "id": 6,
