@@ -98,8 +98,7 @@
     },
     "categoryId": 5,
     "tags": [
-      "Destructuring",
-      "Array-Like Objects"
+      "Array Methods"
     ]
   },
   {
@@ -117,7 +116,9 @@
     "tags": [
       "Event Propagation",
       "Event Bubbling",
-      "Event Delegation"
+      "Event Delegation",
+      "Event Capturing",
+      "Events"
     ]
   },
   {
@@ -270,8 +271,7 @@
     },
     "categoryId": 5,
     "tags": [
-      "Array-Like Objects",
-      "Destructuring"
+      "Array Methods"
     ]
   },
   {
@@ -541,7 +541,7 @@
     },
     "categoryId": 5,
     "tags": [
-      "Array-Like Objects"
+      "Array Methods"
     ]
   },
   {
@@ -557,7 +557,7 @@
     },
     "categoryId": 1,
     "tags": [
-      "Short-Circuit Evaluation"
+      "operator"
     ]
   },
   {
@@ -573,7 +573,7 @@
     },
     "categoryId": 1,
     "tags": [
-      "Short-Circuit Evaluation"
+      "operator"
     ]
   },
   {
@@ -589,7 +589,7 @@
     },
     "categoryId": 2,
     "tags": [
-      "Truthy and Falsy Values"
+      "operator"
     ]
   },
   {
@@ -605,7 +605,8 @@
     },
     "categoryId": 2,
     "tags": [
-      "Truthy and Falsy Values"
+      "Truthy and Falsy Values",
+      "operator"
     ]
   },
   {
@@ -687,7 +688,9 @@
     "categoryId": 12,
     "tags": [
       "Event Propagation",
-      "Event Bubbling"
+      "Event Bubbling",
+      "Event Capturing",
+      "Events"
     ]
   },
   {
@@ -1096,8 +1099,8 @@
     "id": "f9bcb842-cccc-4762-bb56-6ce260ef5a2e",
     "difficulty": "medium",
     "question": {
-      "en": "Why is the optional chaining operator needed?",
-      "uk": "Навіщо потрібен оператор опціональної послідовності?"
+      "en": "Why is the optional chaining ('?') operator needed?",
+      "uk": "Навіщо потрібен оператор  ('?') опціональної послідовності?"
     },
     "answer": {
       "en": "**Optional Chaining**\n\n- The optional chaining operator (`?.`) provides safe access to object properties, methods, or array elements when parts of the chain may be null or undefined.\n\n#### How it works:\n\n1. **Existence check:** returns the value if present, otherwise `undefined`\n2. **No runtime errors:** safely stops evaluation on null or undefined.\n\nIt reduces boilerplate checks and improves code readability.",
@@ -1122,22 +1125,6 @@
     "categoryId": 7,
     "tags": [
       "Generator"
-    ]
-  },
-  {
-    "id": "be3bd76e-4660-4fea-9049-2a14edb486ea",
-    "difficulty": "medium",
-    "question": {
-      "en": "What are regular expressions (RegEx)?",
-      "uk": "Що таке регулярні вирази (RegEx)?"
-    },
-    "answer": {
-      "en": "**RegEx**\n\n- **Regular expressions** are patterns used to search, validate, and manipulate text using a compact syntax.\n\n#### Main capabilities:\n\n1. **Substring search.**\n2. **Format validation.**\n3. **Text replacement.**\n\nRegEx is powerful but complex patterns reduce readability and may impact performance.",
-      "uk": "**RegEx**\n\n- **Регулярні вирази** — це шаблони для пошуку, перевірки та зміни тексту. Вони описують текстові патерни за допомогою спеціального синтаксису.\n\n#### Основні можливості:\n\n1. **Пошук підрядків.**\n2. **Валідація форматів.**\n3. **Заміна частин тексту.**\n\nRegEx активно використовуються для обробки рядків, але складні шаблони важко читати та підтримувати."
-    },
-    "categoryId": 13,
-    "tags": [
-      "Regular Expression"
     ]
   },
   {
@@ -1220,8 +1207,7 @@
     },
     "categoryId": 5,
     "tags": [
-      "Array-Like Objects",
-      "Spread Operator"
+      "Array Methods"
     ]
   },
   {
@@ -1253,8 +1239,7 @@
     },
     "categoryId": 6,
     "tags": [
-      "Prototype",
-      "Getters and Setters"
+      "Prototype"
     ]
   },
   {
@@ -1523,7 +1508,7 @@
     "difficulty": "medium",
     "question": {
       "en": "What is a Regular Expression?",
-      "uk": "Що таке регулярне вираження (Regular Expression)?"
+      "uk": "Що таке регулярні вирази (RegEx)?"
     },
     "answer": {
       "en": "#### A regular expression (or **Regex**) is a pattern used for searching, matching, and manipulating text.\n\n#### Core capabilities:\n\n1. **Text search:**\n   - Finding substrings that match a pattern.\n\n2. **Text replacement:**\n   - Replacing matched text with another value.\n\n3. **Validation:**\n   - Checking whether a string matches a pattern.\n\n#### Example:\n\n```javascript\nconst regex = /hello/;\nconst text = 'hello world';\nregex.test(text); // true\ntext.match(regex); // ['hello']\n```\n\n- Regular expressions are powerful but can reduce readability if overused or poorly written.",
@@ -1579,7 +1564,7 @@
     },
     "categoryId": 1,
     "tags": [
-      "Ternary Operator"
+      "operator"
     ]
   },
   {
@@ -1628,7 +1613,7 @@
     },
     "categoryId": 5,
     "tags": [
-      "Array-Like Objects"
+      "Array Methods"
     ]
   },
   {
@@ -1660,8 +1645,7 @@
     },
     "categoryId": 1,
     "tags": [
-      "Ternary Operator",
-      "Short-Circuit Evaluation"
+      "operator"
     ]
   },
   {
@@ -1725,8 +1709,7 @@
     },
     "categoryId": 5,
     "tags": [
-      "Array-Like Objects",
-      "Destructuring"
+      "Array Methods"
     ]
   },
   {
@@ -1808,7 +1791,8 @@
     },
     "categoryId": 11,
     "tags": [
-      "DOM"
+      "DOM",
+      "dataset"
     ]
   },
   {
@@ -1940,7 +1924,7 @@
     },
     "categoryId": 12,
     "tags": [
-      "addEventListener"
+      "Events"
     ]
   },
   {
@@ -1973,7 +1957,7 @@
     },
     "categoryId": 6,
     "tags": [
-      "Getters and Setters"
+      "Proxy"
     ]
   },
   {
@@ -2039,8 +2023,7 @@
     },
     "categoryId": 9,
     "tags": [
-      "Private Fields",
-      "Encapsulation"
+      "Private Fields"
     ]
   },
   {
@@ -2088,8 +2071,238 @@
     },
     "categoryId": 14,
     "tags": [
-      "Minification",
-      "Tree Shaking"
+      "Minification"
+    ]
+  },
+  {
+    "id": "ea0c8d5d-3555-40fc-ae6b-fa53d26a6ae6",
+    "difficulty": "medium",
+    "question": {
+      "en": "How does fetching data from a server work?",
+      "uk": "Як працює отримання даних з сервера (Fetch data)?"
+    },
+    "answer": {
+      "en": "**Typical process:**\n\n1. JS creates an HTTP request (GET, POST, etc.)\n2. The server processes the request\n3. Sends back a response (often in JSON format)\n4. JS asynchronously receives the data and updates the UI\n\n**Main tools:**\n\n- `fetch` — standard browser API, based on Promises\n- `axios` — popular library with a cleaner syntax and automatic JSON handling\n- `XMLHttpRequest` — legacy approach, more verbose syntax\n- `WebSocket` — for two-way real-time communication (unlike fetch, where only the client initiates requests)\n\n**Example:**\n\n```js\nasync function getData(url) {\n  try {\n    const res = await fetch(url);\n    if (!res.ok) {\n      throw new Error(`HTTP error: ${res.status}`);\n    }\n    const data = await res.json();\n    return data;\n  } catch (error) {\n    console.error('Request error:', error);\n  }\n}\n```\n\n**Important nuance:** `fetch` does not reject the promise on HTTP errors (404, 500) — only on network failures. So the response status (`response.ok`) needs to be checked manually.\n\nThis asynchronous approach keeps the UI unblocked while working with the server in the background.",
+      "uk": "**Типовий процес:**\n\n1. JS створює HTTP-запит (GET, POST тощо)\n2. Сервер обробляє запит\n3. Надсилає відповідь (часто у форматі JSON)\n4. JS асинхронно отримує дані та оновлює UI\n\n**Основні інструменти:**\n\n- `fetch` — стандартний API браузера, працює на основі промісів (Promises)\n- `axios` — популярна бібліотека, має зручніший синтаксис і автоматичну обробку JSON\n- `XMLHttpRequest` — застарілий підхід, більш громіздкий синтаксис\n- `WebSocket` — для двостороннього real-time зв'язку (на відміну від fetch, де запит ініціює лише клієнт)\n\n**Приклад:**\n\n```js\nasync function getData(url) {\n  try {\n    const res = await fetch(url);\n    if (!res.ok) {\n      throw new Error(`HTTP помилка: ${res.status}`);\n    }\n    const data = await res.json();\n    return data;\n  } catch (error) {\n    console.error('Помилка запиту:', error);\n  }\n}\n```\n\n**Важливий нюанс:** `fetch` не відхиляє проміс при HTTP-помилках (404, 500) — лише при мережевих збоях. Тому статус відповіді (`response.ok`) потрібно перевіряти вручну.\n\nАсинхронний підхід дозволяє не блокувати інтерфейс і працювати з сервером у фоновому режимі."
+    },
+    "categoryId": 15,
+    "tags": [
+      "fetch"
+    ]
+  },
+  {
+    "id": "8d497687-84fc-44bb-835a-14ba581242fa",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is MutationObserver in JavaScript and how does it work?",
+      "uk": "Що таке MutationObserver в JavaScript і як він працює?"
+    },
+    "answer": {
+      "en": "\n\n**MutationObserver** is a built-in browser API that lets you watch for changes in the DOM tree (adding/removing elements, attribute changes, text content changes) and react to them asynchronously.\n\n**Typical process:**\n\n1. Create a `MutationObserver` object and pass it a callback function\n2. Call `observe()`, specifying which element to watch and which types of changes to track\n3. On any DOM change, the browser asynchronously invokes the callback\n4. Inside the callback, you receive a list of changes (`MutationRecord[]`) and process them\n\n**Main observation options:**\n\n- `childList` — watches for added/removed child elements\n- `attributes` — watches for attribute changes\n- `subtree` — extends observation to all descendants, not just direct children\n- `characterData` — watches for text content changes\n\n**Example:**\n\n```js\nconst targetNode = document.getElementById('app');\n\nconst observer = new MutationObserver((mutationsList) => {\n  for (const mutation of mutationsList) {\n    if (mutation.type === 'childList') {\n      console.log('Child list changed');\n    } else if (mutation.type === 'attributes') {\n      console.log(`Attribute changed: ${mutation.attributeName}`);\n    }\n  }\n});\n\nobserver.observe(targetNode, {\n  childList: true,\n  attributes: true,\n  subtree: true\n});\n\n// Stop observing\n// observer.disconnect();\n```\n\n**Common use cases:** tracking dynamic content added by third-party scripts or frameworks, implementing automatic UI updates, analytics libraries, browser extensions.\n\n**Important nuance:** MutationObserver works asynchronously (via microtasks) and batches changes together — this is more efficient than the legacy `MutationEvent`, which was synchronous and had a significant negative impact on performance.",
+      "uk": "**MutationObserver** — це вбудований API браузера, який дозволяє відстежувати зміни в DOM-дереві (додавання/видалення елементів, зміну атрибутів, зміну текстового вмісту) і асинхронно реагувати на них.\n\n**Типовий процес:**\n\n1. Створюємо об'єкт `MutationObserver` і передаємо callback-функцію\n2. Викликаємо `observe()`, вказуючи, за яким елементом стежити і які зміни відстежувати\n3. При будь-якій зміні DOM браузер асинхронно викликає callback\n4. У callback отримуємо список змін (`MutationRecord[]`) і обробляємо їх\n\n**Основні опції спостереження:**\n\n- `childList` — стежить за додаванням/видаленням дочірніх елементів\n- `attributes` — стежить за зміною атрибутів\n- `subtree` — розширює спостереження на всіх нащадків, а не тільки прямих дітей\n- `characterData` — стежить за зміною текстового вмісту\n\n**Приклад:**\n\n```js\nconst targetNode = document.getElementById('app');\n\nconst observer = new MutationObserver((mutationsList) => {\n  for (const mutation of mutationsList) {\n    if (mutation.type === 'childList') {\n      console.log('Змінився список дочірніх елементів');\n    } else if (mutation.type === 'attributes') {\n      console.log(`Змінився атрибут: ${mutation.attributeName}`);\n    }\n  }\n});\n\nobserver.observe(targetNode, {\n  childList: true,\n  attributes: true,\n  subtree: true\n});\n\n// Зупинити спостереження\n// observer.disconnect();\n```\n\n**Де використовується:** відстеження динамічного контенту, який додають сторонні скрипти або фреймворки, реалізація автоматичного оновлення UI, бібліотеки для аналітики, розширення браузера.\n\n**Важливий нюанс:** MutationObserver працює асинхронно (через мікрозадачі) і групує зміни в пакети — це ефективніше за застарілий `MutationEvent`, який був синхронним і сильно впливав на продуктивність."
+    },
+    "categoryId": 11,
+    "tags": [
+      "MutationObserver"
+    ]
+  },
+  {
+    "id": "8691e48f-d97f-47c9-980b-c7612fa1ce40",
+    "difficulty": "medium",
+    "question": {
+      "en": "What methods exist for working with multiple promises at once?",
+      "uk": "Які методи існують для роботи з кількома промісами одночасно?"
+    },
+    "answer": {
+      "en": "When you need to run several asynchronous operations in parallel, you use the static methods of the `Promise` object. They take an array of promises and return a new promise.\n\n**Main methods:**\n\n- **`Promise.all([...])`** — waits until **all** promises resolve successfully. If even one rejects → the whole result immediately rejects.\n- **`Promise.allSettled([...])`** — waits for **all** promises regardless of outcome (fulfilled or rejected), and returns an array of objects describing each result's status.\n- **`Promise.race([...])`** — returns the result of whichever promise **settles first** (whether it resolves or rejects).\n- **`Promise.any([...])`** — returns the result of the **first successfully fulfilled** promise. If all reject → returns an `AggregateError`.\n\n**Example:**\n\n```js\nconst p1 = fetch('/api/users');\nconst p2 = fetch('/api/posts');\nconst p3 = fetch('/api/comments');\n\n// All must succeed\nPromise.all([p1, p2, p3])\n  .then(([users, posts, comments]) => console.log('All data received'))\n  .catch(error => console.error('One of the requests failed:', error));\n\n// Get the result of each, even if some fail\nPromise.allSettled([p1, p2, p3])\n  .then(results => results.forEach(r => console.log(r.status)));\n\n// Whichever settles first (success or failure)\nPromise.race([p1, p2, p3])\n  .then(result => console.log('First result:', result));\n\n// First successful one\nPromise.any([p1, p2, p3])\n  .then(result => console.log('First successful:', result))\n  .catch(error => console.error('All failed:', error));\n```\n\n**When to use which:**\n\n- `Promise.all` — when you need the results of all requests together (e.g., loading data for a page from several endpoints).\n- `Promise.allSettled` — when it matters to get the outcome of every request, even if some fail (e.g., submitting several independent forms in parallel).\n- `Promise.race` — when you need the fastest result (e.g., a request timeout: racing fetch against setTimeout).\n- `Promise.any` — when a single successful result is enough (e.g., requesting from multiple server mirrors).",
+      "uk": "Коли потрібно виконати декілька асинхронних операцій паралельно, використовують статичні методи об'єкта `Promise`. Вони приймають масив промісів і повертають новий проміс.\n\n**Основні методи:**\n\n- **`Promise.all([...])`** — чекає, поки **всі** проміси успішно виконаються. Якщо хоча б один падає (reject) → одразу падає весь результат.\n- **`Promise.allSettled([...])`** — чекає **всі** проміси незалежно від результату (успіх чи помилка), і повертає масив об'єктів зі статусом кожного.\n- **`Promise.race([...])`** — повертає результат того проміса, який **першим завершився** (незалежно, успішно чи з помилкою).\n- **`Promise.any([...])`** — повертає результат **першого успішного** проміса. Якщо всі падають → повертає помилку `AggregateError`.\n\n**Приклад:**\n\n```js\nconst p1 = fetch('/api/users');\nconst p2 = fetch('/api/posts');\nconst p3 = fetch('/api/comments');\n\n// Всі мають бути успішними\nPromise.all([p1, p2, p3])\n  .then(([users, posts, comments]) => console.log('Всі дані отримано'))\n  .catch(error => console.error('Один із запитів впав:', error));\n\n// Отримати результат кожного, навіть якщо частина впала\nPromise.allSettled([p1, p2, p3])\n  .then(results => results.forEach(r => console.log(r.status)));\n\n// Перший, хто завершився (успіх або помилка)\nPromise.race([p1, p2, p3])\n  .then(result => console.log('Перший результат:', result));\n\n// Перший успішний\nPromise.any([p1, p2, p3])\n  .then(result => console.log('Перший успішний:', result))\n  .catch(error => console.error('Всі впали:', error));\n```\n\n**Коли що використовувати:**\n\n- `Promise.all` — коли потрібні результати всіх запитів разом (наприклад, завантажити дані для сторінки з кількох ендпоінтів).\n- `Promise.allSettled` — коли важливо отримати результат кожного запиту, навіть якщо частина з них зафейлиться (наприклад, паралельна відправка кількох незалежних форм).\n- `Promise.race` — коли потрібен найшвидший результат (наприклад, тайм-аут запиту: гонка між fetch і setTimeout).\n- `Promise.any` — коли достатньо хоча б одного успішного результату (наприклад, запит до кількох дзеркал сервера)."
+    },
+    "categoryId": 11,
+    "tags": [
+      "Promise"
+    ]
+  },
+  {
+    "id": "2d1e2e2e-0dff-4f81-ac81-d05a6ffbf722",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is addEventListener and how does it work?",
+      "uk": "Що таке addEventListener і як він працює?"
+    },
+    "answer": {
+      "en": "**`addEventListener`** is a method available on DOM elements (as well as `window`, `document`) that lets you subscribe to an event (click, text input, page load, etc.) and run a handler function whenever that event occurs.\n\n**Syntax:**\n\n```js\nelement.addEventListener(event, handler, options);\n```\n\n- `event` — the event name (e.g., `'click'`, `'input'`, `'submit'`)\n- `handler` — the handler function called when the event fires\n- `options` (optional) — an object or boolean with additional settings\n\n**Main options:**\n\n- `once: true` — the handler runs only once, then is automatically removed\n- `capture: true` — the handler fires during the capturing phase instead of bubbling\n- `passive: true` — tells the browser the handler will never call `preventDefault()`, improving performance (relevant for scroll/touch events)\n\n**Example:**\n\n```js\nconst button = document.getElementById('btn');\n\nfunction handleClick(event) {\n  console.log('Button clicked', event.target);\n}\n\nbutton.addEventListener('click', handleClick);\n\n// Removing the handler (important: must be the same function reference, not anonymous)\nbutton.removeEventListener('click', handleClick);\n\n// A handler that fires only once\nbutton.addEventListener('click', () => console.log('Only once'), { once: true });\n```\n\n**Important nuances:**\n\n- You can attach **multiple handlers** to the same event — they run in order.\n- To remove a handler with `removeEventListener`, you must pass the **same function reference** — anonymous functions can't be removed.\n- Events go through two phases: **capturing** (from `document` down to the target element) and **bubbling** (from the target element back up to `document`). By default, handlers fire during the bubbling phase.\n- **Event delegation** — a common technique: instead of adding a handler to every child element, attach one handler to the parent and check `event.target`.\n\n**Event delegation example:**\n\n```js\ndocument.getElementById('list').addEventListener('click', (event) => {\n  if (event.target.tagName === 'LI') {\n    console.log('Clicked list item:', event.target.textContent);\n  }\n});\n```",
+      "uk": "**`addEventListener`** — це метод DOM-елементів (а також `window`, `document`), який дозволяє підписатися на подію (клік, введення тексту, завантаження сторінки тощо) і виконати функцію-обробник, коли ця подія відбувається.\n\n**Синтаксис:**\n\n```js\nelement.addEventListener(event, handler, options);\n```\n\n- `event` — назва події (наприклад, `'click'`, `'input'`, `'submit'`)\n- `handler` — функція-обробник, яка викликається при спрацюванні події\n- `options` (необов'язково) — об'єкт або boolean з додатковими налаштуваннями\n\n**Основні опції:**\n\n- `once: true` — обробник спрацює лише один раз, потім автоматично видалиться\n- `capture: true` — обробник спрацює на фазі занурення (capturing), а не спливання (bubbling)\n- `passive: true` — обробник ніколи не викличе `preventDefault()`, що покращує продуктивність (актуально для скролу/touch)\n\n**Приклад:**\n\n```js\nconst button = document.getElementById('btn');\n\nfunction handleClick(event) {\n  console.log('Кнопку натиснуто', event.target);\n}\n\nbutton.addEventListener('click', handleClick);\n\n// Видалення обробника (важливо: функція має бути та сама, не анонімна)\nbutton.removeEventListener('click', handleClick);\n\n// Обробник, що спрацює лише один раз\nbutton.addEventListener('click', () => console.log('Тільки раз'), { once: true });\n```\n\n**Важливі нюанси:**\n\n- Можна додати **декілька обробників** на одну й ту саму подію — вони виконаються по черзі.\n- Щоб видалити обробник через `removeEventListener`, треба передати **той самий референс функції** — анонімні функції видалити не можна.\n- Події проходять через дві фази: **capturing** (від `document` до цільового елемента) і **bubbling** (від цільового елемента назад до `document`). За замовчуванням обробники спрацьовують на фазі bubbling.\n- **Делегування подій (event delegation)** — типова техніка: замість додавання обробника на кожен дочірній елемент, вішають один обробник на батьківський елемент і перевіряють `event.target`.\n\n**Приклад делегування подій:**\n\n```js\ndocument.getElementById('list').addEventListener('click', (event) => {\n  if (event.target.tagName === 'LI') {\n    console.log('Клікнули по елементу списку:', event.target.textContent);\n  }\n});\n```"
+    },
+    "categoryId": 11,
+    "tags": [
+      "addEventListener"
+    ]
+  },
+  {
+    "id": "23942ad9-c932-44b0-8fc3-2a1168866216",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are getters and setters in JavaScript classes, and why are they used?",
+      "uk": "Що таке гетери та сетери (getters/setters) у класах JavaScript і навіщо вони потрібні?"
+    },
+    "answer": {
+      "en": "**Getters and setters** are special class methods that let you read and change property values as if they were plain fields, but with extra logic behind them.\n\n- **Getter (`get`)** — called when reading a property. Takes no arguments and must return a value.\n- **Setter (`set`)** — called when assigning a value to a property. Receives the new value as a parameter.\n\n**Why they're useful:**\n\n- to hide internal implementation details\n- to validate a value before setting it\n- to compute a value \"on the fly\"\n- to encapsulate private fields\n\n**How it works \"from the outside\":** you access it like a regular property, not a function call. So `user.age` looks like a plain field, but under the hood a getter or setter function is triggered.\n\n**Example:**\n\n```js\nclass User {\n  #age;\n\n  constructor(age) {\n    this.#age = age;\n  }\n\n  get age() {\n    return this.#age;\n  }\n\n  set age(value) {\n    if (value < 0) {\n      throw new Error('Age cannot be negative');\n    }\n    this.#age = value;\n  }\n}\n\nconst user = new User(25);\nconsole.log(user.age); // 25 — getter is called\nuser.age = 30;          // setter is called\nuser.age = -5;           // Error: Age cannot be negative\n```\n\n**Important points:**\n\n- getters and setters are declared with the `get` and `set` keywords\n- they work well together with private fields `#value`\n- a getter must return something, while a setter usually returns nothing\n- they help maintain encapsulation without direct access to internal data\n\n**In simple terms:** a getter = a nice way to read a value with logic, a setter = a nice way to set a value with control.",
+      "uk": "**Гетери та сетери** — це спеціальні методи класу, які дозволяють читати і змінювати значення властивостей так, ніби це звичайні поля, але з додатковою логікою.\n\n- **Геттер (`get`)** — викликається, коли ми читаємо властивість. Не приймає аргументів і повинен повертати значення.\n- **Сетер (`set`)** — викликається, коли ми присвоюємо значення властивості. Отримує нове значення як параметр.\n\n**Навіщо це потрібно:**\n\n- щоб ховати внутрішню реалізацію\n- щоб робити перевірки перед встановленням значення\n- щоб обчислювати значення «на льоту»\n- щоб інкапсулювати приватні поля\n\n**Як це працює «зовні»:** ми звертаємось не як до функції, а як до звичайної властивості. Тобто `user.age` виглядає як поле, але під капотом запускається функція-геттер або сетер.\n\n**Приклад:**\n\n```js\nclass User {\n  #age;\n\n  constructor(age) {\n    this.#age = age;\n  }\n\n  get age() {\n    return this.#age;\n  }\n\n  set age(value) {\n    if (value < 0) {\n      throw new Error('Вік не може бути від\\'ємним');\n    }\n    this.#age = value;\n  }\n}\n\nconst user = new User(25);\nconsole.log(user.age); // 25 — виклик геттера\nuser.age = 30;          // виклик сетера\nuser.age = -5;           // Error: Вік не може бути від'ємним\n```\n\n**Важливі моменти:**\n\n- гетери і сетери оголошуються з ключовими словами `get` і `set`\n- з ними зручно працювати разом із приватними полями `#value`\n- геттер повинен щось повертати, а сетер зазвичай нічого не повертає\n- вони допомагають дотримуватись інкапсуляції без прямого доступу до внутрішніх даних\n\n**Простими словами:** геттер = красиво прочитати значення з логікою, сетер = красиво встановити значення з контролем."
+    },
+    "categoryId": 6,
+    "tags": [
+      "Getters and Setters"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-1111-4a5b-8c6d-111111111111",
+    "difficulty": "medium",
+    "question": {
+      "en": "How does inheritance work in JavaScript?",
+      "uk": "Як працює наслідування (inheritance) в JavaScript?"
+    },
+    "answer": {
+      "en": "#### Prototype-based inheritance:\n\nIn JavaScript, inheritance works through prototypes. Every object has a hidden reference to another object — `[[Prototype]]`. If a property or method is not found on the object itself, JS looks for it in the prototype, then in the prototype's prototype, and so on along the prototype chain.\n\nThere are two main ways to work with inheritance:\n\n**1. Constructor functions and `prototype`:**\n\n```javascript\nfunction Animal(name) {\n  this.name = name;\n}\nAnimal.prototype.speak = function() {\n  console.log(\"Animal speaks\");\n};\n\nfunction Dog(name) {\n  Animal.call(this, name);\n}\nDog.prototype = Object.create(Animal.prototype);\nDog.prototype.constructor = Dog;\n```\n\n**2. ES6 class syntax:**\n\n```javascript\nclass Animal {\n  speak() {\n    console.log(\"Animal speaks\");\n  }\n}\nclass Dog extends Animal {\n  speak() {\n    console.log(\"Dog barks\");\n  }\n}\n```\n\nUnder the hood, `class` still works through prototypes — it's just convenient syntactic sugar.",
+      "uk": "#### Наслідування через прототипи:\n\nУ JavaScript наслідування працює через прототипи. Кожен об'єкт має приховане посилання на інший об'єкт — `[[Prototype]]`. Якщо властивість або метод не знайдені в самому об'єкті, JS шукає їх у прототипі, потім у прототипі прототипа — і так далі по ланцюжку прототипів.\n\nЄ два основні способи працювати з наслідуванням:\n\n**1. Через функції-конструктори і `prototype`:**\n\n```javascript\nfunction Animal(name) {\n  this.name = name;\n}\nAnimal.prototype.speak = function() {\n  console.log(\"Animal speaks\");\n};\n\nfunction Dog(name) {\n  Animal.call(this, name);\n}\nDog.prototype = Object.create(Animal.prototype);\nDog.prototype.constructor = Dog;\n```\n\n**2. Через класовий синтаксис (ES6):**\n\n```javascript\nclass Animal {\n  speak() {\n    console.log(\"Animal speaks\");\n  }\n}\nclass Dog extends Animal {\n  speak() {\n    console.log(\"Dog barks\");\n  }\n}\n```\n\nПід капотом `class` усе одно працює через прототипи — це просто зручний синтаксичний цукор."
+    },
+    "categoryId": 16,
+    "tags": [
+      "Inheritance",
+      "Prototype",
+      "Class"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-2222-4a5b-8c6d-222222222222",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is `[[Prototype]]` and how does it relate to `Object.prototype`?",
+      "uk": "Що таке `[[Prototype]]` і як він пов'язаний з `Object.prototype`?"
+    },
+    "answer": {
+      "en": "#### `[[Prototype]]`:\n\n`[[Prototype]]` is an internal (hidden) reference every object in JavaScript has to another object — its prototype. It's not directly accessible by name in code; it's an internal mechanism. In real code we work with it via `__proto__`, or via `Object.getPrototypeOf()` / `Object.setPrototypeOf()`.\n\nBecause of `[[Prototype]]`, prototypal inheritance works: if an object doesn't have a certain property or method, JavaScript looks for it in its prototype — i.e. the object that `[[Prototype]]` points to. If it's not there either, the search continues further up the chain.\n\nAt the very top of this chain is `Object.prototype`. This is the \"base\" object that all other objects directly or indirectly inherit from. It contains methods like `toString`, `hasOwnProperty`, etc.\n\nSchematically:\n\n```\nmyObject → itsPrototype → Object.prototype → null\n```\n\n`Object.prototype` itself has no prototype — its `[[Prototype]]` is `null`. That's the final point of the property lookup.",
+      "uk": "#### `[[Prototype]]`:\n\nПрихована властивість `[[Prototype]]` — це внутрішнє посилання кожного об'єкта в JavaScript на інший об'єкт, який є його прототипом. Вона не доступна безпосередньо по імені в коді — це саме внутрішній механізм. У реальному коді ми працюємо з нею через `__proto__` або через `Object.getPrototypeOf()` / `Object.setPrototypeOf()`.\n\nЗавдяки `[[Prototype]]` працює прототипне наслідування. Якщо в об'єкті немає якоїсь властивості або методу, JavaScript шукає їх у його прототипі — тобто в тому об'єкті, на який вказує `[[Prototype]]`. Якщо там теж немає — піднімається вище по ланцюжку прототипів.\n\nНа самому верху цього ланцюжка знаходиться саме `Object.prototype`. Це \"базовий\" об'єкт, від якого прямо чи опосередковано наслідуються всі інші об'єкти. У ньому лежать такі методи, як `toString`, `hasOwnProperty` тощо.\n\nСхематично виглядає так:\n\n```\nмійОб'єкт → йогоПрототип → Object.prototype → null\n```\n\n`Object.prototype` вже не має свого прототипу — у нього `[[Prototype]]` дорівнює `null`. Тому це кінцева точка пошуку властивостей."
+    },
+    "categoryId": 16,
+    "tags": [
+      "Prototype"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-3333-4a5b-8c6d-333333333333",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the difference between `__proto__` and `prototype`?",
+      "uk": "У чому різниця між `__proto__` та `prototype`?"
+    },
+    "answer": {
+      "en": "#### `__proto__` vs `prototype`:\n\n`[[Prototype]]` is an internal (hidden) field of an object in the JavaScript spec — it cannot be accessed directly. `__proto__` is an unofficial but widely supported way to access it. Both point to the same thing, but `[[Prototype]]` is a spec concept, while `__proto__` is an actual accessor property.\n\n`__proto__` is a getter/setter on `Object.prototype` that lets you read or change `[[Prototype]]` — i.e. public access to the internal `[[Prototype]]`.\n\n```javascript\nconst arr = [];\narr.__proto__ === Array.prototype; // true\n```\n\n`prototype` is a property of a constructor function that defines which object becomes the prototype for all instances created via `new`.\n\n```javascript\nfunction User() {}\nconst u = new User();\nu.__proto__ === User.prototype; // true\n```\n\n**In short:**\n- `__proto__` → exists on every object, points to its prototype\n- `prototype` → exists on functions/classes, used to build the prototype of future instances\n\n`__proto__` is a \"backward reference\", while `prototype` is a \"forward template\".",
+      "uk": "#### `__proto__` та `prototype`:\n\n`[[Prototype]]` — це внутрішнє (приховане) поле об'єкта в специфікації JavaScript. Напряму до нього звернутися не можна. `__proto__` — це неофіційний, але широко підтримуваний спосіб доступу до нього. Вони вказують на одне й те саме, але `[[Prototype]]` — це концепція специфікації, а `__proto__` — реальна властивість.\n\n`__proto__` — це геттер/сеттер в `Object.prototype`, який дозволяє читати або змінювати `[[Prototype]]`. Тобто це публічний доступ до внутрішнього `[[Prototype]]`.\n\n```javascript\nconst arr = [];\narr.__proto__ === Array.prototype; // true\n```\n\n`prototype` — це властивість функції-конструктора, яка визначає, який об'єкт стане прототипом для всіх екземплярів, створених через `new`.\n\n```javascript\nfunction User() {}\nconst u = new User();\nu.__proto__ === User.prototype; // true\n```\n\n**Коротко різниця:**\n- `__proto__` → є в кожного об'єкта, вказує на його прототип\n- `prototype` → є в функцій/класів, використовується для створення прототипу майбутніх об'єктів\n\n`__proto__` — це \"посилання назад\", а `prototype` — це \"шаблон наперед\"."
+    },
+    "categoryId": 16,
+    "tags": [
+      "__proto__",
+      "Prototype"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-4444-4a5b-8c6d-444444444444",
+    "difficulty": "medium",
+    "question": {
+      "en": "What modern methods are used to work with inheritance in JavaScript?",
+      "uk": "Які методи використовують для роботи з наслідуванням у сучасному JavaScript?"
+    },
+    "answer": {
+      "en": "#### Methods for inheritance:\n\nIn modern JavaScript, safe and standard methods are used instead of working with `__proto__` directly:\n\n1. **`Object.getPrototypeOf(obj)`** — gets the prototype of an object.\n   ```javascript\n   Object.getPrototypeOf(dog) === Animal.prototype;\n   ```\n\n2. **`Object.setPrototypeOf(obj, proto)`** — sets the prototype of an object.\n   ```javascript\n   Object.setPrototypeOf(dog, Animal.prototype);\n   ```\n\n3. **`instanceof`** — checks whether the constructor's `prototype` is in the object's prototype chain.\n   ```javascript\n   dog instanceof Animal; // true\n   ```\n\n4. **`isPrototypeOf()`** — checks whether an object is in another object's prototype chain.\n   ```javascript\n   Animal.prototype.isPrototypeOf(dog); // true\n   ```\n\n5. **`class` and `extends`** — modern syntax for creating inheritance.\n   ```javascript\n   class Dog extends Animal {}\n   ```\n\nIn production, it's recommended to use `class`/`extends`, `Object.getPrototypeOf`, and `instanceof` rather than `__proto__`.",
+      "uk": "#### Методи для наслідування:\n\nУ сучасному JavaScript для роботи з наслідуванням використовують безпечні та стандартні методи замість прямої роботи з `__proto__`:\n\n1. **`Object.getPrototypeOf(obj)`** — дозволяє отримати прототип об'єкта.\n   ```javascript\n   Object.getPrototypeOf(dog) === Animal.prototype;\n   ```\n\n2. **`Object.setPrototypeOf(obj, proto)`** — дозволяє встановити прототип об'єкта.\n   ```javascript\n   Object.setPrototypeOf(dog, Animal.prototype);\n   ```\n\n3. **`instanceof`** — перевіряє, чи є `prototype` конструктора в ланцюжку прототипів об'єкта.\n   ```javascript\n   dog instanceof Animal; // true\n   ```\n\n4. **`isPrototypeOf()`** — перевіряє, чи є об'єкт у прототипному ланцюжку іншого об'єкта.\n   ```javascript\n   Animal.prototype.isPrototypeOf(dog); // true\n   ```\n\n5. **`class` та `extends`** — сучасний синтаксис для створення наслідування.\n   ```javascript\n   class Dog extends Animal {}\n   ```\n\nУ продакшені рекомендується використовувати `class`/`extends`, `Object.getPrototypeOf` і `instanceof`, а не `__proto__`."
+    },
+    "categoryId": 16,
+    "tags": [
+      "instanceof",
+      "getPrototypeOf",
+      "setPrototypeOf"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-5555-4a5b-8c6d-555555555555",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do `Object.setPrototypeOf` and `Object.getPrototypeOf` work?",
+      "uk": "Як працюють `Object.setPrototypeOf` і `Object.getPrototypeOf`?"
+    },
+    "answer": {
+      "en": "#### Setting an inheritance link between objects:\n\nTo create an inheritance relationship between two objects, you need to specify which object will be the prototype of the other. The most direct way is via `Object.setPrototypeOf` and `Object.getPrototypeOf`.\n\n- **`Object.setPrototypeOf(obj, proto)`** — sets `proto` as the prototype of `obj`. That is, `obj.[[Prototype]]` now equals `proto`.\n- **`Object.getPrototypeOf(obj)`** — returns the prototype of `obj`, i.e. the value of `obj.[[Prototype]]`.\n\n```javascript\nconst parent = {\n  greet() {\n    console.log('Hello!');\n  }\n};\nconst child = {\n  name: 'John'\n};\n\nObject.setPrototypeOf(child, parent);\nchild.greet(); // \"Hello!\" — the method is taken from the prototype\nconsole.log(Object.getPrototypeOf(child) === parent); // true\n```\n\nYou can also create an object with a given prototype right away using `Object.create`:\n\n```javascript\nconst child = Object.create(parent);\nchild.name = 'John';\n```\n\nThis creates `child`, which automatically inherits from `parent`.",
+      "uk": "#### Встановлення зв'язку наслідування між об'єктами:\n\nЩоб створити зв'язок наслідування між двома об'єктами, потрібно вказати, який об'єкт буде прототипом іншого. Найпряміший спосіб — через методи `Object.setPrototypeOf` та `Object.getPrototypeOf`.\n\n- **`Object.setPrototypeOf(obj, proto)`** — встановлює прототип `proto` для об'єкта `obj`. Тобто `obj.[[Prototype]]` тепер дорівнює `proto`.\n- **`Object.getPrototypeOf(obj)`** — повертає прототип об'єкта `obj`, тобто значення `obj.[[Prototype]]`.\n\n```javascript\nconst parent = {\n  greet() {\n    console.log('Привіт!');\n  }\n};\nconst child = {\n  name: 'Іван'\n};\n\nObject.setPrototypeOf(child, parent);\nchild.greet(); // \"Привіт!\" — метод взятий з прототипу\nconsole.log(Object.getPrototypeOf(child) === parent); // true\n```\n\nТакож можна створити об'єкт із заданим прототипом одразу через `Object.create`:\n\n```javascript\nconst child = Object.create(parent);\nchild.name = 'Іван';\n```\n\nЦе створить `child`, який автоматично наслідує від `parent`."
+    },
+    "categoryId": 16,
+    "tags": [
+      "setPrototypeOf",
+      "getPrototypeOf"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-6666-4a5b-8c6d-666666666666",
+    "difficulty": "medium",
+    "question": {
+      "en": "How does the `instanceof` operator work?",
+      "uk": "Як працює оператор `instanceof`?"
+    },
+    "answer": {
+      "en": "#### `instanceof`:\n\nThe `instanceof` operator checks whether `Constructor.prototype` is present in the object's prototype chain — i.e. whether the object was created by that class or one of its descendants.\n\n```javascript\nclass Animal {}\nclass Dog extends Animal {}\nconst dog = new Dog();\n\ndog instanceof Dog;     // true\ndog instanceof Animal;  // true\ndog instanceof Object;  // true\n```\n\nBecause the prototype chain looks like this:\n\n```\ndog → Dog.prototype → Animal.prototype → Object.prototype → null\n```\n\n`instanceof` essentially checks \"does this object descend from this class\".\n\n**Used for:**\n- checking whether an object was created by a specific class/constructor\n- checking inheritance\n- runtime type checks\n\n**Important nuances:**\n- doesn't work with primitives: `5 instanceof Number; // false`\n- may return `false` if the object was created in a different iframe/realm\n- compares `prototype` in the chain, not the class itself",
+      "uk": "#### `instanceof`:\n\nОператор `instanceof` перевіряє, чи знаходиться `Constructor.prototype` в ланцюжку прототипів об'єкта, тобто чи був об'єкт створений цим класом або його нащадком.\n\n```javascript\nclass Animal {}\nclass Dog extends Animal {}\nconst dog = new Dog();\n\ndog instanceof Dog;     // true\ndog instanceof Animal;  // true\ndog instanceof Object;  // true\n```\n\nБо прототипний ланцюжок виглядає так:\n\n```\ndog → Dog.prototype → Animal.prototype → Object.prototype → null\n```\n\n`instanceof` — це перевірка \"чи походить об'єкт від цього класу\".\n\n**Для чого використовують:**\n- перевірити, чи створений об'єкт певним класом / конструктором\n- перевірити спадкування\n- зробити runtime-перевірки типів\n\n**Важливі нюанси:**\n- не працює з примітивами: `5 instanceof Number; // false`\n- може давати `false`, якщо об'єкт створений в іншому iframe / realm\n- порівнює не клас, а `prototype` в ланцюжку"
+    },
+    "categoryId": 16,
+    "tags": [
+      "instanceof"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-7777-4a5b-8c6d-777777777777",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do reading, writing, and deleting properties work with the prototype chain?",
+      "uk": "Як працюють читання, запис і видалення властивостей у контексті прототипного ланцюжка?"
+    },
+    "answer": {
+      "en": "#### Read, write, delete with the prototype chain:\n\nImagine `child` inherits from `parent`.\n\n**Reading a property:** when reading `child.prop`, JavaScript first looks for the property on `child` itself. If not found, it looks in its prototype (`parent`), and continues up the chain. If it reaches `null`, it returns `undefined`. Reading \"walks up\" the prototype chain but doesn't change anything.\n\n**Writing a property:** when doing `child.prop = 10`, if `prop` wasn't an own property of `child`, a new own property is created on `child`. The property on `parent` stays unchanged — we're not modifying the prototype, we're \"shadowing\" it with our own property (there are exceptions with setters, but this is the base rule).\n\n```javascript\n// parent has name = \"Bob\"\nchild.name = \"Alice\";\n// now child has its own name; parent's name is still \"Bob\"\n```\n\n**Deleting a property:** `delete child.prop` only removes an own property of the object.\n- if the property exists on `child` → it gets removed\n- if it doesn't exist on `child` but exists on `parent` → nothing happens, it remains accessible via the prototype\n\nSo `delete` does not travel up the prototype chain.",
+      "uk": "#### Читання, запис, видалення в контексті прототипного ланцюжка:\n\nУявімо: є об'єкт `child`, який наслідує від `parent`.\n\n**Читання властивості:** коли ми читаємо `child.prop`, спочатку JavaScript шукає властивість у самому `child`. Якщо не знаходить — дивиться у його прототипі (`parent`). Якщо немає і там — піднімається далі по ланцюжку. Якщо дійшов до `null` — повертає `undefined`. Тобто читання \"ходить вгору\" по прототипах, але нічого не змінює.\n\n**Зміна / запис властивості:** коли ми пишемо `child.prop = 10`, якщо `prop` не була власною властивістю `child`, то створюється нова власна властивість у `child`. Властивість у `parent` при цьому не змінюється — ми не змінюємо прототип, ми \"перекриваємо\" властивість своєю (є винятки з сеттерами, але базове правило саме таке).\n\n```javascript\n// у parent є name = \"Bob\"\nchild.name = \"Alice\";\n// тепер у child власне name, а в parent як було \"Bob\", так і залишилось\n```\n\n**Видалення властивості:** `delete child.prop` видаляє тільки власну властивість об'єкта.\n- якщо властивість є в `child` → вона видаляється\n- якщо її немає в `child`, але є у `parent` → нічого не станеться, у прототипі вона залишиться доступною при читанні\n\nТобто `delete` не піднімається по ланцюжку прототипів."
+    },
+    "categoryId": 16,
+    "tags": [
+      "prototype chain"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-8888-4a5b-8c6d-888888888888",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are static properties and methods in a class?",
+      "uk": "Що таке статичні властивості та методи у класі?"
+    },
+    "answer": {
+      "en": "#### Static members:\n\nStatic methods and properties belong to the class itself, not to its instances.\n\n```javascript\nclass MathUtils {\n  static PI = 3.14;\n\n  static square(x) {\n    return x * x;\n  }\n}\n\nMathUtils.square(4); // 16\nMathUtils.PI; // 3.14\n```\n\nThey cannot be called through an instance:\n\n```javascript\nconst m = new MathUtils();\nm.square(4); // error\n```\n\n**When they're used:**\n- for utility (helper) functions\n- for factory methods\n- for constants shared across all instances\n\nStatic members don't participate in the prototypal inheritance of instances, but they are inherited by subclasses.",
+      "uk": "#### Статичні члени:\n\nСтатичні методи та властивості — це методи й дані, які належать самому класу, а не його екземплярам.\n\n```javascript\nclass MathUtils {\n  static PI = 3.14;\n\n  static square(x) {\n    return x * x;\n  }\n}\n\nMathUtils.square(4); // 16\nMathUtils.PI; // 3.14\n```\n\nЧерез об'єкт так викликати не можна:\n\n```javascript\nconst m = new MathUtils();\nm.square(4); // error\n```\n\n**Коли використовують:**\n- для утилітних функцій (helpers)\n- для фабричних методів\n- для констант, спільних для всіх об'єктів\n\nСтатичні члени не беруть участі у прототипному наслідуванні екземплярів, але успадковуються класами-нащадками."
+    },
+    "categoryId": 16,
+    "tags": [
+      "static"
+    ]
+  },
+  {
+    "id": "b1a2c3d4-9999-4a5b-8c6d-999999999999",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is a factory method in JavaScript?",
+      "uk": "Що таке фабричний метод (factory method) у JavaScript?"
+    },
+    "answer": {
+      "en": "#### Factory method:\n\nA factory method is a method that creates and returns an object, instead of calling `new` directly. Such methods are often made static, since they logically belong to the class rather than a specific instance.\n\n**Without a factory method:**\n\n```javascript\nclass User {\n  constructor(name, role) {\n    this.name = name;\n    this.role = role;\n  }\n}\nconst u = new User(\"Anna\", \"admin\");\n```\n\n**With a static factory method:**\n\n```javascript\nclass User {\n  constructor(name, role) {\n    this.name = name;\n    this.role = role;\n  }\n\n  static createAdmin(name) {\n    return new User(name, \"admin\");\n  }\n\n  static createGuest(name) {\n    return new User(name, \"guest\");\n  }\n}\n\nconst a = User.createAdmin(\"Anna\");\nconst g = User.createGuest(\"Bob\");\n```\n\n**Why it's useful:**\n- hides complex creation logic\n- gives clear names (`createAdmin`, `fromJSON`, `of`)\n- internal implementation can change without affecting external code\n\n**Common examples in JS:** `Array.from(iterable)`, `Date.now()`, `Object.create(proto)`, `Promise.resolve(value)` — all of these are static factory methods, since they create new objects.",
+      "uk": "#### Фабричний метод:\n\nФабричний метод (factory method) — це метод, який створює та повертає об'єкт, замість того щоб ти викликав `new` напряму. Часто такі методи роблять статичними, бо вони логічно належать класу, а не конкретному екземпляру.\n\n**Без фабричного методу:**\n\n```javascript\nclass User {\n  constructor(name, role) {\n    this.name = name;\n    this.role = role;\n  }\n}\nconst u = new User(\"Anna\", \"admin\");\n```\n\n**Те саме через статичний фабричний метод:**\n\n```javascript\nclass User {\n  constructor(name, role) {\n    this.name = name;\n    this.role = role;\n  }\n\n  static createAdmin(name) {\n    return new User(name, \"admin\");\n  }\n\n  static createGuest(name) {\n    return new User(name, \"guest\");\n  }\n}\n\nconst a = User.createAdmin(\"Anna\");\nconst g = User.createGuest(\"Bob\");\n```\n\n**Чому це зручно:**\n- приховує складну логіку створення\n- дає зрозумілі імена (`createAdmin`, `fromJSON`, `of`)\n- можна міняти внутрішню реалізацію без зміни зовнішнього коду\n\n**Дуже популярні приклади в JS:** `Array.from(iterable)`, `Date.now()`, `Object.create(proto)`, `Promise.resolve(value)` — всі вони статичні фабричні методи, бо створюють нові об'єкти."
+    },
+    "categoryId": 16,
+    "tags": [
+      "factory method",
+      "static"
     ]
   }
 ]

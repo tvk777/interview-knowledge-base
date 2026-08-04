@@ -44,6 +44,11 @@
     "name": "Classes & OOP",
     "description": "Classes, constructors, inheritance, encapsulation, polymorphism, prototype chain, and object-oriented programming."
   },
+    {
+    "id": 16,
+    "name": "Inheritance/Prototypes",
+    "description": "Prototype chain, prototypal inheritance, __proto__ vs prototype, Object.create, constructor functions, mixins, and inheritance patterns."
+  },
   {
     "id": 10,
     "name": "Async JavaScript",

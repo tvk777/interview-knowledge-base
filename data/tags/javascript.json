@@ -12,15 +12,11 @@
     "categoryId": 1
   },
   {
-    "name": "Short-Circuit Evaluation",
+    "name": "operator",
     "categoryId": 1
   },
   {
     "name": "Strict Mode",
-    "categoryId": 1
-  },
-  {
-    "name": "Ternary Operator",
     "categoryId": 1
   },
   {
@@ -29,7 +25,7 @@
   },
   {
     "name": "instanceof",
-    "categoryId": 2
+    "categoryId": 16
   },
   {
     "name": "null",
@@ -84,7 +80,7 @@
     "categoryId": 4
   },
   {
-    "name": "Array-Like Objects",
+    "name": "Array Methods",
     "categoryId": 5
   },
   {
@@ -121,6 +117,10 @@
   },
   {
     "name": "Shallow Copy",
+    "categoryId": 6
+  },
+  {
+    "name": "Proxy",
     "categoryId": 6
   },
   {
@@ -200,10 +200,6 @@
     "categoryId": 8
   },
   {
-    "name": "Abstraction",
-    "categoryId": 9
-  },
-  {
     "name": "Class",
     "categoryId": 9
   },
@@ -216,27 +212,15 @@
     "categoryId": 9
   },
   {
-    "name": "Encapsulation",
-    "categoryId": 9
-  },
-  {
     "name": "Inheritance",
-    "categoryId": 9
+    "categoryId": 16
   },
   {
     "name": "Object-Oriented Programming",
     "categoryId": 9
   },
   {
-    "name": "Polymorphism",
-    "categoryId": 9
-  },
-  {
     "name": "Private Fields",
-    "categoryId": 9
-  },
-  {
-    "name": "Static Methods",
     "categoryId": 9
   },
   {
@@ -253,14 +237,6 @@
   },
   {
     "name": "Promise",
-    "categoryId": 10
-  },
-  {
-    "name": "Promise.all",
-    "categoryId": 10
-  },
-  {
-    "name": "Promise.race",
     "categoryId": 10
   },
   {
@@ -281,6 +257,10 @@
   },
   {
     "name": "DOM",
+    "categoryId": 11
+  },
+  {
+    "name": "dataset",
     "categoryId": 11
   },
   {
@@ -324,6 +304,10 @@
     "categoryId": 12
   },
   {
+    "name": "Events",
+    "categoryId": 12
+  },
+  {
     "name": "Regular Expression",
     "categoryId": 13
   },
@@ -344,14 +328,6 @@
     "categoryId": 14
   },
   {
-    "name": "Tree Shaking",
-    "categoryId": 14
-  },
-  {
-    "name": "Babel",
-    "categoryId": 15
-  },
-  {
     "name": "Debounce",
     "categoryId": 15
   },
@@ -361,10 +337,6 @@
   },
   {
     "name": "DRY",
-    "categoryId": 15
-  },
-  {
-    "name": "ESLint",
     "categoryId": 15
   },
   {
@@ -384,10 +356,6 @@
     "categoryId": 15
   },
   {
-    "name": "Prettier",
-    "categoryId": 15
-  },
-  {
     "name": "SOLID",
     "categoryId": 15
   },
@@ -396,11 +364,31 @@
     "categoryId": 15
   },
   {
-    "name": "Unit Testing",
+    "name": "YAGNI",
     "categoryId": 15
   },
   {
-    "name": "YAGNI",
-    "categoryId": 15
+    "name": "factory method",
+    "categoryId": 16
+  },
+  {
+    "name": "static",
+    "categoryId": 16
+  },
+  {
+    "name": "prototype chain",
+    "categoryId": 16
+  },
+  {
+    "name": "Object.setPrototypeOf",
+    "categoryId": 16
+  },
+  {
+    "name": "Object.getPrototypeOf",
+    "categoryId": 16
+  },
+  {
+    "name": "__proto__",
+    "categoryId": 16
   }
 ]
