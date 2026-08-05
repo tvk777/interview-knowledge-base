@@ -2304,5 +2304,19 @@
       "factory method",
       "static"
     ]
-  }
+  },
+    {
+      "id": "6361bb55-9c27-40c3-91bd-cb9519d24b5c",
+      "difficulty": "medium",
+      "question": {
+        "en": "What is the Spread Operator in JavaScript?",
+        "uk": "Що таке Spread Operator у JavaScript?"
+      },
+      "answer": {
+        "en": "#### Spread Operator (`...`):\n\nThe **spread operator** unpacks the elements of an iterable (array, string, object, etc.) into individual elements. It's written as three dots `...` placed before an iterable.\n\n**Main use cases:**\n\n1. **Copying arrays/objects**\n\n   ```javascript\n   const arr = [1, 2, 3];\n   const copy = [...arr]; // [1, 2, 3]\n\n   const obj = { name: 'Anna' };\n   const objCopy = { ...obj }; // { name: 'Anna' }\n   ```\n\n2. **Merging arrays/objects**\n\n   ```javascript\n   const a = [1, 2];\n   const b = [3, 4];\n   const merged = [...a, ...b]; // [1, 2, 3, 4]\n\n   const o1 = { x: 1 };\n   const o2 = { y: 2 };\n   const mergedObj = { ...o1, ...o2 }; // { x: 1, y: 2 }\n   ```\n\n3. **Passing array elements as function arguments**\n\n   ```javascript\n   function sum(a, b, c) {\n     return a + b + c;\n   }\n   const nums = [1, 2, 3];\n   sum(...nums); // 6\n   ```\n\n4. **Converting a string into an array of characters**\n\n   ```javascript\n   [...'hello']; // ['h', 'e', 'l', 'l', 'o']\n   ```\n\n**Important nuances:**\n\n- Spread creates a **shallow copy** — nested objects/arrays are still copied by reference.\n- When merging objects with `{ ...obj }`, properties with the same key are overwritten by the ones that come later.\n- Spread only works with iterables (arrays, strings, Maps, Sets) and plain objects (as of ES2018).\n- Don't confuse it with the **rest parameter**, which looks identical (`...`) but does the opposite — it *gathers* multiple values into a single array.\n\n  ```javascript\n  function log(...args) {\n    console.log(args); // rest: gathers arguments into an array\n  }\n  ```",
+        "uk": "#### Spread Operator (`...`):\n\n**Spread operator** розпаковує елементи ітерованого об'єкта (масиву, рядка, об'єкта тощо) на окремі елементи. Записується як три крапки `...` перед ітерованим значенням.\n\n**Основні випадки використання:**\n\n1. **Копіювання масивів/об'єктів**\n\n   ```javascript\n   const arr = [1, 2, 3];\n   const copy = [...arr]; // [1, 2, 3]\n\n   const obj = { name: 'Anna' };\n   const objCopy = { ...obj }; // { name: 'Anna' }\n   ```\n\n2. **Об'єднання масивів/об'єктів**\n\n   ```javascript\n   const a = [1, 2];\n   const b = [3, 4];\n   const merged = [...a, ...b]; // [1, 2, 3, 4]\n\n   const o1 = { x: 1 };\n   const o2 = { y: 2 };\n   const mergedObj = { ...o1, ...o2 }; // { x: 1, y: 2 }\n   ```\n\n3. **Передача елементів масиву як аргументів функції**\n\n   ```javascript\n   function sum(a, b, c) {\n     return a + b + c;\n   }\n   const nums = [1, 2, 3];\n   sum(...nums); // 6\n   ```\n\n4. **Перетворення рядка на масив символів**\n\n   ```javascript\n   [...'hello']; // ['h', 'e', 'l', 'l', 'o']\n   ```\n\n**Важливі нюанси:**\n\n- Spread створює **поверхневу копію (shallow copy)** — вкладені об'єкти/масиви все одно копіюються за посиланням.\n- При об'єднанні об'єктів через `{ ...obj }` властивості з однаковим ключем перезаписуються тими, що йдуть пізніше.\n- Spread працює лише з ітерованими значеннями (масиви, рядки, Map, Set) та звичайними об'єктами (починаючи з ES2018).\n- Не варто плутати його з **rest-параметром**, який виглядає ідентично (`...`), але робить протилежне — *збирає* декілька значень в один масив.\n\n  ```javascript\n  function log(...args) {\n    console.log(args); // rest: збирає аргументи в масив\n  }\n  ```"
+      },
+      "categoryId": 5,
+      "tags": ["Spread Operator"]
+    }
 ]
