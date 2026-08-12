@@ -20,7 +20,7 @@ export default function Sidebar({
 }: SidebarProps) {
   return (
     <>
-      <aside className="hidden w-64 shrink-0 overflow-y-auto border-r p-4 md:block">
+      <aside className="hidden w-80 shrink-0 overflow-y-auto border-r p-4 md:block">
         <h2 className="mb-3 text-sm font-semibold text-muted-foreground">
           Tags
         </h2>

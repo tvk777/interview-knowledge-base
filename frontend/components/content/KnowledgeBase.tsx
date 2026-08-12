@@ -98,8 +98,8 @@ export default function KnowledgeBase({
   }
 
   return (
-    <main ref={scrollRef} className="flex-1 overflow-y-auto p-4">
-      <div className="mx-auto max-w-3xl">{content}</div>
+    <main ref={scrollRef} className="min-w-0 flex-1 overflow-y-auto p-4">
+      <div className="mx-auto max-w-4xl">{content}</div>
     </main>
   );
 }
