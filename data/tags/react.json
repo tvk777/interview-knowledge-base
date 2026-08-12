@@ -36,6 +36,10 @@
     "categoryId": 1
   },
   {
+    "name": "Reference comparison",
+    "categoryId": 1
+  },
+  {
     "name": "className",
     "categoryId": 2
   },
