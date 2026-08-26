@@ -23,6 +23,7 @@ const TECHNOLOGIES: Technology[] = [
   { slug: 'javascript', name: 'JavaScript' },
   { slug: 'typescript', name: 'TypeScript' },
   { slug: 'nextjs', name: 'Next.js' },
+  { slug: 'hr', name: 'HR general' },
 ];
 
 function assertKnownTechnology(technology: string): void {

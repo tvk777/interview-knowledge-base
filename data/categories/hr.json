@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "About Me",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "name": "About the web studio",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "name": "Projects and tasks",
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "Working on a team",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "name": "Soft skills",
+    "description": ""
+  },
+  {
+    "id": 6,
+    "name": "AI tools",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "name": "Competency-based questions",
+    "description": ""
+  }
+]

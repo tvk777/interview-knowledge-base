@@ -1,0 +1,828 @@
+[
+  {
+    "id": "09f902da-23d0-4918-8cf4-1eb1617702c7",
+    "difficulty": "medium",
+    "question": {
+      "en": "Tell me briefly about yourself",
+      "uk": "Розкажить кратко про себе"
+    },
+    "answer": {
+      "en": "I am a frontend developer with a focus on React and TypeScript. I have 14 years of web development experience, and the last six years have been in the React ecosystem.\n\nMy most important experience is four years working with a Norwegian company, Instech Solutions, on products for the marine insurance industry. I was the frontend developer on three products, and I led two of them from the very first commit to production.\n\nThe main product was a KYC service — a system that checks and verifies insurance company clients. Before this system, the checks were done by hand and took days for one client. The hardest technical part was checking sanction lists in real time. After the full-scale invasion started, this became critical, because the lists began updating constantly. The second product was an internal platform to manage projects, users, and access rights. I also built a full-stack app for the aviation industry, using React and Express.\n\nBefore React, I worked for seven years as a full-stack developer in my own small web development team — a service model, direct clients, full commercial web systems using PHP and MySQL. This gave me a good understanding of the whole stack, and how technical decisions affect the business.\n\nRight now I work with TypeScript, Next.js, and Node.js. I recently finished a Full Stack course at Mate Academy to build stronger backend skills.\n\nI am looking for a Frontend or Full-Stack React developer role on a team with complex product logic.",
+      "uk": "Я фронтенд-розробниця з фокусом на React і TypeScript. У веб-розробці 14 років, останні шість — у React-екосистемі.\n\nНайзначущий досвід — чотири роки співпраці з норвезькою компанією Instech Solutions, продукти у сфері морського страхування. Я була фронтенд-розробницею на трьох продуктах, два з них вела від першого коміту до продакшену.\n\nКлючовий — KYC-сервіс, система перевірки та ідентифікації клієнтів страхової компанії. До нас це робилося вручну й займало дні на одного клієнта. Найскладніша технічно частина — перевірка санкційних списків у реальному часі; після початку повномасштабного вторгнення це стало критичним функціоналом, бо списки почали оновлюватися постійно. Другий продукт — внутрішня платформа управління проєктами, користувачами й правами доступу. Також я розробила фулстек-застосунок для авіації на React і Express.\n\nДо React я сім років працювала фулстек-розробницею у власній невеликій команді веб-розробки — сервісна модель, прямі клієнти, комерційні веб-системи повного циклу на PHP і MySQL. Це дало мені розуміння всього стеку й того, як технічні рішення впливають на бізнес.\n\nЗараз працюю з TypeScript, Next.js і Node.js, нещодавно закінчила Full Stack курс у Mate Academy, щоб системно підтягнути бекенд.\n\nШукаю позицію Frontend або Full-Stack React розробниці в команді зі складною продуктовою логікою."
+    },
+    "categoryId": 1,
+    "tags": ["About"]
+  },
+  {
+    "id": "4783e5a8-f990-4706-9962-f1888d551de1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Full version",
+      "uk": "Розгорнута версія"
+    },
+    "answer": {
+      "en": "### Part 1. Who I am now\n\nI am a frontend developer with a focus on React and TypeScript. I have 14 years of web development experience, and the last 6 years have been in the React ecosystem. My most important experience is four years working on enterprise products for a Norwegian company in marine insurance. Right now I am looking for a Frontend or Full-Stack React developer role.\n\n### Part 2. Instech Solutions, 2020–2024\n\nFor four years, I worked with the Norwegian company Instech Solutions as a Frontend React developer. I worked on three products, and I led two of them from the start to release.\n\n**KYC service** — a system that checks and verifies clients for an insurance company. Before this system, the process was manual: an employee gathered documents, checked the client against several sources, and it took days for one client. We automated the main steps of this check and removed most of the human error.\n\nThe most interesting technical part was checking sanction lists in real time. These lists update constantly, especially after the full-scale invasion started, when restrictions on russia became a separate, critical piece of logic. The check result had to be correct at the exact moment of the request, not at the time of the last sync. At the same time, the interface could not freeze while waiting for answers from outside data sources.\n\nBusiness result: the service made checks faster, lowered risk for the insurance company, and made it harder to get around sanctions.\n\n**Administrator** — An internal management platform — a system to manage projects, users, roles, and access. The main challenge here was the UI for the role model: permissions overlap and inherit from each other, and the interface had to be built so an admin could not make mistakes. The result was centralized management, instead of separate admin tools for each product.\n\n**Documents** — a web service for insurance companies that brings all of a client's documents into one place: letters, permits, certificates. I joined this project during its growth and support phase, working with React and Redux. I improved features and the UX for working with large amounts of documents.\n\n### Part 3. Full-stack project\n\nSeparately, I built a full-stack app for the aviation industry — a system to track lightning strikes on aircraft and assess damage. Frontend in React, backend in Express.js. On this project, I was responsible for the whole stack, from the data schema to the interface.\n\n### Part 4. Studio, 2012–2019\n\nBefore React, I worked for seven years as a full-stack developer in my own small web development team — two developers, a designer, and a product manager. This was a service model: we worked with direct clients and built full commercial websites and web systems — PHP, MySQL, JavaScript, first on a CMS, then on Yii2. I led projects from gathering requirements to support. This experience gave me an understanding of the whole stack, and how technical decisions affect the client's money. I still use this when I need to estimate a task or explain why something costs more.\n\nIn 2019, the team split up — two people moved abroad, one joined a product company. It did not make sense for me to keep building full websites alone, so I decided this was a good moment to change my specialization. I went deep into frontend, learned React and TypeScript, and within a year I started working with Instech.\n\n### Part 5. This last year\n\nIn May 2025, I started a Full Stack course at Mate Academy. I wanted to build stronger backend skills and update my knowledge of modern frontend, because working with one stack for years naturally creates gaps. At the same time, I closed my sole proprietorship (FOP) and officially stopped the studio — it had already been just a legal shell for a few years.\n\nAt the same time, I continue freelance projects in React, TypeScript, Next.js, and Node.js, plus I do technical support for a few websites.\n\n### Part 6. Where I'm going\n\nI am looking for a team with complex product logic, not a team that just churns out landing pages. I like working on one product for a long time and watching it grow — that's why my four years on three Instech products were the best period for me.",
+      "uk": "### Блок 1. Хто я зараз\n\nЯ фронтенд-розробниця з фокусом на React і TypeScript. У веб-розробці 14 років, останні 6 — у React-екосистемі. Найзначущий досвід — чотири роки роботи над enterprise-продуктами для норвезької компанії у сфері морського страхування. Зараз шукаю позицію Frontend або Full-Stack React розробниці.\n\n### Блок 2. Instech Solutions, 2020–2024\n\nЧотири роки я співпрацювала з норвезькою компанією Instech Solutions як Frontend React-розробниця. Працювала над трьома продуктами, два з них — від старту до релізу.\n\n**KYC-сервіс** — система перевірки та ідентифікації клієнтів для страхової компанії. До нас цей процес робився вручну: співробітник збирав документи, перевіряв контрагента по кількох джерелах, і на одного клієнта йшли дні. Ми автоматизували ключові етапи перевірки й прибрали більшу частину людського фактора.\n\nТехнічно найцікавіша частина — перевірка санкційних списків у реальному часі. Списки оновлюються постійно, особливо після початку повномасштабного вторгнення, коли обмеження щодо росії стали окремим критичним блоком логіки. Потрібно було, щоб результат перевірки був актуальним на момент запиту, а не на момент останньої синхронізації, і при цьому інтерфейс не «підвисав» на очікуванні відповіді від зовнішніх джерел.\n\nБізнес-результат: сервіс скоротив час перевірки, знизив ризики для страхової й ускладнив спроби обходу санкцій.\n\n**Administrator** - Внутрішня платформа управління — система для керування проєктами, користувачами, ролями й доступами. Тут головна складність була в UI для рольової моделі: права перетинаються, наслідуються, і потрібно було зробити інтерфейс, у якому адміністратор не помиляється. Результат — централізоване управління замість розрізненого адміністрування по кожному продукту окремо.\n\n**Documents** — вебсервіс для страхових компаній, що зводить усі документи клієнта в одне місце: листування, дозволи, сертифікати. Сюди я зайшла на етапі розвитку й підтримки, працювала з React і Redux. Займалася доопрацюванням функціоналу й покращенням UX для роботи з великими обсягами документів.\n\n### Блок 3. Фулстек-проєкт\n\nОкремо я розробила фулстек-застосунок для авіаційної сфери — систему обліку влучань блискавки в літаки й оцінки пошкоджень. Фронтенд на React, бекенд на Express.js. Це був проєкт, де я відповідала за весь стек — від схеми даних до інтерфейсу.\n\n### Блок 4. Студія, 2012–2019\n\nДо React я сім років працювала фулстек-розробницею у власній невеликій команді веб-розробки — двоє розробників, дизайнер і продукт-менеджер. Це була сервісна модель: ми працювали з прямими клієнтами й робили комерційні сайти та веб-системи повного циклу — PHP, MySQL, JavaScript, спочатку на CMS, потім на Yii2. Я вела проєкти від збору вимог до підтримки. Цей досвід дав мені розуміння всього стеку і того, як технічні рішення впливають на гроші клієнта — я досі використовую це, коли треба оцінити задачу або пояснити, чому щось коштує дорожче.\n\nУ 2019 команда розійшлася — двоє поїхали за кордон, один пішов у продуктову компанію. Робити повноцінні сайти самій було нераціонально, і я вирішила, що це хороший момент змінити спеціалізацію: пішла глибоко у фронтенд, вивчила React і TypeScript і за рік почала працювати з Instech.\n\n### Блок 5. Останній рік\n\nУ травні 2025 я пішла на Full Stack курс у Mate Academy — хотіла системно підтягнути бекенд і оновити знання в сучасній верстці, бо за роки роботи з одним стеком неминуче накопичуються прогалини. Тоді ж закрила ФОП і формально припинила діяльність студії — вона вже кілька років була просто юридичною оболонкою.\n\nПаралельно продовжую фріланс-проєкти на React, TypeScript, Next.js і Node.js, плюс веду технічну підтримку кількох сайтів.\n\n### Блок 6. Куди йду\n\nШукаю команду, де є складна продуктова логіка, а не потоковий вироб лендингів. Мені цікаво працювати довго над одним продуктом і бачити, як він розвивається — саме тому чотири роки на трьох продуктах Instech були для мене найкращим періодом."
+    },
+    "categoryId": 1,
+    "tags": ["About", "Instech"]
+  },
+  {
+    "id": "06dec033-8c1c-416d-a482-b778a06a4ae2",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why did you stop working with Instech Solutions in 2024?",
+      "uk": "Чому закінчили співпрацю з Instech Solution у 2024?"
+    },
+    "answer": {
+      "en": "The projects I worked on were finished and moved into a stable phase. At that point, the company grew its own internal team and moved product support to internal developers, so there was no more need for outside contractors. This was a natural end to the contract, not related to the quality of my work — I led these products for four years, from start to release.",
+      "uk": "Проєкти, над якими я працювала, були завершені й перейшли в стабільну фазу. Компанія на той момент розширила власну команду й перевела підтримку продуктів на внутрішніх розробників, тому потреба в зовнішньому підряді закрилася. Це було природне завершення контракту, не пов'язане з якістю роботи — я вела ці продукти чотири роки, від старту до релізу."
+    },
+    "categoryId": 1,
+    "tags": ["Instech"]
+  },
+  {
+    "id": "e7c71a97-2683-4d72-9f33-33da21aefa4d",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why are you looking for a new job?",
+      "uk": "Чому ви шукаєте нову роботу"
+    },
+    "answer": {
+      "en": "I still technically run my own practice under SDB, but really it's solo freelancing: I find my own clients, handle negotiations, and deal with admin work — and only after that do I get to the code. I want to flip that balance: spend all my time on engineering tasks, not on finding the next project.\nOn a team, I get something freelancing doesn't offer — a steady flow of work, and the chance to work on one product for a long time.\nMy best experience overall was four years on the same products with the Norwegian team, where you see the results of your own decisions a year later.\nIn freelancing, this is almost impossible: projects end, and clients pause work for reasons outside your control — one of my last projects, for example, was paused because of the client's situation related to the war.\nA full-time position gives me exactly the **stability and depth** I'm looking for now.",
+      "uk": "Технічно я й зараз веду власну практику під SDB, але по суті це соло-фріланс: я сама шукаю клієнтів, веду перемовини, закриваю адміністративну частину — і лише після цього доходжу до коду. Мені хочеться перевернути це співвідношення: витрачати весь час на інженерні задачі, а не на пошук наступного проєкту.  \nУ команді я отримую те, чого немає у фрілансі, — стабільність потоку роботи й можливість довго вести один продукт.   \nМій найкращий досвід за весь час — це чотири роки на тих самих продуктах у норвезької команди, коли бачиш наслідки власних рішень через рік.   \nУ фрілансі це майже неможливо: проєкти закінчуються, клієнти призупиняють роботу з незалежних від тебе причин — один із моїх останніх проєктів, наприклад, призупинився через обставини клієнта, пов'язані з війною.   \nШтатна позиція дає саме ту **стабільність і глибину**, яку я зараз шукаю."
+    },
+    "categoryId": 1,
+    "tags": ["new role"]
+  },
+  {
+    "id": "07d7b409-00a7-4d3e-a153-40726e826dca",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why are you looking for a full-time job after 14 years of independent work?",
+      "uk": "Чому ви шукаєте роботу в штаті після 14 років самостійної роботи?"
+    },
+    "answer": {
+      "en": "I want to work inside a product, not next to it. As a contractor, you almost always come in for a specific scope and then leave. My best experience was four years on the same products, where you see the results of your own decisions a year later. That's only possible on a team.",
+      "uk": "Мені хочеться працювати всередині продукту, а не поруч із ним. Як підрядник ти майже завжди приходиш на конкретний скоуп і йдеш. Мій найкращий досвід — чотири роки на тих самих продуктах, коли ти бачиш наслідки власних рішень через рік. Це можливо тільки в команді."
+    },
+    "categoryId": 1,
+    "tags": ["new role"]
+  },
+  {
+    "id": "d15065d3-848f-4bf5-89f2-707208c5563b",
+    "difficulty": "medium",
+    "question": {
+      "en": "In 4 years of working with Instech, you were never offered a full-time role — why?",
+      "uk": "За 4 роки контракту з Instech вас жодного разу не запросили в штат — чому?"
+    },
+    "answer": {
+      "en": "Small and medium foreign companies usually don't open a legal entity in Ukraine just for one specialist — it's expensive and complicated to do that for one person, no matter how valuable that person is to the business. So working through a contract with my studio wasn't some kind of compromise — it was simply the only realistic way for that kind of company to work with me. It had nothing to do with how much they valued me — it was just a different legal form of the same trust.",
+      "uk": "Невеликі й середні іноземні компанії зазвичай не відкривають юридичну особу в Україні заради одного спеціаліста — це дорого й складно заради однієї людини, скільки б вона не коштувала для бізнесу. Тому працювати через контракт із моєю студією було не якимось компромісом, а просто єдиним реальним форматом співпраці, доступним для такої компанії. Це ніяк не було пов'язано з тим, наскільки мене цінували, — просто інша юридична форма тієї самої довіри."
+    },
+    "categoryId": 1,
+    "tags": ["Instech"]
+  },
+  {
+    "id": "ad26327e-6c86-4ea5-b9b9-01ec7e34374b",
+    "difficulty": "medium",
+    "question": {
+      "en": "What are your plans for the next 3–5 years?",
+      "uk": "Які ваші плани на найближчі 3–5 років?"
+    },
+    "answer": {
+      "en": "I want to grow deeper as a frontend engineer. When I had my own studio, growing the business would have meant hiring people and moving into management — and I chose a different path on purpose, because I'm more interested in development itself than in managing a team. That priority hasn't changed. My plans for the next few years are to work for a long time on a complex product within a team, going deeper in technical expertise, rather than climbing a formal career ladder.",
+      "uk": "Я хочу поглиблюватися як фронтенд-інженер. Коли в мене була власна студія, зростання бізнесу означало б перехід у найм і менеджмент — і я свідомо обрала інший шлях, бо мені цікавіша сама розробка, а не управління командою. Ця пріоритетність не змінилася й зараз: мої плани на найближчі роки — довго працювати над складним продуктом у команді, поглиблюючи технічну експертизу, а не рухатися вгору по формальних сходинках."
+    },
+    "categoryId": 1,
+    "tags": ["plans"]
+  },
+  {
+    "id": "e936b032-2d9b-4665-bc77-89e77537bf05",
+    "difficulty": "medium",
+    "question": {
+      "en": "You've been job-hunting for a while — why haven't you found something yet?",
+      "uk": "Ви вже якийсь час шукаєте роботу — чому досі не знайшли?"
+    },
+    "answer": {
+      "en": "The market right now is very competitive — frontend job posts often get hundreds of applications, and most of the filtering happens before the interview stage, at the automated resume-screening level. I keep applying actively, and at the same time I keep improving my search approach — I don't want to rush into taking the first offer, so I can find a team that's really a good fit.",
+      "uk": "Ринок зараз дуже конкурентний — на фронтенд-вакансії часто сотні відгуків, і левова частка відбору відбувається ще до співбесіди, на рівні автоматичного скринінгу резюме. Я продовжую активно подаватись і паралельно доопрацьовую підхід до пошуку — не поспішаю брати перше-ліпше, щоб знайти дійсно відповідну команду."
+    },
+    "categoryId": 1,
+    "tags": ["new role"]
+  },
+  {
+    "id": "5d6d5536-bef2-4571-9d34-417b64e501dc",
+    "difficulty": "medium",
+    "question": {
+      "en": "Do you see yourself as a middle or senior developer?",
+      "uk": "Ви позиціонуєте себе як мідл чи сеньйор?"
+    },
+    "answer": {
+      "en": "As a frontend developer, I'm at a solid middle+ level, and on some tasks, senior level: I've led products from scratch, made frontend architecture decisions, and been responsible for the results. On the backend, I'll be honest — my level is lower. I have experience with Node/Express and PHP, but that's not my main specialty. That's why I'm mainly looking for frontend roles where I can also help with backend tasks when needed.",
+      "uk": "Як фронтенд-розробниця я тягну мідл+ рівень і на частині задач — сеньйорний: я вела продукти з нуля, приймала архітектурні рішення на фронтенді й відповідала за результат. У бекенді я чесно скажу, що мій рівень нижчий — у мене є досвід із Node/Express і PHP, але це не моя основна спеціалізація. Тому я шукаю передусім фронтенд-позиції, де можу за потреби закривати бекенд-задачі."
+    },
+    "categoryId": 1,
+    "tags": ["About"]
+  },
+  {
+    "id": "8d246f7d-4bf7-4a01-b375-47cfa548ace0",
+    "difficulty": "medium",
+    "question": {
+      "en": "How strong are you on the backend?",
+      "uk": "Наскільки ви сильні в бекенді?"
+    },
+    "answer": {
+      "en": "I wrote a backend in Express for my own full-stack project, and I worked with PHP and MySQL for seven years, so I have a good base: REST, working with databases, authentication, app structure. But I'm not applying for a backend developer role — in the modern Node stack, my level is closer to a strong junior/middle. I took the Mate Academy course specifically to build this part into a proper system.",
+      "uk": "Я писала бекенд на Express для власного фулстек-проєкту й сім років працювала з PHP і MySQL, тому база — REST, робота з БД, автентифікація, структура застосунку — у мене є. Але я не претендую на позицію бекенд-розробника: у сучасному Node-стеку мій рівень ближчий до сильного джуна/мідла. Курс у Mate Academy я брала саме для того, щоб цю частину систематизувати."
+    },
+    "categoryId": 1,
+    "tags": ["About"]
+  },
+  {
+    "id": "faf63ba9-7be3-48f9-8d50-8fc1cc49c369",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why do you need courses after 14 years of experience?",
+      "uk": "Навіщо вам курси з 14 роками досвіду?"
+    },
+    "answer": {
+      "en": "Exactly because of the 14 years of experience. When you work with one stack for a long time, blind spots build up — you're good at what you've already done, and you don't always know what's changed around you. The course gave me structure: modern frontend, up-to-date backend approaches, things I had previously picked up in bits and pieces. It's easier for me to admit a gap and close it than to pretend it isn't there.",
+      "uk": "Саме через 14 років досвіду. Коли довго працюєш в одному стеку, накопичуються сліпі зони — ти вмієш робити те, що робив, і не знаєш, що навколо змінилося. Курс дав мені структуру: сучасна верстка, актуальні підходи до бекенду, речі, які я раніше збирала уривками. Мені простіше визнати прогалину й закрити її, ніж вдавати, що її немає."
+    },
+    "categoryId": 1,
+    "tags": ["courses"]
+  },
+  {
+    "id": "5ccd2cf8-9412-4cd2-b432-2a6e6d5fcc06",
+    "difficulty": "medium",
+    "question": {
+      "en": "How is your English?",
+      "uk": "Як у вас з англійською?"
+    },
+    "answer": {
+      "en": "B2 in reading and writing, B1–B2 in speaking. For four years, I worked on an international team: daily online meetings, technical discussions directly with developers, and all documentation and messages in English. This level was enough to do the job fully. Right now I'm working separately on my speaking, because I know it's the weakest of the four skills.",
+      "uk": "B2 у читанні й письмі, розмовна — B1–B2. Чотири роки я працювала в міжнародній команді: щоденні онлайн-зустрічі, обговорення технічних питань напряму з розробниками, вся документація і переписка англійською. Цього рівня було достатньо для повноцінної роботи. Зараз окремо працюю над speaking, бо розумію, що це моя найслабша з чотирьох навичок."
+    },
+    "categoryId": 1,
+    "tags": ["English"]
+  },
+  {
+    "id": "b38b277b-a5f9-4ebd-a7eb-d81b53bd59d4",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why did you switch from PHP to React and TypeScript?",
+      "uk": "Чому ви перейшли з PHP на React і TypeScript?"
+    },
+    "answer": {
+      "en": "In 2019, the team I had worked with for many years broke up — my colleagues moved on to other projects. That was the moment I had to decide: keep doing the whole development cycle by myself, or focus on one thing. I chose frontend, because I was always more interested in how a user interacts with a product, not just the server-side logic.\n\nReact gave me a convenient component-based way to build complex interfaces, and TypeScript added structure and cut down errors a lot in large projects — exactly what I was missing in PHP projects.\n\nPHP gave me a strong understanding of the backend, which I still use today, but now my specialty is frontend and the modern JavaScript/TypeScript stack.",
+      "uk": "У 2019 команда, з якою я багато років працювала разом, розпалася — колеги роз'їхались і перейшли в інші проєкти. Це був момент, коли треба було вирішити: продовжувати сама вести повний цикл розробки чи зосередитись на чомусь одному. Я обрала фронтенд, бо мені завжди було цікавіше саме те, як користувач взаємодіє з продуктом, а не тільки серверна логіка.\n\nReact дав зручний компонентний підхід до побудови складних інтерфейсів, а TypeScript додав структурованість і суттєво зменшив кількість помилок у великих проєктах — саме те, чого мені бракувало в PHP-проєктах. \n\nPHP дав мені міцну базу розуміння бекенду, яку я досі використовую, але зараз моя спеціалізація — фронтенд і сучасний JavaScript/TypeScript-стек."
+    },
+    "categoryId": 1,
+    "tags": ["PHP"]
+  },
+  {
+    "id": "1ca7c8c1-8735-4a2d-a06d-04b4d5a78ebe",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why didn't the studio grow in seven years — it stayed at four people the whole time?",
+      "uk": "Чому за сім років студія не виросла — як було четверо людей, так і залишилося?"
+    },
+    "answer": {
+      "en": "We chose not to scale on purpose. The studio was our way to do interesting work for direct clients, not a business we wanted to grow bigger. Growing an agency means hiring, sales, and management — in other words, stepping away from code. I was interested in development itself, and I didn't want to become a manager.\n\nSo we grew in project and stack complexity, not in headcount: we started with CMS-based websites, then moved to custom development on Yii2, and later I moved my part of the work to React and TypeScript. From a business point of view, this probably wasn't the most ambitious choice. From an engineering point of view, I spent seven years building full-cycle projects and was fully responsible for the results.",
+      "uk": "Ми свідомо не масштабувалися. Студія була для нас способом робити цікаву роботу з прямими клієнтами, а не бізнесом, який ми хотіли вирощувати. Зростання агенції — це найм, продажі й менеджмент, тобто вихід із коду. Мене цікавила саме розробка, і я не хотіла ставати менеджером.\n\nТому ми росли не в кількості людей, а в складності проєктів і стеку: почали з сайтів на CMS, потім перейшли на кастомну розробку на Yii2, а далі я перевела свою частину роботи на React і TypeScript. З погляду бізнесу це, мабуть, було не найамбітніше рішення. З погляду інженерного розвитку я сім років робила проєкти повного циклу й повністю відповідала за результат."
+    },
+    "categoryId": 2,
+    "tags": ["SDB"]
+  },
+  {
+    "id": "08389d0b-78b0-4826-b42d-de9c3ac57e27",
+    "difficulty": "medium",
+    "question": {
+      "en": "Was your studio a product company or an outsourcing company?",
+      "uk": "Ваша студія — це був продукт чи аутсорс?"
+    },
+    "answer": {
+      "en": "It was a service model — a full-cycle web studio. But not subcontracting: we worked with direct clients, meaning we gathered requirements ourselves, designed solutions, built them, and handled support. So the experience is closer to outsourcing, but with a much bigger area of responsibility than a developer who just gets a ready-made task.\n\nMy product experience comes from a different period — four years at Instech, where I worked inside a team that built its own products. That's where I first saw what it's like to work on one product for a long time, and how a decision made a year ago comes back to you.",
+      "uk": "Сервісна модель — веб-студія повного циклу. Але не субпідряд: ми працювали з прямими клієнтами, тобто самі збирали вимоги, проєктували рішення, розробляли й вели підтримку. Тобто досвід ближчий до аутсорсу, але із суттєво більшою зоною відповідальності, ніж коли розробник отримує готову постановку задачі.\n\nПродуктовий досвід у мене з іншого періоду — чотири роки в Instech, де я працювала всередині команди, яка розвивала власні продукти. Там я вперше побачила, як виглядає довга робота над одним продуктом і як рішення, прийняте рік тому, повертається до тебе."
+    },
+    "categoryId": 2,
+    "tags": ["SDB"]
+  },
+  {
+    "id": "c08f12a7-6d69-4c34-acf0-6be49e959eda",
+    "difficulty": "medium",
+    "question": {
+      "en": "Why did you close the studio and the FOP (sole proprietorship)?",
+      "uk": "Чому ви закрили студію і ФОП?"
+    },
+    "answer": {
+      "en": "The studio effectively stopped existing back in 2019, when the team split up. After that, it was just a legal form I used to formalize my work. In 2025, I decided I no longer wanted to work as a contractor, and I closed the FOP so I wouldn't keep an outdated structure.",
+      "uk": "Студія фактично припинила існувати ще у 2019, коли розійшлася команда. Далі це була просто юридична форма, через яку я оформлювала співпрацю. У 2025 я вирішила, що більше не хочу працювати як підрядник, і закрила ФОП, щоб не тримати неактуальну структуру."
+    },
+    "categoryId": 2,
+    "tags": ["SDB"]
+  },
+  {
+    "id": "5e478c3e-d991-492f-af08-22058c1b826f",
+    "difficulty": "medium",
+    "question": {
+      "en": "Describe the projects you've built.",
+      "uk": "Опишіть проекти які ви розробляли."
+    },
+    "answer": {
+      "en": "**KYC service** — a system that checks and verifies clients for an insurance company. Before this system, the process was manual: an employee gathered documents, checked the client against several sources, and it took days for one client. We automated the main steps of this check and removed most of the human error.\n\nThe most interesting technical part was checking sanction lists in real time. These lists update constantly, especially after the full-scale invasion started, when restrictions on russia became a separate, critical piece of logic. The check result had to be correct at the exact moment of the request, not at the time of the last sync. At the same time, the interface could not freeze while waiting for answers from outside data sources.\n\nBusiness result: the service made checks faster, lowered risk for the insurance company, and made it harder to get around sanctions.\n\n**Administrator** — An internal management platform — a system to manage projects, users, roles, and access. The main challenge here was the UI for the role model: permissions overlap and inherit from each other, and the interface had to be built so an admin could not make mistakes. The result was centralized management, instead of separate admin tools for each product.\n\n**Documents** — a web service for insurance companies that brings all of a client's documents into one place: letters, permits, certificates. I joined this project during its growth and support phase, working with React and Redux. I improved features and the UX for working with large amounts of documents.\n\n**Reldas** — Separately, I built a full-stack app for the aviation industry — a system to track lightning strikes on aircraft and assess damage. Frontend in React, backend in Express.js. On this project, I was responsible for the whole stack, from the data schema to the interface.\n\n**Allbc** — I led the migration of an office space rental service from an old PHP CMS to a modern stack — React, Next.js, Node.js. The project was never finished: the full-scale war started, and work stopped on the client's side.\n\n**IPI** — a real estate agency portal built in React and Next.js — I led the frontend, another developer handled the backend, a two-person team. The project ran from November 2024 to August 2025, when it was paused due to the client's situation related to the war.\n\nThe features included a listing catalog with search filters, listing cards, a personal account with saved favorites, search by Google Maps, and a responsive design for all devices. I also built photo sliders separately — on the homepage and on each listing card.",
+      "uk": "**KYC-сервіс** — система перевірки та ідентифікації клієнтів для страхової компанії. До нас цей процес робився вручну: співробітник збирав документи, перевіряв контрагента по кількох джерелах, і на одного клієнта йшли дні. Ми автоматизували ключові етапи перевірки й прибрали більшу частину людського фактора.\n\nТехнічно найцікавіша частина — перевірка санкційних списків у реальному часі. Списки оновлюються постійно, особливо після початку повномасштабного вторгнення, коли обмеження щодо росії стали окремим критичним блоком логіки. Потрібно було, щоб результат перевірки був актуальним на момент запиту, а не на момент останньої синхронізації, і при цьому інтерфейс не «підвисав» на очікуванні відповіді від зовнішніх джерел.\n\nБізнес-результат: сервіс скоротив час перевірки, знизив ризики для страхової й ускладнив спроби обходу санкцій.\n\n**Administrator** - Внутрішня платформа управління — система для керування проєктами, користувачами, ролями й доступами. Тут головна складність була в UI для рольової моделі: права перетинаються, наслідуються, і потрібно було зробити інтерфейс, у якому адміністратор не помиляється. Результат — централізоване управління замість розрізненого адміністрування по кожному продукту окремо.\n\n**Documents** — вебсервіс для страхових компаній, що зводить усі документи клієнта в одне місце: листування, дозволи, сертифікати. Сюди я зайшла на етапі розвитку й підтримки, працювала з React і Redux. Займалася доопрацюванням функціоналу й покращенням UX для роботи з великими обсягами документів.\n\n**Reldas** - Окремо я розробила фулстек-застосунок для авіаційної сфери — систему обліку влучань блискавки в літаки й оцінки пошкоджень. Фронтенд на React, бекенд на Express.js. Це був проєкт, де я відповідала за весь стек — від схеми даних до інтерфейсу.\n\n**Allbc** - Я вела міграцію сервісу оренди офісних приміщень у бізнес-центрах зі старої PHP CMS на сучасний стек — React, Next.js, Node.js. Проєкт не встигли завершити: почалась повномасштабна війна, і робота з боку клієнта зупинилась. \n\n**IPI** - портал для агентства нерухомості на React і Next.js — я вела фронтенд, бекенд робив інший розробник, команда з двох людей. Проєкт тривав із листопада 2024 до серпня 2025, коли його призупинили через обставини клієнта, пов'язані з війною.\n\nФункціонал включав каталог об'єктів із фільтрами пошуку, картки об'єктів, особистий кабінет із можливістю зберігати обрані об'єкти, пошук за Google-картою, і респонсивний дизайн під усі пристрої. Окремо робила слайдери фото — на головній сторінці й на картці кожного об'єкта."
+    },
+    "categoryId": 3,
+    "tags": ["projects"]
+  },
+  {
+    "id": "23b48267-7656-4de2-8e73-f2fd089c1175",
+    "difficulty": "medium",
+    "question": {
+      "en": "Your most challenging project",
+      "uk": "Найбільш складний проект"
+    },
+    "answer": {
+      "en": "One of the most important projects I worked on is the **KYC service** — a system that checks and verifies clients for an insurance company. Before this system, the process was manual: an employee gathered documents, checked the client against several sources, and it took days for one client. We automated the main steps of this check and removed most of the human error.\n\nThe most interesting technical part was checking sanction lists in real time. These lists update constantly, especially after the full-scale invasion started, when restrictions on russia became a separate, critical piece of logic. The check result had to be correct at the exact moment of the request, not at the time of the last sync. At the same time, the interface could not freeze while waiting for answers from outside data sources.\n\nBusiness result: the service made checks faster, lowered risk for the insurance company, and made it harder to get around sanctions.\n\nI worked on the frontend part.\n\nIt was a single-page app (SPA) in React that talked to a REST API. For working with server data, we used Axios and SWR, and for complex local business logic, we used React Context and useReducer. I also did a lot of work with forms, custom hooks, and API integration.\n\nOne special thing about this project was that some checks ran asynchronously on the backend and could take some time. So the frontend also had to correctly show the status and result of these checks in real time.\n\nMy role was quite broad: I worked on the UI, API integration, reusable logic, and complex business scenarios on the frontend.\n\nThis project was very valuable for me, because it gave me experience with complex business logic, a large amount of connected data, and requirements where not only ease of use mattered, but also the correctness of every step in the process.",
+      "uk": "Один із найбільш значущих проєктів, над яким я працювала, —  це **KYC-сервіс** — система перевірки та ідентифікації клієнтів для страхової компанії. До нас цей процес робився вручну: співробітник збирав документи, перевіряв контрагента по кількох джерелах, і на одного клієнта йшли дні. Ми автоматизували ключові етапи перевірки й прибрали більшу частину людського фактора.\n\nТехнічно найцікавіша частина — перевірка санкційних списків у реальному часі. Списки оновлюються постійно, особливо після початку повномасштабного вторгнення, коли обмеження щодо росії стали окремим критичним блоком логіки. Потрібно було, щоб результат перевірки був актуальним на момент запиту, а не на момент останньої синхронізації, і при цьому інтерфейс не «підвисав» на очікуванні відповіді від зовнішніх джерел.\n\nБізнес-результат: сервіс скоротив час перевірки, знизив ризики для страхової й ускладнив спроби обходу санкцій.\n\nЯ працювала над frontend-частиною. \n\nЦе був SPA на React, який взаємодіяв із REST API. Для роботи із серверними даними ми використовували Axios і SWR, а для складної локальної бізнес-логіки — React Context та useReducer. Також я багато працювала з формами, кастомними hooks та інтеграцією API.\n\nОднією з особливостей проєкту було те, що частина перевірок виконувалася на backend асинхронно і могла займати певний час. Тому frontend також мав правильно відображати статус і результат таких перевірок у реальному часі.\n\nМоя роль була досить широкою: я займалася реалізацією UI, інтеграцією з API, reusable логікою та складними бізнес-сценаріями на frontend.\n\nЦей проєкт був для мене дуже корисним, тому що він дав досвід роботи зі складною бізнес-логікою, великим обсягом взаємопов'язаних даних і вимогами, де важлива не тільки зручність інтерфейсу, а й коректність кожного кроку процесу."
+    },
+    "categoryId": 3,
+    "tags": ["projects"]
+  },
+  {
+    "id": "3af7c438-9576-457d-aead-a3d047ccadd8",
+    "difficulty": "medium",
+    "question": {
+      "en": "Your most challenging task",
+      "uk": "Найбільш складна задача"
+    },
+    "answer": {
+      "en": "One of the hard tasks on the KYC project was building the logic to check data completeness and risk.\n\nThe system had a lot of connected data: companies, people, owners, roles, and other entities. I had to not just detect that data was incomplete, but also show exactly which data was missing, at different levels — for a single company or for a group of companies.\n\nI built a single mechanism that could store and combine information about different types of problems, and quickly identify which data was missing. I also built functions to check and collect this information.\n\nThe hard part was correctly handling all the connections between the data, and making this logic work the same way across different parts of the app.\n\nAs a result, we ended up with one shared checking mechanism, used both in lists and on detail pages, without duplicating business logic.\n\n**About SignalR**\n\nOne of the most challenging tasks on this project was syncing data between different users and browser tabs.\n\nIn the KYC system, several users could work with the same data at the same time. So it was important that changes made by one user showed up almost instantly for other users, so everyone always saw the current status.\n\nAt first, polling could have been used for this, but that would mean constantly sending requests to the API. So we used SignalR for real-time event exchange between the backend and frontend.\n\nOn my side, I had to set up a shared SignalR connection and a mechanism for different components to subscribe to the events they needed. I also built automatic reconnection in case the connection was lost.\n\nThe hard part was making this mechanism reliable and reusable across different parts of the app, instead of creating a separate connection for every component.\n\nAs a result, users could work on the same data in parallel and get live updates without constantly polling the API.",
+      "uk": "Однією зі складних задач у KYC-проєкті була реалізація логіки перевірки повноти та ризиків даних.\n\nУ системі було багато взаємопов'язаних даних: компанії, люди, власники, ролі та інші сутності. Потрібно було не просто визначити, що дані неповні, а й показати, яких саме даних не вистачає, причому на різних рівнях — для окремої компанії або групи компаній.\n\nЯ реалізувала єдиний механізм, який дозволяв зберігати та комбінувати інформацію про різні типи проблем і швидко визначати, які саме дані відсутні. Також реалізувала функції для перевірки та накопичення цієї інформації.\n\nСкладність була в тому, щоб правильно врахувати всі взаємозв'язки між даними та зробити цю логіку єдиною для різних частин застосунку.\n\nУ результаті ми отримали один спільний механізм перевірки, який використовувався і в списках, і на сторінках деталей, без дублювання бізнес-логіки.\n\n**Про SignalR**\n\nОднією з найбільш складних задач у цьому проєкті була синхронізація даних між різними користувачами та вкладками браузера.\n\nУ KYC-системі кілька користувачів могли одночасно працювати з одними й тими самими даними. Тому було важливо, щоб зміни, зроблені одним користувачем, практично одразу відображалися в інших користувачів, і вони завжди бачили актуальний статус.\n\nСпочатку для таких задач можна було б використовувати polling, але це означало б постійно робити запити до API. Тому ми використали SignalR для real-time обміну подіями між backend і frontend.\n\nЗ мого боку потрібно було організувати спільне SignalR-з'єднання та механізм підписки різних компонентів на потрібні події. Також я реалізувала автоматичне перепідключення у випадку втрати connection.\n\nСкладність була в тому, щоб зробити цей механізм надійним і перевикористовуваним для різних частин застосунку, а не створювати окреме з'єднання для кожного компонента.\n\nУ результаті користувачі могли працювати з одними даними паралельно й отримувати актуальні зміни без постійного polling API."
+    },
+    "categoryId": 3,
+    "tags": ["projects"]
+  },
+  {
+    "id": "a5f82899-02ac-465d-96a4-5068d41bcdb0",
+    "difficulty": "medium",
+    "question": {
+      "en": "Can I see your projects?",
+      "uk": "Можна подивитися ваші проєкти?"
+    },
+    "answer": {
+      "en": "The Instech projects are internal enterprise systems for insurance companies — access is limited to employees only, plus there's an NDA. I can't show them; that's normal for this type of product. But I can walk through any technical decision in detail — architecture, state, data handling, tricky parts. What would you like to hear about?",
+      "uk": "Проєкти Instech — це внутрішні enterprise-системи для страхових компаній, доступ тільки для співробітників, плюс NDA. Показати їх я не можу, це стандартна ситуація для такого типу продуктів. Але я можу докладно розібрати будь-яке технічне рішення в них — архітектуру, стан, роботу з даними, складні місця. Що вам було б цікаво почути?"
+    },
+    "categoryId": 3,
+    "tags": ["projects"]
+  },
+  {
+    "id": "afee98be-638c-4407-bf6c-d2e320051190",
+    "difficulty": "medium",
+    "question": {
+      "en": "The team you worked with",
+      "uk": "Команда, в якій ви працювали"
+    },
+    "answer": {
+      "en": "On the team I worked with, there were two frontend developers, one backend developer, a QA person, and a project manager.\n\nThe project manager handled communication, priorities, and task assignment. We had short daily online meetings where we discussed progress, plans for the day, and possible blockers.\n\nFor technical questions, we communicated a lot directly between developers. If a question came up about the API or backend logic, I could talk to the backend developer directly. We also worked closely with QA during development: we sent tasks for testing, discussed any issues found, and fixed them.\n\nOverall, the team was fairly small, so communication was direct and informal. There was no need to go through many layers of management — if a question came up, we just discussed it with the right person.\n\nAt the same time, I didn't get detailed instructions on exactly how to implement a task. Usually I got requirements or a task description, figured out the implementation myself, and if I had questions about business logic, I clarified them with the manager or the team.\n\nTasks were tracked in Jira: the PM created cards for features and tasks, and each developer picked up a task when they became free — there was no strict split like \"I only work on KYC, you only work on the platform.\" So over four years, I worked on all parts of both products, not just one fixed module.\n\nI joined the Documents project already in its growth phase, meaning I stepped into someone else's codebase with someone else's conventions and agreements.",
+      "uk": "У команді, з якою я працювала, було два frontend-розробники, backend-розробник, QA і project manager.\n\nProject manager відповідав за комунікацію, пріоритети та постановку задач. У нас були короткі щоденні онлайн-зустрічі, де ми обговорювали прогрес, плани на день і можливі блокери.\n\nПо технічних питаннях ми багато комунікували безпосередньо між розробниками. Якщо виникало питання щодо API або backend-логіки, я могла напряму обговорити це з backend-розробником. З QA ми також взаємодіяли протягом розробки: передавали задачі на тестування, обговорювали знайдені проблеми і виправляли їх.\n\nЗагалом команда була досить невеликою, тому комунікація була пряма і неформальна. Не потрібно було проходити через багато рівнів менеджменту — якщо виникало питання, ми просто обговорювали його з потрібною людиною.\n\nПри цьому я не отримувала детальних інструкцій щодо того, як саме реалізувати задачу. Зазвичай я отримувала вимоги або опис задачі, сама розбиралася з реалізацією, а якщо були питання щодо бізнес-логіки — уточнювала їх у менеджера або команди. \n\nЗадачі велися в Jira: PM заводив картки з фічами й тасками, і кожен розробник брав задачу, коли звільнявся — без жорсткого поділу «я роблю тільки KYC, ти тільки платформу». Тому за чотири роки я попрацювала з усіма частинами обох продуктів, а не з одним закріпленим модулем.\n\nПроєкт Documents я взагалі підхопила вже на етапі розвитку, тобто заходила в чужу кодову базу з чужими конвенціями й домовленостями."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "164a2cd4-2127-4044-9b60-c9649cb99713",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you work on a team?",
+      "uk": "Як ви працюєте в команді?"
+    },
+    "answer": {
+      "en": "I work comfortably both independently and on a team.\n\nFor me, it's important that the team communicates well: if there's a problem, it's better to discuss it early, and if something is unclear, to ask.\n\nAt the same time, I try not to take up the team's time on things I can solve myself, but I always bring up anything that affects other people.",
+      "uk": "Я комфортно працюю і самостійно, і в команді.\n\nДля мене важливо, щоб команда нормально комунікувала: якщо є проблема, її краще обговорити раніше, якщо щось незрозуміло — поставити питання.\n\nПри цьому намагаюся не витрачати час команди на те, що можу вирішити сама, але завжди виношу на обговорення те, що впливає на інших."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "e67f41d0-60ca-437a-9bcc-ae613acd3de7",
+    "difficulty": "medium",
+    "question": {
+      "en": "You were a business owner — can you work on a team, under someone else's leadership?",
+      "uk": "Ви були власницею — чи зможете працювати в команді, під керівництвом іншої людини?"
+    },
+    "answer": {
+      "en": "I've already been doing that for four years. At Instech, I was a developer on a team — I didn't make product decisions, and I worked within their processes and priorities. That suits me: I want to focus on engineering work, not administration. My experience running my own business actually helps here — I understand why a project has a deadline, and what's really behind the words \"this needs to be done before release.\"",
+      "uk": "Я вже чотири роки так працювала. В Instech я була розробницею в команді, не приймала продуктових рішень і працювала за їхніми процесами й пріоритетами. Мені це підходить: я хочу займатися інженерними задачами, а не адмініструванням. Досвід власної справи скоріше допомагає — я розумію, чому в проєкту є дедлайн і що стоїть за словами «це треба до релізу»."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "36310d04-ae25-481c-a94c-17d457587c85",
+    "difficulty": "medium",
+    "question": {
+      "en": "Have you worked in small teams?",
+      "uk": "Чи працювали ви в маленьких командах?"
+    },
+    "answer": {
+      "en": "Yes, quite a lot.\n\nEarly in my career, I worked at a small web studio, where each team member's contribution really mattered to the project's outcome.\n\nSo I understand the specifics of small teams well: you need to be independent, responsible, and communicate well with others.\n\nIf I see a problem, or realize that a task might take longer than planned, I think it's right to say so as early as possible, rather than waiting until the deadline.",
+      "uk": "Так, і досить багато.\n\nНа початку кар'єри я працювала у невеликій web-студії, де внесок кожного учасника команди був досить важливим для результату проєкту.\n\nТому я добре розумію специфіку маленьких команд: потрібно бути самостійним, відповідальним і нормально комунікувати з іншими.\n\nЯкщо я бачу проблему або розумію, що якась задача може зайняти більше часу, я вважаю правильним сказати про це якомога раніше, а не чекати дедлайну."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "ee9b77db-8306-4810-99ea-40e595b386f9",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you feel about working on a young team?",
+      "uk": "Як вам працюється в молодій команді?"
+    },
+    "answer": {
+      "en": "Fine. At Instech, I wasn't the youngest on the team, and it was never a topic — we talked about tasks, not age. I'm comfortable both learning from younger colleagues and sharing what I know.",
+      "uk": "Нормально. В Instech я була не наймолодшою в команді й це ніколи не було темою — ми обговорювали задачі, а не вік. Мені комфортно і вчитися у молодших колег, і ділитися тим, що знаю сама."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "71c82aea-978c-49fb-8f94-6d1f6876342a",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you feel about formal Agile processes in a larger team?",
+      "uk": "Як ви щодо формальних Agile-процесів у більшій команді?"
+    },
+    "answer": {
+      "en": "My experience is mostly with small teams and direct communication, without many layers of approval. I'm open to more formal processes — sprints, story-point estimation, more stakeholders — and I understand that a bigger team needs different discipline. Adapting quickly to new conditions is something I've already shown, when I fully changed my specialization in 2019.",
+      "uk": "Мій досвід — переважно невеликі команди з прямою комунікацією, без багаторівневого узгодження. Я відкрита до формалізованих процесів — спринтів, оцінки в стори-поинтах, більшої кількості стейкхолдерів — і розумію, що більша команда вимагає іншої дисципліни. Швидка адаптація до нових умов — це те, що я вже показала, коли повністю змінила спеціалізацію в 2019."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "2a5aff80-6ed5-4384-9bb2-e0173546e88c",
+    "difficulty": "medium",
+    "question": {
+      "en": "How do you deal with stress and pressure?",
+      "uk": "Як ви справляєтесь зі стресом та та тиском"
+    },
+    "answer": {
+      "en": "When I face stress or pressure, I try to stay organized and focus on priorities.\n\nFirst, I break tasks down into smaller steps and make a clear plan. This helps me understand exactly what needs to be done, and it reduces the feeling of being overwhelmed.\n\nSecond, I use time management and prioritization. I focus on the most important tasks first, and avoid multitasking when I can.\n\nIf something is unclear or is blocking progress, I communicate with the team early: I ask questions, clarify requirements, or suggest solutions, instead of working in uncertainty.\n\nI also try to realistically judge deadlines and adjust the plan if needed, so I can deliver a stable result without rushing.\n\nOverall, I handle stress through a structured approach, communication with the team, and focusing on one step at a time.",
+      "uk": "Коли я стикаюся зі стресом або тиском, я намагаюся залишатися організованою і фокусуватися на пріоритетах.\n\nСпочатку я розбиваю задачі на менші кроки і складаю чіткий план. Це допомагає зрозуміти, що саме потрібно зробити, і зменшує відчуття перевантаження.\n\nПо-друге, я використовую тайм-менеджмент і пріоритизацію. Спочатку фокусуюся на найважливіших задачах і, по можливості, уникаю багатозадачності.\n\nЯкщо щось незрозуміло або блокує прогрес, я завчасно комунікую з командою: ставлю запитання, уточнюю вимоги або пропоную рішення замість того, щоб працювати в невизначеності.\n\nТакож я намагаюся реально оцінювати дедлайни і за потреби коригувати план, щоб видавати стабільний результат без поспіху.\n\nЗагалом я справляюся зі стресом завдяки структурованому підходу, комунікації з командою і фокусу на одному кроці за раз."
+    },
+    "categoryId": 5,
+    "tags": ["stress", "pressure"]
+  },
+  {
+    "id": "a22bc61b-eaa0-4563-a802-c4bf00b89162",
+    "difficulty": "medium",
+    "question": {
+      "en": "Tight deadlines",
+      "uk": "Жорсткі дедлайни"
+    },
+    "answer": {
+      "en": "I'm fine with deadlines, especially when the priorities are clear.\n\nI usually break a task into smaller parts and figure out what's critical for the deadline and what can be done later.\n\nIf I see that the amount of work is bigger than expected, I try to say so as early as possible, and figure out priorities together with the team.\n\nFor me, it's better to flag a risk early than to just work faster until the last minute and then miss the deadline anyway.",
+      "uk": "Я нормально ставлюся до дедлайнів, особливо якщо зрозумілі пріоритети.\n\nЗазвичай я розбиваю задачу на менші частини і визначаю, що є критичним для дедлайну, а що можна зробити пізніше.\n\nЯкщо бачу, що обсяг роботи більший, ніж передбачалося, я намагаюся сказати про це якомога раніше і разом визначити пріоритети.\n\nДля мене краще заздалегідь повідомити про ризик, ніж просто працювати швидше до останньої хвилини і в результаті не вкластися."
+    },
+    "categoryId": 5,
+    "tags": ["deadline"]
+  },
+  {
+    "id": "95f79905-3701-4201-8191-bec7ebe10664",
+    "difficulty": "medium",
+    "question": {
+      "en": "Multiple tasks — priorities",
+      "uk": "Кілька завдань - пріоритети"
+    },
+    "answer": {
+      "en": "When I have several deadlines at once, I first look at the tasks by priority — what has the biggest impact and what's most urgent.\n\nThen I break the tasks into smaller parts, so I can better estimate the amount of work and understand what might block the team. I try to take on those tasks first.\n\nIf I see a risk of not finishing in time, I don't wait until the last moment — I discuss it right away with the client or the team. Often, priorities can be adjusted or a solution can be found.\n\nOverall, I try to keep a simple structure: I plan tasks for the day or the sprint, and review the plan regularly to stay focused on what matters most.",
+      "uk": "Коли в мене є кілька дедлайнів одночасно, я спочатку дивлюсь на задачі з точки зору їхнього пріоритету — що має найбільший вплив і що більш термінове.\n\nПотім я розбиваю задачі на менші частини, щоб краще оцінити обсяг роботи і зрозуміти, що може блокувати команду. Такі задачі намагаюся брати в першу чергу.\n\nЯкщо бачу, що є ризик не встигнути, я не тягну до останнього, а одразу обговорюю це з клієнтом або командою — часто можна переглянути пріоритети або знайти рішення.\n\nІ в цілому я намагаюся тримати просту структуру: планую задачі на день або спринт і періодично переглядаю цей план, щоб залишатися сфокусованою на найважливішому."
+    },
+    "categoryId": 5,
+    "tags": ["deadline", "tasks"]
+  },
+  {
+    "id": "ea4d7f93-a905-4e82-a63e-987aa3f709e3",
+    "difficulty": "medium",
+    "question": {
+      "en": "Changing requirements",
+      "uk": "Зміни вимог"
+    },
+    "answer": {
+      "en": "I'm fine with frequent changes in requirements — for me, it's just a normal part of the job, especially on web projects. I usually stay calm about it, without stress, and just try to quickly understand what exactly changed and what matters most now.\n\nAfter that, I review my tasks and reorder priorities — what needs to be done now, what can wait, and what's no longer relevant. I try not to scatter my focus, and instead switch between tasks in a more structured way.\n\nOverall, I just stay focused on delivering results, even if the plan changes a bit along the way.",
+      "uk": "Я нормально ставлюся до частих змін вимог — для мене це скоріше звична частина роботи, особливо у веб-проєктах. Зазвичай я реагую спокійно і без стресу, просто стараюся швидко розібратися, що саме змінилося і що тепер найважливіше.\n\nПісля цього я переглядаю свої задачі і перерозставляю пріоритети — що треба зробити зараз, що можна відкласти і що вже не актуально. Стараюся не розпорошуватися, а переключатися між задачами більш структуровано.\n\nІ в цілому я просто тримаю фокус на тому, щоб довести роботу до результату, навіть якщо план по дорозі трохи змінюється."
+    },
+    "categoryId": 5,
+    "tags": ["deadline", "tasks"]
+  },
+  {
+    "id": "33bed795-e20c-410f-b711-66ebf436139a",
+    "difficulty": "medium",
+    "question": {
+      "en": "What if you get stuck on a task?",
+      "uk": "Якщо застрягли на задачі?"
+    },
+    "answer": {
+      "en": "First, I try to figure it out myself: I check the documentation, look for similar cases, and try different options.\n\nRight now, I also actively use AI for this kind of research.\n\nBut if I notice I'm going in circles for too long, I'm not afraid to ask a colleague.\n\nI believe being independent matters, but there's no point spending several hours on a problem that could be solved in ten minutes after a short conversation.",
+      "uk": "Спочатку я намагаюся розібратися сама: дивлюся документацію, шукаю подібні випадки, перевіряю різні варіанти.\n\nЗараз також активно використовую AI для такого research.\n\nАле якщо бачу, що я вже довго ходжу по колу, я не боюся звернутися до колеги.\n\nЯ вважаю, що самостійність важлива, але немає сенсу витрачати кілька годин на проблему, яку можна вирішити за десять хвилин після короткого обговорення."
+    },
+    "categoryId": 5,
+    "tags": ["deadline", "tasks"]
+  },
+  {
+    "id": "3c9d1aca-8bd9-4a27-8812-02b864b8153f",
+    "difficulty": "medium",
+    "question": {
+      "en": "Feedback, code review",
+      "uk": "Feedback, code review"
+    },
+    "answer": {
+      "en": "Fine. I see code review as part of the process, not as criticism of my work.\n\nI take feedback as a normal part of the job, and as a chance to improve the result.\n\nI usually try to first understand the context and the reason behind it — I ask clarifying questions if something isn't fully clear. If the feedback makes sense, I make the changes quickly and take it as a lesson for next time.\n\nIf a colleague suggests a different solution, I'm happy to discuss it. If I see the logic behind their point, I make the changes without any issue.\n\nIt's also important to me that this is a two-way process — I'm open to discussion, and I can explain my own decisions with reasons if I see an alternative approach. In the end, this helps us find better solutions for the product, and helps me grow as a specialist.\n\nI also try to give feedback in a constructive way myself, explaining not just \"what to change,\" but why.",
+      "uk": "Нормально. Я сприймаю code review як частину процесу, а не як критику моєї роботи.\n\nЯ сприймаю фідбек як нормальну частину роботи і можливість покращити результат.\n\nЗазвичай я спочатку намагаюся зрозуміти контекст і причину — ставлю уточнюючі питання, якщо щось не до кінця ясно. Якщо фідбек обґрунтований, я швидко вношу зміни і беру це як урок на майбутнє.\n\nЯкщо колега пропонує інше рішення, я готова його обговорити. Якщо бачу логіку в зауваженні — без проблем вношу зміни.\n\nТакож для мене важливо, що це двосторонній процес — я відкрита до обговорення і можу аргументовано пояснити свої рішення, якщо бачу альтернативний підхід. У результаті це допомагає знаходити кращі рішення для продукту і рости як спеціаліст.\n\nІ сама намагаюся давати feedback конструктивно, пояснюючи не тільки \"що змінити\", а й чому."
+    },
+    "categoryId": 5,
+    "tags": ["feedback"]
+  },
+  {
+    "id": "29687a24-5fc8-4c44-b034-005add1524d0",
+    "difficulty": "medium",
+    "question": {
+      "en": "Strengths?",
+      "uk": "Сильні сторони?"
+    },
+    "answer": {
+      "en": "**Independence**\n\nI'm quite independent in my work. If I get a task, I don't need every next step explained in detail — I can figure things out and find a solution myself.\n\n**Broad experience**\n\nI have a fairly broad web development background, so I can look at a problem not just from the frontend side, but also understand what's happening on the backend and with the data.\n\n**Responsibility**\n\nIf I take on a task, it matters to me to see it through to the end, not just do my small part and forget about it.",
+      "uk": "**Самостійність**\n\nЯ досить самостійна в роботі. Якщо отримую задачу, мені не потрібно детально пояснювати кожен наступний крок — я можу сама розібратися і знайти рішення.\n\n**Широкий досвід**\n\nУ мене досить широкий web development background, тому я можу подивитися на проблему не тільки з frontend-сторони, а й зрозуміти, що відбувається на backend та з даними.\n\n**Відповідальність**\n\nЯкщо я беру на себе задачу, мені важливо довести її до кінця, а не просто зробити свою маленьку частину і забути про неї."
+    },
+    "categoryId": 5,
+    "tags": ["strengths"]
+  },
+  {
+    "id": "29af12ff-937b-4e0e-a5b8-1268c1512233",
+    "difficulty": "medium",
+    "question": {
+      "en": "Weaknesses?",
+      "uk": "Слабка сторона?"
+    },
+    "answer": {
+      "en": "In the past, I could spend too long trying to figure out a task on my own before asking the team. I'm quite independent and used to looking for a solution myself first, but I realized this can sometimes take extra time.\n\nNow I set myself a certain internal limit: if I see I'm not making progress for a while, I don't keep spending time on it — I discuss the problem with a colleague or the team instead. This helps me find solutions faster, and work together more effectively overall.\n\nSometimes I can pay too much attention to details, especially when working on UI or code quality. In the past, this could take more time than needed. Now I try to better balance quality against the priorities of the task and the deadline, and figure out first what really matters for the result.",
+      "uk": "Раніше я могла занадто довго намагатися розібратися із задачею самостійно, перш ніж звернутися до команди. Я досить самостійна і звикла спочатку сама шукати рішення, але зрозуміла, що іноді це може забирати зайвий час.\n\nЗараз я ставлю собі певний внутрішній ліміт: якщо бачу, що довго не рухаюся вперед, я не витрачаю час далі, а обговорюю проблему з колегою або командою. Це допомагає швидше знаходити рішення і загалом ефективніше працювати разом.\n\nІноді я можу приділяти забагато уваги деталям, особливо коли працюю над UI або якістю коду. Раніше це могло забирати більше часу, ніж потрібно. Зараз я намагаюся краще співвідносити якість із пріоритетами задачі та дедлайном і спочатку визначати, що справді важливо для результату."
+    },
+    "categoryId": 5,
+    "tags": ["weaknesses"]
+  },
+  {
+    "id": "649ab7f3-a873-4b0c-8c3a-693c0faa04ba",
+    "difficulty": "medium",
+    "question": {
+      "en": "What if you get sick for a week in the middle of a sprint?",
+      "uk": "Якщо захворієте на тиждень посеред спринту?"
+    },
+    "answer": {
+      "en": "First of all, I let the team know as soon as I realize it's more serious than one day off — I don't wait until it becomes obvious that I'm out. And I'm honest about roughly how long, even if the estimate isn't exact.\n\nIf I'm well enough, I try to hand off status: what's done, what's in progress, where I stopped, and any important details, so someone else can pick up the task without having to dig through unfamiliar code. Often, even when feeling unwell, I can find an hour or two to not block the team — not writing code, but answering questions or helping with something critical.\n\nOverall, I rarely disappear for a long time. But if it happens, I won't vanish without explanation — the team will always know what's going on and when I'll be back. The worst part in this kind of situation isn't the illness itself — it's the uncertainty for other people.",
+      "uk": "Насамперед я попереджаю команду одразу, як тільки розумію, що це серйозніше за один день — не чекаю, поки стане очевидно, що я випадаю. І чесно кажу, на скільки приблизно, навіть якщо оцінка неточна.\n\n Якщо стан дозволяє, я намагаюся передати статус: що зроблено, що в процесі, де я зупинилася і які є нюанси, щоб хтось інший міг підхопити задачу без розкопок у чужому коді. Часто буває, що навіть при поганому самопочутті можна знайти годину-дві, щоб не блокувати команду — не писати код, але відповісти на питання чи розібратися з чимось критичним.\n\nЗагалом я досить рідко випадаю надовго. Але якщо це станеться, я не зникну без пояснень — команда завжди знатиме, що відбувається і коли я повернуся. Найгірше в такій ситуації — це не сама хвороба, а невизначеність для інших."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "d7a5f9a5-aa8e-47c8-b3b0-e6e37210fcf5",
+    "difficulty": "medium",
+    "question": {
+      "en": "Unavailability — how do you let the team know?",
+      "uk": "Недоступність - як попереджаєте команду?"
+    },
+    "answer": {
+      "en": "Early, and with plenty of notice. If it's something planned — a doctor's appointment, errands, a trip — I let people know a day or two ahead, so it can be factored into planning. If it's an emergency, I let them know as soon as I know myself.\n\nI think it's better to give a heads-up too often, and then say \"it's fine, I'm working,\" than to stay quiet until the last moment hoping it will work out. What bothers a team isn't someone being unavailable — it's finding out about it after the fact.\n\nIf it's a short unavailability during the day, I just post in the work chat saying I'll be unavailable during that time. If it's longer, I add a status on my tasks, so it's clear what I'll manage to finish before that, and what will have to wait.",
+      "uk": "Заздалегідь і з запасом. Якщо це щось планове — лікар, справи, поїздка — попереджаю за день-два, щоб можна було врахувати це в плануванні. Якщо форс-мажор — одразу, як тільки стає відомо мені самій.\n\nЯ вважаю, що краще попередити зайвий раз і потім сказати «все гаразд, працюю», ніж мовчати до останнього в надії, що обійдеться. Для команди неприємна не сама відсутність людини, а те, що про неї дізнаються постфактум.\n\nЯкщо це коротка недоступність протягом дня — просто пишу в робочий чат, що буду недоступна такий-то час. Якщо довша — додаю статус по своїх задачах, щоб було зрозуміло, що встигну доробити до цього, а що зачекає."
+    },
+    "categoryId": 4,
+    "tags": ["team"]
+  },
+  {
+    "id": "048aef7b-bfa2-4f03-ab51-a002e14cf0d5",
+    "difficulty": "medium",
+    "question": {
+      "en": "Ideal job",
+      "uk": "Ідеальна робота"
+    },
+    "answer": {
+      "en": "My ideal job is a mix of interesting technical challenges and a clear impact on the product. It matters to me to work on tasks where I don't just write code, but actually think through the solution, consider the business context, and think about the impact on the user.\n\nI also value the chance to grow — having room to learn new technologies, improve how I work, and grow as an engineer, for example toward architecture or working with more complex systems.\n\nThe team also matters a lot to me — open communication, support, healthy feedback, and a shared wish to build a good product. In that kind of environment, it's comfortable to take responsibility, share ideas, and move faster together.",
+      "uk": "Моя ідеальна робота — це поєднання цікавих технічних викликів і зрозумілого впливу на продукт. Для мене важливо працювати над задачами, де потрібно не просто писати код, а думати над рішенням, враховувати бізнес-контекст і вплив на користувача.\n\nТакож ціную можливість розвитку — коли є простір для вивчення нових технологій, покращення підходів до розробки і росту як інженер, наприклад, у напрямку архітектури або роботи з більш складними системами.\n\nОкремо для мене дуже важлива команда — відкрита комунікація, підтримка, здоровий фідбек і спільне бажання робити якісний продукт. У такому середовищі комфортно брати відповідальність, ділитися ідеями і рухатися швидше разом."
+    },
+    "categoryId": 5,
+    "tags": ["new role", "motivation"]
+  },
+  {
+    "id": "628de0d4-9fa9-45f8-8ebb-83e49337305c",
+    "difficulty": "medium",
+    "question": {
+      "en": "Job I don't want",
+      "uk": "Небажана робота"
+    },
+    "answer": {
+      "en": "I'm open to different kinds of tasks and work formats, but it matters to me that a project has some structure — clear processes, team communication, and clear goals. This helps me work efficiently and deliver a good result.\n\nAs a rule, I avoid long-term routine maintenance with no room to grow, or chaotic tasks with no clear requirements. That said, I'm willing to take on routine work if it helps the team meet a deadline or unblock other team members.\n\nWhat interests me most is working on tasks where I can grow, have an impact on the product, and see the value of my work for users and the business.",
+      "uk": "Я відкрита до різних задач і форматів роботи, але для мене важливо, щоб у проєкті була певна структура — зрозумілі процеси, комунікація в команді та чіткі цілі. Це допомагає працювати ефективно і давати хороший результат.\n\nПринципово я уникаю довготривалої рутинної підтримки без можливості розвитку або хаотичних задач без чітких вимог. Водночас я готова брати на себе рутину, якщо це допомагає команді дотримуватися дедлайнів або розблокувати роботу інших членів проєкту.\n\nНайбільше мені цікаво працювати над задачами, де я можу розвиватися, мати вплив на продукт і бачити цінність своєї роботи для користувачів та бізнесу."
+    },
+    "categoryId": 5,
+    "tags": ["new role", "motivation"]
+  },
+  {
+    "id": "824a5eb3-6358-4a63-8793-50460ceb2e34",
+    "difficulty": "medium",
+    "question": {
+      "en": "What motivates you?",
+      "uk": "Що мотивує"
+    },
+    "answer": {
+      "en": "Constantly getting better — as a product, as a team, and as a team member.\n\nWhat motivates me most is the feeling that I'm moving forward as a specialist, while also doing something useful for the product.\n\nTo be more specific — it matters to me to work on tasks with some real complexity: where I don't just write code, but need to figure things out, make decisions, and influence how part of the system will work.\nI'm also motivated by the moment when the result is visible not just to me — when a solution genuinely makes life easier for users or the team.\n\nThe team matters a lot to me too. I feel comfortable working where communication is normal and healthy, and where we can discuss decisions, rather than just \"got the task — did it.\"\n\n**Short version**\n\nI'm motivated by hard tasks where I can influence the decisions, not just carry them out, and where the result has real value for the product. Healthy team interaction matters to me too.",
+      "uk": "Постійно ставати краще як продукт, як команда, як член команди.\n\nМене найбільше мотивує відчуття, що я рухаюся вперед як спеціаліст і при цьому роблю щось корисне для продукту.\n\nЯкщо конкретніше — мені важливо працювати із задачами, де є трохи складності: коли потрібно не просто написати код, а розібратися, прийняти рішення і вплинути на те, як буде працювати частина системи.  \n Також мотивує момент, коли результат видно не тільки мені — коли рішення реально спрощує життя користувачам або команді.\n\nОкремо для мене важлива команда. Мені комфортно працювати там, де є нормальна комунікація і можна обговорювати рішення, а не просто “отримав задачу — зробив”.\n\n**Коротка версія**\n\nМене мотивують складні задачі, де я можу впливати на рішення, а не просто виконувати їх, і коли результат має реальну цінність для продукту. Також важлива адекватна командна взаємодія."
+    },
+    "categoryId": 5,
+    "tags": ["motivation"]
+  },
+  {
+    "id": "1ddcbbf2-f7d7-4665-8739-e397441b8437",
+    "difficulty": "medium",
+    "question": {
+      "en": "What demotivates you?",
+      "uk": "Що демотивує"
+    },
+    "answer": {
+      "en": "It's hard for me when there's no clarity in tasks, or when decisions are made chaotically without discussion.\nIt's also demotivating when I have no way to influence the outcome, and I'm just carrying out tasks without understanding the context.\n\nBut usually, in these situations, I try to solve it through communication: I clarify requirements, suggest options, or start a discussion to make the process more organized.",
+      "uk": "Для мене складно, коли немає ясності в задачах або рішення приймаються хаотично без обговорення.  \nТакож демотивує, коли немає можливості впливати на результат і ти просто виконуєш задачі без розуміння контексту.\n\nАле зазвичай у таких ситуаціях я намагаюсь це вирішувати через комунікацію: уточнюю вимоги, пропоную варіанти або ініціюю обговорення, щоб зробити процес більш упорядкованим."
+    },
+    "categoryId": 5,
+    "tags": ["motivation"]
+  },
+  {
+    "id": "9096b509-ec25-4e2e-94d3-afae636b35b5",
+    "difficulty": "medium",
+    "question": {
+      "en": "What three adjectives would you use to describe yourself?",
+      "uk": "Якими трьома прикметниками ти би себе описала?"
+    },
+    "answer": {
+      "en": "I would describe myself with three adjectives: **attentive, systematic, and quick to adapt**.\n\n**Attentive.** I always pay attention to details, not just in code, but also in how the interface behaves or in the logic. For example, while working at the web studio, I often noticed small UI issues or possible bugs before testing even started, which helped avoid extra fixes later and sped up the release.\n\n**Systematic.** I try to understand a task not in isolation, but in the context of the whole project. This helps me prioritize tasks correctly and understand how my decisions affect other parts of the system.\n\n**Quick to adapt.** I learn and adjust to new conditions fairly quickly. At the web studio, this mattered a lot, because tasks and priorities changed often, and I needed to switch between projects or pick up new requirements quickly, without losing efficiency.\n\nThese qualities describe my approach to work well, and help me be effective on team projects.",
+      "uk": "Я б описала себе трьома прикметниками: **уважна, системна і швидко адаптивна**.\n\n**Уважна.** Я завжди звертаю увагу на деталі, не тільки в коді, а й у поведінці інтерфейсу або логіці. Наприклад, під час роботи у веб-студії я часто помічала дрібні неточності в UI або потенційні баги ще до тестування, що допомагало уникати зайвих правок і прискорювало реліз.\n\n**Системна.** Я намагаюся розуміти задачу не ізольовано, а в контексті всього проєкту.Це допомагає мені правильно пріоритезувати задачі і розуміти, як мої рішення впливають на інші частини системи.\n\n**Швидко адаптивна.** Я досить швидко вчуся і підлаштовуюся під нові умови. У веб-студії це було важливо, бо часто змінювалися задачі та пріоритети, і потрібно було швидко перемикатися між проєктами або підхоплювати нові вимоги без втрати ефективності.\n\nЦі якості добре описують мій підхід до роботи і допомагають мені бути ефективною в командних проєктах."
+    },
+    "categoryId": 5,
+    "tags": ["About"]
+  },
+  {
+    "id": "8f8b76fd-7ab5-49cd-870d-11bba9240ca7",
+    "difficulty": "medium",
+    "question": {
+      "en": "Hobbies",
+      "uk": "Хоббі"
+    },
+    "answer": {
+      "en": "Outside of work, I like staying active and keeping my energy up. Morning runs help me start the day feeling fresh and focused. My French bulldog, Bruno, takes up a big part of my life — we often walk, play, and just spend time together, and it always lifts my mood. In my free time, I also like watching shows on Netflix, which helps me relax and take a break from everyday routine.",
+      "uk": "Поза межами роботи я люблю підтримувати активний спосіб життя та заряджатися енергією. Ранкові пробіжки допомагають мені починати день бадьоро та з концентрацією. Велике місце у моєму житті займає мій французький бульдог Бруно — ми часто гуляємо, граємося та просто проводимо час разом, і це завжди піднімає настрій. У вільний час я також люблю дивитися серіали на Netflix, що дозволяє мені відпочити і трохи відволіктися від повсякденної рутини."
+    },
+    "categoryId": 5,
+    "tags": ["About"]
+  },
+  {
+    "id": "1252a085-ac71-430d-89e0-86e93385518c",
+    "difficulty": "medium",
+    "question": {
+      "en": "Tell me about your experience with AI",
+      "uk": "Розкажіть про ваш досвід із AI"
+    },
+    "answer": {
+      "en": "I use AI almost every day, and lately I've been working quite actively with Claude Code.\n\nI've built several projects with Claude Code — I used it not just to generate code, but as an agent within the project. I'm also currently learning Claude Design and trying to use it to create and refine UI.\n\nI also use ChatGPT and GitHub Copilot for research, finding solutions, debugging, refactoring, and generating boilerplate code, tests, and documentation.\n\nBut I don't blindly rely on AI — I always check the result and understand what it's actually doing. AI might miss the context of a specific project, or suggest the wrong solution, so the final decision is always up to the developer.",
+      "uk": "Я використовую AI практично щодня і останнім часом досить активно працюю саме з Claude Code. \n\nЯ зробила кілька проєктів із Claude Code — використовувала його не просто для генерації коду, а як агента в межах проєкту. Також зараз розбираюся з Claude Design і пробую використовувати його для створення та опрацювання UI.\n\nТакож використовую ChatGPT та GitHub Copilot для research, пошуку рішень, debugging, рефакторингу, генерації boilerplate-коду, тестів і документації.\n\nАле я не покладаюся на AI всліпу — завжди перевіряю результат і розумію, що саме він робить. AI може не врахувати контекст конкретного проєкту або запропонувати неправильне рішення, тому остаточне рішення все одно залишається за розробником."
+    },
+    "categoryId": 6,
+    "tags": ["AI"]
+  },
+  {
+    "id": "d543ff9b-0c24-4119-96f8-4b8d9d9488b1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Have you worked with Claude specifically?",
+      "uk": "Чи працювали ви саме з Claude?"
+    },
+    "answer": {
+      "en": "Yes, I've been working with it quite actively lately. I've already built several projects with Claude Code, using it not just to generate small pieces of code, but as an AI agent across the whole project.\n\nI also built a frontend from a Figma design using Claude Code and the Figma MCP, including responsive layouts for different screen sizes.\n\nI'm also currently learning Claude Design and trying to use it to create and refine UI. So I already have hands-on experience with Claude's tools, and I think I could apply them fairly quickly on a commercial project.",
+      "uk": "Так, останнім часом я досить активно з ним працюю. Я вже зробила кілька проєктів із Claude Code, використовуючи його не просто для генерації окремих шматків коду, а як AI-агента в межах усього проєкту.\n\nТакож я зробила frontend за макетом у Figma за допомогою Claude Code та Figma MCP, включаючи responsive-верстку для різних розмірів екранів.\n\nЗараз також вивчаю Claude Design і пробую використовувати його для створення та опрацювання UI. Тому я вже маю практичний досвід роботи з інструментами Claude і думаю, що зможу досить швидко застосовувати їх у комерційному проєкті."
+    },
+    "categoryId": 6,
+    "tags": ["AI"]
+  },
+  {
+    "id": "7e94ee47-04b8-4253-8242-7cabab820e8e",
+    "difficulty": "medium",
+    "question": {
+      "en": "What exactly can Claude Code do as an agent?",
+      "uk": "А що саме Claude Code може робити як агент?"
+    },
+    "answer": {
+      "en": "Claude Code can work not just as a code generator, but as an agent inside a project. It can analyze the project structure, find the right files, make changes across several files, run commands and tests, analyze errors, and fix its own implementation.\n\nFor example, I can give it a task like: *\"add this feature to the project\"* — and it explores the codebase on its own, figures out where changes are needed, implements them, and checks the result.\n\nBut I still stay in control of its work: I review the changes, check the decisions, and check the tests. For me, it's a tool that speeds up development a lot — not a replacement for a developer.",
+      "uk": "Claude Code може працювати не просто як генератор коду, а як агент всередині проєкту. Він може аналізувати структуру проєкту, знаходити потрібні файли, вносити зміни в кілька файлів, запускати команди та тести, аналізувати помилки й коригувати свою реалізацію.\n\nНаприклад, я можу поставити йому задачу на рівні: *\"додай цю функціональність у проєкт\"* — і він сам досліджує кодову базу, визначає, де потрібно внести зміни, реалізує їх і перевіряє результат.\n\nАле я все одно контролюю його роботу: переглядаю зміни, перевіряю рішення і тести. Для мене це саме інструмент, який значно прискорює розробку, а не заміна розробника."
+    },
+    "categoryId": 6,
+    "tags": ["AI"]
+  },
+  {
+    "id": "88c22db5-b52e-4c24-a217-a8d0f7b28617",
+    "difficulty": "medium",
+    "question": {
+      "en": "Where does AI work well, and where does it work badly?",
+      "uk": "Де AI працює добре, а де погано?"
+    },
+    "answer": {
+      "en": "In my opinion, AI works very well for routine tasks and research: generating boilerplate code, explaining unfamiliar code, finding possible solutions, documentation, and tests.\n\nBut in areas where you need a deep understanding of business context, or where you need to make important architecture decisions, it's still noticeably weaker.\n\nIt can suggest a technically correct solution that doesn't fit the specific product at all.\n\nSo for me, AI is a tool that makes a developer more productive, but it doesn't replace engineering judgment.",
+      "uk": "На мою думку, AI дуже добре працює для рутинних задач і research: генерації boilerplate-коду, пояснення незнайомого коду, пошуку можливих рішень, документації, тестів.\n\nА от там, де потрібно добре розуміти бізнес-контекст або приймати важливі архітектурні рішення, він поки що значно слабший.\n\nВін може запропонувати технічно правильне рішення, яке при цьому абсолютно не підходить конкретному продукту.\n\nТому для мене AI — це інструмент, який робить розробника продуктивнішим, але не замінює інженерне мислення."
+    },
+    "categoryId": 6,
+    "tags": ["AI"]
+  },
+  {
+    "id": "0aa18e8a-8571-4037-92ff-3096357314e4",
+    "difficulty": "medium",
+    "question": {
+      "en": "Conflict, mistake, or challenge",
+      "uk": "Конфлікт, помилка або виклик"
+    },
+    "answer": {
+      "en": "**1. Conflict**\nSituation: While working on code, I deleted part of a colleague's code and replaced it with my own version, which I thought worked better. The colleague was upset and reported it to my manager, and I was asked to apologize.\n\nAction: Even though I didn't feel I was at fault, I decided to apologize to my colleague, explained the reason for the changes, and promised that in the future I would check with him first in similar cases.\n\nResult: We restored a good working relationship, and no similar conflicts came up after that.\n\nLesson: Even when a solution is technically correct, communication with the team and agreeing on actions together matters, to avoid misunderstandings and keep collaboration effective.\n\n**2. Mistake**\nSituation: I changed a colleague's code without checking with him first. Even though the changes were justified, it created tension on the team.\n\nAction: I looked back at the situation and realized my mistake wasn't changing the code — it was not discussing it with my colleague beforehand.\n\nResult: After apologizing and explaining, the conflict was resolved, and together we built a process for agreeing on code changes, to avoid similar situations in the future.\n\nLesson: Even when a solution is technically correct, communication with the team and agreeing on actions together matters, to avoid misunderstandings and keep collaboration effective.\n\n**3. Challenge**\nSituation: After the incident with my colleague, I needed to quickly implement a new feature in the code without causing delays for the team.\n\nAction: I applied what I had learned: I discussed the changes with my colleague first, agreed on an approach, and then implemented the code.\n\nResult: The feature was delivered on time, no conflict came up, and my colleague appreciated how transparent the process was.\n\nLesson: The best way to handle challenges is to combine technical skill with open communication — this helps you work effectively even in stressful situations.",
+      "uk": "**1. Конфлікт**  \n Ситуація: Під час роботи над кодом я видалила частину коду колеги і замінила її своїм варіантом, який, на мою думку, працював краще. Колега образився і повідомив про це мого керівника, після чого я отримала прохання вибачитися.\n\nДії: Хоча я не вважала себе винною, я вирішила вибачитися перед колегою, пояснила причину змін і пообіцяла, що в майбутньому буду радитися з ним у подібних випадках.\n\nРезультат: Ми відновили конструктивні робочі стосунки, і надалі подібних конфліктів не виникало.\n\nУрок: Навіть якщо рішення технічно правильне, важлива комунікація з командою та узгодження дій, щоб уникати непорозумінь і зберігати ефективну співпрацю.\n\n**2. Помилка**  \n Ситуація: Я змінила код колеги без попередньої консультації, і хоча зміни були обґрунтовані, це створило напруженість у команді.\n\nДії: Я проаналізувала ситуацію і зрозуміла, що моя помилка полягала не в зміні коду, а в тому, що я не обговорила це з колегою заздалегідь.\n\nРезультат: Після вибачень і пояснень конфлікт був розв’язаний, і ми разом розробили процес узгодження змін у коді, щоб уникнути подібних ситуацій у майбутньому.\n\nУрок: Навіть якщо рішення технічно правильне, важлива комунікація з командою та узгодження дій, щоб уникати непорозумінь і зберігати ефективну співпрацю.\n\n**3. Виклик**  \n Ситуація: Після інциденту з колегою мені потрібно було швидко реалізувати новий функціонал у коді без затримок для команди.\n\nДії: Я застосувала отримані уроки: спершу обговорила зміни з колегою, узгодила підхід, а потім реалізувала код.\n\nРезультат: Функціонал було впроваджено вчасно, конфлікту не виникло, і колега високо оцінив прозорість процесу.\n\nУрок: Виклики найкраще долати, поєднуючи технічну компетентність із відкритою комунікацією, що допомагає ефективно працювати навіть у стресових ситуаціях."
+    },
+    "categoryId": 7,
+    "tags": ["conflict"]
+  },
+  {
+    "id": "e8af2cf6-1af8-4b98-952c-a3b75206bc53",
+    "difficulty": "medium",
+    "question": {
+      "en": "Misunderstanding or conflict on the team",
+      "uk": "Непорозуміння або конфлікт у команді"
+    },
+    "answer": {
+      "en": "I had a situation where, because a task wasn't described clearly enough on my part, a colleague and I ended up working on the same feature at the same time.\n\nWe found out after some of the work was already done, and I immediately started a discussion about it. We quickly got on the same page, chose the best way to implement it, and merged the result without losing much time on the project.\n\nAfter that, I learned my lesson and started being clearer about defining who's responsible for what, and detailing tasks more at the start, to avoid this kind of situation in the future.",
+      "uk": "У мене була ситуація, коли через не зовсім чітке формулювання задачі з мого боку ми з колегою почали працювати над одним і тим самим функціоналом.\n\nМи виявили це вже після того, як частина роботи була виконана, і я одразу ініціювала обговорення. Ми швидко синхронізувалися, обрали оптимальний варіант реалізації та об’єднали результат без суттєвих втрат часу для проєкту.\n\nПісля цього я зробила висновок і почала чіткіше проговорювати зону відповідальності та деталізувати задачі на старті, щоб уникати подібних ситуацій у майбутньому."
+    },
+    "categoryId": 7,
+    "tags": ["conflict"]
+  },
+  {
+    "id": "57b25244-876c-45e4-a2db-6b77f91c314d",
+    "difficulty": "medium",
+    "question": {
+      "en": "Disagreement with management",
+      "uk": "Незгода з керівництвом"
+    },
+    "answer": {
+      "en": "I haven't had any big or major disagreements with management, since I generally trust their decisions and support the company's strategy. But there have been small situations where I had a different opinion.\n\nI was working on a project where we were discussing how to implement a UI component — a text editor. The manager suggested a solution that would let us launch the feature quickly, but I saw that it could create problems with maintenance and scaling later on.\n\nFor me, it mattered not just to complete the task, but to do it in a way that would stay stable going forward. So I first analyzed the approach, prepared arguments and a few alternatives, and then discussed it with the team and the manager.\n\nAs a result, we found a compromise: we kept part of the original solution to not lose speed, but in the key places, we built in a more flexible and scalable architecture. This let us meet the deadline while also avoiding technical problems down the road.\n\nThis was a valuable experience for me — it confirmed that it's not enough to just disagree; it's important to come with arguments and suggest a solution that works best for the team and the product.\n\nFor me, it's not about \"winning the argument\" — it's about finding the solution that's best for the product and the team.",
+      "uk": "У мене не було великих чи глобальних незгод із керівництвом, оскільки я зазвичай довіряю їхнім рішенням і підтримую стратегію компанії. Проте траплялися невеликі ситуації, коли я мала іншу думку.\n\nЯ працювала над проєктом, де ми обговорювали реалізацію UI-компонента — текстового редактора. Менеджер запропонував рішення, яке дозволяло швидко запустити функціонал, але я побачила, що воно може створити проблеми з підтримкою і масштабуванням у майбутньому.\n\nДля мене було важливо не просто реалізувати задачу, а зробити це так, щоб рішення залишалося стабільним надалі. Тому я спочатку проаналізувала підхід, підготувала аргументи та кілька альтернатив, а потім обговорила це з командою і керівником.\n\nУ результаті ми знайшли компроміс: частково залишили початкове рішення, щоб не втрачати швидкість, але в ключових місцях заклали більш гнучку й масштабовану архітектуру. Це дозволило нам вкластися в дедлайн і водночас уникнути технічних проблем у майбутньому.\n\nДля мене це був цінний досвід — я переконалася, що важливо не просто не погоджуватися, а приходити з аргументами і пропонувати рішення, яке найкраще працює для команди і продукту.\n\nДля мене важливо не “виграти дискусію”, а знайти рішення, яке буде найкращим для продукту і команди."
+    },
+    "categoryId": 7,
+    "tags": ["conflict"]
+  },
+  {
+    "id": "321296db-165a-45a4-a41d-ffae864e4744",
+    "difficulty": "medium",
+    "question": {
+      "en": "Explaining a complex topic to a non-technical person",
+      "uk": "Пояснювати складну тему нетехнічній людині"
+    },
+    "answer": {
+      "en": "There was a situation where a client didn't understand why they needed to pay for hosting and a domain.\n\nI explained it with a simple analogy. I said a website is like a house. Hosting is the land the house stands on — the place where all the website's files are stored. Without it, the website simply can't exist.\n\nA domain is like the house's address, which lets people find it on the internet.\n\nI also compared it to renting a place to live: even if you own all your things (the website itself), you still pay for the place where you live, and for the address where people can find you.\n\nAfter that, the client understood the idea much better and accepted these costs more easily.\n\n**Situation:** At the web studio, I very often had to explain to clients or users how a project's features worked, especially when they had no technical background.\n\n**Action:** I always try to avoid technical details and focus on what really matters to the user — how to use the product. I use simple examples or metaphors that make the process easy to understand. I only explain technical aspects when needed, if the user asks a follow-up question.\n\n**Result:** Users quickly understood the features and could use the product effectively, and managers got a clear picture of how the system worked without extra technical detail.\n\n**Lesson:** The main thing is to focus on the audience's needs, simplify complex things, and explain them in an accessible way, while still leaving room to go deeper into details if needed.",
+      "uk": "Була ситуація, коли клієнт не розумів, навіщо потрібно платити за хостинг і домен.\n\nЯ пояснила це через просту аналогію. Сказала, що сайт — це як будинок. Хостинг — це земля, на якій стоїть цей будинок, тобто місце, де зберігаються всі файли сайту. Без нього сайт просто не може існувати.\n\nДомен — це як адреса будинку, за якою люди можуть його знайти в інтернеті.\n\nТакож я порівняла це з орендою житла: навіть якщо у тебе є всі речі (сам сайт), ти все одно платиш за місце, де ти живеш, і за адресу, за якою тебе знаходять.\n\nПісля цього клієнт значно краще зрозумів ідею і легше сприйняв ці витрати.\n\n**Ситуація**: У веб-студії дуже часто доводилося пояснювати клієнтам або користувачам, як працює функціонал проєкту, особливо коли вони не мають технічного досвіду.\n\n**Дії:** Я завжди намагаюся уникати технічних деталей і зосереджуюсь на тому, що дійсно важливо для користувача — як скористатися продуктом. Я використовую прості приклади або метафори, які роблять процес зрозумілим. Технічні аспекти пояснюю лише за потреби, коли користувач задає уточнювальні питання.\n\n**Результат:** Користувачі швидко розуміють функціонал і можуть ефективно працювати з продуктом, а керівники отримують чітке уявлення про роботу системи без зайвої технічної інформації.\n\n**Урок:** Головне — орієнтуватися на потреби аудиторії, спрощувати складні речі і пояснювати доступно, при цьому залишаючи можливість заглибитися в деталі за потребою."
+    },
+    "categoryId": 7,
+    "tags": []
+  },
+  {
+    "id": "94916f32-fb3f-4929-a543-c67a1d19eeb1",
+    "difficulty": "medium",
+    "question": {
+      "en": "Conflict of interests or opinions",
+      "uk": "Конфлікт інтересів чи думок"
+    },
+    "answer": {
+      "en": "On a team where different opinions or conflicting interests come up, I usually try to first listen carefully to everyone's position, to understand the context and reasoning behind each point of view. For me, it's not just about defending my own idea — it's about finding the best solution for the product and the team.\n\nI stay calm and constructive in these situations: I ask clarifying questions, help structure the arguments, and suggest compromises when needed. If there's still no clear answer, I support whichever approach the team or lead sees as the priority, so we can move forward without getting blocked.\n\nFor me, the main thing is keeping healthy communication on the team and staying focused on the shared result.",
+      "uk": "У команді, де виникають різні думки чи конфлікт інтересів, я зазвичай намагаюся спочатку уважно вислухати позиції всіх сторін, щоб зрозуміти контекст і причини кожної точки зору. Для мене важливо не просто відстояти свою ідею, а знайти оптимальне рішення для продукту та команди.\n\nЯ ставлюся до таких ситуацій спокійно й конструктивно: задаю уточнюючі питання, допомагаю структурувати аргументи та, за потреби, пропоную компромісні варіанти. Якщо рішення все ще не очевидне — я підтримую той підхід, який команда або лід вважає більш пріоритетним, щоб рухатися далі без блокерів.\n\nДля мене головне — зберегти здорову комунікацію в команді та фокус на спільному результаті."
+    },
+    "categoryId": 7,
+    "tags": ["conflict"]
+  },
+  {
+    "id": "84251232-e397-436a-8539-a323aa3f7303",
+    "difficulty": "medium",
+    "question": {
+      "en": "Needing to reach an agreement",
+      "uk": "Потрібно домовитися"
+    },
+    "answer": {
+      "en": "There was a case where we had a difference of opinion with a client about the project's infrastructure. My team and I recommended moving the site from local hosting to AWS, because we saw risks: limited stability, harder scaling, and possible performance issues as load grew.\n\nAt first, the client was against it, because to them it looked like an unnecessary cost — \"it already works, why change anything.\" So instead of pushing, we calmly explained the situation: we showed exactly what problems could come up during peak load, and how that could affect the site during active marketing campaigns.\n\nIn the end, we agreed to move to AWS, and after the migration, the site became more stable and faster, and the client saw that this decision really paid off for the project.",
+      "uk": "Був випадок, коли у нас виникла різниця в поглядах із клієнтом щодо інфраструктури проєкту. Ми з командою рекомендували перенести сайт із локального хостингу на AWS, тому що бачили ризики: обмежена стабільність, складніше масштабування і потенційні проблеми з продуктивністю при рості навантаження.\n\nКлієнт спочатку був проти, бо для нього це виглядало як зайві витрати і “і так працює — навіщо щось змінювати”. Тому ми не тиснули, а спокійно пояснили ситуацію: показали, які саме можуть бути проблеми при пікових навантаженнях і як це може вплинути на роботу сайту під час активних кампаній.\n\nУ результаті ми домовилися про перехід на AWS, і вже після міграції сайт став працювати стабільніше, швидше, і клієнт побачив, що це рішення реально дало плюс для проєкту."
+    },
+    "categoryId": 7,
+    "tags": ["agreement"]
+  },
+  {
+    "id": "425e7bc3-da64-4bb2-a86d-c9dc9b444f69",
+    "difficulty": "medium",
+    "question": {
+      "en": "Making a decision without enough information",
+      "uk": "Рішення без інформації"
+    },
+    "answer": {
+      "en": "**Answer (STAR):**\n\nI once worked on a landing page for a client when the requirements weren't fully defined yet, and the deadline was fairly tight.\n\n**Situation:**\nThe client only gave a basic structure and some example sites they liked, without clear UX decisions, content, or a final design.\n\n**Task:**\nI needed to start development without waiting for a full specification, while keeping the risk of rework as low as possible.\n\n**Action:**\nI identified the key blocks that appear in almost every landing page (hero section, benefits, CTA), and started with a general-purpose structure.\nAt the same time, I:\n\n* agreed on the basic scenarios with the client (what was truly critical for launch)\n* chose a flexible layout approach, so the order and content of blocks could be changed easily\n* set up a simple component structure, so the design could be adapted quickly once it was ready\n\nI also flagged the risks with the team right away: possible changes to content and UI, and I factored that into the time estimate.\n\n**Result:**\nWe were able to quickly prepare a first version of the landing page for the client to review, get feedback, and improve it step by step without major rework.\nIn the end, the project launched on time, and the flexible approach let us calmly handle all the changes.\n\n**Short version:**\nI worked on a landing page for a client when the requirements were incomplete and the deadline was tight.\nI used a standard landing page structure as a base, built a flexible component layout, and agreed on key details with the client along the way.\nAs a result, we quickly showed a first version, gathered feedback, and got the project to release on time without major issues.",
+      "uk": "**Відповідь (STAR):**\n\nОдного разу я працювала над розробкою лендингу для клієнта, коли вимоги були ще не до кінця сформовані, а дедлайн — досить жорсткий.\n\n**Ситуація:**  \n Клієнт надав лише базову структуру і приклади сайтів, які йому подобаються, але без чітких UX-рішень, контенту та фінального дизайну.\n\n**Задача:**  \n Потрібно було почати розробку, не чекаючи повної специфікації, і при цьому мінімізувати ризик переробок.\n\n**Дії:**  \n Я виділила ключові блоки, які є майже в кожному лендингу (hero, переваги, CTA), і почала з універсальної структури.  \n Паралельно:\n\n* узгодила з клієнтом базові сценарії (що є критично важливим для запуску)  \n* обрала гнучкий підхід у верстці, щоб можна було легко змінювати порядок і наповнення блоків  \n* заклала просту компонентну структуру, щоб швидко адаптувати дизайн, коли він з’явиться\n\nТакож я одразу проговорила ризики з командою: можливі зміни контенту та UI і врахувала це в оцінці часу.\n\n**Результат:**  \n Ми змогли швидко підготувати першу версію лендингу для перегляду клієнтом, отримати фідбек і ітеративно допрацювати його без значних переробок.  \n У результаті проєкт був запущений вчасно, а гнучкий підхід дозволив спокійно адаптувати всі зміни.\n\n**Коротка:**  \nЯ працювала над лендингом для клієнта, коли вимоги були неповні, а дедлайн — жорсткий.  \nЯ взяла за основу стандартну структуру лендингу, зробила гнучку компонентну верстку і паралельно узгоджувала ключові моменти з клієнтом.  \nУ результаті ми швидко показали першу версію, зібрали фідбек і безболісно довели проєкт до релізу вчасно."
+    },
+    "categoryId": 7,
+    "tags": ["initiative"]
+  },
+  {
+    "id": "cc5d0af2-11f4-4d20-ac14-5470a21c7ec4",
+    "difficulty": "medium",
+    "question": {
+      "en": "Spotting a problem early",
+      "uk": "Виявили проблему заранее"
+    },
+    "answer": {
+      "en": "There was a case where a website came to us for support, and during a code review, I noticed that the Google Maps key was hardcoded directly in a JavaScript file.\n\nAt that point, it wasn't causing any visible problems — the site was working fine. But I understood this was a potential risk: the key could easily be stolen and used by outside services, leading to extra costs or even the API getting blocked.\n\nI checked the settings right away and quickly moved the key to a safer place, using server-side configuration with domain-based access restrictions.\n\nAs a result, we prevented a possible problem before it could ever affect the client. For me, this was a good example of how paying attention to details and being proactive helps avoid incidents later on.",
+      "uk": "Був випадок, коли сайт прийшов до нас на підтримку, і під час рев’ю коду я помітила, що ключ для Google Maps був захардкоджений прямо в JavaScript-файлі.\n\nНа той момент це ще не викликало видимих проблем — сайт працював нормально. Але я розуміла, що це потенційний ризик: ключ може бути легко викрадений і використаний сторонніми сервісами, що призведе до зайвих витрат або навіть блокування API.\n\nЯ одразу перевірила налаштування і швидко винесла ключ у більш безпечне місце через конфігурацію на серверній стороні з обмеженням доступу по домену.\n\nУ результаті ми запобігли можливій проблемі ще до того, як вона могла вплинути на клієнта. Для мене це був хороший приклад того, як уважність до деталей і проактивний підхід допомагають уникати інцидентів у майбутньому."
+    },
+    "categoryId": 7,
+    "tags": ["initiative"]
+  },
+  {
+    "id": "1b850cbc-6cbe-47e8-8b13-cf1ca28086c3",
+    "difficulty": "medium",
+    "question": {
+      "en": "Taking initiative without being asked",
+      "uk": "Ініціатива без доручення"
+    },
+    "answer": {
+      "en": "In my experience at the web studio, most of the work was actually built on independence, because the team was small, and not everything was spelled out in detailed tasks.\n\nSo for me, taking initiative was really just part of everyday work. For example, I often noticed on my own that some tasks on a project could be optimized or made more logical, and without being asked, I would suggest or just go ahead and implement the improvement.\n\nThere were also situations where I saw that a project was falling behind, or that someone on the team was overloaded, and I picked up part of the workload myself, so the process wouldn't stall.\n\nSo for me, initiative isn't something separate — it's just my normal way of working: not just doing the task, but constantly looking at how the process or the result could be made better.",
+      "uk": "У моєму досвіді у веб-студії більшість роботи якраз і будувалася на самостійності, тому що команда була маленька,і не завжди все розписувалося в детальних задачах.\n\nТому ініціатива для мене була скоріше частиною щоденної роботи. Наприклад, часто я сама помічала, що якісь задачі по проєктах можна оптимізувати або зробити логічнішими, і без окремого доручення пропонувала або одразу реалізовувала покращення.\n\nТакож бували ситуації, коли я бачила, що якийсь проєкт “просідає” по темпах або хтось із команди перевантажений, і я сама підхоплювала частину задач, щоб не зупиняти процес.\n\nТобто для мене ініціатива — це не щось окреме, а звичний спосіб роботи, коли ти не просто виконуєш задачу, а постійно дивишся, як можна зробити процес або результат кращим."
+    },
+    "categoryId": 7,
+    "tags": ["initiative"]
+  },
+  {
+    "id": "aa3bc583-50c9-4964-a7ca-6b8392be3209",
+    "difficulty": "medium",
+    "question": {
+      "en": "Motivating others",
+      "uk": "Мотивували інших"
+    },
+    "answer": {
+      "en": "I didn't have a formal leadership role on the team, but I always tried to influence the atmosphere through my own approach to work.\n\nThis usually showed up as me simply keeping a steady pace, staying engaged with the tasks, and not giving up when things got harder. I think that kind of focus and a calm working rhythm often has a good effect on a team — seeing colleagues move forward with confidence also adds motivation.\n\nI was also always open to helping: if someone was falling behind or needed guidance, I'd step in, explain things, or take on part of their tasks. No formal mentoring — just normal teamwork.\n\nSo I didn't \"motivate\" people on purpose, but through consistency, being engaged, and being ready to help, I created a calm, productive atmosphere on the team.",
+      "uk": "У мене не було формальної ролі лідера в команді, але я завжди намагалася впливати на атмосферу через власний підхід до роботи.\n\nЗазвичай це проявлялося в тому, що я просто стабільно тримала темп, була залучена в задачі і не “здавалася” при складніших моментах. Думаю, що така цілеспрямованість і спокійний робочий ритм часто добре впливають на команду — коли бачиш, що колеги впевнено рухаються вперед, це теж додає мотивації.\n\nТакож я завжди була відкрита до допомоги: якщо хтось щось не встигав або потребував підказки, я підключалася, пояснювала або брала частину задач. Без формального наставництва, просто як нормальна командна взаємодія.\n\nТобто я не “мотивувала” спеціально, але через стабільність, залученість і готовність допомогти створювала робочу, спокійну атмосферу в команді."
+    },
+    "categoryId": 7,
+    "tags": ["initiative"]
+  },
+  {
+    "id": "1f12efaa-4c3d-4b20-951a-93d48611c25b",
+    "difficulty": "medium",
+    "question": {
+      "en": "Changing priorities",
+      "uk": "Зміни пріоритетів"
+    },
+    "answer": {
+      "en": "There was a case at the web studio when we were near the end of building a site, and the client suddenly changed priorities because of an upcoming ad campaign.\n\nOriginally, our plan was to finish the main features — the site's pages, a standard request form, and some basic interface improvements (extra visual elements, small UI details).\n\nBut at some point, the client urgently asked us to **add a new section to the homepage focused on a promotion**, along with a very simple form for users to quickly leave their details.\n\nWe quickly reviewed the plan:\n\n* **did first:** the new promo section and the simplest possible request form;\n* **postponed:** some of the visual improvements, animations, and secondary design elements;\n* also left some minor improvements for after the release.\n\nI reorganized my work and focused specifically on the new, urgent feature, to make it in time for the deadline.\n\nAs a result, we adapted quickly, got the site ready for the campaign launch on time, and later calmly finished the postponed tasks without affecting the main release.\n\n**Short version:**\n\nThere was a case at the web studio when, near the final stage of a project, the client changed priorities because of an upcoming ad campaign.\nInstead of finishing the main features, we urgently needed to add a promo section to the homepage and a simple form to collect requests.\n\nWe quickly reviewed the plan: built the new section and form first, and postponed some of the visual improvements until after release.\nI focused on this feature to meet the deadline.\n\nAs a result, we got the site ready for the campaign on time, and calmly finished the rest of the tasks after launch.",
+      "uk": "Був випадок у веб-студії, коли ми вже були на етапі завершення сайту, і клієнт раптово змінив пріоритети через запуск рекламної кампанії.\n\nСпочатку в нас у плані було завершити основний функціонал — сторінки сайту, стандартну форму заявки та базові покращення інтерфейсу (додаткові візуальні елементи, дрібні UI-деталі).\n\nАле в якийсь момент клієнт попросив терміново **додати новий блок на головну сторінку з акцентом на акцію** та дуже просту форму, через яку користувачі могли швидко залишити свої дані.\n\nМи швидко переглянули план:\n\n* **в першу чергу зробили** новий акційний блок і максимально просту форму заявки;  \n* **відклали** частину візуальних покращень, анімацій і другорядних елементів дизайну;  \n* також деякі дрібні покращення залишили на після релізу.\n\nЯ перебудувала свою роботу і сфокусувалася саме на новому, терміновому функціоналі, щоб встигнути до дедлайну.\n\nУ результаті ми швидко адаптувалися, вчасно підготували сайт до запуску кампанії, а відкладені задачі потім спокійно доробили без впливу на основний реліз.\n\n**Кратко:**\n\nБув випадок у веб-студії, коли на фінальному етапі проєкту клієнт змінив пріоритети через запуск рекламної кампанії.  \n Замість завершення основного функціоналу потрібно було терміново додати акційний блок на головну і просту форму збору заявок.\n\nМи швидко переглянули план: зробили новий блок і форму в першу чергу, а частину візуальних покращень відклали після релізу.  \n Я сфокусувалася на цьому функціоналі, щоб вкластися в дедлайн.\n\nУ результаті ми вчасно підготували сайт до кампанії, а решту задач спокійно доробили після запуску."
+    },
+    "categoryId": 7,
+    "tags": ["deadline", "tasks"]
+  },
+  {
+    "id": "4bd6279e-5013-4a68-b266-6d915b55e5d8",
+    "difficulty": "medium",
+    "question": {
+      "en": "Changing requirements",
+      "uk": "Зміни вимог"
+    },
+    "answer": {
+      "en": "I'm fine with frequent changes in requirements — for me, it's just a normal part of the job, especially on web projects. I usually stay calm about it, without stress, and just try to quickly understand what exactly changed and what matters most now.\n\nAfter that, I review my tasks and reorder priorities — what needs to be done now, what can wait, and what's no longer relevant. I try not to scatter my focus, and instead switch between tasks in a more structured way.\n\nOverall, I just stay focused on delivering results, even if the plan changes a bit along the way.",
+      "uk": "Я нормально ставлюся до частих змін вимог — для мене це скоріше звична частина роботи, особливо у веб-проєктах. Зазвичай я реагую спокійно і без стресу, просто стараюся швидко розібратися, що саме змінилося і що тепер найважливіше.\n\nПісля цього я переглядаю свої задачі і перерозставляю пріоритети — що треба зробити зараз, що можна відкласти і що вже не актуально. Стараюся не розпорошуватися, а переключатися між задачами більш структуровано.\n\nІ в цілому я просто тримаю фокус на тому, щоб довести роботу до результату, навіть якщо план по дорозі трохи змінюється."
+    },
+    "categoryId": 7,
+    "tags": ["deadline", "tasks"]
+  },
+  {
+    "id": "ced0933f-ee81-40d3-981c-bf898f715d5d",
+    "difficulty": "medium",
+    "question": {
+      "en": "Several important tasks with limited time",
+      "uk": "Кілька важливих завдань з обмеженим часом."
+    },
+    "answer": {
+      "en": "I had a situation like this while working at the web studio. At the same time, we had three sites in development, plus two more projects on support with regular fixes.\n\nIn that kind of situation, we quickly agreed on a basic prioritization system: first, we closed out tasks that were blocking a release or affecting a client deadline, then critical support fixes, and only after that everything else.\n\nOn my side, I tried to structure my time as much as possible:\n\n- took tasks based on priority,\n- avoided switching between projects chaotically, and\n- stayed constantly in sync with the designer and the other developer, to avoid duplicate work or downtime.\n- If we saw that someone was overloaded, we quickly picked up each other's tasks — so delegation happened very flexibly within the team.\n\nAs a result, we managed to keep all the projects moving and consistently meet deadlines, even with a small team and a heavy workload.",
+      "uk": "У мене була ситуація під час роботи у веб-студії. Одночасно ми вели три сайти в розробці та ще два проєкти на підтримці з регулярними фіксами.\n\nВ таких умовах ми швидко домовилися про базову систему пріоритизації: спочатку закривали задачі, які блокують реліз або впливають на клієнтський дедлайн, далі — критичні фікси по підтримці, і вже потім усе інше.\n\nЗ мого боку я намагалася максимально структурувати свій час: \n\n- брала задачі за пріоритетами,   \n- не перемикалася хаотично між проєктами і   \n- Постійно синхронізувалася з дизайнером та другим розробником, щоб уникати дублювання або простоїв.   \n- Якщо бачили, що хтось перевантажений, ми швидко підхоплювали задачі один одного — тобто делегування відбувалося дуже гнучко всередині команди.\n\nУ результаті нам вдавалося тримати всі проєкти в русі та стабільно закривати дедлайни, навіть попри невеликий склад команди та високе навантаження."
+    },
+    "categoryId": 7,
+    "tags": ["deadline", "tasks"]
+  }
+]

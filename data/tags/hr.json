@@ -1,0 +1,90 @@
+[
+  {
+    "name": "About",
+    "categoryId": 1
+  },
+  {
+    "name": "Instech",
+    "categoryId": 1
+  },
+  {
+    "name": "new role",
+    "categoryId": 1
+  },
+  {
+    "name": "plans",
+    "categoryId": 1
+  },
+  {
+    "name": "courses",
+    "categoryId": 1
+  },
+  {
+    "name": "English",
+    "categoryId": 1
+  },
+  {
+    "name": "PHP",
+    "categoryId": 1
+  },
+  {
+    "name": "SDB",
+    "categoryId": 2
+  },
+  {
+    "name": "projects",
+    "categoryId": 3
+  },
+  {
+    "name": "team",
+    "categoryId": 4
+  },
+  {
+    "name": "stress",
+    "categoryId": 5
+  },
+  {
+    "name": "pressure",
+    "categoryId": 5
+  },
+  {
+    "name": "deadline",
+    "categoryId": 5
+  },
+  {
+    "name": "tasks",
+    "categoryId": 5
+  },
+  {
+    "name": "feedback",
+    "categoryId": 5
+  },
+  {
+    "name": "strengths",
+    "categoryId": 5
+  },
+  {
+    "name": "weaknesses",
+    "categoryId": 5
+  },
+  {
+    "name": "motivation",
+    "categoryId": 5
+  },
+  {
+    "name": "AI",
+    "categoryId": 6
+  },
+  {
+    "name": "conflict",
+    "categoryId": 7
+  },
+  {
+    "name": "agreement",
+    "categoryId": 7
+  },
+  {
+    "name": "initiative",
+    "categoryId": 7
+  }
+]
