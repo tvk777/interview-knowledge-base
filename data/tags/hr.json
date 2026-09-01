@@ -36,6 +36,14 @@
     "categoryId": 3
   },
   {
+    "name": "optimization",
+    "categoryId": 3
+  },
+  {
+    "name": "maintainability",
+    "categoryId": 3
+  },
+  {
     "name": "team",
     "categoryId": 4
   },
